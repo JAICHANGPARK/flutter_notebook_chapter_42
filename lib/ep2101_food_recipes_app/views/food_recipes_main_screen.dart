@@ -9,11 +9,15 @@ class FoodRecipesMainScreen extends StatefulWidget {
 }
 
 class _FoodRecipesMainScreenState extends State<FoodRecipesMainScreen> {
+  num pageIndex = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: IndexedStack(),
+        child: IndexedStack(
+          index: pageIndex.toInt(),
+          children: [],
+        ),
       ),
       bottomNavigationBar: SizedBox(height: 90,
         child: BottomNavigationBar(
