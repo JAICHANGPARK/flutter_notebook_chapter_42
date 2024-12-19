@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class FoodRecipesMainScreen extends StatefulWidget {
   const FoodRecipesMainScreen({super.key});
 
@@ -11,6 +10,10 @@ class FoodRecipesMainScreen extends StatefulWidget {
 class _FoodRecipesMainScreenState extends State<FoodRecipesMainScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: SafeArea(
+        child: Stack(),
+      ),
+    );
   }
 }
