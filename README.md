@@ -6,7 +6,7 @@
 - Lukman Hakim
 - https://dribbble.com/shots/25353419-Food-Recipes-Mobile-App
 
-<img src="https://cdn.dribbble.com/userupload/18051741/file/original-e47bd08e1f499b3888db6baea5b52036.jpg?resize=1905x1428&vertical=center"/>
+<img src="https://cdn.dribbble.com/userupload/18066953/file/original-8ed01c80eadfd2b56f85570e8bf97c55.png?resize=1905x1429&vertical=center"/>
 
 
 A new Flutter project.
