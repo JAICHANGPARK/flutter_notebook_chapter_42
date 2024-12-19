@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class FoodRecipesMainScreen extends StatefulWidget {
   const FoodRecipesMainScreen({super.key});
@@ -17,7 +18,8 @@ class _FoodRecipesMainScreenState extends State<FoodRecipesMainScreen> {
       bottomNavigationBar: BottomNavigationBar(
         items: [
           BottomNavigationBarItem(
-            icon: Icon(Icons.home_filled),
+            icon: Icon(HugeIcons.strokeRoundedHome01),
+            label: "Home",
           ),
         ],
       ),
