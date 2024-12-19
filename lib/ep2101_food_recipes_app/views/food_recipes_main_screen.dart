@@ -15,31 +15,33 @@ class _FoodRecipesMainScreenState extends State<FoodRecipesMainScreen> {
       body: SafeArea(
         child: IndexedStack(),
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        selectedItemColor: Colors.deepOrangeAccent,
-        type: BottomNavigationBarType.fixed,
-        items: [
-          BottomNavigationBarItem(
-            icon: Icon(HugeIcons.strokeRoundedHome01),
-            label: "Home",
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.list_alt),
-            label: "Order",
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.shopping_cart_outlined),
-            label: "Basket",
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.favorite_outline),
-            label: "Wishlist",
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.person_2_outlined),
-            label: "Profile",
-          ),
-        ],
+      bottomNavigationBar: SizedBox(height: 90,
+        child: BottomNavigationBar(
+          selectedItemColor: Colors.deepOrangeAccent,
+          type: BottomNavigationBarType.fixed,
+          items: [
+            BottomNavigationBarItem(
+              icon: Icon(HugeIcons.strokeRoundedHome01),
+              label: "Home",
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.list_alt),
+              label: "Order",
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.shopping_cart_outlined),
+              label: "Basket",
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.favorite_outline),
+              label: "Wishlist",
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.person_2_outlined),
+              label: "Profile",
+            ),
+          ],
+        ),
       ),
     );
   }
