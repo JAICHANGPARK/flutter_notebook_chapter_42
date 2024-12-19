@@ -21,6 +21,10 @@ class _FoodRecipesMainScreenState extends State<FoodRecipesMainScreen> {
             icon: Icon(HugeIcons.strokeRoundedHome01),
             label: "Home",
           ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.list_alt),
+            label: "Order",
+          ),
         ],
       ),
     );
