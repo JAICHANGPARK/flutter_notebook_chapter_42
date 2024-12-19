@@ -3,8 +3,8 @@
 ## EP2101
 
 - Food Recipes Mobile App
-- 
-- https://dribbble.com/shots/25348126-Makeupe-Virtual-Makeup-Try-On-Mobile-App
+- Lukman Hakim
+- https://dribbble.com/shots/25353419-Food-Recipes-Mobile-App
 
 <img src="https://cdn.dribbble.com/userupload/18051741/file/original-e47bd08e1f499b3888db6baea5b52036.jpg?resize=1905x1428&vertical=center"/>
 
