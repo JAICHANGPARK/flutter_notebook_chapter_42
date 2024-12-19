@@ -12,7 +12,14 @@ class _FoodRecipesMainScreenState extends State<FoodRecipesMainScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Stack(),
+        child: IndexedStack(),
+      ),
+      bottomNavigationBar: BottomNavigationBar(
+        items: [
+          BottomNavigationBarItem(
+            icon: Icon(Icons.home_filled),
+          ),
+        ],
       ),
     );
   }
