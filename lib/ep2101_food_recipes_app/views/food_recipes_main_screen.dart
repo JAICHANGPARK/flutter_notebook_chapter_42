@@ -16,6 +16,8 @@ class _FoodRecipesMainScreenState extends State<FoodRecipesMainScreen> {
         child: IndexedStack(),
       ),
       bottomNavigationBar: BottomNavigationBar(
+        selectedItemColor: Colors.deepOrangeAccent,
+        type: BottomNavigationBarType.fixed,
         items: [
           BottomNavigationBarItem(
             icon: Icon(HugeIcons.strokeRoundedHome01),
