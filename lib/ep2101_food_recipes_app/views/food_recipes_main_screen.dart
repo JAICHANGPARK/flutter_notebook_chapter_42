@@ -34,8 +34,8 @@ class _FoodRecipesMainScreenState extends State<FoodRecipesMainScreen> {
             label: "Wishlist",
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.list_alt),
-            label: "Order",
+            icon: Icon(Icons.person_2_outlined),
+            label: "Profile",
           ),
         ],
       ),
