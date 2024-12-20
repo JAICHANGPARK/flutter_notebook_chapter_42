@@ -14,6 +14,7 @@ class FoodRecipesHomePage extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.all(16.0),
           child: Column(
+            spacing: 24,
             children: [
               Row(
                 spacing: 8,
