@@ -86,6 +86,7 @@ class FoodRecipesHomePage extends StatelessWidget {
                 ),
                 Container(
                   height: 240,
+                  margin: EdgeInsets.only(left:  16),
                   child: Placeholder(),
                 )
               ],
