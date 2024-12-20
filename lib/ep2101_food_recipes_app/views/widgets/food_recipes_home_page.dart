@@ -8,13 +8,13 @@ class FoodRecipesHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      spacing: 16,
+      spacing: 8,
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Padding(
           padding: const EdgeInsets.all(16.0),
           child: Column(
-            spacing: 24,
+            spacing: 20,
             children: [
               Row(
                 spacing: 8,
