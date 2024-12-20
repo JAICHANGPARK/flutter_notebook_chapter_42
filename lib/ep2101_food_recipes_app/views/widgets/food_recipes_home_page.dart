@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class FoodRecipesHomePage extends StatelessWidget {
   FoodRecipesHomePage({super.key});
 
@@ -12,9 +11,15 @@ class FoodRecipesHomePage extends StatelessWidget {
       spacing: 16,
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-
-
-
+        Row(
+          children: [
+            Icon(Icons.location_on_outlined),
+            Text(
+              "Now Los Angeles",
+            ),
+            Icon(I)
+          ],
+        )
       ],
     );
   }
