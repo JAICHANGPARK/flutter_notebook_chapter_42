@@ -65,7 +65,14 @@ class FoodRecipesHomePage extends StatelessWidget {
           height: 160,
           margin: EdgeInsets.symmetric(horizontal: 16),
           child: Placeholder(),
-        )
+        ),
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16),
+          child: Text(
+            "Popular near you",
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+          ),
+        ),
       ],
     );
   }
