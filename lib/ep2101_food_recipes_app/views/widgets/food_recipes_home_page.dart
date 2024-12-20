@@ -18,6 +18,7 @@ class FoodRecipesHomePage extends StatelessWidget {
               "Now Los Angeles",
             ),
             Icon(Icons.keyboard_arrow_down),
+            Spacer(),
           ],
         )
       ],
