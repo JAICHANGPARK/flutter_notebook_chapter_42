@@ -12,6 +12,7 @@ class FoodRecipesHomePage extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Row(
+          spacing: 8,
           children: [
             Icon(Icons.location_on_outlined),
             Text(
