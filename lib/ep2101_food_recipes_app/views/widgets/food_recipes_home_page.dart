@@ -48,13 +48,18 @@ class FoodRecipesHomePage extends StatelessWidget {
             ],
           ),
         ),
-        Text(
-          "Categories",
-          style: TextStyle(
-            fontWeight: FontWeight.bold,
-            fontSize: 18
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16),
+          child: Text(
+            "Categories",
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: 18
+            ),
           ),
-        )
+        ),
+        SizedBox(height: 100,
+        child: Placeholder(),)
       ],
     );
   }
