@@ -52,14 +52,19 @@ class FoodRecipesHomePage extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 16),
           child: Text(
             "Categories",
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              fontSize: 18
-            ),
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
           ),
         ),
-        Container(height: 100,
-        child: Placeholder(),)
+        Container(
+          height: 100,
+          padding: EdgeInsets.only(left: 16),
+          child: Placeholder(),
+        ),
+
+        Container(
+          height: 160,
+          child: Placeholder(),
+        )
       ],
     );
   }
