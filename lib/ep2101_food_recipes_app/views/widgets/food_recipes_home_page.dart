@@ -37,7 +37,11 @@ class FoodRecipesHomePage extends StatelessWidget {
               icon: Icon(Icons.search),
               suffixIcon: Icon(Icons.mic_none),
               hintText: "What do you want today?",
+              contentPadding: EdgeInsets.only(
+                top: 12
+              ),
             ),
+
           ),
         )
       ],
