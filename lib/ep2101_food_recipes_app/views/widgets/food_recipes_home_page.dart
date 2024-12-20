@@ -20,7 +20,22 @@ class FoodRecipesHomePage extends StatelessWidget {
             ),
             Icon(Icons.keyboard_arrow_down),
             Spacer(),
+            Icon(Icons.notifications_none),
           ],
+        ),
+        Container(
+          decoration: BoxDecoration(
+            border: Border.all(color: Colors.grey),
+            borderRadius: BorderRadius.circular(24),
+          ),
+          child: TextField(
+            controller: textEditingController,
+            decoration: InputDecoration(
+              border: InputBorder.none,
+              icon: Icon(Icons.search),
+              suffixIcon: Icon(Icons.mic_none),
+            ),
+          ),
         )
       ],
     );
