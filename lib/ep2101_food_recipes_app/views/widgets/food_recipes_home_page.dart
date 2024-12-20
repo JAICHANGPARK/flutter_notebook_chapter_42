@@ -28,12 +28,15 @@ class FoodRecipesHomePage extends StatelessWidget {
             border: Border.all(color: Colors.grey),
             borderRadius: BorderRadius.circular(24),
           ),
+          padding: EdgeInsets.symmetric(horizontal: 16),
           child: TextField(
             controller: textEditingController,
+
             decoration: InputDecoration(
               border: InputBorder.none,
               icon: Icon(Icons.search),
               suffixIcon: Icon(Icons.mic_none),
+              hintText: "What do you want today?",
             ),
           ),
         )
