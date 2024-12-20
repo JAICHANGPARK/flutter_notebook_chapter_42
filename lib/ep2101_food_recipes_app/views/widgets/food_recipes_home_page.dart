@@ -34,26 +34,27 @@ class FoodRecipesHomePage extends StatelessWidget {
                   borderRadius: BorderRadius.circular(24),
                 ),
                 padding: EdgeInsets.symmetric(horizontal: 16),
-
                 child: TextField(
                   controller: textEditingController,
-
                   decoration: InputDecoration(
                     border: InputBorder.none,
                     icon: Icon(Icons.search),
                     suffixIcon: Icon(Icons.mic_none),
                     hintText: "What do you want today?",
-                    contentPadding: EdgeInsets.only(
-                        top: 12
-                    ),
+                    contentPadding: EdgeInsets.only(top: 12),
                   ),
-
                 ),
               )
             ],
           ),
+        ),
+        Text(
+          "Categories",
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            fontSize: 18
+          ),
         )
-
       ],
     );
   }
