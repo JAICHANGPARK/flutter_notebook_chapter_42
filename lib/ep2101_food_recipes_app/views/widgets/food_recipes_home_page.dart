@@ -48,31 +48,51 @@ class FoodRecipesHomePage extends StatelessWidget {
             ],
           ),
         ),
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16),
-          child: Text(
-            "Categories",
-            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+        Expanded(
+          child: SingleChildScrollView(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              spacing: 20,
+              children: [
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 16),
+                  child: Text(
+                    "Categories",
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 18,
+                    ),
+                  ),
+                ),
+                Container(
+                  height: 100,
+                  padding: EdgeInsets.only(left: 16),
+                  child: Placeholder(),
+                ),
+                Container(
+                  height: 160,
+                  margin: EdgeInsets.symmetric(horizontal: 16),
+                  child: Placeholder(),
+                ),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 16),
+                  child: Text(
+                    "Popular near you",
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 18,
+                    ),
+                  ),
+                ),
+                Container(
+                  height: 240,
+                  child: Placeholder(),
+                )
+              ],
+            ),
           ),
-        ),
-        Container(
-          height: 100,
-          padding: EdgeInsets.only(left: 16),
-          child: Placeholder(),
         ),
 
-        Container(
-          height: 160,
-          margin: EdgeInsets.symmetric(horizontal: 16),
-          child: Placeholder(),
-        ),
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16),
-          child: Text(
-            "Popular near you",
-            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
-          ),
-        ),
       ],
     );
   }
