@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_42/ep2101_food_recipes_app/views/widgets/food_recipes_home_page.dart';
 import 'package:hugeicons/hugeicons.dart';
 
 class FoodRecipesMainScreen extends StatefulWidget {
@@ -17,7 +18,9 @@ class _FoodRecipesMainScreenState extends State<FoodRecipesMainScreen> {
       body: SafeArea(
         child: IndexedStack(
           index: pageIndex.toInt(),
-          children: [],
+          children: [
+            FoodRecipesHomePage()
+          ],
         ),
       ),
       bottomNavigationBar: SizedBox(height: 90,
