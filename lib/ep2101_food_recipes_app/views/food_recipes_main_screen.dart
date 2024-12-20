@@ -22,6 +22,8 @@ class _FoodRecipesMainScreenState extends State<FoodRecipesMainScreen> {
       ),
       bottomNavigationBar: SizedBox(height: 90,
         child: BottomNavigationBar(
+          backgroundColor: Colors.white,
+          elevation: 9,
           selectedItemColor: Colors.deepOrangeAccent,
           type: BottomNavigationBarType.fixed,
           onTap: (idx){
