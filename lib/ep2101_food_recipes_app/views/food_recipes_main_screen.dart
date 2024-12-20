@@ -28,6 +28,7 @@ class _FoodRecipesMainScreenState extends State<FoodRecipesMainScreen> {
               pageIndex = idx;
             });
           },
+          currentIndex: pageIndex.toInt(),
           items: [
             BottomNavigationBarItem(
               icon: Icon(HugeIcons.strokeRoundedHome01),
