@@ -58,7 +58,7 @@ class FoodRecipesHomePage extends StatelessWidget {
             ),
           ),
         ),
-        SizedBox(height: 100,
+        Container(height: 100,
         child: Placeholder(),)
       ],
     );
