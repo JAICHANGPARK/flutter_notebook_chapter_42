@@ -95,18 +95,20 @@ class FoodRecipesHomePage extends StatelessWidget {
                       color: Colors.deepOrangeAccent,
                       borderRadius: BorderRadius.circular(8),
                     ),
+                    padding: EdgeInsets.all(16),
                     child: Column(
                       spacing: 12,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text("Summer Savings"),
-                        Text("Get a free item with your"),
-                        Text("order, but only through Dec.."),
+                        Text("Get a free item with your\norder, but only through Dec.."),
+                        
                         Container(
                           decoration: BoxDecoration(
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(24),
                           ),
+                          padding: EdgeInsets.symmetric(horizontal: 12,vertical: 4),
                           child: Text(
                             "Order Now",
                             style: TextStyle(
