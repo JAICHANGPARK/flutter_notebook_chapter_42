@@ -173,8 +173,8 @@ class FoodRecipesHomePage extends StatelessWidget {
                                   child: Stack(
                                     children: [
                                       Positioned(
-                                        right: 8,
-                                        top: 8,
+                                        right: 12,
+                                        top: 12,
                                         child: CircleAvatar(
                                           child: Icon(Icons.favorite_outline),
                                         ),
