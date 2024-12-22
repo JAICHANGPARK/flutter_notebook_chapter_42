@@ -70,8 +70,15 @@ class FoodRecipesHomePage extends StatelessWidget {
                   child: ListView.builder(
                     scrollDirection: Axis.horizontal,
                     itemBuilder: (context, index) {
-                      return Column(
-                        children: [],
+                      return Padding(
+                        padding: const EdgeInsets.only(right: 24),
+                        child: Column(
+                          spacing: 6,
+                          children: [
+                            CircleAvatar(),
+                            Text("Deals"),
+                          ],
+                        ),
                       );
                     },
                   ),
