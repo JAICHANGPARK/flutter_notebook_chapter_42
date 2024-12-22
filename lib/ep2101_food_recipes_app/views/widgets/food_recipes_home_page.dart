@@ -154,12 +154,39 @@ class FoodRecipesHomePage extends StatelessWidget {
                       scrollDirection: Axis.horizontal,
                       itemBuilder: (context, index) {
                         return Container(
-                        width: 260,
+                          width: 260,
                           margin: EdgeInsets.only(
                             right: 16,
                           ),
                           decoration: BoxDecoration(
                             color: Colors.orangeAccent,
+                          ),
+                          child: Column(
+                            children: [
+                              Expanded(
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(8),
+                                    color: Colors.grey,
+                                  ),
+                                ),
+                              ),
+                              Row(
+                                children: [
+                                  Text("Classic Cheese burger"),
+                                  Spacer(),
+                                  Icon(
+                                    Icons.star,
+                                  ),
+                                  Text("4."),
+                                ],
+                              ),
+                              Row(
+                                children: [
+                                  
+                                ],
+                              )
+                            ],
                           ),
                         );
                       },
