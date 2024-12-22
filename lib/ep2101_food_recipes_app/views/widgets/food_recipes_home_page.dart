@@ -125,6 +125,7 @@ class FoodRecipesHomePage extends StatelessWidget {
                             "Order Now",
                             style: TextStyle(
                               color: Colors.deepOrangeAccent,
+                              fontWeight: FontWeight.bold,
                             ),
                           ),
                         )
@@ -145,7 +146,21 @@ class FoodRecipesHomePage extends StatelessWidget {
                 Container(
                   height: 240,
                   margin: EdgeInsets.only(left: 16),
-                  child: Placeholder(),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      color: Colors.blue,
+                    ),
+                    child: ListView.builder(
+                      scrollDirection: Axis.horizontal,
+                      itemBuilder: (context, index) {
+                        return Container(
+                          decoration: BoxDecoration(
+                            color: Colors.orangeAccent,
+                          ),
+                        );
+                      },
+                    ),
+                  ),
                 )
               ],
             ),
