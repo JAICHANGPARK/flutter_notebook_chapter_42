@@ -147,9 +147,9 @@ class FoodRecipesHomePage extends StatelessWidget {
                   height: 240,
                   margin: EdgeInsets.only(left: 16),
                   child: Container(
-                    decoration: BoxDecoration(
-                      color: Colors.blue,
-                    ),
+                    // decoration: BoxDecoration(
+                    //   color: Colors.blue,
+                    // ),
                     child: ListView.builder(
                       scrollDirection: Axis.horizontal,
                       itemBuilder: (context, index) {
@@ -158,9 +158,9 @@ class FoodRecipesHomePage extends StatelessWidget {
                           margin: EdgeInsets.only(
                             right: 16,
                           ),
-                          decoration: BoxDecoration(
-                            color: Colors.orangeAccent,
-                          ),
+                          // decoration: BoxDecoration(
+                          //   color: Colors.orangeAccent,
+                          // ),
                           child: Column(
                             spacing: 8,
                             children: [
