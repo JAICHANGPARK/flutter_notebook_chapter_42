@@ -170,6 +170,17 @@ class FoodRecipesHomePage extends StatelessWidget {
                                     borderRadius: BorderRadius.circular(8),
                                     color: Colors.grey,
                                   ),
+                                  child: Stack(
+                                    children: [
+                                      Positioned(
+                                        right: 8,
+                                        top: 8,
+                                        child: CircleAvatar(
+                                          child: Icon(Icons.favorite_outline),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
                                 ),
                               ),
                               Row(
