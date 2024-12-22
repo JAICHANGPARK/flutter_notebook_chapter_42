@@ -183,7 +183,9 @@ class FoodRecipesHomePage extends StatelessWidget {
                               ),
                               Row(
                                 children: [
-                                  
+                                  Icon(
+                                    Icons.directions_bike,
+                                  ),
                                 ],
                               )
                             ],
