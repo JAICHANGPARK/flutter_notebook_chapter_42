@@ -176,6 +176,8 @@ class FoodRecipesHomePage extends StatelessWidget {
                                         right: 12,
                                         top: 12,
                                         child: CircleAvatar(
+                                          backgroundColor: Colors.white,
+                                          foregroundColor: Colors.deepOrangeAccent,
                                           child: Icon(Icons.favorite_outline),
                                         ),
                                       ),
