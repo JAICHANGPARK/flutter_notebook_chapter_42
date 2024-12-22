@@ -65,7 +65,7 @@ class FoodRecipesHomePage extends StatelessWidget {
                   ),
                 ),
                 Container(
-                  height: 100,
+                  height: 82,
                   padding: EdgeInsets.only(left: 16),
                   child: ListView.builder(
                     scrollDirection: Axis.horizontal,
@@ -75,7 +75,11 @@ class FoodRecipesHomePage extends StatelessWidget {
                         child: Column(
                           spacing: 6,
                           children: [
-                            CircleAvatar(),
+                            Expanded(
+                              child: CircleAvatar(
+                                radius: 29,
+                              ),
+                            ),
                             Text("Deals"),
                           ],
                         ),
