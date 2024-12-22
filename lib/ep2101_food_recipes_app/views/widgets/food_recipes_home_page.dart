@@ -162,6 +162,7 @@ class FoodRecipesHomePage extends StatelessWidget {
                             color: Colors.orangeAccent,
                           ),
                           child: Column(
+                            spacing: 8,
                             children: [
                               Expanded(
                                 child: Container(
@@ -178,10 +179,11 @@ class FoodRecipesHomePage extends StatelessWidget {
                                   Icon(
                                     Icons.star,
                                   ),
-                                  Text("4."),
+                                  Text("4.9"),
                                 ],
                               ),
                               Row(
+                                spacing: 6,
                                 children: [
                                   Icon(
                                     Icons.directions_bike,
