@@ -105,6 +105,13 @@ class FoodRecipesHomePage extends StatelessWidget {
                         Container(
                           decoration: BoxDecoration(
                             color: Colors.white,
+                            borderRadius: BorderRadius.circular(24),
+                          ),
+                          child: Text(
+                            "Order Now",
+                            style: TextStyle(
+                              color: Colors.deepOrangeAccent,
+                            ),
                           ),
                         )
                       ],
