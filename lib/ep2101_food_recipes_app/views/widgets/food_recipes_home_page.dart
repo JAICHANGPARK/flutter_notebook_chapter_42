@@ -154,6 +154,10 @@ class FoodRecipesHomePage extends StatelessWidget {
                       scrollDirection: Axis.horizontal,
                       itemBuilder: (context, index) {
                         return Container(
+                        width: 260,
+                          margin: EdgeInsets.only(
+                            right: 16,
+                          ),
                           decoration: BoxDecoration(
                             color: Colors.orangeAccent,
                           ),
