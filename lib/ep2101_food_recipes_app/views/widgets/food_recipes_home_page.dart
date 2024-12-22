@@ -104,12 +104,17 @@ class FoodRecipesHomePage extends StatelessWidget {
                         Text(
                           "Summer Savings",
                           style: TextStyle(
-                            fontSize: 16,
+                            fontSize: 18,
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
-                        Text("Get a free item with your\norder, but only through Dec.."),
+                        Text(
+                          "Get a free item with your\norder, but only through Dec..",
+                          style: TextStyle(
+                            color: Colors.white,
+                          ),
+                        ),
                         Container(
                           decoration: BoxDecoration(
                             color: Colors.white,
