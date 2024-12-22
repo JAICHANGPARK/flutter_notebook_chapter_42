@@ -95,6 +95,12 @@ class FoodRecipesHomePage extends StatelessWidget {
                       color: Colors.deepOrangeAccent,
                       borderRadius: BorderRadius.circular(8),
                     ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+
+                      ],
+                    ),
                   ),
                 ),
                 Padding(
