@@ -68,8 +68,12 @@ class FoodRecipesHomePage extends StatelessWidget {
                   height: 100,
                   padding: EdgeInsets.only(left: 16),
                   child: ListView.builder(
-                    
-                    itemBuilder: (context, index) {},
+                    scrollDirection: Axis.horizontal,
+                    itemBuilder: (context, index) {
+                      return Column(
+                        children: [],
+                      );
+                    },
                   ),
                 ),
                 Container(
