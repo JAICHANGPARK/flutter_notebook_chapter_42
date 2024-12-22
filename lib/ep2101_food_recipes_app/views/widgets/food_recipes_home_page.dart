@@ -86,7 +86,12 @@ class FoodRecipesHomePage extends StatelessWidget {
                 Container(
                   height: 160,
                   margin: EdgeInsets.symmetric(horizontal: 16),
-                  child: Placeholder(),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      color: Colors.deepOrangeAccent,
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                  ),
                 ),
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 16),
