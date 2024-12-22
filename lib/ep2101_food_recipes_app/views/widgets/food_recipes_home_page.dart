@@ -186,6 +186,8 @@ class FoodRecipesHomePage extends StatelessWidget {
                                   Icon(
                                     Icons.directions_bike,
                                   ),
+                                  Text("550 Delivery"),
+                                  Text("40-50 min"),
                                 ],
                               )
                             ],
