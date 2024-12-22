@@ -67,7 +67,10 @@ class FoodRecipesHomePage extends StatelessWidget {
                 Container(
                   height: 100,
                   padding: EdgeInsets.only(left: 16),
-                  child: Placeholder(),
+                  child: ListView.builder(
+                    
+                    itemBuilder: (context, index) {},
+                  ),
                 ),
                 Container(
                   height: 160,
@@ -86,14 +89,13 @@ class FoodRecipesHomePage extends StatelessWidget {
                 ),
                 Container(
                   height: 240,
-                  margin: EdgeInsets.only(left:  16),
+                  margin: EdgeInsets.only(left: 16),
                   child: Placeholder(),
                 )
               ],
             ),
           ),
         ),
-
       ],
     );
   }
