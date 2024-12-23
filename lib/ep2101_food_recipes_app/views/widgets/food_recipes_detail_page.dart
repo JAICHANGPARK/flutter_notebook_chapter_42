@@ -154,6 +154,7 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
       ),
       bottomNavigationBar: BottomAppBar(
         child: Row(
+          spacing: 12,
           children: [
             Container(
               decoration: BoxDecoration(
@@ -166,7 +167,8 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                 onPressed: () {},
                 icon: Icon(Icons.favorite_outline),
               ),
-            )
+            ),
+
           ],
         ),
       ),
