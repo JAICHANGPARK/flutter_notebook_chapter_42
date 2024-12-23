@@ -155,7 +155,18 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
       bottomNavigationBar: BottomAppBar(
         child: Row(
           children: [
-            
+            Container(
+              decoration: BoxDecoration(
+                border: Border.all(
+                  color: Colors.deepOrange,
+                ),
+                shape: BoxShape.circle,
+              ),
+              child: IconButton(
+                onPressed: () {},
+                icon: Icon(Icons.favorite_outline),
+              ),
+            )
           ],
         ),
       ),
