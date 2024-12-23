@@ -42,10 +42,22 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                     CircleAvatar(
                       backgroundColor: Colors.white,
                       foregroundColor: Colors.black,
-                      
+                      child: Icon(Icons.shopping_cart_outlined),
                     ),
                   ],
                 ),
+              ),
+              Text("Classic Cheese burger"),
+              Row(
+                children: [
+                  Row(
+                    children: [
+                      Icon(
+                        Icons.star_border,
+                      ),
+                    ],
+                  )
+                ],
               )
             ],
           ),
