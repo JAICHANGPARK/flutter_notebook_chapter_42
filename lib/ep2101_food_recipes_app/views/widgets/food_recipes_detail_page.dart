@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class FoodRecipesDetailPage extends StatefulWidget {
   const FoodRecipesDetailPage({super.key});
@@ -83,7 +84,9 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                     ],
                   )
                 ],
-              )
+              ),
+              Gap(16),
+              Text("Food Details"),
             ],
           ),
         ),
