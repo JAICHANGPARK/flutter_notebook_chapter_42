@@ -168,7 +168,17 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                 icon: Icon(Icons.favorite_outline),
               ),
             ),
-
+            Expanded(
+              child: Container(
+                decoration: BoxDecoration(
+                  color: Colors.deepOrange,
+                ),
+                child: Center(
+                  child:
+                  Text("Add to cart"),
+                ),
+              ),
+            )
           ],
         ),
       ),
