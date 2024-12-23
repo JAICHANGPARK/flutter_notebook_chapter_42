@@ -98,7 +98,7 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                   Text("\$50.00"),
                   Container(
                     decoration: BoxDecoration(
-                      color: Colors.deepPurpleAccent[100],
+                      color: Colors.purple[50],
 
                     ),
                     child: Icon(Icons.remove),
