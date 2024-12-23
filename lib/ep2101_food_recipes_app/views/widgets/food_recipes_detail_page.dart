@@ -101,17 +101,17 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                   Container(
                     decoration: BoxDecoration(
                       color: Colors.purple[50],
-
                     ),
                     child: Icon(Icons.remove),
                   ),
+                  Spacer(4),
                   Text("1"),
+                  Spacer(4),
                   Container(
                     decoration: BoxDecoration(
-                      color: Colors.purple[50],
-
+                      color: Colors.deepOrange,
                     ),
-                    child: Icon(Icons.remove),
+                    child: Icon(Icons.add, color: Colors.white,),
                   ),
                 ],
               ),
