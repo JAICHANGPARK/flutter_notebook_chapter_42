@@ -32,9 +32,17 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                 padding: EdgeInsets.all(16),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     CircleAvatar(
                       backgroundColor: Colors.white,
+                      foregroundColor: Colors.black,
+                      child: Icon(Icons.keyboard_arrow_left),
+                    ),
+                    CircleAvatar(
+                      backgroundColor: Colors.white,
+                      foregroundColor: Colors.black,
+                      
                     ),
                   ],
                 ),
