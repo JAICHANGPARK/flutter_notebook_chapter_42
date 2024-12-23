@@ -12,7 +12,15 @@ class FoodRecipesDetailPage extends StatefulWidget {
 class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: SafeArea(
+        child: Column(
+          children: [
+            
+          ],
+        ),
+      ),
+    );
   }
 }
 
