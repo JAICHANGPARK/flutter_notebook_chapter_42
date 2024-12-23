@@ -48,11 +48,16 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                   ],
                 ),
               ),
-              Text("Classic Cheese burger"),
+              Text(
+                "Classic Cheese burger",
+                style: TextStyle(
+                  fontSize: 18,
+                ),
+              ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Row(
+                  Row(   spacing: 4,
                     children: [
                       Icon(
                         Icons.star_border,
@@ -60,7 +65,7 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                       Text("4.9 (862)"),
                     ],
                   ),
-                  Row(
+                  Row(   spacing: 4,
                     children: [
                       Icon(
                         Icons.timelapse,
@@ -69,6 +74,7 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                     ],
                   ),
                   Row(
+                    spacing: 4,
                     children: [
                       Icon(
                         Icons.location_on_outlined,
