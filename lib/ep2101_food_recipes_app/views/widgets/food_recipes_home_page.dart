@@ -155,9 +155,7 @@ class FoodRecipesHomePage extends StatelessWidget {
                           margin: EdgeInsets.only(
                             right: 16,
                           ),
-                          // decoration: BoxDecoration(
-                          //   color: Colors.orangeAccent,
-                          // ),
+                        
                           child: Column(
                             spacing: 8,
                             children: [
