@@ -55,6 +55,23 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                       Icon(
                         Icons.star_border,
                       ),
+                      Text("4.9 (862)"),
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Icon(
+                        Icons.timelapse,
+                      ),
+                      Text("15-40 mins"),
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Icon(
+                        Icons.location_on_outlined,
+                      ),
+                      Text("4.9 (862)"),
                     ],
                   )
                 ],
