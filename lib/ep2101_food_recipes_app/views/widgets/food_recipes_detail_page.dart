@@ -116,6 +116,7 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                 ],
               ),
               Gap(12),
+              Text("Burger size"),
             ],
           ),
         ),
