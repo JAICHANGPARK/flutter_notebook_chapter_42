@@ -12,6 +12,7 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(16.0),
@@ -121,6 +122,7 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
               Gap(12),
               Text("Burger size"),
               Row(
+                spacing: 16,
                 children: [
                   Container(
                     decoration: BoxDecoration(
@@ -134,14 +136,14 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                       color: Colors.purple[50],
                     ),
                     padding: EdgeInsets.symmetric(horizontal: 24, vertical: 8),
-                    child: Text("Small"),
+                    child: Text("Medium"),
                   ),
                   Container(
                     decoration: BoxDecoration(
                       color: Colors.purple[50],
                     ),
                     padding: EdgeInsets.symmetric(horizontal: 24, vertical: 8),
-                    child: Text("Small"),
+                    child: Text("Large"),
                   )
                 ],
               )
