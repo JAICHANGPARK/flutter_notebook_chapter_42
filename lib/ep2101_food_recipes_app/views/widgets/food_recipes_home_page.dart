@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_42/ep2101_food_recipes_app/views/widgets/food_recipes_detail_page.dart';
 
 class FoodRecipesHomePage extends StatelessWidget {
   FoodRecipesHomePage({super.key});
@@ -153,7 +154,7 @@ class FoodRecipesHomePage extends StatelessWidget {
                         onTap: () {
                           Navigator.of(context).push(
                             MaterialPageRoute(
-                              builder: (context) => FoodRecipesHomePage(),
+                              builder: (context) => FoodRecipesDetailPage(),
                             ),
                           );
                         },
