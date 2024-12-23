@@ -1,6 +1,4 @@
-
 import 'package:flutter/material.dart';
-
 
 class FoodRecipesDetailPage extends StatefulWidget {
   const FoodRecipesDetailPage({super.key});
@@ -16,11 +14,14 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
       body: SafeArea(
         child: Column(
           children: [
-            
+            Container(
+              decoration: BoxDecoration(
+                color: Colors.grey,
+              ),
+            )
           ],
         ),
       ),
     );
   }
 }
-
