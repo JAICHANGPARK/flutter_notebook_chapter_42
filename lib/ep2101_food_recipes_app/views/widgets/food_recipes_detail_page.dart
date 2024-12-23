@@ -15,6 +15,7 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
         child: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             spacing: 12,
             children: [
               Container(
