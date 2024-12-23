@@ -49,6 +49,7 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
               ),
               Text("Classic Cheese burger"),
               Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Row(
                     children: [
@@ -71,7 +72,7 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                       Icon(
                         Icons.location_on_outlined,
                       ),
-                      Text("4.9 (862)"),
+                      Text("1.6 km"),
                     ],
                   )
                 ],
