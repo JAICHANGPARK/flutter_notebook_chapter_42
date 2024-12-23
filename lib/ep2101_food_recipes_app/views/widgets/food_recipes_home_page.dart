@@ -146,14 +146,11 @@ class FoodRecipesHomePage extends StatelessWidget {
                 Container(
                   height: 240,
                   margin: EdgeInsets.only(left: 16),
-                  child: Container(
-                    // decoration: BoxDecoration(
-                    //   color: Colors.blue,
-                    // ),
-                    child: ListView.builder(
-                      scrollDirection: Axis.horizontal,
-                      itemBuilder: (context, index) {
-                        return Container(
+                  child: ListView.builder(
+                    scrollDirection: Axis.horizontal,
+                    itemBuilder: (context, index) {
+                      return GestureDetector(
+                        child: Container(
                           width: 260,
                           margin: EdgeInsets.only(
                             right: 16,
@@ -207,9 +204,9 @@ class FoodRecipesHomePage extends StatelessWidget {
                               )
                             ],
                           ),
-                        );
-                      },
-                    ),
+                        ),
+                      );
+                    },
                   ),
                 )
               ],
