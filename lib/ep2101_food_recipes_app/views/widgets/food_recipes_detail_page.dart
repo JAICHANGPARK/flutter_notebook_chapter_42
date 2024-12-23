@@ -104,9 +104,9 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                     ),
                     child: Icon(Icons.remove),
                   ),
-                  Gap(4),
+                  Gap(8),
                   Text("1"),
-                  Gap(4),
+                  Gap(8),
                   Container(
                     decoration: BoxDecoration(
                       color: Colors.deepOrange,
