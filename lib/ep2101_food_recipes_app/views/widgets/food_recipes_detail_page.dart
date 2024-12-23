@@ -146,9 +146,17 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                     child: Text("Large"),
                   )
                 ],
-              )
+              ),
+              Text("Chose addition"),
             ],
           ),
+        ),
+      ),
+      bottomNavigationBar: BottomAppBar(
+        child: Row(
+          children: [
+            
+          ],
         ),
       ),
     );
