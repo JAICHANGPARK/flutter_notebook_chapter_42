@@ -126,7 +126,21 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                     decoration: BoxDecoration(
                       color: Colors.purple[50],
                     ),
-                    padding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                    padding: EdgeInsets.symmetric(horizontal: 24, vertical: 8),
+                    child: Text("Small"),
+                  ),
+                  Container(
+                    decoration: BoxDecoration(
+                      color: Colors.purple[50],
+                    ),
+                    padding: EdgeInsets.symmetric(horizontal: 24, vertical: 8),
+                    child: Text("Small"),
+                  ),
+                  Container(
+                    decoration: BoxDecoration(
+                      color: Colors.purple[50],
+                    ),
+                    padding: EdgeInsets.symmetric(horizontal: 24, vertical: 8),
                     child: Text("Small"),
                   )
                 ],
