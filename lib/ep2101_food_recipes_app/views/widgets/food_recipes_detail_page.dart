@@ -172,6 +172,7 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
               child: Container(
                 decoration: BoxDecoration(
                   color: Colors.deepOrange,
+                  borderRadius: BorderRadius.circular(8)
                 ),
                 child: Center(
                   child:
