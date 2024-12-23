@@ -150,12 +150,18 @@ class FoodRecipesHomePage extends StatelessWidget {
                     scrollDirection: Axis.horizontal,
                     itemBuilder: (context, index) {
                       return GestureDetector(
+                        onTap: () {
+                          Navigator.of(context).push(
+                            MaterialPageRoute(
+                              builder: (context) => FoodRecipesHomePage(),
+                            ),
+                          );
+                        },
                         child: Container(
                           width: 260,
                           margin: EdgeInsets.only(
                             right: 16,
                           ),
-                        
                           child: Column(
                             spacing: 8,
                             children: [
