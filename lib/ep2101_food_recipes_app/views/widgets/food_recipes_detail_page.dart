@@ -111,12 +111,26 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                     decoration: BoxDecoration(
                       color: Colors.deepOrange,
                     ),
-                    child: Icon(Icons.add, color: Colors.white,),
+                    child: Icon(
+                      Icons.add,
+                      color: Colors.white,
+                    ),
                   ),
                 ],
               ),
               Gap(12),
               Text("Burger size"),
+              Row(
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                      color: Colors.purple[50],
+                    ),
+                    padding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                    child: Text("Small"),
+                  )
+                ],
+              )
             ],
           ),
         ),
