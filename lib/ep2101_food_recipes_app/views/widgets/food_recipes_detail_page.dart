@@ -13,11 +13,15 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
     return Scaffold(
       body: SafeArea(
         child: Column(
+          spacing: 12,
           children: [
             Container(
+              height: 280,
               decoration: BoxDecoration(
                 color: Colors.grey,
+                borderRadius: BorderRadius.circular(12)
               ),
+
             )
           ],
         ),
