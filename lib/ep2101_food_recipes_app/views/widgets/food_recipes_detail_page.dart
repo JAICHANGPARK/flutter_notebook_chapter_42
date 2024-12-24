@@ -89,7 +89,12 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                 ],
               ),
               Gap(16),
-              Text("Food Details"),
+              Text(
+                "Food Details",
+                style: TextStyle(
+                  fontSize: 16,
+                ),
+              ),
               Text(
                 "A cheeseburger is a hamburger with a slice of melted cheese on top of the meat patty, added near the end of the cooking time. Cheeseburgers can include variations in structure, ingredients and composition. As with other hamburgers, a cheeseburger may include various condiments and other toppings such as lettuce, tomato, onion, pickles, bacon, avocado, mushrooms, mayonnaise, ketchup, and mustard.",
                 maxLines: 3,
@@ -170,13 +175,9 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
             ),
             Expanded(
               child: Container(
-                decoration: BoxDecoration(
-                  color: Colors.deepOrange,
-                  borderRadius: BorderRadius.circular(8)
-                ),
+                decoration: BoxDecoration(color: Colors.deepOrange, borderRadius: BorderRadius.circular(8)),
                 child: Center(
-                  child:
-                  Text("Add to cart"),
+                  child: Text("Add to cart"),
                 ),
               ),
             )
