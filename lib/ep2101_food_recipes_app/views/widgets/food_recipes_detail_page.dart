@@ -134,14 +134,21 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                     ),
                   ),
                   Gap(8),
-                  Container(
-                    padding: EdgeInsets.all(4),
-                    decoration: BoxDecoration(
-                      color: Colors.deepOrange,
-                    ),
-                    child: Icon(
-                      Icons.add,
-                      color: Colors.white,
+                  GestureDetector(
+                    onTap: (){
+                      setState(() {
+                        count--;
+                      });
+                    },
+                    child: Container(
+                      padding: EdgeInsets.all(4),
+                      decoration: BoxDecoration(
+                        color: Colors.deepOrange,
+                      ),
+                      child: Icon(
+                        Icons.add,
+                        color: Colors.white,
+                      ),
                     ),
                   ),
                 ],
