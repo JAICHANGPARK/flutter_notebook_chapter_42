@@ -121,6 +121,7 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                       padding: EdgeInsets.all(4),
                       decoration: BoxDecoration(
                         color: Colors.purple[50],
+                        borderRadius: BorderRadius.circular(3),
                       ),
                       child: Icon(Icons.remove),
                     ),
@@ -144,6 +145,7 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                       padding: EdgeInsets.all(4),
                       decoration: BoxDecoration(
                         color: Colors.deepOrange,
+                        borderRadius: BorderRadius.circular(3),
                       ),
                       child: Icon(
                         Icons.add,
@@ -161,6 +163,7 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                   Container(
                     decoration: BoxDecoration(
                       color: Colors.purple[50],
+                      borderRadius: BorderRadius.circular(3),
                     ),
                     padding: EdgeInsets.symmetric(horizontal: 24, vertical: 8),
                     child: Text("Small"),
@@ -168,6 +171,7 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                   Container(
                     decoration: BoxDecoration(
                       color: Colors.purple[50],
+                      borderRadius: BorderRadius.circular(3),
                     ),
                     padding: EdgeInsets.symmetric(horizontal: 24, vertical: 8),
                     child: Text("Medium"),
@@ -175,6 +179,7 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                   Container(
                     decoration: BoxDecoration(
                       color: Colors.purple[50],
+                      borderRadius: BorderRadius.circular(3),
                     ),
                     padding: EdgeInsets.symmetric(horizontal: 24, vertical: 8),
                     child: Text("Large"),
