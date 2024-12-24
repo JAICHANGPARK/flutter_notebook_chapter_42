@@ -192,6 +192,7 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                   )
                 ],
               ),
+              Gap(16),
               Text("Chose addition"),
             ],
           ),
