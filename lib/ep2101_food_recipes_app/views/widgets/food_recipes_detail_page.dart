@@ -221,6 +221,7 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
               child: IconButton(
                 onPressed: () {},
                 icon: Icon(Icons.favorite_outline),
+                color: Colors.deepOrange,
               ),
             ),
             Expanded(
