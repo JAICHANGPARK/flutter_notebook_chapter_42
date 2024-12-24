@@ -105,12 +105,12 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                     ),
                     Text(
                       "A cheeseburger is a hamburger with a slice of melted "
-                          "cheese on top of the meat patty, added near the end of "
-                          "the cooking time. Cheeseburgers can include variations "
-                          "in structure, ingredients and composition. As with other "
-                          "hamburgers, a cheeseburger may include various condiments "
-                          "and other toppings such as lettuce, tomato, onion, pickles,"
-                          " bacon, avocado, mushrooms, mayonnaise, ketchup, and mustard.",
+                      "cheese on top of the meat patty, added near the end of "
+                      "the cooking time. Cheeseburgers can include variations "
+                      "in structure, ingredients and composition. As with other "
+                      "hamburgers, a cheeseburger may include various condiments "
+                      "and other toppings such as lettuce, tomato, onion, pickles,"
+                      " bacon, avocado, mushrooms, mayonnaise, ketchup, and mustard.",
                       maxLines: 3,
                     ),
                     Gap(12),
@@ -139,7 +139,7 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                             child: Icon(Icons.remove),
                           ),
                         ),
-                        Gap(8),
+                        Gap(12),
                         Text(
                           "${count}",
                           style: TextStyle(
@@ -147,7 +147,7 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                             fontSize: 20,
                           ),
                         ),
-                        Gap(8),
+                        Gap(12),
                         GestureDetector(
                           onTap: () {
                             setState(() {
@@ -169,7 +169,9 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                       ],
                     ),
                     Gap(12),
-                    Text("Burger size"),
+                    Text("Burger size", style: TextStyle(
+                      fontSize: 16,
+                    ),),
                     Row(
                       spacing: 16,
                       children: [
