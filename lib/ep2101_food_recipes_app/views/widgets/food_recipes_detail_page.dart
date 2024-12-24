@@ -105,7 +105,9 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                     ),
                     Text(
                       "A cheeseburger is a hamburger with a slice of melted "
-                          "cheese on top of the meat patty, added near the end of the cooking time. Cheeseburgers can include variations in structure, ingredients and composition. As with other hamburgers, a cheeseburger may include various condiments and other toppings such as lettuce, tomato, onion, pickles, bacon, avocado, mushrooms, mayonnaise, ketchup, and mustard.",
+                          "cheese on top of the meat patty, added near the end of "
+                          "the cooking time. Cheeseburgers can include variations "
+                          "in structure, ingredients and composition. As with other hamburgers, a cheeseburger may include various condiments and other toppings such as lettuce, tomato, onion, pickles, bacon, avocado, mushrooms, mayonnaise, ketchup, and mustard.",
                       maxLines: 3,
                     ),
                     Gap(12),
