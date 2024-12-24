@@ -21,7 +21,7 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
             spacing: 12,
             children: [
               Container(
-                height: 280,
+                height: 300,
                 decoration: BoxDecoration(
                   color: Colors.grey,
                   borderRadius: BorderRadius.circular(12),
