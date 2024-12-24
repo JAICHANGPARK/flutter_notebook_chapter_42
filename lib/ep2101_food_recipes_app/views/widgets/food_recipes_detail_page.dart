@@ -102,9 +102,16 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
               Gap(12),
               Row(
                 children: [
-                  Text("\$50.00"),
+                  Text(
+                    "\$50.00",
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                    ),
+                  ),
                   Spacer(),
                   Container(
+                    padding: EdgeInsets.all(4),
                     decoration: BoxDecoration(
                       color: Colors.purple[50],
                     ),
@@ -114,6 +121,7 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                   Text("1"),
                   Gap(8),
                   Container(
+                    padding: EdgeInsets.all(4),
                     decoration: BoxDecoration(
                       color: Colors.deepOrange,
                     ),
