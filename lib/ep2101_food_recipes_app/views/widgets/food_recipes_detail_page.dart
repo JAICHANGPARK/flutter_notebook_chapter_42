@@ -9,6 +9,7 @@ class FoodRecipesDetailPage extends StatefulWidget {
 }
 
 class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
+  int count = 1;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -110,16 +111,23 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                     ),
                   ),
                   Spacer(),
-                  Container(
-                    padding: EdgeInsets.all(4),
-                    decoration: BoxDecoration(
-                      color: Colors.purple[50],
+                  GestureDetector(
+                    onTap: (){
+                      setState(() {
+                        count++;
+                      });
+                    },
+                    child: Container(
+                      padding: EdgeInsets.all(4),
+                      decoration: BoxDecoration(
+                        color: Colors.purple[50],
+                      ),
+                      child: Icon(Icons.remove),
                     ),
-                    child: Icon(Icons.remove),
                   ),
                   Gap(8),
                   Text(
-                    "1",
+                    "${count}",
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 20,
