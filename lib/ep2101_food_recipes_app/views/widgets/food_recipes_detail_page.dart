@@ -106,7 +106,7 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                     "\$50.00",
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
-                      fontSize: 20,
+                      fontSize: 24,
                     ),
                   ),
                   Spacer(),
@@ -118,7 +118,13 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                     child: Icon(Icons.remove),
                   ),
                   Gap(8),
-                  Text("1"),
+                  Text(
+                    "1",
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                    ),
+                  ),
                   Gap(8),
                   Container(
                     padding: EdgeInsets.all(4),
