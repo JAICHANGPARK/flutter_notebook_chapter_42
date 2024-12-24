@@ -58,41 +58,44 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                   fontSize: 18,
                 ),
               ),
-              Expanded(child: SingleChildScrollView(child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    spacing: 4,
                     children: [
-                      Row(
-                        spacing: 4,
-                        children: [
-                          Icon(
-                            Icons.star_border,
-                          ),
-                          Text("4.9 (862)"),
-                        ],
+                      Icon(
+                        Icons.star_border,
                       ),
-                      Row(
-                        spacing: 4,
-                        children: [
-                          Icon(
-                            Icons.timelapse,
-                          ),
-                          Text("15-40 mins"),
-                        ],
-                      ),
-                      Row(
-                        spacing: 4,
-                        children: [
-                          Icon(
-                            Icons.location_on_outlined,
-                          ),
-                          Text("1.6 km"),
-                        ],
-                      )
+                      Text("4.9 (862)"),
                     ],
                   ),
+                  Row(
+                    spacing: 4,
+                    children: [
+                      Icon(
+                        Icons.timelapse,
+                      ),
+                      Text("15-40 mins"),
+                    ],
+                  ),
+                  Row(
+                    spacing: 4,
+                    children: [
+                      Icon(
+                        Icons.location_on_outlined,
+                      ),
+                      Text("1.6 km"),
+                    ],
+                  )
+                ],
+              ),
+              Expanded(child: SingleChildScrollView(child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                spacing: 12,
+                children: [
+
+
                   Gap(16),
                   Text(
                     "Food Details",
