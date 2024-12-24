@@ -172,7 +172,10 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                             color: Colors.purple[50],
                             borderRadius: BorderRadius.circular(3),
                           ),
-                          padding: EdgeInsets.symmetric(horizontal: 24, vertical: 8),
+                          padding: EdgeInsets.symmetric(
+                            horizontal: 24,
+                            vertical: 8,
+                          ),
                           child: Text("Small"),
                         ),
                         Container(
@@ -180,7 +183,10 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                             color: Colors.deepOrange,
                             borderRadius: BorderRadius.circular(3),
                           ),
-                          padding: EdgeInsets.symmetric(horizontal: 24, vertical: 8),
+                          padding: EdgeInsets.symmetric(
+                            horizontal: 24,
+                            vertical: 8,
+                          ),
                           child: Text(
                             "Medium",
                             style: TextStyle(
@@ -193,7 +199,10 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                             color: Colors.purple[50],
                             borderRadius: BorderRadius.circular(3),
                           ),
-                          padding: EdgeInsets.symmetric(horizontal: 24, vertical: 8),
+                          padding: EdgeInsets.symmetric(
+                            horizontal: 24,
+                            vertical: 8,
+                          ),
                           child: Text("Large"),
                         )
                       ],
