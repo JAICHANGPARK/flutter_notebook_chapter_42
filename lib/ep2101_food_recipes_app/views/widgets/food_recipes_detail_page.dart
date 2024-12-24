@@ -10,6 +10,7 @@ class FoodRecipesDetailPage extends StatefulWidget {
 
 class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
   int count = 1;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -112,7 +113,7 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                   ),
                   Spacer(),
                   GestureDetector(
-                    onTap: (){
+                    onTap: () {
                       setState(() {
                         count++;
                       });
@@ -136,7 +137,7 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                   ),
                   Gap(8),
                   GestureDetector(
-                    onTap: (){
+                    onTap: () {
                       setState(() {
                         count--;
                       });
@@ -170,11 +171,16 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                   ),
                   Container(
                     decoration: BoxDecoration(
-                      color: Colors.purple[50],
+                      color: Colors.deepOrange,
                       borderRadius: BorderRadius.circular(3),
                     ),
                     padding: EdgeInsets.symmetric(horizontal: 24, vertical: 8),
-                    child: Text("Medium"),
+                    child: Text(
+                      "Medium",
+                      style: TextStyle(
+                        color: Colors.white,
+                      ),
+                    ),
                   ),
                   Container(
                     decoration: BoxDecoration(
