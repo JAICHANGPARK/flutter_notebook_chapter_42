@@ -58,142 +58,149 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                   fontSize: 18,
                 ),
               ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              Expanded(child: SingleChildScrollView(child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Row(
-                    spacing: 4,
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Icon(
-                        Icons.star_border,
+                      Row(
+                        spacing: 4,
+                        children: [
+                          Icon(
+                            Icons.star_border,
+                          ),
+                          Text("4.9 (862)"),
+                        ],
                       ),
-                      Text("4.9 (862)"),
+                      Row(
+                        spacing: 4,
+                        children: [
+                          Icon(
+                            Icons.timelapse,
+                          ),
+                          Text("15-40 mins"),
+                        ],
+                      ),
+                      Row(
+                        spacing: 4,
+                        children: [
+                          Icon(
+                            Icons.location_on_outlined,
+                          ),
+                          Text("1.6 km"),
+                        ],
+                      )
                     ],
                   ),
-                  Row(
-                    spacing: 4,
-                    children: [
-                      Icon(
-                        Icons.timelapse,
-                      ),
-                      Text("15-40 mins"),
-                    ],
-                  ),
-                  Row(
-                    spacing: 4,
-                    children: [
-                      Icon(
-                        Icons.location_on_outlined,
-                      ),
-                      Text("1.6 km"),
-                    ],
-                  )
-                ],
-              ),
-              Gap(16),
-              Text(
-                "Food Details",
-                style: TextStyle(
-                  fontSize: 16,
-                ),
-              ),
-              Text(
-                "A cheeseburger is a hamburger with a slice of melted cheese on top of the meat patty, added near the end of the cooking time. Cheeseburgers can include variations in structure, ingredients and composition. As with other hamburgers, a cheeseburger may include various condiments and other toppings such as lettuce, tomato, onion, pickles, bacon, avocado, mushrooms, mayonnaise, ketchup, and mustard.",
-                maxLines: 3,
-              ),
-              Gap(12),
-              Row(
-                children: [
+                  Gap(16),
                   Text(
-                    "\$50.00",
+                    "Food Details",
                     style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      fontSize: 24,
+                      fontSize: 16,
                     ),
                   ),
-                  Spacer(),
-                  GestureDetector(
-                    onTap: () {
-                      setState(() {
-                        count++;
-                      });
-                    },
-                    child: Container(
-                      padding: EdgeInsets.all(4),
-                      decoration: BoxDecoration(
-                        color: Colors.purple[50],
-                        borderRadius: BorderRadius.circular(3),
-                      ),
-                      child: Icon(Icons.remove),
-                    ),
-                  ),
-                  Gap(8),
                   Text(
-                    "${count}",
-                    style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      fontSize: 20,
-                    ),
+                    "A cheeseburger is a hamburger with a slice of melted cheese on top of the meat patty, added near the end of the cooking time. Cheeseburgers can include variations in structure, ingredients and composition. As with other hamburgers, a cheeseburger may include various condiments and other toppings such as lettuce, tomato, onion, pickles, bacon, avocado, mushrooms, mayonnaise, ketchup, and mustard.",
+                    maxLines: 3,
                   ),
-                  Gap(8),
-                  GestureDetector(
-                    onTap: () {
-                      setState(() {
-                        count--;
-                      });
-                    },
-                    child: Container(
-                      padding: EdgeInsets.all(4),
-                      decoration: BoxDecoration(
-                        color: Colors.deepOrange,
-                        borderRadius: BorderRadius.circular(3),
+                  Gap(12),
+                  Row(
+                    children: [
+                      Text(
+                        "\$50.00",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 24,
+                        ),
                       ),
-                      child: Icon(
-                        Icons.add,
-                        color: Colors.white,
+                      Spacer(),
+                      GestureDetector(
+                        onTap: () {
+                          setState(() {
+                            count++;
+                          });
+                        },
+                        child: Container(
+                          padding: EdgeInsets.all(4),
+                          decoration: BoxDecoration(
+                            color: Colors.purple[50],
+                            borderRadius: BorderRadius.circular(3),
+                          ),
+                          child: Icon(Icons.remove),
+                        ),
                       ),
-                    ),
+                      Gap(8),
+                      Text(
+                        "${count}",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 20,
+                        ),
+                      ),
+                      Gap(8),
+                      GestureDetector(
+                        onTap: () {
+                          setState(() {
+                            count--;
+                          });
+                        },
+                        child: Container(
+                          padding: EdgeInsets.all(4),
+                          decoration: BoxDecoration(
+                            color: Colors.deepOrange,
+                            borderRadius: BorderRadius.circular(3),
+                          ),
+                          child: Icon(
+                            Icons.add,
+                            color: Colors.white,
+                          ),
+                        ),
+                      ),
+                    ],
                   ),
+                  Gap(12),
+                  Text("Burger size"),
+                  Row(
+                    spacing: 16,
+                    children: [
+                      Container(
+                        decoration: BoxDecoration(
+                          color: Colors.purple[50],
+                          borderRadius: BorderRadius.circular(3),
+                        ),
+                        padding: EdgeInsets.symmetric(horizontal: 24, vertical: 8),
+                        child: Text("Small"),
+                      ),
+                      Container(
+                        decoration: BoxDecoration(
+                          color: Colors.deepOrange,
+                          borderRadius: BorderRadius.circular(3),
+                        ),
+                        padding: EdgeInsets.symmetric(horizontal: 24, vertical: 8),
+                        child: Text(
+                          "Medium",
+                          style: TextStyle(
+                            color: Colors.white,
+                          ),
+                        ),
+                      ),
+                      Container(
+                        decoration: BoxDecoration(
+                          color: Colors.purple[50],
+                          borderRadius: BorderRadius.circular(3),
+                        ),
+                        padding: EdgeInsets.symmetric(horizontal: 24, vertical: 8),
+                        child: Text("Large"),
+                      )
+                    ],
+                  ),
+                  Gap(16),
+                  Text("Chose addition"),
+
                 ],
-              ),
-              Gap(12),
-              Text("Burger size"),
-              Row(
-                spacing: 16,
-                children: [
-                  Container(
-                    decoration: BoxDecoration(
-                      color: Colors.purple[50],
-                      borderRadius: BorderRadius.circular(3),
-                    ),
-                    padding: EdgeInsets.symmetric(horizontal: 24, vertical: 8),
-                    child: Text("Small"),
-                  ),
-                  Container(
-                    decoration: BoxDecoration(
-                      color: Colors.deepOrange,
-                      borderRadius: BorderRadius.circular(3),
-                    ),
-                    padding: EdgeInsets.symmetric(horizontal: 24, vertical: 8),
-                    child: Text(
-                      "Medium",
-                      style: TextStyle(
-                        color: Colors.white,
-                      ),
-                    ),
-                  ),
-                  Container(
-                    decoration: BoxDecoration(
-                      color: Colors.purple[50],
-                      borderRadius: BorderRadius.circular(3),
-                    ),
-                    padding: EdgeInsets.symmetric(horizontal: 24, vertical: 8),
-                    child: Text("Large"),
-                  )
-                ],
-              ),
-              Gap(16),
-              Text("Chose addition"),
+              ),))
+
             ],
           ),
         ),
