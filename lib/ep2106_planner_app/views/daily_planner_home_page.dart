@@ -10,6 +10,6 @@ class DailyPlannerHomePage extends StatefulWidget {
 class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold();
   }
 }
