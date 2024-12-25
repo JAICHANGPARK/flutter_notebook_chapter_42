@@ -217,9 +217,13 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                       children: [
                                         Text("Coding sprint"),
                                         Wrap(
-                                          children: List.generate(4, (index) => Container(
-                                            
-                                          )),
+                                          children: List.generate(
+                                              4,
+                                              (index) => Container(
+                                                    decoration: BoxDecoration(
+                                                      color: Colors.orangeAccent[100],
+                                                    ),
+                                                  ),),
                                         )
                                       ],
                                     ),
