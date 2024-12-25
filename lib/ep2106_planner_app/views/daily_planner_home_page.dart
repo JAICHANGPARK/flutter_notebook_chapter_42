@@ -211,9 +211,23 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                               Row(
                                 children: [
                                   Checkbox(value: false, onChanged: (b) {}),
-                                  Expanded(child: Column(children: [
-                                    Text("Coding sprint")
-                                  ],))
+                                  Expanded(
+                                    child: Column(
+                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                      children: [
+                                        Text("Coding sprint"),
+                                        Wrap(
+                                          children: [
+                                            Container(
+                                              decoration: BoxDecoration(
+
+                                              ),
+                                            )
+                                          ],
+                                        )
+                                      ],
+                                    ),
+                                  )
                                 ],
                               )
                             ],
