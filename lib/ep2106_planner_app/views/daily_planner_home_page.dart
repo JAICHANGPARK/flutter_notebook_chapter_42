@@ -10,6 +10,7 @@ class DailyPlannerHomePage extends StatefulWidget {
 
 class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
   DateTime _selectedValue = DateTime.now();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -67,6 +68,15 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                     });
                   },
                 ),
+                Container(
+                  height: 100,
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                  ),
+                  child: Column(
+                    children: [Center()],
+                  ),
+                )
               ],
             ),
           ),
