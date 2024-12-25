@@ -98,6 +98,14 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                       borderRadius: BorderRadius.circular(16),
                                     ),
                                     child: Text("0/02"),
+                                  ),
+                                  CircleAvatar(
+                                    radius: 12,
+                                    backgroundColor: Colors.blue[50],
+                                    child: Icon(
+                                      Icons.add,
+                                      color: Colors.blue,
+                                    ),
                                   )
                                 ],
                               )
