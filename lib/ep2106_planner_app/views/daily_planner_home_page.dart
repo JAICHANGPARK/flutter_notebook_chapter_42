@@ -58,7 +58,7 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                   DateTime.now(),
                   height: 100,
                   initialSelectedDate: DateTime.now(),
-                  selectionColor: Colors.black,
+                  selectionColor: Colors.blueAccent,
                   selectedTextColor: Colors.white,
                   onDateChange: (date) {
                     // New date selected
