@@ -85,7 +85,10 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                               Row(
                                 spacing: 16,
                                 children: [
-                                  Icon(Icons.checklist),
+                                  Icon(
+                                    Icons.checklist,
+                                    color: Colors.red,
+                                  ),
                                   Text(
                                     "Habits",
                                     style: TextStyle(
@@ -173,7 +176,10 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                               Row(
                                 spacing: 16,
                                 children: [
-                                  Icon(Icons.home_filled,color: Colors.blue,),
+                                  Icon(
+                                    Icons.home_filled,
+                                    color: Colors.blue,
+                                  ),
                                   Text(
                                     "Private tasks",
                                     style: TextStyle(
