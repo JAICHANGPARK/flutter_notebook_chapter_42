@@ -238,6 +238,11 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                                 ),
                                               ),
                                             ),
+                                          ),
+                                          Row(
+                                            children: [
+                                              Checkbox(value: false, onChanged: (){})
+                                            ],
                                           )
                                         ],
                                       ),
