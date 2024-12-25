@@ -92,15 +92,21 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                     ),
                                   ),
                                   Container(
-                                    padding: EdgeInsets.symmetric(horizontal: 8,vertical: 4),
+                                    padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                                     decoration: BoxDecoration(
                                       border: Border.all(
                                         color: Colors.grey,
                                       ),
                                       borderRadius: BorderRadius.circular(16),
                                     ),
-                                    child: Text("0/02"),
+                                    child: Text(
+                                      "0/02",
+                                      style: TextStyle(
+                                        fontSize: 12,
+                                      ),
+                                    ),
                                   ),
+                                  Spacer(),
                                   CircleAvatar(
                                     radius: 12,
                                     backgroundColor: Colors.blue[50],
