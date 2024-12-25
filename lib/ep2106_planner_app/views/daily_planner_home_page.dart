@@ -157,7 +157,7 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                         ),
                                       ),
 
-                                      Text("Drink Water"),
+                                      Text("Wake up ea.."),
                                     ],
                                   )
                                 ],
