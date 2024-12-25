@@ -74,7 +74,6 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                       spacing: 16,
                       children: [
                         Container(
-                          height: 180,
                           decoration: BoxDecoration(
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(12),
@@ -120,31 +119,29 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                   )
                                 ],
                               ),
-                              Expanded(
-                                child: Row(
-                                  spacing: 24,
-                                  children: [
-                                    Column(
-                                      spacing: 12,
-                                      children: [
-                                        Container(
-                                          height: 72,
-                                          width: 82,
-                                          decoration: BoxDecoration(
-                                            shape: BoxShape.circle,
-                                            border: Border.all(color: Colors.cyan),
-                                          ),
-                                          padding: EdgeInsets.all(4),
-                                          child: CircleAvatar(
-                                            backgroundColor: Colors.cyan[100],
-                                          ),
+                              Row(
+                                spacing: 24,
+                                children: [
+                                  Column(
+                                    spacing: 12,
+                                    children: [
+                                      Container(
+                                        height: 72,
+                                        width: 82,
+                                        decoration: BoxDecoration(
+                                          shape: BoxShape.circle,
+                                          border: Border.all(color: Colors.cyan),
                                         ),
+                                        padding: EdgeInsets.all(4),
+                                        child: CircleAvatar(
+                                          backgroundColor: Colors.cyan[100],
+                                        ),
+                                      ),
 
-                                        Text("Drink Water"),
-                                      ],
-                                    )
-                                  ],
-                                ),
+                                      Text("Drink Water"),
+                                    ],
+                                  )
+                                ],
                               )
                             ],
                           ),
