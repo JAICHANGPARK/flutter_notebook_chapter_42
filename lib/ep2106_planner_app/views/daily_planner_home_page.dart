@@ -173,7 +173,7 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                               Row(
                                 spacing: 16,
                                 children: [
-                                  Icon(Icons.home_filled),
+                                  Icon(Icons.home_filled,color: Colors.blue,),
                                   Text(
                                     "Private tasks",
                                     style: TextStyle(
