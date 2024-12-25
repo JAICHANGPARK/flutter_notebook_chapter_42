@@ -128,7 +128,11 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                           height: 82,
                                           width: 82,
                                           decoration: BoxDecoration(
+                                            shape: BoxShape.circle,
                                             border: Border.all(color: Colors.cyan),
+                                          ),
+                                          child: CircleAvatar(
+                                            backgroundColor: Colors.cyan[100],
                                           ),
                                         )
                                       ],
