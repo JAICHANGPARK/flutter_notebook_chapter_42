@@ -14,6 +14,7 @@ dependencies:
   gap: ^3.0.1
   percent_indicator: ^4.2.4
   hugeicons: ^0.0.7
+  date_picker_timeline: ^1.2.6
 
 dev_dependencies:
   flutter_test:
