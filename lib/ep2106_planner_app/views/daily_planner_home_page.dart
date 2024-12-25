@@ -239,6 +239,7 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                             ),
                                           ),
                                           Row(
+                                            spacing: 12,
                                             children: [
                                               Checkbox(
                                                 visualDensity: VisualDensity(
@@ -248,7 +249,7 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                                 materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
                                                 value: false,
                                                 onChanged: (v) {},
-                                              )
+                                              ),.
                                             ],
                                           )
                                         ],
