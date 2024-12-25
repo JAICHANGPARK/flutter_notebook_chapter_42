@@ -79,7 +79,11 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                             color: Colors.white,
                           ),
                           child: Column(
-                            children: [Center()],
+                            children: [
+                              Row(
+                                children: [],
+                              )
+                            ],
                           ),
                         ),
                         Container(
@@ -131,7 +135,6 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                     ),
                   ),
                 ),
-
               ],
             ),
           ),
