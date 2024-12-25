@@ -245,6 +245,7 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                                   vertical: VisualDensity.minimumDensity,
                                                   horizontal: VisualDensity.minimumDensity,
                                                 ),
+                                                materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
                                                 value: false,
                                                 onChanged: (v) {},
                                               )
