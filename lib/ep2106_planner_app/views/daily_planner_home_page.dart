@@ -13,24 +13,28 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
     return Scaffold(
       backgroundColor: Colors.indigo[50],
       body: SafeArea(
-          child: Column(
-        children: [
-          Row(
+          child: Stack(
             children: [
-              Container(
-                decoration: BoxDecoration(
-                  border: Border.all(
-                    color: Colors.grey,
-                  ),
-                  shape: BoxShape.circle,
-                ),
-                padding: EdgeInsets.all(4),
-                child: Icon(Icons.menu, size: 18,),
+              Column(
+                      children: [
+              Row(
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                      border: Border.all(
+                        color: Colors.grey,
+                      ),
+                      shape: BoxShape.circle,
+                    ),
+                    padding: EdgeInsets.all(4),
+                    child: Icon(Icons.menu, size: 18,),
+                  )
+                ],
               )
+                      ],
+                    ),
             ],
-          )
-        ],
-      )),
+          )),
     );
   }
 }
