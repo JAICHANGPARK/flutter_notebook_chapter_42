@@ -2,9 +2,9 @@
 
 ## EP2106
 
-- Food Recipes Mobile App
-- Lukman Hakim
-- https://dribbble.com/shots/25353419-Food-Recipes-Mobile-App
+- Daily Planner Mobile App Design
+- Sk Amir
+- https://dribbble.com/shots/25378370-Daily-Planner-Mobile-App-Design
 
 <img src="https://cdn.dribbble.com/userupload/18066953/file/original-8ed01c80eadfd2b56f85570e8bf97c55.png?resize=1905x1429&vertical=center"/>
 
