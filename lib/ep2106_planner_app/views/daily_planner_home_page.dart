@@ -16,7 +16,10 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
           child: Stack(
         children: [
           Positioned.fill(
+            left: 24,
+            right: 24,
             child: Column(
+              spacing: 16,
               children: [
                 Row(
                   children: [
@@ -32,7 +35,7 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                         Icons.menu,
                         size: 18,
                       ),
-                    )
+                    ),
                   ],
                 )
               ],
