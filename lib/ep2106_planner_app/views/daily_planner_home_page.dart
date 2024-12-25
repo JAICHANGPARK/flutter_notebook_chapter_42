@@ -14,27 +14,32 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
       backgroundColor: Colors.indigo[50],
       body: SafeArea(
           child: Stack(
-            children: [
-              Column(
-                      children: [
-              Row(
-                children: [
-                  Container(
-                    decoration: BoxDecoration(
-                      border: Border.all(
-                        color: Colors.grey,
+        children: [
+          Positioned.fill(
+            child: Column(
+              children: [
+                Row(
+                  children: [
+                    Container(
+                      decoration: BoxDecoration(
+                        border: Border.all(
+                          color: Colors.grey,
+                        ),
+                        shape: BoxShape.circle,
                       ),
-                      shape: BoxShape.circle,
-                    ),
-                    padding: EdgeInsets.all(4),
-                    child: Icon(Icons.menu, size: 18,),
-                  )
-                ],
-              )
-                      ],
-                    ),
-            ],
-          )),
+                      padding: EdgeInsets.all(4),
+                      child: Icon(
+                        Icons.menu,
+                        size: 18,
+                      ),
+                    )
+                  ],
+                )
+              ],
+            ),
+          ),
+        ],
+      )),
     );
   }
 }
