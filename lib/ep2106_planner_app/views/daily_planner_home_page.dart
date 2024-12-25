@@ -78,6 +78,7 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                           decoration: BoxDecoration(
                             color: Colors.white,
                           ),
+                          padding: EdgeInsets.all(12),
                           child: Column(
                             children: [
                               Row(
