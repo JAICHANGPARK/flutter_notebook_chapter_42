@@ -213,10 +213,10 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                   Checkbox(value: false, onChanged: (b) {}),
                                   Expanded(
                                     child: Padding(
-                                      padding: const EdgeInsets.only(top: 10),
+                                      padding: const EdgeInsets.only(top: 12),
                                       child: Column(
                                         crossAxisAlignment: CrossAxisAlignment.start,
-                                        spacing: 8,
+                                        spacing: 12,
                                         children: [
                                           Text("Coding sprint"),
                                           Wrap(
