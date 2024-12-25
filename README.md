@@ -6,7 +6,7 @@
 - Sk Amir
 - https://dribbble.com/shots/25378370-Daily-Planner-Mobile-App-Design
 
-<img src="https://cdn.dribbble.com/userupload/18066953/file/original-8ed01c80eadfd2b56f85570e8bf97c55.png?resize=1905x1429&vertical=center"/>
+<img src="https://cdn.dribbble.com/userupload/18141055/file/original-24282cd7a66f8d61ae0e1c214e6cab0c.png?resize=1905x1429&vertical=center"/>
 
 ## EP2101-2105
 
