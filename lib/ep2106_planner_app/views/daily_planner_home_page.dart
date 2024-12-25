@@ -12,7 +12,9 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.indigo[50],
-      body: SafeArea(child: Column()),
+      body: SafeArea(child: Column(
+        children: [],
+      )),
     );
   }
 }
