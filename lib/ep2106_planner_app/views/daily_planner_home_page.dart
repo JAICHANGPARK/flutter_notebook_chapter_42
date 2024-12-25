@@ -90,6 +90,13 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                       fontWeight: FontWeight.bold,
                                     ),
                                   ),
+                                  Container(
+                                    decoration: BoxDecoration(
+                                     
+                                      borderRadius: BorderRadius.circular(16),
+                                    ),
+                                    child: Text("0/02"),
+                                  )
                                 ],
                               )
                             ],
