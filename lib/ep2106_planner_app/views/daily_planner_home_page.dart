@@ -71,6 +71,7 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                 Expanded(
                   child: SingleChildScrollView(
                     child: Column(
+                      spacing: 16,
                       children: [
                         Container(
                           height: 160,
