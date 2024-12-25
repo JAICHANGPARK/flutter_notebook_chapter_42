@@ -164,7 +164,6 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                           ),
                         ),
                         Container(
-                          height: 120,
                           padding: EdgeInsets.all(12),
                           decoration: BoxDecoration(
                             color: Colors.white,
@@ -241,7 +240,10 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                           ),
                                           Row(
                                             children: [
-                                              Checkbox(value: false, onChanged: (){})
+                                              Checkbox(
+                                                value: false,
+                                                onChanged: (v) {},
+                                              )
                                             ],
                                           )
                                         ],
