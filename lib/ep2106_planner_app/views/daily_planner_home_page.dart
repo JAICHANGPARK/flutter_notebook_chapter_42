@@ -81,6 +81,7 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                           child: Column(
                             children: [
                               Row(
+                                spacing: 16,
                                 children: [
                                   Icon(Icons.checklist),
                                   Text(
@@ -88,7 +89,7 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                     style: TextStyle(
                                       fontWeight: FontWeight.bold,
                                     ),
-                                  )
+                                  ),
                                 ],
                               )
                             ],
