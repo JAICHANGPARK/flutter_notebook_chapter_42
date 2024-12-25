@@ -140,6 +140,25 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
 
                                       Text("Drink Water"),
                                     ],
+                                  ),
+                                  Column(
+                                    spacing: 12,
+                                    children: [
+                                      Container(
+                                        height: 72,
+                                        width: 82,
+                                        decoration: BoxDecoration(
+                                          shape: BoxShape.circle,
+                                          border: Border.all(color: Colors.grey),
+                                        ),
+                                        padding: EdgeInsets.all(4),
+                                        child: CircleAvatar(
+                                          backgroundColor: Colors.orangeAccent[100],
+                                        ),
+                                      ),
+
+                                      Text("Drink Water"),
+                                    ],
                                   )
                                 ],
                               )
