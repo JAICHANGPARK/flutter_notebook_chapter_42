@@ -24,6 +24,8 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                   ),
                   shape: BoxShape.circle,
                 ),
+                p
+                child: Icon(Icons.menu, size: 16,),
               )
             ],
           )
