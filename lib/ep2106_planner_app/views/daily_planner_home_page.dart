@@ -81,7 +81,15 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                           child: Column(
                             children: [
                               Row(
-                                children: [],
+                                children: [
+                                  Icon(Icons.checklist),
+                                  Text(
+                                    "Habits",
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  )
+                                ],
                               )
                             ],
                           ),
