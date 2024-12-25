@@ -81,6 +81,7 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                           ),
                           padding: EdgeInsets.all(12),
                           child: Column(
+                            spacing: 16,
                             children: [
                               Row(
                                 spacing: 16,
@@ -121,20 +122,23 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                               ),
                               Expanded(
                                 child: Row(
+                                  spacing: 24,
                                   children: [
                                     Column(
                                       children: [
                                         Container(
-                                          height: 82,
+                                          height: 72,
                                           width: 82,
                                           decoration: BoxDecoration(
                                             shape: BoxShape.circle,
                                             border: Border.all(color: Colors.cyan),
                                           ),
+                                          padding: EdgeInsets.all(4),
                                           child: CircleAvatar(
                                             backgroundColor: Colors.cyan[100],
                                           ),
-                                        )
+                                        ),
+                                        Text("Drink Water"),
                                       ],
                                     )
                                   ],
