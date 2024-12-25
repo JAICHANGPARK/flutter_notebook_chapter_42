@@ -68,42 +68,51 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                     });
                   },
                 ),
-                Container(
-                  height: 160,
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                  ),
-                  child: Column(
-                    children: [Center()],
+                Expanded(
+                  child: SingleChildScrollView(
+                    child: Column(
+                      children: [
+                        Container(
+                          height: 160,
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                          ),
+                          child: Column(
+                            children: [Center()],
+                          ),
+                        ),
+                        Container(
+                          height: 120,
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                          ),
+                          child: Column(
+                            children: [Center()],
+                          ),
+                        ),
+                        Container(
+                          height: 72,
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                          ),
+                          child: Column(
+                            children: [Center()],
+                          ),
+                        ),
+                        Container(
+                          height: 140,
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                          ),
+                          child: Column(
+                            children: [Center()],
+                          ),
+                        )
+                      ],
+                    ),
                   ),
                 ),
-                Container(
-                  height: 120,
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                  ),
-                  child: Column(
-                    children: [Center()],
-                  ),
-                ),
-                Container(
-                  height: 72,
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                  ),
-                  child: Column(
-                    children: [Center()],
-                  ),
-                ),
-                Container(
-                  height: 140,
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                  ),
-                  child: Column(
-                    children: [Center()],
-                  ),
-                )
+
               ],
             ),
           ),
