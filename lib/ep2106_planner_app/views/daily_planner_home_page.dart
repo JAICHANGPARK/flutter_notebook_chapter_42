@@ -10,6 +10,9 @@ class DailyPlannerHomePage extends StatefulWidget {
 class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      backgroundColor: Colors.indigo[50],
+      body: SafeArea(child: Column()),
+    );
   }
 }
