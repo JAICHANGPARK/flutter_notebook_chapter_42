@@ -1,6 +1,6 @@
 # flutter_notebook_chapter_42
 
-## EP210
+## EP2106
 
 - Food Recipes Mobile App
 - Lukman Hakim
