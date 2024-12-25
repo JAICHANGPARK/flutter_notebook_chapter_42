@@ -74,7 +74,7 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                       spacing: 16,
                       children: [
                         Container(
-                          height: 160,
+                          height: 180,
                           decoration: BoxDecoration(
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(12),
@@ -138,6 +138,7 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                             backgroundColor: Colors.cyan[100],
                                           ),
                                         ),
+
                                         Text("Drink Water"),
                                       ],
                                     )
