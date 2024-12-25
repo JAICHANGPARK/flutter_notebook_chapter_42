@@ -125,6 +125,7 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                   spacing: 24,
                                   children: [
                                     Column(
+                                      spacing: 12,
                                       children: [
                                         Container(
                                           height: 72,
