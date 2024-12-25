@@ -92,7 +92,9 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                   ),
                                   Container(
                                     decoration: BoxDecoration(
-                                     
+                                      border: Border.all(
+                                        color: Colors.grey,
+                                      ),
                                       borderRadius: BorderRadius.circular(16),
                                     ),
                                     child: Text("0/02"),
