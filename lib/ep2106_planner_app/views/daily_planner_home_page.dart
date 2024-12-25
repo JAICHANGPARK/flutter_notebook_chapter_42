@@ -118,6 +118,23 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                     ),
                                   )
                                 ],
+                              ),
+                              Expanded(
+                                child: Row(
+                                  children: [
+                                    Column(
+                                      children: [
+                                        Container(
+                                          height: 82,
+                                          width: 82,
+                                          decoration: BoxDecoration(
+                                            border: Border.all(color: Colors.cyan),
+                                          ),
+                                        )
+                                      ],
+                                    )
+                                  ],
+                                ),
                               )
                             ],
                           ),
