@@ -137,7 +137,6 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                           backgroundColor: Colors.cyan[100],
                                         ),
                                       ),
-
                                       Text("Drink Water"),
                                     ],
                                   ),
@@ -156,7 +155,6 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                           backgroundColor: Colors.orangeAccent[100],
                                         ),
                                       ),
-
                                       Text("Wake up ea.."),
                                     ],
                                   )
@@ -210,16 +208,14 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                   )
                                 ],
                               ),
-                              Column(
+                              Row(
                                 children: [
-                                  Row(
-                                    children: [
-
-                                    ],
-                                  )
+                                  Checkbox(value: false, onChanged: (b) {}),
+                                  Expanded(child: Column(children: [
+                                    Text("Coding sprint")
+                                  ],))
                                 ],
                               )
-
                             ],
                           ),
                         ),
