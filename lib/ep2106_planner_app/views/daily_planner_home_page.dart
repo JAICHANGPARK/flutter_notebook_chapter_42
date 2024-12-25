@@ -167,6 +167,7 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                         ),
                         Container(
                           height: 120,
+                          padding: EdgeInsets.all(12),
                           decoration: BoxDecoration(
                             color: Colors.white,
                           ),
@@ -209,6 +210,15 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                   )
                                 ],
                               ),
+                              Column(
+                                children: [
+                                  Row(
+                                    children: [
+
+                                    ],
+                                  )
+                                ],
+                              )
 
                             ],
                           ),
