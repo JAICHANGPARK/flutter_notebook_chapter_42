@@ -1,3 +1,4 @@
+import 'package:date_picker_timeline/date_picker_widget.dart';
 import 'package:flutter/material.dart';
 
 class DailyPlannerHomePage extends StatefulWidget {
@@ -8,6 +9,7 @@ class DailyPlannerHomePage extends StatefulWidget {
 }
 
 class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
+  DateTime _selectedValue = DateTime.now();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -22,6 +24,7 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
               spacing: 16,
               children: [
                 Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Container(
                       decoration: BoxDecoration(
@@ -36,8 +39,33 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                         size: 18,
                       ),
                     ),
+                    Container(
+                      decoration: BoxDecoration(
+                        border: Border.all(
+                          color: Colors.grey,
+                        ),
+                        shape: BoxShape.circle,
+                      ),
+                      padding: EdgeInsets.all(4),
+                      child: Icon(
+                        Icons.more_horiz,
+                        size: 18,
+                      ),
+                    ),
                   ],
-                )
+                ),
+                DatePicker(
+                  DateTime.now(),
+                  initialSelectedDate: DateTime.now(),
+                  selectionColor: Colors.black,
+                  selectedTextColor: Colors.white,
+                  onDateChange: (date) {
+                    // New date selected
+                    setState(() {
+                      _selectedValue = date;
+                    });
+                  },
+                ),
               ],
             ),
           ),
