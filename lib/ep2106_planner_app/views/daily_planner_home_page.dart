@@ -209,27 +209,31 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                 ],
                               ),
                               Row(
+                                crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Checkbox(value: false, onChanged: (b) {}),
                                   Expanded(
-                                    child: Column(
-                                      crossAxisAlignment: CrossAxisAlignment.start,
-                                      children: [
-                                        Text("Coding sprint"),
-                                        Wrap(
-                                          spacing: 8,
-                                          runSpacing: 8,
-                                          children: List.generate(
-                                            4,
-                                            (index) => Container(
-                                              decoration: BoxDecoration(
-                                                color: Colors.orangeAccent[100],
+                                    child: Padding(
+                                      padding: const EdgeInsets.only(top: 12),
+                                      child: Column(
+                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        children: [
+                                          Text("Coding sprint"),
+                                          Wrap(
+                                            spacing: 8,
+                                            runSpacing: 8,
+                                            children: List.generate(
+                                              4,
+                                              (index) => Container(
+                                                decoration: BoxDecoration(
+                                                  color: Colors.orangeAccent[100],
+                                                ),
+                                                child: Text("Hard"),
                                               ),
-                                              child: Text("Hard"),
                                             ),
-                                          ),
-                                        )
-                                      ],
+                                          )
+                                        ],
+                                      ),
                                     ),
                                   )
                                 ],
