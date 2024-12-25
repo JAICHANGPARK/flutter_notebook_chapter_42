@@ -241,6 +241,10 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                           Row(
                                             children: [
                                               Checkbox(
+                                                visualDensity: VisualDensity(
+                                                  vertical: VisualDensity.minimumDensity,
+                                                  horizontal: VisualDensity.minimumDensity,
+                                                ),
                                                 value: false,
                                                 onChanged: (v) {},
                                               )
