@@ -217,7 +217,7 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                       padding: const EdgeInsets.only(top: 10),
                                       child: Column(
                                         crossAxisAlignment: CrossAxisAlignment.start,
-                                        spacing: 12,
+                                        spacing: 8,
                                         children: [
                                           Text("Coding sprint"),
                                           Wrap(
@@ -229,6 +229,7 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                                 decoration: BoxDecoration(
                                                   color: Colors.orangeAccent[100],
                                                 ),
+                                                p
                                                 child: Text("Hard"),
                                               ),
                                             ),
