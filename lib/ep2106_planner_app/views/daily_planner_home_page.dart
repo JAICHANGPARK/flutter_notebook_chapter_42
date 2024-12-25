@@ -229,8 +229,13 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                                 decoration: BoxDecoration(
                                                   color: Colors.orangeAccent[100],
                                                 ),
-                                                p
-                                                child: Text("Hard"),
+                                                padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
+                                                child: Text(
+                                                  "Hard",
+                                                  style: TextStyle(
+                                                    fontSize: 12,
+                                                  ),
+                                                ),
                                               ),
                                             ),
                                           )
