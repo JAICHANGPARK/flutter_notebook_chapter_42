@@ -13,7 +13,15 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
     return Scaffold(
       backgroundColor: Colors.indigo[50],
       body: SafeArea(child: Column(
-        children: [],
+        children: [
+
+          Row(
+            children: [
+              
+            ],
+          )
+
+        ],
       )),
     );
   }
