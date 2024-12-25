@@ -249,7 +249,10 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                                 materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
                                                 value: false,
                                                 onChanged: (v) {},
-                                              ),.
+                                              ),
+                                              Text(
+                                                "Subtasks example",
+                                              )
                                             ],
                                           )
                                         ],
