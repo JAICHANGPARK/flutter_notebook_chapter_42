@@ -77,6 +77,7 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                           height: 160,
                           decoration: BoxDecoration(
                             color: Colors.white,
+                            borderRadius: BorderRadius.circular(12),
                           ),
                           padding: EdgeInsets.all(12),
                           child: Column(
@@ -89,6 +90,7 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                     "Habits",
                                     style: TextStyle(
                                       fontWeight: FontWeight.bold,
+                                      fontSize: 16,
                                     ),
                                   ),
                                   Container(
