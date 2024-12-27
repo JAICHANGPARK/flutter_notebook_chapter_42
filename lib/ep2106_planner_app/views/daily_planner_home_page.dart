@@ -321,14 +321,14 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                           padding: EdgeInsets.all(12),
                           child: Stack(
                             children: [
-                            
+
                               Positioned(
                                 left: 16,
                                 top: 16,
                                 child: Text(
                                   "Quotes",
                                   style: TextStyle(
-                                    fontSize: 20,
+                                    fontSize: 18,
                                     color: Colors.white,
                                   ),
                                 ),
@@ -337,12 +337,39 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                           ),
                         ),
                         Container(
-                          height: 72,
+                          padding: EdgeInsets.all(12),
                           decoration: BoxDecoration(
                             color: Colors.white,
+                            borderRadius: BorderRadius.circular(12),
                           ),
                           child: Column(
-                            children: [Center()],
+                            children: [
+                              Row(
+                                spacing: 16,
+                                children: [
+                                  Icon(
+                                    Icons.bookmark_border,
+                                    color: Colors.pinkAccent,
+                                  ),
+                                  Text(
+                                    "Diary",
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 16,
+                                    ),
+                                  ),
+                                  Spacer(),
+                                  CircleAvatar(
+                                    radius: 12,
+                                    backgroundColor: Colors.blue[50],
+                                    child: Icon(
+                                      Icons.add,
+                                      color: Colors.blue,
+                                    ),
+                                  )
+                                ],
+                              ),
+                            ],
                           ),
                         ),
                         Container(
