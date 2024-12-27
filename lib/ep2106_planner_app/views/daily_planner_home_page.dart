@@ -1,5 +1,6 @@
 import 'package:date_picker_timeline/date_picker_widget.dart';
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class DailyPlannerHomePage extends StatefulWidget {
   const DailyPlannerHomePage({super.key});
@@ -394,6 +395,9 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
             child: Row(
               children: [
                 Container(
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                  ),
                   child: Row(
                     children: [
                       IconButton(
@@ -403,23 +407,23 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                         ),
                       ),
                       CircleAvatar(
-                        child:   IconButton(
+                        child: IconButton(
                           onPressed: () {},
                           icon: Icon(
                             Icons.calendar_month,
                           ),
                         ),
-                      )
-
+                      ),
                       IconButton(
                         onPressed: () {},
                         icon: Icon(
-                          Icons.calendar_month,
+                          Icons.explore_outlined,
                         ),
                       )
                     ],
                   ),
-                )
+                ),
+                Gap(32),
               ],
             ),
           )
