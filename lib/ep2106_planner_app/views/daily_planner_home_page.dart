@@ -321,14 +321,15 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                           padding: EdgeInsets.all(12),
                           child: Stack(
                             children: [
+                            
                               Positioned(
-                                left: 0,
-                                top: 0,
+                                left: 16,
+                                top: 16,
                                 child: Text(
-                                  "\"",
+                                  "Quotes",
                                   style: TextStyle(
                                     fontSize: 20,
-                                    color: Colors.white.withValues(alpha: .1),
+                                    color: Colors.white,
                                   ),
                                 ),
                               )
