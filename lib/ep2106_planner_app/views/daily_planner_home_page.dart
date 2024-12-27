@@ -398,6 +398,7 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                 Container(
                   decoration: BoxDecoration(
                     color: Colors.white,
+                    borderRadius: BorderRadius.circular(24),
                   ),
                   child: Row(
                     spacing: 16,
@@ -408,7 +409,8 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                           Icons.calendar_month,
                         ),
                       ),
-                      CircleAvatar(
+                      CircleAvatar(  backgroundColor: Colors.blueAccent,
+                        foregroundColor: Colors.white,
                         child: IconButton(
                           onPressed: () {},
                           icon: Icon(
