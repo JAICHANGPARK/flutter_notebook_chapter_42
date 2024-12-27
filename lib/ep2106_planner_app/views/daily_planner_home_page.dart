@@ -400,6 +400,7 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                     color: Colors.white,
                   ),
                   child: Row(
+                    spacing: 16,
                     children: [
                       IconButton(
                         onPressed: () {},
