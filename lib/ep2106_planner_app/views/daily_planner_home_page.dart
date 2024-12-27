@@ -169,7 +169,8 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                         Container(
                           padding: EdgeInsets.all(12),
                           decoration: BoxDecoration(
-                            color: Colors.white, borderRadius: BorderRadius.circular(12),
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(12),
                           ),
                           child: Column(
                             children: [
@@ -274,11 +275,11 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                         Container(
                           padding: EdgeInsets.all(12),
                           decoration: BoxDecoration(
-                            color: Colors.white, borderRadius: BorderRadius.circular(12),
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(12),
                           ),
                           child: Column(
                             children: [
-
                               Row(
                                 spacing: 16,
                                 children: [
@@ -293,7 +294,6 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                       fontSize: 16,
                                     ),
                                   ),
-
                                   Spacer(),
                                   CircleAvatar(
                                     radius: 12,
@@ -305,7 +305,6 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                   )
                                 ],
                               ),
-
                             ],
                           ),
                         ),
