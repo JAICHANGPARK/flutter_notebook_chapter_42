@@ -233,6 +233,7 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                               (index) => Container(
                                                 decoration: BoxDecoration(
                                                   color: Colors.orangeAccent[100],
+                                                  borderRadius: BorderRadius.circular(4),
                                                 ),
                                                 padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
                                                 child: Text(
