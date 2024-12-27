@@ -312,6 +312,7 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                           height: 180,
                           decoration: BoxDecoration(
                             color: Colors.white,
+                            borderRadius: BorderRadius.circular(12),
                             image: DecorationImage(image: NetworkImage("https://cdn.pixabay.com/photo/2024/12/14/15/37/aurora-borealis-9267515_1280.jpg"),
                             fit: BoxFit.cover,)
                           ),
