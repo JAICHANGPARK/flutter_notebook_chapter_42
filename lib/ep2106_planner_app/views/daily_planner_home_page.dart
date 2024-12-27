@@ -424,6 +424,12 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                   ),
                 ),
                 Gap(32),
+                CircleAvatar(
+                  child: IconButton(
+                    onPressed: () {},
+                    icon: Icon(Icons.add),
+                  ),
+                )
               ],
             ),
           )
