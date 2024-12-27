@@ -318,15 +318,16 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                     "https://cdn.pixabay.com/photo/2024/12/14/15/37/aurora-borealis-9267515_1280.jpg"),
                                 fit: BoxFit.cover,
                               )),
+                          padding: EdgeInsets.all(12),
                           child: Stack(
                             children: [
                               Positioned(
+                                  left: 0,
+                                  top: 0,
                                   child: Text(
-                                "\"",
-                                style: TextStyle(
-                                  fontSize: 20,
-                                ),
-                              ))
+                                    "\"",
+                                    style: TextStyle(fontSize: 20, color: Colors.white.withValues(alpha: .1)),
+                                  ))
                             ],
                           ),
                         ),
