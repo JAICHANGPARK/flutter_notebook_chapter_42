@@ -235,7 +235,7 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                                   color: Colors.orangeAccent[100],
                                                   borderRadius: BorderRadius.circular(4),
                                                 ),
-                                                padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
+                                                padding: EdgeInsets.symmetric(horizontal: 6, vertical: 2),
                                                 child: Text(
                                                   "Hard",
                                                   style: TextStyle(
@@ -277,7 +277,11 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                             color: Colors.white,
                           ),
                           child: Column(
-                            children: [Center()],
+                            children: [
+
+                              
+
+                            ],
                           ),
                         ),
                         Container(
