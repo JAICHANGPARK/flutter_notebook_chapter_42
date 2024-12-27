@@ -393,6 +393,7 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
             left: 16,
             right: 16,
             child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Container(
                   decoration: BoxDecoration(
@@ -425,6 +426,9 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                 ),
                 Gap(32),
                 CircleAvatar(
+                  radius: 26,
+                  backgroundColor: Colors.blueAccent,
+                  foregroundColor: Colors.white,
                   child: IconButton(
                     onPressed: () {},
                     icon: Icon(Icons.add),
