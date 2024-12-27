@@ -321,7 +321,6 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                           padding: EdgeInsets.all(12),
                           child: Stack(
                             children: [
-
                               Positioned(
                                 left: 16,
                                 top: 16,
@@ -388,6 +387,42 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
               ],
             ),
           ),
+          Positioned(
+            bottom: 16,
+            left: 16,
+            right: 16,
+            child: Row(
+              children: [
+                Container(
+                  child: Row(
+                    children: [
+                      IconButton(
+                        onPressed: () {},
+                        icon: Icon(
+                          Icons.calendar_month,
+                        ),
+                      ),
+                      CircleAvatar(
+                        child:   IconButton(
+                          onPressed: () {},
+                          icon: Icon(
+                            Icons.calendar_month,
+                          ),
+                        ),
+                      )
+
+                      IconButton(
+                        onPressed: () {},
+                        icon: Icon(
+                          Icons.calendar_month,
+                        ),
+                      )
+                    ],
+                  ),
+                )
+              ],
+            ),
+          )
         ],
       )),
     );
