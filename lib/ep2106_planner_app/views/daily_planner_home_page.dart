@@ -272,7 +272,7 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                           ),
                         ),
                         Container(
-
+                          padding: EdgeInsets.all(12),
                           decoration: BoxDecoration(
                             color: Colors.white,
                           ),
