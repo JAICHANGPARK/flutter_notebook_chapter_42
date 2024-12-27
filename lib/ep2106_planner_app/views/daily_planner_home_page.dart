@@ -322,12 +322,16 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                           child: Stack(
                             children: [
                               Positioned(
-                                  left: 0,
-                                  top: 0,
-                                  child: Text(
-                                    "\"",
-                                    style: TextStyle(fontSize: 20, color: Colors.white.withValues(alpha: .1)),
-                                  ))
+                                left: 0,
+                                top: 0,
+                                child: Text(
+                                  "\"",
+                                  style: TextStyle(
+                                    fontSize: 20,
+                                    color: Colors.white.withValues(alpha: .1),
+                                  ),
+                                ),
+                              )
                             ],
                           ),
                         ),
