@@ -309,7 +309,7 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                           ),
                         ),
                         Container(
-                          height: 140,
+                          height: 180,
                           decoration: BoxDecoration(
                             color: Colors.white,
                             image: DecorationImage(image: NetworkImage("https://cdn.pixabay.com/photo/2024/12/14/15/37/aurora-borealis-9267515_1280.jpg"),
