@@ -109,8 +109,15 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
                     child: Column(
                       children: [
                         Align(
-                            alignment: Alignment.topRight,
-                            child: CircleAvatar())
+                          alignment: Alignment.topRight,
+                          child: CircleAvatar(
+                            backgroundColor: Colors.white,
+                            foregroundColor: Colors.black,
+                            child: Icon(
+                              Icons.favorite_outline,
+                            ),
+                          ),
+                        )
                       ],
                     ),
                   );
