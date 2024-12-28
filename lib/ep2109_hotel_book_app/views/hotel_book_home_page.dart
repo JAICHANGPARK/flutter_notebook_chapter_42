@@ -1,6 +1,4 @@
-
 import 'package:flutter/material.dart';
-
 
 class HotelBookHomePage extends StatefulWidget {
   const HotelBookHomePage({super.key});
@@ -16,7 +14,19 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
       body: Column(
         spacing: 16,
         children: [
-
+          Expanded(
+            child: Container(
+              decoration: BoxDecoration(
+                  image: DecorationImage(
+                image: NetworkImage(
+                  "https://cdn.pixabay.com/photo/2017/03/27/15/17/apartment-2179337_1280.jpg",
+                ),
+              )),
+            ),
+          ),
+          Expanded(
+            child: Placeholder(),
+          )
         ],
       ),
     );
