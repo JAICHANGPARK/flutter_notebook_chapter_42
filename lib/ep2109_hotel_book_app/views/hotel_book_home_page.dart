@@ -28,6 +28,26 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
                 bottomLeft: Radius.circular(24),
               ),
             ),
+            
+            child: SafeArea(
+              child: Column(
+                children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: Colors.white,
+                        child: Icon(Icons.arrow_back),
+                      ),
+                      CircleAvatar(
+                        backgroundColor: Colors.white,
+                        child: Icon(Icons.tune),
+                      )
+                    ],
+                  ),
+                ],
+              ),
+            ),
           ),
           Expanded(
             child: Padding(
@@ -38,9 +58,7 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
                 itemBuilder: (context, index) {
                   return Container(
                     height: 280,
-                    margin: EdgeInsets.only(
-                      bottom: 16
-                    ),
+                    margin: EdgeInsets.only(bottom: 16),
                     decoration: BoxDecoration(
                       color: Colors.grey,
                       image: DecorationImage(
