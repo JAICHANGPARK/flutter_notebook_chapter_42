@@ -17,11 +17,13 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
           Expanded(
             child: Container(
               decoration: BoxDecoration(
-                  image: DecorationImage(
-                image: NetworkImage(
-                  "https://cdn.pixabay.com/photo/2017/03/27/15/17/apartment-2179337_1280.jpg",
+                image: DecorationImage(
+                  image: NetworkImage(
+                    "https://cdn.pixabay.com/photo/2017/03/27/15/17/apartment-2179337_1280.jpg",
+                  ),
+                  fit: BoxFit.cover,
                 ),
-              )),
+              ),
             ),
           ),
           Expanded(
