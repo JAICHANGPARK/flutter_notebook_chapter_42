@@ -23,6 +23,10 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
                 ),
                 fit: BoxFit.cover,
               ),
+              borderRadius: BorderRadius.only(
+                bottomRight: Radius.circular(24),
+                bottomLeft: Radius.circular(24),
+              ),
             ),
           ),
           Expanded(
