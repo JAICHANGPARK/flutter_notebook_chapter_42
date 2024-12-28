@@ -104,6 +104,13 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
                         fit: BoxFit.cover,
                       ),
                     ),
+                    child: Column(
+                      children: [
+                        Align(
+                            alignment: Alignment.topRight,
+                            child: CircleAvatar())
+                      ],
+                    ),
                   );
                 },
               ),
