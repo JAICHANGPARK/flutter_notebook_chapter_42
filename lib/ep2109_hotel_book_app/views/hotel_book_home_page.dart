@@ -50,6 +50,7 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
                   ),
                   Gap(32),
                   Column(
+                    spacing: 8,
                     children: [
                       Text(
                         "Luxury Hotels",
