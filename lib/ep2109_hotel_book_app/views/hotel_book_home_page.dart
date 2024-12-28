@@ -122,6 +122,7 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
                         Container(
                           decoration: BoxDecoration(
                             color: Colors.white,
+                            borderRadius: BorderRadius.circular(12),
                           ),
                           child: Column(
                             spacing: 8,
