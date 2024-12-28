@@ -34,14 +34,19 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
               itemCount: 10,
               itemBuilder: (context, index) {
                 return Container(
+                  height: 280,
+                  margin: EdgeInsets.only(
+                    bottom: 16
+                  ),
                   decoration: BoxDecoration(
-                      color: Colors.grey,
-                      image: DecorationImage(
-                        image: NetworkImage(
-                          "https://cdn.pixabay.com/photo/2020/10/18/09/16/bedroom-5664221_1280.jpg",
-                        ),
-                        fit: BoxFit.cover,
-                      )),
+                    color: Colors.grey,
+                    image: DecorationImage(
+                      image: NetworkImage(
+                        "https://cdn.pixabay.com/photo/2020/10/18/09/16/bedroom-5664221_1280.jpg",
+                      ),
+                      fit: BoxFit.cover,
+                    ),
+                  ),
                 );
               },
             ),
