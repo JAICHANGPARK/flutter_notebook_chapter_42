@@ -124,6 +124,7 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(12),
                           ),
+                          padding: EdgeInsets.all(12),
                           child: Column(
                             spacing: 8,
                             children: [
@@ -134,6 +135,21 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
                                   Text(
                                     "\$325/night",
                                   )
+                                ],
+                              ),
+                              Row(
+                                children: [
+                                  Icon(
+                                    Icons.location_on_outlined,
+                                  ),
+                                  Text("Greenwood, New York"),
+                                ],
+                              ),
+                              Row(
+                                children: [
+                                  Icon(
+                                    Icons.star,
+                                  ),
                                 ],
                               )
                             ],
