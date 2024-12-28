@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class HotelBookHomePage extends StatefulWidget {
   const HotelBookHomePage({super.key});
@@ -47,6 +48,7 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
                       )
                     ],
                   ),
+                  Gap(32),
                   Column(
                     children: [
                       Text("Luxury Hotels"),
