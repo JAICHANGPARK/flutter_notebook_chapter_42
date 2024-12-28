@@ -37,6 +37,7 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
                     children: [
                       CircleAvatar(
                         backgroundColor: Colors.white,
+                        foregroundColor: Colors.black,
                         child: Icon(Icons.arrow_back),
                       ),
                       CircleAvatar(
