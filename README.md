@@ -1,8 +1,8 @@
 # flutter_notebook_chapter_42
 
-## EP2106-2108
+## EP2109
 
-- Daily Planner Mobile App Design
+- Hotel Booking App
 - Sk Amir
 - https://dribbble.com/shots/25378370-Daily-Planner-Mobile-App-Design
 
