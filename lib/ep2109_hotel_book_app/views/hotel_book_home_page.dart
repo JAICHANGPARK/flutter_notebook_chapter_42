@@ -93,7 +93,7 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
                 itemCount: 10,
                 itemBuilder: (context, index) {
                   return Container(
-                    height: 280,
+                    height: 300,
                     margin: EdgeInsets.only(bottom: 16),
                     decoration: BoxDecoration(
                       color: Colors.grey,
@@ -141,6 +141,7 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
                                 children: [
                                   Icon(
                                     Icons.location_on_outlined,
+                                    size: 16,
                                   ),
                                   Text("Greenwood, New York"),
                                 ],
@@ -149,7 +150,10 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
                                 children: [
                                   Icon(
                                     Icons.star,
+                                    size: 16,
                                   ),
+                                  Text("4.9"),
+                                  Text("(2.8k)")
                                 ],
                               )
                             ],
