@@ -15,7 +15,7 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
         spacing: 16,
         children: [
           Container(
-            height: MediaQuery.sizeOf(context).height / 1.8,
+            height: MediaQuery.sizeOf(context).height / 1.9,
             decoration: BoxDecoration(
               image: DecorationImage(
                 image: NetworkImage(
