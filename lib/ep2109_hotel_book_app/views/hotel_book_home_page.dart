@@ -30,7 +30,16 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
             ),
           ),
           Expanded(
-            child: Placeholder(),
+            child: ListView.builder(
+              itemCount: 10,
+              itemBuilder: (context, index) {
+                return Container(
+                  decoration: BoxDecoration(
+                    color: Colors.grey,
+                  ),
+                );
+              },
+            ),
           )
         ],
       ),
