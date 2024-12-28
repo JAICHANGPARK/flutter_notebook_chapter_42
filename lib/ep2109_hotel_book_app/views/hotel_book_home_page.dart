@@ -104,6 +104,7 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
                         fit: BoxFit.cover,
                       ),
                     ),
+                    padding: EdgeInsets.all(8),
                     child: Column(
                       children: [
                         Align(
