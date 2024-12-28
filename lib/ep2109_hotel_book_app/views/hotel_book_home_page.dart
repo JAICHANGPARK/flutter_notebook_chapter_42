@@ -30,10 +30,11 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
               ),
             ),
             padding: EdgeInsets.all(16),
-            child: SafeArea(
-              child: Column(
-                children: [
-                  Row(
+            child: Column(
+              children: [
+                Padding(
+                  padding: const EdgeInsets.,
+                  child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       CircleAvatar(
@@ -48,27 +49,37 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
                       )
                     ],
                   ),
-                  Gap(32),
-                  Column(
-                    spacing: 8,
-                    children: [
-                      Text(
-                        "Luxury Hotels",
-                        style: TextStyle(
-                          fontSize: 32,
-                          color: Color.fromRGBO(15, 86, 70, 1),
-                        ),
+                ),
+                Gap(32),
+                Column(
+                  spacing: 8,
+                  children: [
+                    Text(
+                      "Luxury Hotels",
+                      style: TextStyle(
+                        fontSize: 32,
+                        color: Color.fromRGBO(15, 86, 70, 1),
                       ),
-                      Text(
-                        "Book your desired luxury room\nseamlessly",
-                        textAlign: TextAlign.center,
-                      )
-                    ],
+                    ),
+                    Text(
+                      "Book your desired luxury room\nseamlessly",
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                ),
+                Spacer(),
+                Container(
+                  decoration: BoxDecoration(
+                    color: Colors.white,
                   ),
-                  Spacer(),
-                  Container()
-                ],
-              ),
+                  child: TextField(
+
+                    decoration: InputDecoration(
+
+                    ),
+                  ),
+                )
+              ],
             ),
           ),
           Expanded(
