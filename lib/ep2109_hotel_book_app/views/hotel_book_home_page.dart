@@ -35,8 +35,13 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
               itemBuilder: (context, index) {
                 return Container(
                   decoration: BoxDecoration(
-                    color: Colors.grey,
-                  ),
+                      color: Colors.grey,
+                      image: DecorationImage(
+                        image: NetworkImage(
+                          "https://cdn.pixabay.com/photo/2020/10/18/09/16/bedroom-5664221_1280.jpg",
+                        ),
+                        fit: BoxFit.cover,
+                      )),
                 );
               },
             ),
