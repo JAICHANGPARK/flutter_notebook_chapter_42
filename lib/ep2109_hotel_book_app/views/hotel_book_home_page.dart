@@ -51,7 +51,13 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
                   Gap(32),
                   Column(
                     children: [
-                      Text("Luxury Hotels"),
+                      Text(
+                        "Luxury Hotels",
+                        style: TextStyle(
+                          fontSize: 32,
+                          color: Color.fromRGBO(15, 86, 70, 1),
+                        ),
+                      ),
                       Text(
                         "Book your desired luxury room\nseamlessly",
                       )
