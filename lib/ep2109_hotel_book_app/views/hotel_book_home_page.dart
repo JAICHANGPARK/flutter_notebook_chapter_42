@@ -12,7 +12,7 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
-        spacing: 16,
+        spacing: 24,
         children: [
           Container(
             height: MediaQuery.sizeOf(context).height / 1.9,
@@ -30,25 +30,29 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
             ),
           ),
           Expanded(
-            child: ListView.builder(
-              itemCount: 10,
-              itemBuilder: (context, index) {
-                return Container(
-                  height: 280,
-                  margin: EdgeInsets.only(
-                    bottom: 16
-                  ),
-                  decoration: BoxDecoration(
-                    color: Colors.grey,
-                    image: DecorationImage(
-                      image: NetworkImage(
-                        "https://cdn.pixabay.com/photo/2020/10/18/09/16/bedroom-5664221_1280.jpg",
-                      ),
-                      fit: BoxFit.cover,
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: ListView.builder(
+                padding: EdgeInsets.zero,
+                itemCount: 10,
+                itemBuilder: (context, index) {
+                  return Container(
+                    height: 280,
+                    margin: EdgeInsets.only(
+                      bottom: 16
                     ),
-                  ),
-                );
-              },
+                    decoration: BoxDecoration(
+                      color: Colors.grey,
+                      image: DecorationImage(
+                        image: NetworkImage(
+                          "https://cdn.pixabay.com/photo/2020/10/18/09/16/bedroom-5664221_1280.jpg",
+                        ),
+                        fit: BoxFit.cover,
+                      ),
+                    ),
+                  );
+                },
+              ),
             ),
           )
         ],
