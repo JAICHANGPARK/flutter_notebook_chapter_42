@@ -12,6 +12,13 @@ class HotelBookHomePage extends StatefulWidget {
 class _HotelBookHomePageState extends State<HotelBookHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Column(
+        spacing: 16,
+        children: [
+
+        ],
+      ),
+    );
   }
 }
