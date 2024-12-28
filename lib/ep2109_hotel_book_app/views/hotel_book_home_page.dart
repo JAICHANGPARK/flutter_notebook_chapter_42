@@ -103,6 +103,7 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
                         ),
                         fit: BoxFit.cover,
                       ),
+                      borderRadius: BorderRadius.circular(12),
                     ),
                     padding: EdgeInsets.all(8),
                     child: Column(
