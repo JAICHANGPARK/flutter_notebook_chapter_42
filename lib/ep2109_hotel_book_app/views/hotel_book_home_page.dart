@@ -28,7 +28,7 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
                 bottomLeft: Radius.circular(24),
               ),
             ),
-            
+            padding: EdgeInsets.all(16),
             child: SafeArea(
               child: Column(
                 children: [
