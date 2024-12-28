@@ -33,7 +33,9 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
             child: Column(
               children: [
                 Padding(
-                  padding: const EdgeInsets.,
+                  padding: const EdgeInsets.only(
+                    top: 42, left: 16, right: 16
+                  ),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
