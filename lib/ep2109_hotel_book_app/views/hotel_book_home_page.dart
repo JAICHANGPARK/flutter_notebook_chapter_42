@@ -73,8 +73,10 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(32),
                   ),
+                  padding: EdgeInsets.symmetric(horizontal: 9),
                   child: TextField(
                     decoration: InputDecoration(
+                      icon: Icon(Icons.search),
                       hintText: "Search hotels, houses, meeting rooms",
                     ),
                   ),
