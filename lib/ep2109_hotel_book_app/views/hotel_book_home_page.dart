@@ -61,9 +61,12 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
                       ),
                       Text(
                         "Book your desired luxury room\nseamlessly",
+                        textAlign: TextAlign.center,
                       )
                     ],
-                  )
+                  ),
+                  Spacer(),
+                  Container()
                 ],
               ),
             ),
