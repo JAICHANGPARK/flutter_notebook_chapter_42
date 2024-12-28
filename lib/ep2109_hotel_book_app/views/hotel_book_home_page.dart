@@ -42,10 +42,19 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
                       ),
                       CircleAvatar(
                         backgroundColor: Colors.white,
+                        foregroundColor: Colors.black,
                         child: Icon(Icons.tune),
                       )
                     ],
                   ),
+                  Column(
+                    children: [
+                      Text("Luxury Hotels"),
+                      Text(
+                        "Book your desired luxury room\nseamlessly",
+                      )
+                    ],
+                  )
                 ],
               ),
             ),
