@@ -33,7 +33,7 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
             child: Column(
               children: [
                 Padding(
-                  padding: const EdgeInsets.only(top: 42, left: 16, right: 16),
+                  padding: const EdgeInsets.only(top: 52, left: 8, right: 8),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -50,7 +50,7 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
                     ],
                   ),
                 ),
-                Gap(32),
+                Gap(42),
                 Column(
                   spacing: 8,
                   children: [
@@ -78,6 +78,7 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
                     decoration: InputDecoration(
                       icon: Icon(Icons.search),
                       hintText: "Search hotels, houses, meeting rooms",
+                      border: InputBorder.none,
                     ),
                   ),
                 )
