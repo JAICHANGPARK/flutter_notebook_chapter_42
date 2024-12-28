@@ -33,9 +33,7 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
             child: Column(
               children: [
                 Padding(
-                  padding: const EdgeInsets.only(
-                    top: 42, left: 16, right: 16
-                  ),
+                  padding: const EdgeInsets.only(top: 42, left: 16, right: 16),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -73,11 +71,11 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
                 Container(
                   decoration: BoxDecoration(
                     color: Colors.white,
+                    borderRadius: BorderRadius.circular(32),
                   ),
                   child: TextField(
-
                     decoration: InputDecoration(
-
+                      hintText: "Search hotels, houses, meeting rooms",
                     ),
                   ),
                 )
