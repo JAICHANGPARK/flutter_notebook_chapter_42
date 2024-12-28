@@ -117,6 +117,26 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
                               Icons.favorite_outline,
                             ),
                           ),
+                        ),
+                        Spacer(),
+                        Container(
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                          ),
+                          child: Column(
+                            spacing: 8,
+                            children: [
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                children: [
+                                  Text("Starlight Lodge"),
+                                  Text(
+                                    "\$325/night",
+                                  )
+                                ],
+                              )
+                            ],
+                          ),
                         )
                       ],
                     ),
