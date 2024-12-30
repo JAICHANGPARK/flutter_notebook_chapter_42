@@ -18,6 +18,7 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
             child: SafeArea(
               child: Column(
                 spacing: 16,
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 16),
