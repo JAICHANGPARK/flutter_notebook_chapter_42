@@ -24,7 +24,6 @@
 
 <img src="https://cdn.dribbble.com/userupload/18066953/file/original-8ed01c80eadfd2b56f85570e8bf97c55.png?resize=1905x1429&vertical=center"/>
 
-
 A new Flutter project.
 
 ## Getting Started
