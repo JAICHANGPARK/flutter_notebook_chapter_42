@@ -24,8 +24,10 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
             right: 24,
             child: Container(
               decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(32),
                 color: Color.fromRGBO(15, 86, 70, 1),
               ),
+              padding: EdgeInsets.symmetric(vertical: 20),
               child: Center(
                 child: Text(
                   "Next  \$325",
