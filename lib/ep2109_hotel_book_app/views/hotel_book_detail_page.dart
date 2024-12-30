@@ -48,6 +48,7 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                   ),
                   Text("Starlight Haven "),
                   Row(
+                    spacing: 12,
                     children: [
                       Icon(
                         Icons.location_on_outlined,
