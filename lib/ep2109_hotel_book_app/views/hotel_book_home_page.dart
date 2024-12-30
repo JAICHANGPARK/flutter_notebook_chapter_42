@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_42/ep2109_hotel_book_app/views/hotel_book_detail_page.dart';
 import 'package:gap/gap.dart';
 
 class HotelBookHomePage extends StatefulWidget {
@@ -93,74 +94,84 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
                 padding: EdgeInsets.zero,
                 itemCount: 10,
                 itemBuilder: (context, index) {
-                  return Container(
-                    height: 300,
-                    margin: EdgeInsets.only(bottom: 16),
-                    decoration: BoxDecoration(
-                      color: Colors.grey,
-                      image: DecorationImage(
-                        image: NetworkImage(
-                          "https://cdn.pixabay.com/photo/2020/10/18/09/16/bedroom-5664221_1280.jpg",
+                  return GestureDetector(
+                    onTap: () {
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (context) => HotelBookDetailPage(),
                         ),
-                        fit: BoxFit.cover,
+                      );
+                    },
+                    child: Container(
+                      height: 300,
+                      margin: EdgeInsets.only(bottom: 16),
+                      decoration: BoxDecoration(
+                        color: Colors.grey,
+                        image: DecorationImage(
+                          image: NetworkImage(
+                            "https://cdn.pixabay.com/photo/2020/10/18/09/16/bedroom-5664221_1280.jpg",
+                          ),
+                          fit: BoxFit.cover,
+                        ),
+                        borderRadius: BorderRadius.circular(12),
                       ),
-                      borderRadius: BorderRadius.circular(12),
-                    ),
-                    padding: EdgeInsets.all(8),
-                    child: Column(
-                      children: [
-                        Align(
-                          alignment: Alignment.topRight,
-                          child: CircleAvatar(
-                            backgroundColor: Colors.white,
-                            foregroundColor: Colors.black,
-                            child: Icon(
-                              Icons.favorite_outline,
+                      padding: EdgeInsets.all(8),
+                      child: Column(
+                        children: [
+                          Align(
+                            alignment: Alignment.topRight,
+                            child: CircleAvatar(
+                              backgroundColor: Colors.white,
+                              foregroundColor: Colors.black,
+                              child: Icon(
+                                Icons.favorite_outline,
+                              ),
                             ),
                           ),
-                        ),
-                        Spacer(),
-                        Container(
-                          decoration: BoxDecoration(
-                            color: Colors.white,
-                            borderRadius: BorderRadius.circular(12),
-                          ),
-                          padding: EdgeInsets.all(12),
-                          child: Column(
-                            spacing: 8,
-                            children: [
-                              Row(
-                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                children: [
-                                  Text("Starlight Lodge"),
-                                  Text(
-                                    "\$325/night",
-                                  )
-                                ],
-                              ),
-                              Row(
-                                children: [
-                                  Icon(
-                                    Icons.location_on_outlined,
-                                    size: 16,
-                                  ),
-                                  Text("Greenwood, New York"),
-                                ],
-                              ),
-                              Row(
-                                children: [
-                                  Icon(
-                                    Icons.star,
-                                    size: 16,
-                                  ),
-                                  Text("4.9"),
-                                  Text("(2.8k)")
-                                ],
-                              )
-                            ],
-                          ),
-                        )
-                      ],
+                          Spacer(),
+                          Container(
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                            padding: EdgeInsets.all(12),
+                            child: Column(
+                              spacing: 8,
+                              children: [
+                                Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Text("Starlight Lodge"),
+                                    Text(
+                                      "\$325/night",
+                                    )
+                                  ],
+                                ),
+                                Row(
+                                  children: [
+                                    Icon(
+                                      Icons.location_on_outlined,
+                                      size: 16,
+                                    ),
+                                    Text("Greenwood, New York"),
+                                  ],
+                                ),
+                                Row(
+                                  children: [
+                                    Icon(
+                                      Icons.star,
+                                      size: 16,
+                                    ),
+                                    Text("4.9"),
+                                    Text("(2.8k)")
+                                  ],
+                                )
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
                     ),
                   );
                 },
