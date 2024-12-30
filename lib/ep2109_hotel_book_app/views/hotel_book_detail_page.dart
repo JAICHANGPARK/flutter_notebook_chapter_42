@@ -19,7 +19,7 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
             ),
           ),
           Positioned(
-            bottom: 24,
+            bottom: 48,
             left: 24,
             right: 24,
             child: Container(
