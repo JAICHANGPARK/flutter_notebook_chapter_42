@@ -28,7 +28,21 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                           backgroundColor: Colors.white,
                           foregroundColor: Colors.black,
                           child: Icon(Icons.arrow_back),
-                        )
+                        ),
+                        Spacer(),
+                        CircleAvatar(
+                          radius: 24,
+                          backgroundColor: Colors.white,
+                          foregroundColor: Colors.black,
+                          child: Icon(Icons.arrow_back),
+                        ),
+                        CircleAvatar(
+                          radius: 24,
+                          backgroundColor: Colors.white,
+                          foregroundColor: Colors.black,
+                          child: Icon(Icons.arrow_back),
+                        ),
+
                       ],
                     ),
                   )
