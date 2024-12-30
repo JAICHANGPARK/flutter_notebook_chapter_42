@@ -43,9 +43,29 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                           foregroundColor: Colors.black,
                           child: Icon(Icons.share),
                         ),
-
                       ],
                     ),
+                  ),
+                  Text("Starlight Haven "),
+                  Row(
+                    children: [
+                      Icon(
+                        Icons.location_on_outlined,
+                        size: 16,
+                      ),
+                      Text("Greenwood, New York"),
+                      Icon(
+                        Icons.star,
+                        size: 16,
+                      ),
+                      Text("4.9"),
+                      Text(
+                        "(2.8k)",
+                        style: TextStyle(
+                          decoration: TextDecoration.underline,
+                        ),
+                      ),
+                    ],
                   )
                 ],
               ),
