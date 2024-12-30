@@ -48,51 +48,60 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                       ],
                     ),
                   ),
-                  Text("Starlight Haven "),
-                  Row(
-                    spacing: 12,
-                    children: [
-                      Icon(
-                        Icons.location_on_outlined,
-                        size: 16,
+                  Expanded(
+                    child: SingleChildScrollView(
+                      child: Column(
+                        children: [
+                          Text("Starlight Haven "),
+                          Row(
+                            spacing: 12,
+                            children: [
+                              Icon(
+                                Icons.location_on_outlined,
+                                size: 16,
+                              ),
+                              Text("Greenwood, New York"),
+                              Icon(
+                                Icons.star,
+                                size: 16,
+                              ),
+                              Text("4.9"),
+                              Text(
+                                "(2.8k)",
+                                style: TextStyle(
+                                  decoration: TextDecoration.underline,
+                                ),
+                              ),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              Text("\$325/night"),
+                              Spacer(),
+                              IconButton(
+                                  onPressed: () {},
+                                  icon: Icon(Icons.remove_circle_outline)),
+                              Gap(12),
+                              Text("1"),
+                              Gap(12),
+                              IconButton(
+                                  onPressed: () {},
+                                  icon: Icon(Icons.add_circle_outline)),
+                            ],
+                          ),
+                          Container(
+                            height: 200,
+                            child: Placeholder(),
+                          ),
+                          Container(
+                            height: 140,
+                            child: Placeholder(),
+                          )
+                        ],
                       ),
-                      Text("Greenwood, New York"),
-                      Icon(
-                        Icons.star,
-                        size: 16,
-                      ),
-                      Text("4.9"),
-                      Text(
-                        "(2.8k)",
-                        style: TextStyle(
-                          decoration: TextDecoration.underline,
-                        ),
-                      ),
-                    ],
+                    ),
                   ),
-                  Row(
-                    children: [
-                      Text("\$325/night"),
-                      Spacer(),
-                      IconButton(
-                          onPressed: () {},
-                          icon: Icon(Icons.remove_circle_outline)),
-                      Gap(12),
-                      Text("1"),
-                      Gap(12),
-                      IconButton(
-                          onPressed: () {},
-                          icon: Icon(Icons.add_circle_outline)),
-                    ],
-                  ),
-                  Container(
-                    height: 200,
-                    child: Placeholder(),
-                  ),
-                  Container(
-                    height: 140,
-                    child: Placeholder(),
-                  )
+
                 ],
               ),
             ),
