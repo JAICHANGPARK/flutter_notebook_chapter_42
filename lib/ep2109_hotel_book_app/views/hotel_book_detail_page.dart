@@ -34,6 +34,7 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                   style: TextStyle(
                     color: Colors.white,
                     fontWeight: FontWeight.bold,
+                    fontSize:18,
                   ),
                 ),
               ),
