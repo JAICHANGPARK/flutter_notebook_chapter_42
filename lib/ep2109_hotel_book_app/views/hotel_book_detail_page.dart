@@ -22,6 +22,7 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 16),
                     child: Row(
+                      spacing: 16,
                       children: [
                         CircleAvatar(
                           radius: 24,
@@ -34,13 +35,13 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                           radius: 24,
                           backgroundColor: Colors.white,
                           foregroundColor: Colors.black,
-                          child: Icon(Icons.arrow_back),
+                          child: Icon(Icons.favorite_border),
                         ),
                         CircleAvatar(
                           radius: 24,
                           backgroundColor: Colors.white,
                           foregroundColor: Colors.black,
-                          child: Icon(Icons.arrow_back),
+                          child: Icon(Icons.share),
                         ),
 
                       ],
