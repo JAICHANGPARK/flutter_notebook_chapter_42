@@ -11,11 +11,24 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      
       body: Stack(
         children: [
           Positioned.fill(
-            child: Column(
-              children: [],
+            child: SafeArea(
+              child: Column(
+                children: [
+                  Row(
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: Colors.white,
+                        foregroundColor: Colors.black,
+                        child: Icon(Icons.arrow_back),
+                      )
+                    ],
+                  )
+                ],
+              ),
             ),
           ),
           Positioned(
@@ -34,7 +47,7 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                   style: TextStyle(
                     color: Colors.white,
                     fontWeight: FontWeight.bold,
-                    fontSize:18,
+                    fontSize: 18,
                   ),
                 ),
               ),
