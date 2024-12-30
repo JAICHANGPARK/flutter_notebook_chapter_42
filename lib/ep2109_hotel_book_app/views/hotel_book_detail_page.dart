@@ -19,14 +19,24 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
             ),
           ),
           Positioned(
-              bottom: 24,
-              left: 24,
-              right: 24,
-              child: Container(
-                decoration: BoxDecoration(
-                  color: Color.fromRGBO(15, 86, 70, 1),
+            bottom: 24,
+            left: 24,
+            right: 24,
+            child: Container(
+              decoration: BoxDecoration(
+                color: Color.fromRGBO(15, 86, 70, 1),
+              ),
+              child: Center(
+                child: Text(
+                  "Next  \$325",
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
-              ))
+              ),
+            ),
+          )
         ],
       ),
     );
