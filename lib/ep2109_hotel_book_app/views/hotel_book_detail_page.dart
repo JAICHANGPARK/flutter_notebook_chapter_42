@@ -146,11 +146,19 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                             ),
                           ),
                           Container(
-                              height: 140,
-                              child: ListView.builder(
-                                scrollDirection: Axis.horizontal,
-                                itemBuilder: (context, index) {},
-                              ))
+                            height: 140,
+                            child: ListView.builder(
+                              scrollDirection: Axis.horizontal,
+                              itemBuilder: (context, index) {
+                                return Container(
+                                  width: 140,
+                                  decoration: BoxDecoration(
+                                    color: Colors.white,
+                                  ),
+                                );
+                              },
+                            ),
+                          )
                         ],
                       ),
                     ),
