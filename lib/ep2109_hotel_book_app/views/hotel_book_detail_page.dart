@@ -17,13 +17,16 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
         children: [
           Positioned.fill(
             child: SafeArea(
-
               child: Column(
                 spacing: 16,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    padding: const EdgeInsets.only(
+                      left: 16,
+                      right: 16,
+                      top: 24,
+                    ),
                     child: Row(
                       spacing: 16,
                       children: [
@@ -60,7 +63,12 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                               spacing: 12,
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                Text("Starlight Haven "),
+                                Text(
+                                  "Starlight Haven ",
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
                                 Row(
                                   spacing: 12,
                                   children: [
