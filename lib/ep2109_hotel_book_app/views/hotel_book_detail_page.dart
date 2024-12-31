@@ -17,6 +17,7 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
         children: [
           Positioned.fill(
             child: SafeArea(
+
               child: Column(
                 spacing: 16,
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -53,47 +54,51 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text("Starlight Haven "),
-                              Row(
-                                spacing: 12,
-                                children: [
-                                  Icon(
-                                    Icons.location_on_outlined,
-                                    size: 16,
-                                  ),
-                                  Text("Greenwood, New York"),
-                                  Icon(
-                                    Icons.star,
-                                    size: 16,
-                                  ),
-                                  Text("4.9"),
-                                  Text(
-                                    "(2.8k)",
-                                    style: TextStyle(
-                                      decoration: TextDecoration.underline,
+                          Padding(
+                            padding: const EdgeInsets.all(16.0),
+                            child: Column(
+                              spacing: 12,
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text("Starlight Haven "),
+                                Row(
+                                  spacing: 12,
+                                  children: [
+                                    Icon(
+                                      Icons.location_on_outlined,
+                                      size: 16,
                                     ),
-                                  ),
-                                ],
-                              ),
-                              Row(
-                                children: [
-                                  Text("\$325/night"),
-                                  Spacer(),
-                                  IconButton(onPressed: () {}, icon: Icon(Icons.remove_circle_outline)),
-                                  Gap(12),
-                                  Text("1"),
-                                  Gap(12),
-                                  IconButton(onPressed: () {}, icon: Icon(Icons.add_circle_outline)),
-                                ],
-                              ),
-                              Container(
-                                height: 200,
-                                child: Placeholder(),
-                              ),
-                            ],
+                                    Text("Greenwood, New York"),
+                                    Icon(
+                                      Icons.star,
+                                      size: 16,
+                                    ),
+                                    Text("4.9"),
+                                    Text(
+                                      "(2.8k)",
+                                      style: TextStyle(
+                                        decoration: TextDecoration.underline,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  children: [
+                                    Text("\$325/night"),
+                                    Spacer(),
+                                    IconButton(onPressed: () {}, icon: Icon(Icons.remove_circle_outline)),
+                                    Gap(12),
+                                    Text("1"),
+                                    Gap(12),
+                                    IconButton(onPressed: () {}, icon: Icon(Icons.add_circle_outline)),
+                                  ],
+                                ),
+                                Container(
+                                  height: 200,
+                                  child: Placeholder(),
+                                ),
+                              ],
+                            ),
                           ),
                           Container(
                             height: 140,
