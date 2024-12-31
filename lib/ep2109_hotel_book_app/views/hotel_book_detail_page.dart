@@ -146,9 +146,11 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                             ),
                           ),
                           Container(
-                            height: 140,
-                            child: Placeholder(),
-                          )
+                              height: 140,
+                              child: ListView.builder(
+                                scrollDirection: Axis.horizontal,
+                                itemBuilder: (context, index) {},
+                              ))
                         ],
                       ),
                     ),
