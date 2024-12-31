@@ -112,7 +112,12 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                                   child: Stack(
                                     children: [
                                       Positioned(
+                                        bottom: 12,
+                                        left: 0,
+                                        right: 0,
                                         child: Row(
+                                          mainAxisAlignment: MainAxisAlignment.center,
+                                          spacing: 5,
                                           children: List.generate(5, (index){
                                             return CircleAvatar(
                                               radius: 4,
