@@ -97,7 +97,6 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                                       "\$325/night",
                                       style: TextStyle(
                                         fontSize: 20,
-
                                       ),
                                     ),
                                     Spacer(),
@@ -110,7 +109,19 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                                 ),
                                 Container(
                                   height: 200,
-                                  child: Placeholder(),
+                                  child: Stack(
+                                    children: [
+                                      Positioned(
+                                        child: Row(
+                                          children: List.generate(5, (index){
+                                            return CircleAvatar(
+                                              radius: 4,
+                                            );
+                                          }),
+                                        ),
+                                      )
+                                    ],
+                                  ),
                                 ),
                               ],
                             ),
