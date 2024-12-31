@@ -109,6 +109,10 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                                 ),
                                 Container(
                                   height: 200,
+                                  decoration: BoxDecoration(
+                                    color: Colors.grey,
+                                    borderRadius: BorderRadius.circular(8),
+                                  ),
                                   child: Stack(
                                     children: [
                                       Positioned(
@@ -118,9 +122,10 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                                         child: Row(
                                           mainAxisAlignment: MainAxisAlignment.center,
                                           spacing: 5,
-                                          children: List.generate(5, (index){
+                                          children: List.generate(5, (index) {
                                             return CircleAvatar(
                                               radius: 4,
+                                              backgroundColor: Colors.white,
                                             );
                                           }),
                                         ),
