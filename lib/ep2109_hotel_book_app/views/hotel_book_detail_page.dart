@@ -161,6 +161,8 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                                     borderRadius: BorderRadius.circular(8),
                                   ),
                                   child: Column(
+                                    spacing: 12,
+                                    mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
                                       Icon(Icons.bed),
                                       Text("3 Bed")
