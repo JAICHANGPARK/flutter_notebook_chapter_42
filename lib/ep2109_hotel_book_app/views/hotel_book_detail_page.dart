@@ -67,6 +67,7 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                                   "Starlight Haven ",
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
+                                    fontSize: 28,
                                   ),
                                 ),
                                 Row(
@@ -92,12 +93,18 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                                 ),
                                 Row(
                                   children: [
-                                    Text("\$325/night"),
+                                    Text(
+                                      "\$325/night",
+                                      style: TextStyle(
+                                        fontSize: 20,
+
+                                      ),
+                                    ),
                                     Spacer(),
                                     IconButton(onPressed: () {}, icon: Icon(Icons.remove_circle_outline)),
-                                    Gap(12),
+                                    Gap(8),
                                     Text("1"),
-                                    Gap(12),
+                                    Gap(8),
                                     IconButton(onPressed: () {}, icon: Icon(Icons.add_circle_outline)),
                                   ],
                                 ),
