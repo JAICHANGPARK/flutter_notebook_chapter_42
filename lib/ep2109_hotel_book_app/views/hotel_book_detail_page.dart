@@ -112,6 +112,12 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                                   decoration: BoxDecoration(
                                     color: Colors.grey,
                                     borderRadius: BorderRadius.circular(8),
+                                    image: DecorationImage(
+                                      image: NetworkImage(
+                                        "https://cdn.pixabay.com/photo/2019/08/19/13/58/bed-4416515_1280.jpg",
+                                      ),
+                                      fit: BoxFit.cover,
+                                    ),
                                   ),
                                   child: Stack(
                                     children: [
@@ -122,12 +128,15 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                                         child: Row(
                                           mainAxisAlignment: MainAxisAlignment.center,
                                           spacing: 5,
-                                          children: List.generate(5, (index) {
-                                            return CircleAvatar(
-                                              radius: 4,
-                                              backgroundColor: Colors.white,
-                                            );
-                                          }),
+                                          children: List.generate(
+                                            5,
+                                            (index) {
+                                              return CircleAvatar(
+                                                radius: 4,
+                                                backgroundColor: Colors.white,
+                                              );
+                                            },
+                                          ),
                                         ),
                                       )
                                     ],
