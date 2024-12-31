@@ -147,6 +147,7 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                           ),
                           Container(
                             height: 140,
+                            margin: EdgeInsets.only(left: 16),
                             child: ListView.builder(
                               scrollDirection: Axis.horizontal,
                               itemBuilder: (context, index) {
@@ -160,7 +161,10 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                                     borderRadius: BorderRadius.circular(8),
                                   ),
                                   child: Column(
-                                    children: [],
+                                    children: [
+                                      Icon(Icons.bed),
+                                      Text("3 Bed")
+                                    ],
                                   ),
                                 );
                               },
