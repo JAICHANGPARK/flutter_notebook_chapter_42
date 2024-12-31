@@ -82,23 +82,19 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                                 children: [
                                   Text("\$325/night"),
                                   Spacer(),
-                                  IconButton(
-                                      onPressed: () {},
-                                      icon: Icon(Icons.remove_circle_outline)),
+                                  IconButton(onPressed: () {}, icon: Icon(Icons.remove_circle_outline)),
                                   Gap(12),
                                   Text("1"),
                                   Gap(12),
-                                  IconButton(
-                                      onPressed: () {},
-                                      icon: Icon(Icons.add_circle_outline)),
+                                  IconButton(onPressed: () {}, icon: Icon(Icons.add_circle_outline)),
                                 ],
                               ),
                               Container(
                                 height: 200,
                                 child: Placeholder(),
                               ),
-                          ],),
-
+                            ],
+                          ),
                           Container(
                             height: 140,
                             child: Placeholder(),
@@ -107,7 +103,6 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                       ),
                     ),
                   ),
-
                 ],
               ),
             ),
