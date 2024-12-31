@@ -152,8 +152,15 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                               itemBuilder: (context, index) {
                                 return Container(
                                   width: 140,
+                                  margin: EdgeInsets.only(
+                                    right: 12,
+                                  ),
                                   decoration: BoxDecoration(
                                     color: Colors.white,
+                                    borderRadius: BorderRadius.circular(8),
+                                  ),
+                                  child: Column(
+                                    children: [],
                                   ),
                                 );
                               },
