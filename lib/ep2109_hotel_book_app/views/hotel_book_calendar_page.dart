@@ -62,6 +62,11 @@ class _HotelBookCalendarPageState extends State<HotelBookCalendarPage> {
               Container(
                 height: 62,
                 child: Placeholder(),
+              ),
+              Text("Number of Guests"),
+              Container(
+                height: 72,
+                child: Placeholder(),
               )
             ],
           ),
