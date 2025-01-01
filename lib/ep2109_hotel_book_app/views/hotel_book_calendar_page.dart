@@ -20,7 +20,6 @@ class _HotelBookCalendarPageState extends State<HotelBookCalendarPage> {
           backgroundColor: Colors.white,
           foregroundColor: Colors.black,
         ),
-
         actions: [
           CircleAvatar(
             child: Icon(Icons.share),
@@ -34,19 +33,23 @@ class _HotelBookCalendarPageState extends State<HotelBookCalendarPage> {
         child: Column(
           children: [
             Container(
-              decoration: BoxDecoration(
-                color: Colors.white
-              ),
+              padding: EdgeInsets.symmetric(horizontal: 12),
+              decoration: BoxDecoration(color: Colors.white),
               child: Row(
                 children: [
                   Text("\$325/night"),
                   Spacer(),
-                  IconButton(onPressed: () {}, icon: Icon(Icons.remove_circle_outline)),
+                  IconButton(
+                    onPressed: () {},
+                    icon: Icon(Icons.remove_circle_outline),
+                  ),
                   Gap(8),
                   Text("1"),
                   Gap(8),
-                  IconButton(onPressed: () {}, icon: Icon(Icons.add_circle_outline)),
-
+                  IconButton(
+                    onPressed: () {},
+                    icon: Icon(Icons.add_circle_outline),
+                  ),
                 ],
               ),
             )
