@@ -12,10 +12,12 @@ class _HotelBookCalendarPageState extends State<HotelBookCalendarPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
+        title: Text("Date & Preferences"),
         leading: CircleAvatar(
           child: Icon(Icons.arrow_back),
         ),
-        title: Text("Date & Preferences"),
+
         actions: [
           CircleAvatar(
             child: Icon(Icons.arrow_back),
