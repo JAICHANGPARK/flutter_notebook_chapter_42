@@ -28,6 +28,18 @@ class _HotelBookCalendarPageState extends State<HotelBookCalendarPage> {
           ),
         ],
       ),
+      body: Column(
+        children: [
+          Container(
+            child: Row(
+              children: [
+                Text("\$325/night"),
+
+              ],
+            ),
+          )
+        ],
+      ),
     );
   }
 }
