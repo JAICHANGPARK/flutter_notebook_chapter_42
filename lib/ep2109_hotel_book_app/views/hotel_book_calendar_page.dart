@@ -16,11 +16,15 @@ class _HotelBookCalendarPageState extends State<HotelBookCalendarPage> {
         title: Text("Date & Preferences"),
         leading: CircleAvatar(
           child: Icon(Icons.arrow_back),
+          backgroundColor: Colors.white,
+          foregroundColor: Colors.black,
         ),
 
         actions: [
           CircleAvatar(
-            child: Icon(Icons.arrow_back),
+            child: Icon(Icons.share),
+            backgroundColor: Colors.white,
+            foregroundColor: Colors.black,
           ),
         ],
       ),
