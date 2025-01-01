@@ -139,8 +139,7 @@ class _HotelBookHomePageState extends State<HotelBookHomePage> {
                               spacing: 8,
                               children: [
                                 Row(
-                                  mainAxisAlignment:
-                                      MainAxisAlignment.spaceBetween,
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                   children: [
                                     Text("Starlight Lodge"),
                                     Text(
