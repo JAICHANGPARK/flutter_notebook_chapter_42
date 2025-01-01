@@ -13,52 +13,58 @@ class _HotelBookCalendarPageState extends State<HotelBookCalendarPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: Column(
-          spacing: 16,
-          children: [
-            Row(
-              children: [
-                CircleAvatar(
-                  child: Icon(Icons.arrow_back),
-                  backgroundColor: Colors.white,
-                  foregroundColor: Colors.black,
-                ),
-    Text("Date & Preferences"),
-              ],
-            ),
-            Container(
-              padding: EdgeInsets.symmetric(horizontal: 12),
-              decoration: BoxDecoration(color: Colors.white),
-              child: Row(
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(
+            spacing: 16,
+            children: [
+              Row(
                 children: [
-                  Text("\$325/night"),
-                  Spacer(),
-                  IconButton(
-                    onPressed: () {},
-                    icon: Icon(Icons.remove_circle_outline),
+                  CircleAvatar(
+                    child: Icon(Icons.arrow_back),
+                    backgroundColor: Colors.white,
+                    foregroundColor: Colors.black,
                   ),
-                  Gap(8),
-                  Text("1"),
-                  Gap(8),
-                  IconButton(
-                    onPressed: () {},
-                    icon: Icon(Icons.add_circle_outline),
+                  Expanded(child: Center(child: Text("Date & Preferences"))),
+                  CircleAvatar(
+                    child: Icon(Icons.share),
+                    backgroundColor: Colors.white,
+                    foregroundColor: Colors.black,
                   ),
                 ],
               ),
-            ),
-            Container(
-              height: 400,
-              color: Colors.white,
-            ),
-            Container(
-              height: 62,
-              child: Placeholder(),
-            )
-          ],
+              Container(
+                padding: EdgeInsets.symmetric(horizontal: 12),
+                decoration: BoxDecoration(color: Colors.white),
+                child: Row(
+                  children: [
+                    Text("\$325/night"),
+                    Spacer(),
+                    IconButton(
+                      onPressed: () {},
+                      icon: Icon(Icons.remove_circle_outline),
+                    ),
+                    Gap(8),
+                    Text("1"),
+                    Gap(8),
+                    IconButton(
+                      onPressed: () {},
+                      icon: Icon(Icons.add_circle_outline),
+                    ),
+                  ],
+                ),
+              ),
+              Container(
+                height: 400,
+                color: Colors.white,
+              ),
+              Container(
+                height: 62,
+                child: Placeholder(),
+              )
+            ],
+          ),
         ),
       ),
     );
