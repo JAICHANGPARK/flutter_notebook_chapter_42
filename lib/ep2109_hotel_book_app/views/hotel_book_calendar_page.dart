@@ -68,6 +68,16 @@ class _HotelBookCalendarPageState extends State<HotelBookCalendarPage> {
               Container(
                 height: 72,
                 child: Placeholder(),
+              ),
+              Container(
+                height: 52,
+                decoration: BoxDecoration(
+                  color: Colors.teal,
+                  borderRadius: BorderRadius.circular(24),
+                ),
+                child: Center(
+                  child: Text("Book Now \$325"),
+                ),
               )
             ],
           ),
