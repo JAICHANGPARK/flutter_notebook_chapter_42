@@ -175,34 +175,40 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                           ),
                           Padding(
                             padding: const EdgeInsets.symmetric(horizontal: 16),
-                            child: Row(
-                              spacing: 8,
+                            child: Column(
+                              spacing: 16,
                               children: [
-                                CircleAvatar(),
-                                Expanded(
-                                  child: Column(
-                                    spacing: 4,
-                                    crossAxisAlignment: CrossAxisAlignment.start,
-                                    children: [
-                                      Text("Dream Walker"),
-                                      Text("Owner"),
-                                    ],
-                                  ),
-                                ),
-                                CircleAvatar(
-                                  backgroundColor: Colors.white,
-                                  foregroundColor: Colors.black,
-                                  child: Icon(Icons.chat_outlined),
-                                ),
-                                CircleAvatar(
+                                Row(
+                                  spacing: 8,
+                                  children: [
+                                    CircleAvatar(),
+                                    Expanded(
+                                      child: Column(
+                                        spacing: 4,
+                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        children: [
+                                          Text("Dream Walker"),
+                                          Text("Owner"),
+                                        ],
+                                      ),
+                                    ),
+                                    CircleAvatar(
+                                      backgroundColor: Colors.white,
+                                      foregroundColor: Colors.black,
+                                      child: Icon(Icons.chat_outlined),
+                                    ),
+                                    CircleAvatar(
 
-                                  backgroundColor: Colors.deepOrangeAccent,
-                                  foregroundColor: Colors.white,
-                                  child: Icon(Icons.call_outlined),
-                                )
+                                      backgroundColor: Colors.deepOrangeAccent,
+                                      foregroundColor: Colors.white,
+                                      child: Icon(Icons.call_outlined),
+                                    )
+                                  ],
+                                ),
                               ],
                             ),
-                          )
+                          ),
+
                         ],
                       ),
                     ),
