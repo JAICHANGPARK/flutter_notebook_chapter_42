@@ -17,6 +17,7 @@ class _HotelBookCalendarPageState extends State<HotelBookCalendarPage> {
         child: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             spacing: 16,
             children: [
               Row(
@@ -57,7 +58,7 @@ class _HotelBookCalendarPageState extends State<HotelBookCalendarPage> {
               ),
               Container(
                 height: 400,
-                color: Colors.white,
+                color: Colors.red,
               ),
               Container(
                 height: 62,
