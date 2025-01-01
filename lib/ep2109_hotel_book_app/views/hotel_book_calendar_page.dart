@@ -32,6 +32,7 @@ class _HotelBookCalendarPageState extends State<HotelBookCalendarPage> {
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
+          spacing: 16,
           children: [
             Container(
               padding: EdgeInsets.symmetric(horizontal: 12),
@@ -58,6 +59,10 @@ class _HotelBookCalendarPageState extends State<HotelBookCalendarPage> {
               height: 400,
               color: Colors.white,
             ),
+            Container(
+              height: 62,
+              child: Placeholder(),
+            )
           ],
         ),
       ),
