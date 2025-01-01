@@ -164,33 +164,41 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                                   child: Column(
                                     spacing: 12,
                                     mainAxisAlignment: MainAxisAlignment.center,
-                                    children: [Icon(Icons.bed), Text("3 Bed")],
+                                    children: [
+                                      Icon(Icons.bed),
+                                      Text("3 Bed"),
+                                    ],
                                   ),
                                 );
                               },
                             ),
                           ),
-                          Row(
-                            spacing: 8,
-                            children: [
-                              CircleAvatar(),
-                              Expanded(
-                                child: Column(
-                                  spacing: 4,
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
-                                    Text("Dream Walker"),
-                                    Text("Owner"),
-                                  ],
+                          Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 16),
+                            child: Row(
+                              spacing: 8,
+                              children: [
+                                CircleAvatar(),
+                                Expanded(
+                                  child: Column(
+                                    spacing: 4,
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    children: [
+                                      Text("Dream Walker"),
+                                      Text("Owner"),
+                                    ],
+                                  ),
                                 ),
-                              ),
-                              CircleAvatar(
-                                backgroundColor: Colors.white,
-                              ),
-                              CircleAvatar(
-                                backgroundColor: Colors.deepOrangeAccent,
-                              )
-                            ],
+                                CircleAvatar(
+                                  backgroundColor: Colors.white,
+                                  
+                                  child: Icon(Icons.chat_outlined),
+                                ),
+                                CircleAvatar(
+                                  backgroundColor: Colors.deepOrangeAccent,
+                                )
+                              ],
+                            ),
                           )
                         ],
                       ),
