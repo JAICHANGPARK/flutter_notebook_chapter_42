@@ -10,6 +10,8 @@ class HotelBookCalendarPage extends StatefulWidget {
 class _HotelBookCalendarPageState extends State<HotelBookCalendarPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      
+    );
   }
 }
