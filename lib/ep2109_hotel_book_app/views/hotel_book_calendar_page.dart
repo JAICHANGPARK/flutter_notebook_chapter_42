@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class HotelBookCalendarPage extends StatefulWidget {
   const HotelBookCalendarPage({super.key});
@@ -34,6 +35,12 @@ class _HotelBookCalendarPageState extends State<HotelBookCalendarPage> {
             child: Row(
               children: [
                 Text("\$325/night"),
+                Spacer(),
+                IconButton(onPressed: () {}, icon: Icon(Icons.remove_circle_outline)),
+                Gap(8),
+                Text("1"),
+                Gap(8),
+                IconButton(onPressed: () {}, icon: Icon(Icons.add_circle_outline)),
 
               ],
             ),
