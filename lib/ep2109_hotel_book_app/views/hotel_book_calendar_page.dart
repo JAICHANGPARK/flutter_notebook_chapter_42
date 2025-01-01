@@ -11,7 +11,17 @@ class _HotelBookCalendarPageState extends State<HotelBookCalendarPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
+      appBar: AppBar(
+        leading: CircleAvatar(
+          child: Icon(Icons.arrow_back),
+        ),
+        title: Text("Date & Preferences"),
+        actions: [
+          CircleAvatar(
+            child: Icon(Icons.arrow_back),
+          ),
+        ],
+      ),
     );
   }
 }
