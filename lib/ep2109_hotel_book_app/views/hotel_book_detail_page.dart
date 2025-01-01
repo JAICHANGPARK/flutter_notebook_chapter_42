@@ -56,6 +56,7 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                     child: SingleChildScrollView(
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
+                        spacing: 12,
                         children: [
                           Padding(
                             padding: const EdgeInsets.all(16.0),
@@ -170,16 +171,24 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                             ),
                           ),
                           Row(
+                            spacing: 8,
                             children: [
                               CircleAvatar(),
                               Expanded(
                                 child: Column(
+                                  spacing: 4,
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text("Dream Walker"),
                                     Text("Owner"),
                                   ],
                                 ),
+                              ),
+                              CircleAvatar(
+                                backgroundColor: Colors.white,
+                              ),
+                              CircleAvatar(
+                                backgroundColor: Colors.deepOrangeAccent,
                               )
                             ],
                           )
