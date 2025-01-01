@@ -174,7 +174,7 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                           ),
                           Row(
                             children: [
-                              
+
                             ],
                           )
                         ],
