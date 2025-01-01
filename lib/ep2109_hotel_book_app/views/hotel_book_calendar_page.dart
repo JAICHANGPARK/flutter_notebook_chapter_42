@@ -29,23 +29,29 @@ class _HotelBookCalendarPageState extends State<HotelBookCalendarPage> {
           ),
         ],
       ),
-      body: Column(
-        children: [
-          Container(
-            child: Row(
-              children: [
-                Text("\$325/night"),
-                Spacer(),
-                IconButton(onPressed: () {}, icon: Icon(Icons.remove_circle_outline)),
-                Gap(8),
-                Text("1"),
-                Gap(8),
-                IconButton(onPressed: () {}, icon: Icon(Icons.add_circle_outline)),
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          children: [
+            Container(
+              decoration: BoxDecoration(
+                color: Colors.white
+              ),
+              child: Row(
+                children: [
+                  Text("\$325/night"),
+                  Spacer(),
+                  IconButton(onPressed: () {}, icon: Icon(Icons.remove_circle_outline)),
+                  Gap(8),
+                  Text("1"),
+                  Gap(8),
+                  IconButton(onPressed: () {}, icon: Icon(Icons.add_circle_outline)),
 
-              ],
-            ),
-          )
-        ],
+                ],
+              ),
+            )
+          ],
+        ),
       ),
     );
   }
