@@ -146,13 +146,13 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                             ),
                           ),
                           Container(
-                            height: 140,
+                            height: 120,
                             margin: EdgeInsets.only(left: 16),
                             child: ListView.builder(
                               scrollDirection: Axis.horizontal,
                               itemBuilder: (context, index) {
                                 return Container(
-                                  width: 140,
+                                  width: 120,
                                   margin: EdgeInsets.only(
                                     right: 12,
                                   ),
@@ -171,6 +171,11 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                                 );
                               },
                             ),
+                          ),
+                          Row(
+                            children: [
+                              
+                            ],
                           )
                         ],
                       ),
