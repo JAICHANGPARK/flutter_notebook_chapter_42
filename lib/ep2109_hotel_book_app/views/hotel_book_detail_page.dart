@@ -163,10 +163,7 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                                   child: Column(
                                     spacing: 12,
                                     mainAxisAlignment: MainAxisAlignment.center,
-                                    children: [
-                                      Icon(Icons.bed),
-                                      Text("3 Bed")
-                                    ],
+                                    children: [Icon(Icons.bed), Text("3 Bed")],
                                   ),
                                 );
                               },
@@ -174,7 +171,16 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                           ),
                           Row(
                             children: [
-
+                              CircleAvatar(),
+                              Expanded(
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text("Dream Walker"),
+                                    Text("Owner"),
+                                  ],
+                                ),
+                              )
                             ],
                           )
                         ],
