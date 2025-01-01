@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
+import 'hotel_book_calendar_page.dart';
+
 class HotelBookDetailPage extends StatefulWidget {
   const HotelBookDetailPage({super.key});
 
@@ -226,7 +228,7 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
             right: 24,
             child: GestureDetector(
               onTap: (){
-                
+                Navigator.of(context).push(MaterialPageRoute(builder: (context)=>HotelBookCalendarPage()));
               },
               child: Container(
                 decoration: BoxDecoration(
