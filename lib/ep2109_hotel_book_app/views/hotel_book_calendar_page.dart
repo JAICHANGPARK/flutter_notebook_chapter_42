@@ -54,7 +54,10 @@ class _HotelBookCalendarPageState extends State<HotelBookCalendarPage> {
                 ],
               ),
             ),
-            Container(height: 400, color: Colors.white,),
+            Container(
+              height: 400,
+              color: Colors.white,
+            ),
           ],
         ),
       ),
