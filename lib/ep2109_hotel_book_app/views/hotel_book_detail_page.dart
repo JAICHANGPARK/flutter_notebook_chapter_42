@@ -227,8 +227,12 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
             left: 24,
             right: 24,
             child: GestureDetector(
-              onTap: (){
-                Navigator.of(context).push(MaterialPageRoute(builder: (context)=>HotelBookCalendarPage()));
+              onTap: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => HotelBookCalendarPage(),
+                  ),
+                );
               },
               child: Container(
                 decoration: BoxDecoration(
