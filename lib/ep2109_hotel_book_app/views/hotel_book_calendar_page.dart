@@ -13,27 +13,22 @@ class _HotelBookCalendarPageState extends State<HotelBookCalendarPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        centerTitle: true,
-        title: Text("Date & Preferences"),
-        leading: CircleAvatar(
-          child: Icon(Icons.arrow_back),
-          backgroundColor: Colors.white,
-          foregroundColor: Colors.black,
-        ),
-        actions: [
-          CircleAvatar(
-            child: Icon(Icons.share),
-            backgroundColor: Colors.white,
-            foregroundColor: Colors.black,
-          ),
-        ],
-      ),
+      
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
           spacing: 16,
           children: [
+            Row(
+              children: [
+                CircleAvatar(
+                  child: Icon(Icons.arrow_back),
+                  backgroundColor: Colors.white,
+                  foregroundColor: Colors.black,
+                ),
+    Text("Date & Preferences"),
+              ],
+            ),
             Container(
               padding: EdgeInsets.symmetric(horizontal: 12),
               decoration: BoxDecoration(color: Colors.white),
