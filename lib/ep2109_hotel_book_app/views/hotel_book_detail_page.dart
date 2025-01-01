@@ -191,11 +191,14 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                                 ),
                                 CircleAvatar(
                                   backgroundColor: Colors.white,
-                                  
+                                  foregroundColor: Colors.black,
                                   child: Icon(Icons.chat_outlined),
                                 ),
                                 CircleAvatar(
+
                                   backgroundColor: Colors.deepOrangeAccent,
+                                  foregroundColor: Colors.white,
+                                  child: Icon(Icons.call_outlined),
                                 )
                               ],
                             ),
