@@ -52,8 +52,10 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                 ],
               ),
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  Column(
+                  Column(   mainAxisAlignment: MainAxisAlignment.center,
+                    spacing: 4,
                     children: [
                       Icon(Icons.home_outlined),
                       Text(
@@ -61,7 +63,8 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                       ),
                     ],
                   ),
-                  Column(
+                  Column(   mainAxisAlignment: MainAxisAlignment.center,
+                    spacing: 4,
                     children: [
                       Icon(Icons.search),
                       Text(
@@ -69,7 +72,8 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                       ),
                     ],
                   ),
-                  Column(
+                  Column(   mainAxisAlignment: MainAxisAlignment.center,
+                    spacing: 4,
                     children: [
                       Badge(
                         child: Icon(Icons.shopping_bag_outlined),
@@ -80,7 +84,10 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                     ],
                   ),
                   Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    spacing: 4,
                     children: [
+
                       Badge(
                         child: Icon(Icons.person_2_outlined),
                       ),
