@@ -40,13 +40,55 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
               ),
             ),
             Container(
+              height: 82,
               decoration: BoxDecoration(
+                color: Colors.white,
                 boxShadow: [
                   BoxShadow(
                     color: Colors.black.withValues(
                       alpha: .1,
                     ),
                   )
+                ],
+              ),
+              child: Row(
+                children: [
+                  Column(
+                    children: [
+                      Icon(Icons.home_outlined),
+                      Text(
+                        "Home",
+                      ),
+                    ],
+                  ),
+                  Column(
+                    children: [
+                      Icon(Icons.search),
+                      Text(
+                        "Search",
+                      ),
+                    ],
+                  ),
+                  Column(
+                    children: [
+                      Badge(
+                        child: Icon(Icons.shopping_bag_outlined),
+                      ),
+                      Text(
+                        "Favorite",
+                      ),
+                    ],
+                  ),
+                  Column(
+                    children: [
+                      Badge(
+                        child: Icon(Icons.person_2_outlined),
+                      ),
+                      Text(
+                        "Profile",
+                      ),
+                    ],
+                  ),
                 ],
               ),
             )
