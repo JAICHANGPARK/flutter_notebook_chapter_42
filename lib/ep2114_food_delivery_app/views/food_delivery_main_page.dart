@@ -22,6 +22,15 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                     fontWeight: FontWeight.bold,
                   ),
                 ),
+                Badge(
+                  child: Container(
+                    decoration: BoxDecoration(
+                      color: Colors.greenAccent,
+                      border: Border.all(color: Colors.teal)
+                    ),
+
+                  ),
+                )
               ],
             )
           ],
