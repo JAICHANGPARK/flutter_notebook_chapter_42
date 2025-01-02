@@ -23,6 +23,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                   ),
                 ),
                 Badge(
+                  label: Text("\$20"),
                   child: Container(
                     decoration: BoxDecoration(
                       color: Colors.greenAccent,
