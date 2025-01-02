@@ -14,25 +14,30 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
       body: SafeArea(
         child: Column(
           children: [
-            Row(
-              children: [
-                Text(
-                  "Hi Dream!",
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-                Badge(
-                  label: Text("\$20"),
-                  child: Container(
-                    decoration: BoxDecoration(
-                      color: Colors.greenAccent,
-                      border: Border.all(color: Colors.teal),
-                      shape: BoxShape.circle,
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Row(
+                children: [
+                  Text(
+                    "Hi Dream!",
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
-                )
-              ],
+                  Spacer(),
+                  Badge(
+                    label: Text("\$20"),
+                    child: Container(
+                      decoration: BoxDecoration(
+                        color: Colors.greenAccent,
+                        border: Border.all(color: Colors.teal),
+                        shape: BoxShape.circle,
+                      ),
+                      child: Icon(Icons.person),
+                    ),
+                  )
+                ],
+              ),
             ),
             Expanded(
               child: Column(
