@@ -33,6 +33,21 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                   ),
                 )
               ],
+            ),
+            Expanded(
+              child: Column(
+                children: [],
+              ),
+            ),
+            Container(
+              decoration: BoxDecoration(
+                boxShadow: [
+                  BoxShadow(
+                      color: Colors.black.withValues(
+                    alpha: .1,
+                  ))
+                ],
+              ),
             )
           ],
         ),
