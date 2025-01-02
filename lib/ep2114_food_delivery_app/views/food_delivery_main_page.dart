@@ -10,6 +10,17 @@ class FoodDeliveryMainPage extends StatefulWidget {
 class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+
+      body: Column(
+        children: [
+        Row(
+          children: [
+
+          ],
+        )
+        ],
+      ),
+    );
   }
 }
