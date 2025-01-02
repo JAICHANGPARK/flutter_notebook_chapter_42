@@ -11,15 +11,21 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
-      body: Column(
-        children: [
-        Row(
+      body: SafeArea(
+        child: Column(
           children: [
-
+            Row(
+              children: [
+                Text(
+                  "Hi Dream!",
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ],
+            )
           ],
-        )
-        ],
+        ),
       ),
     );
   }
