@@ -2,11 +2,11 @@
 
 ## EP2114
 
-- Hotel Booking App
-- Delisas: UX/UI & SaaS Agency
-- https://dribbble.com/shots/25389736-Hotel-Booking-App
+- Food Delivery Deals
+- Brandon Termini for Termini Design
+- https://dribbble.com/shots/25408811-Food-Delivery-Deals
 
-<img src="https://cdn.dribbble.com/userupload/18173999/file/original-3fd6cf4260be1a3e9732f11c50ade01e.jpg?resize=1504x1128&vertical=center"/>
+<img src="https://cdn.dribbble.com/userupload/18232432/file/original-41de1277cc7832fa543ff67172f45f00.mp4"/>
 
 
 ## EP2109-2113
