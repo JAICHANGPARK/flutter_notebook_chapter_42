@@ -43,9 +43,10 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
               decoration: BoxDecoration(
                 boxShadow: [
                   BoxShadow(
-                      color: Colors.black.withValues(
-                    alpha: .1,
-                  ))
+                    color: Colors.black.withValues(
+                      alpha: .1,
+                    ),
+                  )
                 ],
               ),
             )
