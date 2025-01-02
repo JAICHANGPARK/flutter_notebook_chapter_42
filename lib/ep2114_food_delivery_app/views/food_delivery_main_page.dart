@@ -26,9 +26,9 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                   child: Container(
                     decoration: BoxDecoration(
                       color: Colors.greenAccent,
-                      border: Border.all(color: Colors.teal)
+                      border: Border.all(color: Colors.teal),
+                      shape: BoxShape.circle,
                     ),
-
                   ),
                 )
               ],
