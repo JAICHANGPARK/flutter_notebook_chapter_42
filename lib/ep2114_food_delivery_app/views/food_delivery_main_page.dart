@@ -22,12 +22,14 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                     "Hi Dream!",
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
+                      fontSize: 28,
                     ),
                   ),
                   Spacer(),
                   Badge(
                     label: Text("\$20"),
                     child: Container(
+                      padding: EdgeInsets.all(8),
                       decoration: BoxDecoration(
                         color: Colors.greenAccent,
                         border: Border.all(color: Colors.teal),
