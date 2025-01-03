@@ -103,7 +103,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     spacing: 4,
                     children: [
-                      Icon(Icons.search),
+                      Icon(Icons.search, color: Colors.grey,),
                       Text(
                         "Search",
                       ),
@@ -114,7 +114,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                     spacing: 4,
                     children: [
                       Badge(
-                        child: Icon(Icons.shopping_bag_outlined),
+                        child: Icon(Icons.shopping_bag_outlined, color: Colors.grey,),
                       ),
                       Text(
                         "Favorite",
