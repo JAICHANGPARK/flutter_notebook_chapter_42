@@ -90,11 +90,13 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                         children: [
                                           Expanded(
                                               child: Column(
+                                                spacing: 4,
                                             crossAxisAlignment: CrossAxisAlignment.start,
                                             children: [
                                               Text("Sweet Greens"),
                                               Text("Free Delivery"),
                                               Row(
+                                                spacing: 6,
                                                 children: [
                                                   ...List.generate(
                                                     5,
