@@ -48,7 +48,12 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                   children: [
                     TabBar(
                       tabs: [
-                        
+                        Tab( text: "Top Picks",),
+                        Tab( text: "Healthy",),
+                        Tab( text: "American",),
+                        Tab( text: "Fast Food",),
+                        Tab( text: "Fast Food",),
+
                       ],
                     )
                   ],
