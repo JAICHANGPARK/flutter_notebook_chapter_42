@@ -129,9 +129,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     spacing: 4,
                     children: [
-                      Badge(
-                        child: Icon(Icons.person_2_outlined, color: Colors.grey,),
-                      ),
+                      Icon(Icons.person_2_outlined, color: Colors.grey,),
                       Text(
                         "Profile",
                         style: TextStyle(
