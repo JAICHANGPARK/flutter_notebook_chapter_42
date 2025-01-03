@@ -96,7 +96,14 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                               Text("Free Delivery"),
                                               Row(
                                                 children: [
-                                                  
+                                                  ...List.generate(
+                                                    5,
+                                                    (i) => Icon(Icons.star),
+                                                  ),
+                                                  Text(
+                                                    "4.8",
+                                                  ),
+                                                  Text("120k+ bought")
                                                 ],
                                               )
                                             ],
