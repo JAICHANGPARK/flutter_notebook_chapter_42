@@ -42,8 +42,17 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
               ),
             ),
             Expanded(
-              child: Column(
-                children: [],
+              child: DefaultTabController(
+                length: 5,
+                child: Column(
+                  children: [
+                    TabBar(
+                      tabs: [
+                        
+                      ],
+                    )
+                  ],
+                ),
               ),
             ),
             Container(
@@ -61,7 +70,8 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  Column(   mainAxisAlignment: MainAxisAlignment.center,
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
                     spacing: 4,
                     children: [
                       Icon(Icons.home_outlined),
@@ -70,7 +80,8 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                       ),
                     ],
                   ),
-                  Column(   mainAxisAlignment: MainAxisAlignment.center,
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
                     spacing: 4,
                     children: [
                       Icon(Icons.search),
@@ -79,7 +90,8 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                       ),
                     ],
                   ),
-                  Column(   mainAxisAlignment: MainAxisAlignment.center,
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
                     spacing: 4,
                     children: [
                       Badge(
@@ -94,7 +106,6 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     spacing: 4,
                     children: [
-
                       Badge(
                         child: Icon(Icons.person_2_outlined),
                       ),
