@@ -81,6 +81,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                     color: Colors.black.withValues(
                       alpha: .1,
                     ),
+                    offset: Offset(0, -2),
                   )
                 ],
               ),
