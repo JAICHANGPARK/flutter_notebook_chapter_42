@@ -84,7 +84,16 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                     children: [
                                       Container(
                                         height: 280,
-                                        child: Placeholder(),
+                                        decoration: BoxDecoration(
+                                          color: Colors.orange,
+                                          borderRadius: BorderRadius.only(
+                                            topLeft: Radius.circular(16),
+                                            topRight: Radius.circular(16),
+                                          )
+                                        ),
+                                        child: Stack(children: [
+
+                                        ],),
                                       ),
                                       Row(
                                         children: [
