@@ -47,13 +47,24 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                 child: Column(
                   children: [
                     TabBar(
+                      indicatorColor: Colors.black,
+                      indicatorSize: TabBarIndicatorSize.label,
                       tabs: [
-                        Tab( text: "Top Picks",),
-                        Tab( text: "Healthy",),
-                        Tab( text: "American",),
-                        Tab( text: "Fast Food",),
-                        Tab( text: "Fast Food",),
-
+                        Tab(
+                          text: "Top Picks",
+                        ),
+                        Tab(
+                          text: "Healthy",
+                        ),
+                        Tab(
+                          text: "American",
+                        ),
+                        Tab(
+                          text: "Fast Food",
+                        ),
+                        Tab(
+                          text: "Fast Food",
+                        ),
                       ],
                     )
                   ],
