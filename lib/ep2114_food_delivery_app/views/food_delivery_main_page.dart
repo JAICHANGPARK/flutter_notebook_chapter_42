@@ -96,11 +96,13 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                               Text("Sweet Greens"),
                                               Text("Free Delivery"),
                                               Row(
-                                                spacing: 6,
+                                                spacing: 4,
                                                 children: [
                                                   ...List.generate(
                                                     5,
-                                                    (i) => Icon(Icons.star),
+                                                    (i) => Icon(Icons.star,
+                                                    size: 14,
+                                                    color: Colors.orange,),
                                                   ),
                                                   Text(
                                                     "4.8",
