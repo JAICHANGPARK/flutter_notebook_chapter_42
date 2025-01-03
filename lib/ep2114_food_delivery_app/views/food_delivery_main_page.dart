@@ -85,33 +85,40 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                       Container(
                                         height: 280,
                                         decoration: BoxDecoration(
-                                          color: Colors.orange,
-                                          borderRadius: BorderRadius.only(
-                                            topLeft: Radius.circular(16),
-                                            topRight: Radius.circular(16),
-                                          )
+                                            color: Colors.orange,
+                                            borderRadius: BorderRadius.only(
+                                              topLeft: Radius.circular(16),
+                                              topRight: Radius.circular(16),
+                                            )),
+                                        child: Stack(
+                                          children: [],
                                         ),
-                                        child: Stack(children: [
-
-                                        ],),
                                       ),
                                       Row(
                                         children: [
                                           Expanded(
                                               child: Column(
-                                                spacing: 4,
+                                            spacing: 4,
                                             crossAxisAlignment: CrossAxisAlignment.start,
                                             children: [
-                                              Text("Sweet Greens"),
+                                              Text(
+                                                "Sweet Greens",
+                                                style: TextStyle(
+                                                  fontSize: 16,
+                                                  fontWeight: FontWeight.bold,
+                                                ),
+                                              ),
                                               Text("Free Delivery"),
                                               Row(
                                                 spacing: 4,
                                                 children: [
                                                   ...List.generate(
                                                     5,
-                                                    (i) => Icon(Icons.star,
-                                                    size: 14,
-                                                    color: Colors.orange,),
+                                                    (i) => Icon(
+                                                      Icons.star,
+                                                      size: 14,
+                                                      color: Colors.orange,
+                                                    ),
                                                   ),
                                                   Text(
                                                     "4.8",
@@ -135,7 +142,14 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                             ],
                                           )
                                         ],
-                                      )
+                                      ),
+                                      Divider(),
+                                      SizedBox(
+                                        height: 72,
+                                        child: Placeholder(),
+                                      ),
+                                      Divider(),
+                                      
                                     ],
                                   ),
                                 )
