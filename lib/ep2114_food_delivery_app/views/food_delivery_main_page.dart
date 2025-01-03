@@ -83,10 +83,39 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                     spacing: 12,
                                     children: [
                                       Container(
-                                        height: 240,
+                                        height: 280,
                                         child: Placeholder(),
+                                      ),
+                                      Row(
+                                        children: [
+                                          Expanded(
+                                              child: Column(
+                                            crossAxisAlignment: CrossAxisAlignment.start,
+                                            children: [
+                                              Text("Sweet Greens"),
+                                              Text("Free Delivery"),
+                                              Row(
+                                                children: [
+                                                  
+                                                ],
+                                              )
+                                            ],
+                                          )),
+                                          Column(
+                                            spacing: 8,
+                                            children: [
+                                              IconButton(
+                                                onPressed: () {},
+                                                icon: Icon(
+                                                  Icons.favorite_border,
+                                                ),
+                                                iconSize: 36,
+                                              ),
+                                              Text("40k+")
+                                            ],
+                                          )
+                                        ],
                                       )
-
                                     ],
                                   ),
                                 )
