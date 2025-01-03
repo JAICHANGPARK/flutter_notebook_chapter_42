@@ -149,7 +149,84 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                         child: Placeholder(),
                                       ),
                                       Divider(),
-                                      
+
+                                    ],
+                                  ),
+                                ),
+                                Container(
+                                  color: Colors.blue,
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    spacing: 12,
+                                    children: [
+                                      Container(
+                                        height: 280,
+                                        decoration: BoxDecoration(
+                                            color: Colors.orange,
+                                            borderRadius: BorderRadius.only(
+                                              topLeft: Radius.circular(16),
+                                              topRight: Radius.circular(16),
+                                            )),
+                                        child: Stack(
+                                          children: [],
+                                        ),
+                                      ),
+                                      Row(
+                                        children: [
+                                          Expanded(
+                                              child: Column(
+                                                spacing: 4,
+                                                crossAxisAlignment: CrossAxisAlignment.start,
+                                                children: [
+                                                  Text(
+                                                    "Sweet Greens",
+                                                    style: TextStyle(
+                                                      fontSize: 16,
+                                                      fontWeight: FontWeight.bold,
+                                                    ),
+                                                  ),
+                                                  Text("Free Delivery"),
+                                                  Row(
+                                                    spacing: 4,
+                                                    children: [
+                                                      ...List.generate(
+                                                        5,
+                                                            (i) => Icon(
+                                                          Icons.star,
+                                                          size: 14,
+                                                          color: Colors.orange,
+                                                        ),
+                                                      ),
+                                                      Text(
+                                                        "4.8",
+                                                      ),
+                                                      Text("120k+ bought")
+                                                    ],
+                                                  )
+                                                ],
+                                              )),
+                                          Column(
+                                            spacing: 8,
+                                            children: [
+                                              IconButton(
+                                                onPressed: () {},
+                                                icon: Icon(
+                                                  Icons.favorite_border,
+                                                ),
+                                                iconSize: 36,
+                                              ),
+                                              Text("40k+")
+                                            ],
+                                          )
+                                        ],
+                                      ),
+                                      Divider(),
+                                      SizedBox(
+                                        height: 72,
+                                        child: Placeholder(),
+                                      ),
+                                      Divider(),
+
                                     ],
                                   ),
                                 )
