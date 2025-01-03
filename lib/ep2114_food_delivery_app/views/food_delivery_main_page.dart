@@ -69,17 +69,35 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                       ],
                     ),
                     Expanded(
-                      child: TabBarView(
-                        children: [
-                          PageView(
-                            scrollDirection: Axis.vertical,
-                            children: [
-                              Container(
-                                color: Colors.blue,
-                              )
-                            ],
-                          )
-                        ],
+                      child: Padding(
+                        padding: const EdgeInsets.all(12.0),
+                        child: TabBarView(
+                          children: [
+                            PageView(
+                              scrollDirection: Axis.vertical,
+                              children: [
+                                Container(
+                                  color: Colors.blue,
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    spacing: 12,
+                                    children: [
+                                      Container(
+                                        height: 240,
+                                        child: Placeholder(),
+                                      )
+
+                                    ],
+                                  ),
+                                )
+                              ],
+                            ),
+                            Container(),
+                            Container(),
+                            Container(),
+                            Container(),
+                          ],
+                        ),
                       ),
                     )
                   ],
