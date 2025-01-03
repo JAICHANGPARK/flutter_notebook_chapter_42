@@ -126,7 +126,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                     spacing: 4,
                     children: [
                       Badge(
-                        child: Icon(Icons.person_2_outlined),
+                        child: Icon(Icons.person_2_outlined, color: Colors.grey,),
                       ),
                       Text(
                         "Profile",
