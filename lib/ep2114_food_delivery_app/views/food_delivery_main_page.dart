@@ -105,7 +105,9 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                     children: [
                       Icon(Icons.search, color: Colors.grey,),
                       Text(
-                        "Search",
+                        "Search", style: TextStyle(
+                        color: Colors.grey,
+                      ),
                       ),
                     ],
                   ),
@@ -117,7 +119,9 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                         child: Icon(Icons.shopping_bag_outlined, color: Colors.grey,),
                       ),
                       Text(
-                        "Favorite",
+                        "Favorite", style: TextStyle(
+                        color: Colors.grey,
+                      ),
                       ),
                     ],
                   ),
@@ -130,6 +134,9 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                       ),
                       Text(
                         "Profile",
+                        style: TextStyle(
+                        color: Colors.grey,
+                        ),
                       ),
                     ],
                   ),
