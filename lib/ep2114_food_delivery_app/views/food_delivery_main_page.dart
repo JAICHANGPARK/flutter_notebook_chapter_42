@@ -100,7 +100,24 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                           ),
                                         ),
                                         child: Stack(
-                                          children: [],
+                                          children: [
+                                            Positioned(
+                                              left: 16,
+                                              top: 16,
+                                              child: CircleAvatar(
+                                                radius: 26,
+                                              ),
+                                            ),
+                                            Positioned(
+                                              left: 16,
+                                              top: 16,
+                                              child: Container(
+                                                decoration: BoxDecoration(
+                                                  color: Colors.white.withValues(alpha: .2),
+                                                ),
+                                              ),
+                                            ),
+                                          ],
                                         ),
                                       ),
                                       Row(
