@@ -184,6 +184,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                       SizedBox(
                                         height: 100,
                                         child: ListView.builder(
+                                          scrollDirection: Axis.horizontal,
                                           itemBuilder: (context, index) {
                                             return Container(
                                               width: 120,
@@ -197,7 +198,15 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                                       ),
                                                     ),
                                                   ),
-                                                  Text("Greek Salad")
+                                                  Text("Greek Salad"),
+                                                  Row(
+                                                    children: [
+                                                      Text("\$10.36"),
+                                                      Text("\$12.95",style: TextStyle(
+                                                        decoration: TextDecoration.lineThrough
+                                                      ),)
+                                                    ],
+                                                  )
                                                 ],
                                               ),
                                             );
