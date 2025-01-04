@@ -96,6 +96,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                             image: NetworkImage(
                                               "https://cdn.pixabay.com/photo/2021/10/30/12/50/woman-6754248_1280.jpg",
                                             ),
+                                            fit: BoxFit.cover,
                                           ),
                                         ),
                                         child: Stack(
