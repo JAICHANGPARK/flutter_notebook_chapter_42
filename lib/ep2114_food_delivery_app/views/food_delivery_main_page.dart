@@ -241,6 +241,14 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                             ),
                                             padding: EdgeInsets.symmetric(horizontal: 16, vertical: 6),
                                             child: Text("Healthy"),
+                                          ),
+                                          Container(
+                                            decoration: ShapeDecoration(
+                                              shape: StadiumBorder(),
+                                              color: Colors.greenAccent,
+                                            ),
+                                            padding: EdgeInsets.symmetric(horizontal: 16, vertical: 6),
+                                            child: Text("Soups"),
                                           )
                                         ],
                                       )
