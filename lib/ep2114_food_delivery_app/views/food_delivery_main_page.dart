@@ -196,12 +196,16 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                                   Expanded(
                                                     child: Container(
                                                       decoration: BoxDecoration(
-                                                        color: Colors.orange,
-                                                        borderRadius: BorderRadius.only(
-                                                          topRight: Radius.circular(16),
-                                                          topLeft: Radius.circular(16),
-                                                        ),
-                                                      ),
+                                                          color: Colors.orange,
+                                                          borderRadius: BorderRadius.only(
+                                                            topRight: Radius.circular(16),
+                                                            topLeft: Radius.circular(16),
+                                                          ),
+                                                          image: DecorationImage(
+                                                            image: NetworkImage(
+                                                              "https://cdn.pixabay.com/photo/2016/09/15/19/24/salad-1672505_1280.jpg",
+                                                            ),
+                                                          )),
                                                     ),
                                                   ),
                                                   Text(
