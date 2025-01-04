@@ -50,6 +50,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                     TabBar(
                       indicatorColor: Colors.black,
                       indicatorSize: TabBarIndicatorSize.label,
+                      isScrollable: true,
                       tabs: [
                         Tab(
                           text: "Top Picks",
