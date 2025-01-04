@@ -190,8 +190,13 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                                 spacing: 4,
                                                 children: [
                                                   Expanded(
-                                                    child: Container(),
-                                                  )
+                                                    child: Container(
+                                                      decoration: BoxDecoration(
+                                                        color: Colors.orange,
+                                                      ),
+                                                    ),
+                                                  ),
+                                                  Text("Greek Salad")
                                                 ],
                                               ),
                                             );
