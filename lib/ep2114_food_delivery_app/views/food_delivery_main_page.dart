@@ -232,7 +232,17 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                       ),
                                       Divider(),
                                       Row(
-                                        children: [],
+                                        spacing: 8,
+                                        children: [
+                                          Container(
+                                            decoration: ShapeDecoration(
+                                              shape: StadiumBorder(),
+                                              color: Colors.greenAccent,
+                                            ),
+                                            padding: ,
+                                            child: Text("Healthy"),
+                                          )
+                                        ],
                                       )
                                     ],
                                   ),
