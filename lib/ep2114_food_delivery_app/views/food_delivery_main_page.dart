@@ -115,6 +115,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                                 height: 32,
                                                 decoration: BoxDecoration(
                                                   color: Colors.white.withValues(alpha: .5),
+                                                  borderRadius: BorderRadius.circular(24),
                                                 ),
                                                 padding: EdgeInsets.only(left: 52, right: 16),
                                                 child: Center(
