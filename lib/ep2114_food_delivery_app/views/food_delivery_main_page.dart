@@ -239,7 +239,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                               shape: StadiumBorder(),
                                               color: Colors.greenAccent,
                                             ),
-                                            padding: ,
+                                            padding: EdgeInsets.symmetric(horizontal: 16, vertical: 6),
                                             child: Text("Healthy"),
                                           )
                                         ],
