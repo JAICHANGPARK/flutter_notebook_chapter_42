@@ -266,7 +266,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                   ),
                                 ),
                                 Container(
-                                  color: Colors.blue,
+                                  // color: Colors.blue,
                                   child: Column(
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     spacing: 12,
@@ -274,49 +274,84 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                       Container(
                                         height: 280,
                                         decoration: BoxDecoration(
-                                            color: Colors.orange,
-                                            borderRadius: BorderRadius.only(
-                                              topLeft: Radius.circular(16),
-                                              topRight: Radius.circular(16),
-                                            )),
+                                          color: Colors.orange,
+                                          borderRadius: BorderRadius.only(
+                                            topLeft: Radius.circular(16),
+                                            topRight: Radius.circular(16),
+                                          ),
+                                          image: DecorationImage(
+                                            image: NetworkImage(
+                                              "https://cdn.pixabay.com/photo/2021/10/30/12/50/woman-6754248_1280.jpg",
+                                            ),
+                                            fit: BoxFit.cover,
+                                          ),
+                                        ),
                                         child: Stack(
-                                          children: [],
+                                          children: [
+                                            Positioned(
+                                              left: 16,
+                                              top: 20,
+                                              child: Container(
+                                                height: 36,
+                                                decoration: BoxDecoration(
+                                                  color: Colors.white.withValues(alpha: .5),
+                                                  borderRadius: BorderRadius.circular(24),
+                                                ),
+                                                padding: EdgeInsets.only(left: 52, right: 16),
+                                                child: Center(
+                                                  child: Text(
+                                                    "20% OFF",
+                                                    style: TextStyle(
+                                                      color: Colors.white,
+                                                    ),
+                                                  ),
+                                                ),
+                                              ),
+                                            ),
+                                            Positioned(
+                                              left: 16,
+                                              top: 16,
+                                              child: CircleAvatar(
+                                                radius: 22,
+                                              ),
+                                            ),
+                                          ],
                                         ),
                                       ),
                                       Row(
                                         children: [
                                           Expanded(
                                               child: Column(
-                                            spacing: 4,
-                                            crossAxisAlignment: CrossAxisAlignment.start,
-                                            children: [
-                                              Text(
-                                                "Sweet Greens",
-                                                style: TextStyle(
-                                                  fontSize: 16,
-                                                  fontWeight: FontWeight.bold,
-                                                ),
-                                              ),
-                                              Text("Free Delivery"),
-                                              Row(
                                                 spacing: 4,
+                                                crossAxisAlignment: CrossAxisAlignment.start,
                                                 children: [
-                                                  ...List.generate(
-                                                    5,
-                                                    (i) => Icon(
-                                                      Icons.star,
-                                                      size: 14,
-                                                      color: Colors.orange,
+                                                  Text(
+                                                    "Sweet Greens",
+                                                    style: TextStyle(
+                                                      fontSize: 16,
+                                                      fontWeight: FontWeight.bold,
                                                     ),
                                                   ),
-                                                  Text(
-                                                    "4.8",
-                                                  ),
-                                                  Text("120k+ bought")
+                                                  Text("Free Delivery"),
+                                                  Row(
+                                                    spacing: 4,
+                                                    children: [
+                                                      ...List.generate(
+                                                        5,
+                                                            (i) => Icon(
+                                                          Icons.star,
+                                                          size: 14,
+                                                          color: Colors.orange,
+                                                        ),
+                                                      ),
+                                                      Text(
+                                                        "4.8",
+                                                      ),
+                                                      Text("120k+ bought")
+                                                    ],
+                                                  )
                                                 ],
-                                              )
-                                            ],
-                                          )),
+                                              )),
                                           Column(
                                             spacing: 8,
                                             children: [
@@ -334,13 +369,89 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                       ),
                                       Divider(),
                                       SizedBox(
-                                        height: 72,
-                                        child: Placeholder(),
+                                        height: 130,
+                                        child: ListView.builder(
+                                          scrollDirection: Axis.horizontal,
+                                          itemBuilder: (context, index) {
+                                            return Container(
+                                              width: 100,
+                                              margin: EdgeInsets.only(right: 16),
+                                              child: Column(
+                                                crossAxisAlignment: CrossAxisAlignment.start,
+                                                spacing: 4,
+                                                children: [
+                                                  Expanded(
+                                                    child: Container(
+                                                      decoration: BoxDecoration(
+                                                        color: Colors.orange,
+                                                        borderRadius: BorderRadius.only(
+                                                          topRight: Radius.circular(16),
+                                                          topLeft: Radius.circular(16),
+                                                        ),
+                                                        image: DecorationImage(
+                                                          image: NetworkImage(
+                                                            "https://cdn.pixabay.com/photo/2016/09/15/19/24/salad-1672505_1280.jpg",
+                                                          ),
+                                                          fit: BoxFit.cover,
+                                                        ),
+                                                      ),
+                                                    ),
+                                                  ),
+                                                  Text(
+                                                    "Greek Salad",
+                                                    style: TextStyle(
+                                                      fontSize: 12,
+                                                      fontWeight: FontWeight.bold,
+                                                    ),
+                                                  ),
+                                                  Row(
+                                                    children: [
+                                                      Text(
+                                                        "\$10.36",
+                                                        style: TextStyle(
+                                                          fontSize: 12,
+                                                        ),
+                                                      ),
+                                                      Text(
+                                                        "\$12.95",
+                                                        style: TextStyle(
+                                                          fontSize: 12,
+                                                          decoration: TextDecoration.lineThrough,
+                                                        ),
+                                                      )
+                                                    ],
+                                                  )
+                                                ],
+                                              ),
+                                            );
+                                          },
+                                        ),
                                       ),
                                       Divider(),
+                                      Row(
+                                        spacing: 8,
+                                        children: [
+                                          Container(
+                                            decoration: ShapeDecoration(
+                                              shape: StadiumBorder(),
+                                              color: Colors.greenAccent,
+                                            ),
+                                            padding: EdgeInsets.symmetric(horizontal: 16, vertical: 6),
+                                            child: Text("Healthy"),
+                                          ),
+                                          Container(
+                                            decoration: ShapeDecoration(
+                                              shape: StadiumBorder(),
+                                              color: Colors.greenAccent,
+                                            ),
+                                            padding: EdgeInsets.symmetric(horizontal: 16, vertical: 6),
+                                            child: Text("Soups"),
+                                          )
+                                        ],
+                                      )
                                     ],
                                   ),
-                                )
+                                ),
                               ],
                             ),
                             Container(),
