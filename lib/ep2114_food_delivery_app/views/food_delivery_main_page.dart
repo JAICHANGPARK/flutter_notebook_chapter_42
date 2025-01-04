@@ -182,11 +182,17 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                       ),
                                       Divider(),
                                       SizedBox(
-                                          height: 100,
-                                          child: ListView.builder(
-                                            itemBuilder: (context, index) {},
-                                          )),
+                                        height: 100,
+                                        child: ListView.builder(
+                                          itemBuilder: (context, index) {},
+                                        ),
+                                      ),
                                       Divider(),
+                                      Row(
+                                        children: [
+                                          
+                                        ],
+                                      )
                                     ],
                                   ),
                                 ),
