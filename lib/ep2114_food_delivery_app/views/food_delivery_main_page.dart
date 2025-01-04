@@ -186,6 +186,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                         child: ListView.builder(
                                           itemBuilder: (context, index) {
                                             return Container(
+                                              width: 120,
                                               child: Column(
                                                 spacing: 4,
                                                 children: [
