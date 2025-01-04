@@ -115,6 +115,15 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                                 decoration: BoxDecoration(
                                                   color: Colors.white.withValues(alpha: .2),
                                                 ),
+                                                padding: EdgeInsets.only(42),
+                                                child: Center(
+                                                  child: Text(
+                                                    "20% OFF",
+                                                    style: TextStyle(
+                                                      color: Colors.white,
+                                                    ),
+                                                  ),
+                                                ),
                                               ),
                                             ),
                                           ],
