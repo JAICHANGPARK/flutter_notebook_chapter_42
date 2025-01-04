@@ -79,7 +79,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                               scrollDirection: Axis.vertical,
                               children: [
                                 Container(
-                                  color: Colors.blue,
+                                  // color: Colors.blue,
                                   child: Column(
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     spacing: 12,
@@ -101,7 +101,6 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                         ),
                                         child: Stack(
                                           children: [
-
                                             Positioned(
                                               left: 16,
                                               top: 20,
@@ -183,9 +182,10 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                       ),
                                       Divider(),
                                       SizedBox(
-                                        height: 72,
-                                        child: Placeholder(),
-                                      ),
+                                          height: 100,
+                                          child: ListView.builder(
+                                            itemBuilder: (context, index) {},
+                                          )),
                                       Divider(),
                                     ],
                                   ),
