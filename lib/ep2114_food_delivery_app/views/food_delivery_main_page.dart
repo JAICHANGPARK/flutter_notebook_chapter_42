@@ -101,13 +101,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                         ),
                                         child: Stack(
                                           children: [
-                                            Positioned(
-                                              left: 16,
-                                              top: 16,
-                                              child: CircleAvatar(
-                                                radius: 22,
-                                              ),
-                                            ),
+
                                             Positioned(
                                               left: 16,
                                               top: 20,
@@ -126,6 +120,13 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                                     ),
                                                   ),
                                                 ),
+                                              ),
+                                            ),
+                                            Positioned(
+                                              left: 16,
+                                              top: 16,
+                                              child: CircleAvatar(
+                                                radius: 22,
                                               ),
                                             ),
                                           ],
