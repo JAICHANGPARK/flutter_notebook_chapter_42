@@ -188,9 +188,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                           itemBuilder: (context, index) {
                                             return Container(
                                               width: 100,
-                                              margin: EdgeInsets.only(
-                                                right: 16
-                                              ),
+                                              margin: EdgeInsets.only(right: 16),
                                               child: Column(
                                                 crossAxisAlignment: CrossAxisAlignment.start,
                                                 spacing: 4,
@@ -206,6 +204,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                                     "Greek Salad",
                                                     style: TextStyle(
                                                       fontSize: 12,
+                                                      fontWeight: FontWeight.bold,
                                                     ),
                                                   ),
                                                   Row(
