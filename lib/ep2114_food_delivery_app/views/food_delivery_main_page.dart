@@ -110,9 +110,9 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                             ),
                                             Positioned(
                                               left: 16,
-                                              top: 24,
+                                              top: 20,
                                               child: Container(
-                                                height: 32,
+                                                height: 36,
                                                 decoration: BoxDecoration(
                                                   color: Colors.white.withValues(alpha: .5),
                                                   borderRadius: BorderRadius.circular(24),
