@@ -92,6 +92,11 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                             topLeft: Radius.circular(16),
                                             topRight: Radius.circular(16),
                                           ),
+                                          image: DecorationImage(
+                                            image: NetworkImage(
+                                              "https://cdn.pixabay.com/photo/2021/10/30/12/50/woman-6754248_1280.jpg",
+                                            ),
+                                          ),
                                         ),
                                         child: Stack(
                                           children: [],
