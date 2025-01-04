@@ -182,12 +182,15 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                       ),
                                       Divider(),
                                       SizedBox(
-                                        height: 100,
+                                        height: 130,
                                         child: ListView.builder(
                                           scrollDirection: Axis.horizontal,
                                           itemBuilder: (context, index) {
                                             return Container(
-                                              width: 120,
+                                              width: 100,
+                                              margin: EdgeInsets.only(
+                                                right: 16
+                                              ),
                                               child: Column(
                                                 crossAxisAlignment: CrossAxisAlignment.start,
                                                 spacing: 4,
