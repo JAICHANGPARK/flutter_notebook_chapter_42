@@ -105,17 +105,18 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                               left: 16,
                                               top: 16,
                                               child: CircleAvatar(
-                                                radius: 26,
+                                                radius: 22,
                                               ),
                                             ),
                                             Positioned(
                                               left: 16,
-                                              top: 16,
+                                              top: 24,
                                               child: Container(
+                                                height: 32,
                                                 decoration: BoxDecoration(
-                                                  color: Colors.white.withValues(alpha: .2),
+                                                  color: Colors.white.withValues(alpha: .5),
                                                 ),
-                                                padding: EdgeInsets.only(42),
+                                                padding: EdgeInsets.only(left: 52, right: 16),
                                                 child: Center(
                                                   child: Text(
                                                     "20% OFF",
