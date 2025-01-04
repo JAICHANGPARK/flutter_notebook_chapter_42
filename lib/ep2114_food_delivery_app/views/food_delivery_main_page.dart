@@ -189,6 +189,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                             return Container(
                                               width: 120,
                                               child: Column(
+                                                crossAxisAlignment: CrossAxisAlignment.start,
                                                 spacing: 4,
                                                 children: [
                                                   Expanded(
@@ -198,13 +199,25 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                                       ),
                                                     ),
                                                   ),
-                                                  Text("Greek Salad"),
+                                                  Text(
+                                                    "Greek Salad",
+                                                    style: TextStyle(
+                                                      fontSize: 12,
+                                                    ),
+                                                  ),
                                                   Row(
                                                     children: [
-                                                      Text("\$10.36"),
-                                                      Text("\$12.95",style: TextStyle(
-                                                        decoration: TextDecoration.lineThrough
-                                                      ),)
+                                                      Text(
+                                                        "\$10.36",
+                                                        style: TextStyle(
+                                                          fontSize: 12,
+                                                        ),
+                                                      ),
+                                                      Text(
+                                                        "\$12.95",
+                                                        style: TextStyle(
+                                                            fontSize: 12, decoration: TextDecoration.lineThrough),
+                                                      )
                                                     ],
                                                   )
                                                 ],
