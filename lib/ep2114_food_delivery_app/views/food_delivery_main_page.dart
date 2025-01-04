@@ -186,16 +186,21 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                         child: ListView.builder(
                                           itemBuilder: (context, index) {
                                             return Container(
-                                              
+                                              child: Column(
+                                                spacing: 4,
+                                                children: [
+                                                  Expanded(
+                                                    child: Container(),
+                                                  )
+                                                ],
+                                              ),
                                             );
                                           },
                                         ),
                                       ),
                                       Divider(),
                                       Row(
-                                        children: [
-
-                                        ],
+                                        children: [],
                                       )
                                     ],
                                   ),
