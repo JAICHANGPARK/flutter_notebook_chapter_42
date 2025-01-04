@@ -216,7 +216,9 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                                       Text(
                                                         "\$12.95",
                                                         style: TextStyle(
-                                                            fontSize: 12, decoration: TextDecoration.lineThrough),
+                                                          fontSize: 12,
+                                                          decoration: TextDecoration.lineThrough,
+                                                        ),
                                                       )
                                                     ],
                                                   )
