@@ -17,8 +17,17 @@ class ECommerceStartPage extends StatelessWidget {
             right: 0,
             child: Container(
               height: MediaQuery.sizeOf(context).height * 0.4,
-              decoration: BoxDecoration(
-                color: Colors.orange
+              decoration: BoxDecoration(color: Colors.orange),
+              child: Column(
+                spacing: 16,
+                children: [
+                  Text("Discover Luxury Like Never Before"),
+                  Text("Discover luxury fashion and iconic designer brands"),
+                  Container(
+                    height: 42,
+                    decoration: ,
+                  )
+                ],
               ),
             ),
           )
