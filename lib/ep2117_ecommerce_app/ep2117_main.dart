@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-runApp(ECommerceApp());
-
+  runApp(ECommerceApp());
 }
 
 class ECommerceApp extends StatelessWidget {
