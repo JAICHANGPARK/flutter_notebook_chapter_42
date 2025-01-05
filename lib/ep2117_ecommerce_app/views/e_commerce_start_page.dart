@@ -20,13 +20,13 @@ class ECommerceStartPage extends StatelessWidget {
               height: MediaQuery.sizeOf(context).height * 0.4,
               decoration: BoxDecoration(color: Colors.orange),
               child: Column(
-                spacing: 16,
+                spacing: 24,
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text("Discover Luxury Like\nNever Before"),
                   Text("Discover luxury fashion and iconic\ndesigner brands"),
                   Container(
-                    height: 42,
+                    height: 52,
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
                       color: Colors.black,
@@ -36,10 +36,15 @@ class ECommerceStartPage extends StatelessWidget {
                         Center(
                           child: Text(
                             "Get Started",
+                            style: TextStyle(
+                              color: Colors.white,
+                            ),
                           ),
                         ),
                         Positioned(
                           right: 8,
+                          top: 4,
+                          bottom: 4,
                           child: CircleAvatar(
                             backgroundColor: Colors.white,
                           ),
