@@ -6,7 +6,7 @@
 - Mehedi Hasan ✪
 - https://dribbble.com/shots/25418768-E-commerce-Mobile-App-Design
 
-<img src="https://cdn.dribbble.com/userupload/18232432/file/original-41de1277cc7832fa543ff67172f45f00.mp4"/>
+<img src="https://cdn.dribbble.com/userupload/18262004/file/original-230540b13d25d961d5bf23d87f02d547.png?resize=1504x1128&vertical=center"/>
 
 
 ## EP2114-2116
