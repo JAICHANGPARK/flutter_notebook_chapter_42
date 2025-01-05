@@ -12,8 +12,14 @@ class ECommerceStartPage extends StatelessWidget {
             child: Placeholder(),
           ),
           Positioned(
+            bottom: 0,
+            left: 0,
+            right: 0,
             child: Container(
-              
+              height: MediaQuery.sizeOf(context).height * 0.4,
+              decoration: BoxDecoration(
+                color: Colors.orange
+              ),
             ),
           )
         ],
