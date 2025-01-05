@@ -23,8 +23,8 @@ class ECommerceStartPage extends StatelessWidget {
                 spacing: 16,
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text("Discover Luxury Like Never Before"),
-                  Text("Discover luxury fashion and iconic designer brands"),
+                  Text("Discover Luxury Like\nNever Before"),
+                  Text("Discover luxury fashion and iconic\ndesigner brands"),
                   Container(
                     height: 42,
                     decoration: ShapeDecoration(
@@ -36,6 +36,12 @@ class ECommerceStartPage extends StatelessWidget {
                         Center(
                           child: Text(
                             "Get Started",
+                          ),
+                        ),
+                        Positioned(
+                          right: 8,
+                          child: CircleAvatar(
+                            backgroundColor: Colors.white,
                           ),
                         )
                       ],
