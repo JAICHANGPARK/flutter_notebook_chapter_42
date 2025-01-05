@@ -25,7 +25,19 @@ class ECommerceStartPage extends StatelessWidget {
                   Text("Discover luxury fashion and iconic designer brands"),
                   Container(
                     height: 42,
-                    decoration: ,
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Colors.black,
+                    ),
+                    child: Stack(
+                      children: [
+                        Center(
+                          child: Text(
+                            "Get Started",
+                          ),
+                        )
+                      ],
+                    ),
                   )
                 ],
               ),
