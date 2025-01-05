@@ -60,6 +60,8 @@ class ECommerceStartPage extends StatelessWidget {
                           bottom: 4,
                           child: CircleAvatar(
                             backgroundColor: Colors.white,
+
+                            child: Icon(Icons.arrow_forward_ios),
                           ),
                         )
                       ],
