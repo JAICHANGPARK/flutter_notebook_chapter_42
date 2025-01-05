@@ -18,13 +18,26 @@ class ECommerceStartPage extends StatelessWidget {
             child: Container(
               padding: EdgeInsets.all(32),
               height: MediaQuery.sizeOf(context).height * 0.4,
-              decoration: BoxDecoration(color: Colors.orange),
+              decoration: BoxDecoration(color: Colors.white),
               child: Column(
                 spacing: 24,
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text("Discover Luxury Like\nNever Before"),
-                  Text("Discover luxury fashion and iconic\ndesigner brands"),
+                  Text(
+                    "Discover Luxury Like\nNever Before",
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+                  Text(
+                    "Discover luxury fashion and iconic\ndesigner brands",
+                    style: TextStyle(
+                      color: Colors.grey,
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
                   Container(
                     height: 52,
                     decoration: ShapeDecoration(
