@@ -2,7 +2,7 @@
 
 ## EP2117
 
-- Food Delivery Deals
+- E-commerce Mobile App Design
 - Brandon Termini for Termini Design
 - https://dribbble.com/shots/25408811-Food-Delivery-Deals
 
