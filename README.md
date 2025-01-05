@@ -4,7 +4,7 @@
 
 - E-commerce Mobile App Design
 - Mehedi Hasan ✪
-- https://dribbble.com/shots/25408811-Food-Delivery-Deals
+- https://dribbble.com/shots/25418768-E-commerce-Mobile-App-Design
 
 <img src="https://cdn.dribbble.com/userupload/18232432/file/original-41de1277cc7832fa543ff67172f45f00.mp4"/>
 
