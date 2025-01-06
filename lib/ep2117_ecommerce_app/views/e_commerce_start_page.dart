@@ -11,9 +11,12 @@ class ECommerceStartPage extends StatelessWidget {
           Positioned.fill(
               child: GridView.builder(
             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: 4,
+              crossAxisCount: 3,
+              childAspectRatio: .4
             ),
-            itemBuilder: (context, index) {},
+            itemBuilder: (context, index) {
+              return Placeholder();
+            },
           )),
           Positioned(
             bottom: 0,
