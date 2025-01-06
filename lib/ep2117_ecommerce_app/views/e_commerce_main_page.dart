@@ -11,6 +11,19 @@ class ECommerceMainPage extends StatefulWidget {
 class _ECommerceMainPageState extends State<ECommerceMainPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      backgroundColor: Colors.white,
+      body: Column(
+        spacing: 16,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+
+            ],
+          )
+        ],
+      ),
+    );
   }
 }
