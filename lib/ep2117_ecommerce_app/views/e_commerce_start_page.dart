@@ -46,7 +46,7 @@ class ECommerceStartPage extends StatelessWidget {
                   Text(
                     "Discover Luxury Like\nNever Before",
                     style: TextStyle(
-                      fontSize: 20,
+                      fontSize: 24,
                       fontWeight: FontWeight.bold,
                     ),
                     textAlign: TextAlign.center,
