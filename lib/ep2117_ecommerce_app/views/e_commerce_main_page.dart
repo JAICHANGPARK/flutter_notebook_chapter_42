@@ -26,7 +26,8 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                     radius: 22,
                   ),
                   Expanded(
-                    child: Column(  spacing: 4,
+                    child: Column(
+                      spacing: 4,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text("Hello Dream"),
@@ -73,9 +74,17 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
               height: 52,
               child: Placeholder(),
             ),
-            Row(children: [
-              
-            ],)
+            Row(
+              children: [
+                Text(
+                  "Recent Viewed",
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Text("See All"),
+                )
+              ],
+            )
           ],
         ),
       ),
