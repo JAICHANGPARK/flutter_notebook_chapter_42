@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class ECommerceMainPage extends StatefulWidget {
   const ECommerceMainPage({super.key});
 
@@ -13,16 +12,26 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: Column(
-        spacing: 16,
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Row(
-            children: [
-
-            ],
-          )
-        ],
+      body: SafeArea(
+        child: Column(
+          spacing: 16,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(
+              children: [
+                CircleAvatar(),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text("Hello Dream"),
+                    ],
+                  ),
+                )
+              ],
+            )
+          ],
+        ),
       ),
     );
   }
