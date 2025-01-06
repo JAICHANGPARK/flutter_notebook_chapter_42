@@ -37,10 +37,23 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                       border: Border.all(
                         color: Colors.grey[200]!,
                       ),
+                      shape: BoxShape.circle,
                     ),
                     child: IconButton(
                       onPressed: () {},
                       icon: Icon(Icons.notifications_none),
+                    ),
+                  ),
+                  Container(
+                    decoration: BoxDecoration(
+                      border: Border.all(
+                        color: Colors.grey[200]!,
+                      ),
+                      shape: BoxShape.circle,
+                    ),
+                    child: IconButton(
+                      onPressed: () {},
+                      icon: Icon(Icons.shopping_bag_outlined),
                     ),
                   )
                 ],
