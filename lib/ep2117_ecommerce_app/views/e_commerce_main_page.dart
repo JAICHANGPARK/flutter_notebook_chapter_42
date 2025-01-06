@@ -75,6 +75,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
               child: Placeholder(),
             ),
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
                   "Recent Viewed",
@@ -84,6 +85,14 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                   child: Text("See All"),
                 )
               ],
+            ),
+            Expanded(child: Row(children: [
+            Expanded(child: Container(child: Placeholder(),)),
+              Expanded(child: Container(child: Placeholder(),))
+            ],)),
+            Container(
+              height: 100,
+              child: Placeholder(),
             )
           ],
         ),
