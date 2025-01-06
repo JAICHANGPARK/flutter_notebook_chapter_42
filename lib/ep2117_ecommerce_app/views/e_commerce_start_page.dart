@@ -34,6 +34,10 @@ class ECommerceStartPage extends StatelessWidget {
               height: MediaQuery.sizeOf(context).height * 0.4,
               decoration: BoxDecoration(
                 color: Colors.white,
+                borderRadius: BorderRadius.only(
+                  topLeft: Radius.circular(24),
+                  topRight: Radius.circular(24),
+                )
               ),
               child: Column(
                 spacing: 24,
