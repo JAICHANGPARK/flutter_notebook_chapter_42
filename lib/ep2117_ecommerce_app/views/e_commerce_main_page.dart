@@ -86,10 +86,19 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                 )
               ],
             ),
-            Expanded(child: Row(children: [
-            Expanded(child: Container(child: Placeholder(),)),
-              Expanded(child: Container(child: Placeholder(),))
-            ],)),
+            Expanded(
+                child: Row(
+              children: [
+                Expanded(
+                    child: Container(
+                  child: Placeholder(),
+                )),
+                Expanded(
+                    child: Container(
+                  child: Placeholder(),
+                ))
+              ],
+            )),
             Container(
               height: 100,
               child: Placeholder(),
