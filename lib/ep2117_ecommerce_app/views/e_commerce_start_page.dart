@@ -10,27 +10,21 @@ class ECommerceStartPage extends StatelessWidget {
         children: [
           Positioned.fill(
             left: -42,
-              right: -42,
-              top: -400,
-              child: Transform.rotate(
-                angle: -.1,
-                child: GridView.builder(
-                            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                crossAxisCount: 3,
-                crossAxisSpacing: 12,
-                mainAxisSpacing: 12,
-                childAspectRatio: .6
-                            ),
-                            itemBuilder: (context, index) {
-                return Container(
-                  decoration: BoxDecoration(
-                    color: Colors.orange,
-                    borderRadius: BorderRadius.circular(8)
-                  ),
-                );
-                            },
-                          ),
-              )),
+            right: -42,
+            top: -400,
+            child: Transform.rotate(
+              angle: -.1,
+              child: GridView.builder(
+                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount: 3, crossAxisSpacing: 12, mainAxisSpacing: 12, childAspectRatio: .6),
+                itemBuilder: (context, index) {
+                  return Container(
+                    decoration: BoxDecoration(color: Colors.orange, borderRadius: BorderRadius.circular(8)),
+                  );
+                },
+              ),
+            ),
+          ),
           Positioned(
             bottom: 0,
             left: 0,
@@ -38,7 +32,9 @@ class ECommerceStartPage extends StatelessWidget {
             child: Container(
               padding: EdgeInsets.all(32),
               height: MediaQuery.sizeOf(context).height * 0.4,
-              decoration: BoxDecoration(color: Colors.white),
+              decoration: BoxDecoration(
+                color: Colors.white,
+              ),
               child: Column(
                 spacing: 24,
                 mainAxisAlignment: MainAxisAlignment.center,
