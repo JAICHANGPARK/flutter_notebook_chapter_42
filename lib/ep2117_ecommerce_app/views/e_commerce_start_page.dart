@@ -9,15 +9,22 @@ class ECommerceStartPage extends StatelessWidget {
       body: Stack(
         children: [
           Positioned.fill(
+            left: -60,
+              right: -60,
               child: GridView.builder(
             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: 3,
               crossAxisSpacing: 12,
               mainAxisSpacing: 12,
-              childAspectRatio: .4
+              childAspectRatio: .7
             ),
             itemBuilder: (context, index) {
-              return Placeholder();
+              return Container(
+                decoration: BoxDecoration(
+                  color: Colors.orange,
+                  borderRadius: BorderRadius.circular(8)
+                ),
+              );
             },
           )),
           Positioned(
