@@ -34,9 +34,14 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                   ),
                   Container(
                     decoration: BoxDecoration(
-                        border: Border.all(
-                      color: Colors.grey[200]!,
-                    )),
+                      border: Border.all(
+                        color: Colors.grey[200]!,
+                      ),
+                    ),
+                    child: IconButton(
+                      onPressed: () {},
+                      icon: Icon(Icons.notifications_none),
+                    ),
                   )
                 ],
               ),
