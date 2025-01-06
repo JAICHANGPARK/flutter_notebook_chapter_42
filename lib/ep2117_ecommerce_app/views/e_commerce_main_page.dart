@@ -64,43 +64,51 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
             ),
             Container(
               height: 62,
+              margin: EdgeInsets.symmetric(horizontal: 16),
               child: Placeholder(),
             ),
             Container(
-              height: 200,
+              height: 200, margin: EdgeInsets.symmetric(horizontal: 16),
               child: Placeholder(),
             ),
             Container(
-              height: 52,
+              height: 52, margin: EdgeInsets.only(left: 16),
               child: Placeholder(),
             ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Text(
-                  "Recent Viewed",
-                ),
-                TextButton(
-                  onPressed: () {},
-                  child: Text("See All"),
-                )
-              ],
+            Padding(
+              padding: EdgeInsets.symmetric(horizontal: 16),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    "Recent Viewed",
+                  ),
+                  TextButton(
+                    onPressed: () {},
+                    child: Text("See All"),
+                  )
+                ],
+              ),
             ),
             Expanded(
-                child: Row(
-              children: [
-                Expanded(
-                    child: Container(
-                  child: Placeholder(),
+                child: Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 16),
+                  child: Row(
+                                children: [
+                  Expanded(
+                      child: Container(
+                    child: Placeholder(),
+                  )),
+                  Expanded(
+                      child: Container(
+                    child: Placeholder(),
+                  ))
+                                ],
+                              ),
                 )),
-                Expanded(
-                    child: Container(
-                  child: Placeholder(),
-                ))
-              ],
-            )),
             Container(
               height: 100,
+              margin: EdgeInsets.symmetric(horizontal: 16),
               child: Placeholder(),
             )
           ],
