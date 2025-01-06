@@ -9,14 +9,14 @@ class ECommerceStartPage extends StatelessWidget {
       body: Stack(
         children: [
           Positioned.fill(
-            left: -60,
-              right: -60,
+            left: -42,
+              right: -42,
               child: GridView.builder(
             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: 3,
               crossAxisSpacing: 12,
               mainAxisSpacing: 12,
-              childAspectRatio: .7
+              childAspectRatio: .6
             ),
             itemBuilder: (context, index) {
               return Container(
