@@ -22,9 +22,11 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
               child: Row(
                 spacing: 16,
                 children: [
-                  CircleAvatar(),
+                  CircleAvatar(
+                    radius: 22,
+                  ),
                   Expanded(
-                    child: Column(
+                    child: Column(  spacing: 4,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text("Hello Dream"),
@@ -58,7 +60,22 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                   )
                 ],
               ),
-            )
+            ),
+            Container(
+              height: 62,
+              child: Placeholder(),
+            ),
+            Container(
+              height: 200,
+              child: Placeholder(),
+            ),
+            Container(
+              height: 52,
+              child: Placeholder(),
+            ),
+            Row(children: [
+              
+            ],)
           ],
         ),
       ),
