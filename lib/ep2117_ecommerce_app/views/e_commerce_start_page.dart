@@ -9,8 +9,12 @@ class ECommerceStartPage extends StatelessWidget {
       body: Stack(
         children: [
           Positioned.fill(
-            child: Placeholder(),
-          ),
+              child: GridView.builder(
+            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: 4,
+            ),
+            itemBuilder: (context, index) {},
+          )),
           Positioned(
             bottom: 0,
             left: 0,
@@ -60,7 +64,6 @@ class ECommerceStartPage extends StatelessWidget {
                           bottom: 4,
                           child: CircleAvatar(
                             backgroundColor: Colors.white,
-
                             child: Icon(Icons.arrow_forward_ios),
                           ),
                         )
