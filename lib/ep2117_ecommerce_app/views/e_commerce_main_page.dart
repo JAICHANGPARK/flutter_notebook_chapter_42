@@ -110,7 +110,16 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                         borderRadius: BorderRadius.circular(16),
                       ),
                       child: Column(
-                        children: [],
+                        children: [
+                          Row(
+                            children: [
+                              Icon(Icons.workspace_premium),
+                              Text("Opulent Savings"),
+                            ],
+                          ),
+                          Text("Exclusive 50%"),
+                          Text("Exclusive 50%"),
+                        ],
                       ),
                     ),
                   ),
@@ -119,8 +128,8 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                     top: 0,
                     bottom: 0,
                     child: Image.network(
-                      "https://png.pngtree.com/png-vector/20241213/ourmid/pngtree-vibrant-and-joyful-shopping-image-ideal-for-sales-campaigns-png-image_14736911.png",
                       width: 160,
+                      "https://cdn.pixabay.com/photo/2015/12/02/20/45/shopping-1073449_1280.png",
                     ),
                   )
                 ],
