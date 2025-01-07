@@ -98,16 +98,27 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
               ),
             ),
             Container(
-                height: 200,
-                margin: EdgeInsets.symmetric(horizontal: 16),
-                child: Stack(
-                  children: [
-                    Positioned.fill(
-                      top: 24,
-                      child: Container(),
-                    )
-                  ],
-                )),
+              height: 200,
+              margin: EdgeInsets.symmetric(horizontal: 16),
+              child: Stack(
+                children: [
+                  Positioned.fill(
+                    top: 24,
+                    child: Container(
+                      decoration: BoxDecoration(
+                        color: Colors.indigoAccent,
+                        borderRadius: BorderRadius.circular(16),
+                      ),
+                      child: Column(
+                        children: [
+                          
+                        ],
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
             Container(
               height: 52,
               margin: EdgeInsets.only(left: 16),
