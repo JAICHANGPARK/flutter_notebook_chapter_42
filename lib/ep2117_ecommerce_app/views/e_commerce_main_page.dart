@@ -65,6 +65,12 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
             Container(
               height: 62,
               margin: EdgeInsets.symmetric(horizontal: 16),
+              decoration: BoxDecoration(
+                border: Border.all(
+                  color: Colors.grey[200]!,
+                ),
+                borderRadius: BorderRadius.circular(24),
+              ),
               child: Row(
                 children: [
                   Expanded(
