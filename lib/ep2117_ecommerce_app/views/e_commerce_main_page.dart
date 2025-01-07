@@ -104,6 +104,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                 children: [
                   Positioned.fill(
                     top: 24,
+                    right: 8,
                     child: Container(
                       decoration: BoxDecoration(
                         color: Colors.indigoAccent,
