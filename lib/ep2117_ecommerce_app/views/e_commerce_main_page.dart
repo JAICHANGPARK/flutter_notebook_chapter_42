@@ -67,7 +67,12 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
               margin: EdgeInsets.symmetric(horizontal: 16),
               child: Row(
                 children: [
-                  Expanded(child: TextField()),
+                  Expanded(
+                      child: TextField(
+                    decoration: InputDecoration(
+                      border: InputBorder.none,
+                    ),
+                  )),
                   Container(
                     decoration: BoxDecoration(
                       border: Border.all(
@@ -77,10 +82,9 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                     ),
                     child: IconButton(
                       onPressed: () {},
-                      icon: Icon(Icons.shopping_bag_outlined),
+                      icon: Icon(Icons.tune),
                     ),
                   )
-
                 ],
               ),
             ),
