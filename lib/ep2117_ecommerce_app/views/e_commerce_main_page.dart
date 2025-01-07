@@ -67,6 +67,19 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
               margin: EdgeInsets.symmetric(horizontal: 16),
               child: Row(
                 children: [
+                  Expanded(child: TextField()),
+                  Container(
+                    decoration: BoxDecoration(
+                      border: Border.all(
+                        color: Colors.grey[200]!,
+                      ),
+                      shape: BoxShape.circle,
+                    ),
+                    child: IconButton(
+                      onPressed: () {},
+                      icon: Icon(Icons.shopping_bag_outlined),
+                    ),
+                  )
 
                 ],
               ),
