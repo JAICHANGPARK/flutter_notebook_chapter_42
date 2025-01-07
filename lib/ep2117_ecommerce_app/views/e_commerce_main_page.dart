@@ -158,15 +158,34 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                   scrollDirection: Axis.horizontal,
                   children: [
                     Container(
-                      margin: EdgeInsets.only(16),
+                      margin: EdgeInsets.only(right: 16),
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(),
-                        color: Colors.white,
+                        color: Colors.black,
                       ),
-                      child: Text(
-                        "All",
-                        style: TextStyle(
-                          color: Colors.white,
+                      child: Center(
+                        child: Text(
+                          "All",
+                          style: TextStyle(
+                            color: Colors.white,
+                          ),
+                        ),
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.only(right: 16),
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(
+                            side: BorderSide(
+                          color: Colors.grey[200]!,
+                        )),
+                      ),
+                      child: Center(
+                        child: Text(
+                          "Menswear",
+                          style: TextStyle(
+                            color: Colors.white,
+                          ),
                         ),
                       ),
                     )
