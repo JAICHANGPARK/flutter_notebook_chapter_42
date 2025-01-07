@@ -112,6 +112,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                       padding: EdgeInsets.all(16),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
+                        spacing: 16,
                         children: [
                           Row(
                             children: [
@@ -126,6 +127,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                               shape: StadiumBorder(),
                               color: Colors.black,
                             ),
+                            padding: EdgeInsets.symmetric(horizontal: 16, vertical: 4),
                             child: Text(
                               "Shop Now",
                               style: TextStyle(
