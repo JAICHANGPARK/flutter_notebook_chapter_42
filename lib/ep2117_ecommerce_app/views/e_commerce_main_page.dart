@@ -63,13 +63,14 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
               ),
             ),
             Container(
-              height: 62,
+              height: 52,
               margin: EdgeInsets.symmetric(horizontal: 16),
+              padding: EdgeInsets.only(left: 8, right: 4, top: 2, bottom: 2),
               decoration: BoxDecoration(
                 border: Border.all(
                   color: Colors.grey[200]!,
                 ),
-                borderRadius: BorderRadius.circular(24),
+                borderRadius: BorderRadius.circular(32),
               ),
               child: Row(
                 children: [
@@ -97,10 +98,16 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
               ),
             ),
             Container(
-              height: 200,
-              margin: EdgeInsets.symmetric(horizontal: 16),
-              child: Placeholder(),
-            ),
+                height: 200,
+                margin: EdgeInsets.symmetric(horizontal: 16),
+                child: Stack(
+                  children: [
+                    Positioned.fill(
+                      top: 24,
+                      child: Container(),
+                    )
+                  ],
+                )),
             Container(
               height: 52,
               margin: EdgeInsets.only(left: 16),
