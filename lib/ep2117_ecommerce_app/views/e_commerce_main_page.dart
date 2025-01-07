@@ -77,6 +77,8 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                       child: TextField(
                     decoration: InputDecoration(
                       border: InputBorder.none,
+                      hintText: "Search",
+                      icon: Icon(Icons.search),
                     ),
                   )),
                   Container(
