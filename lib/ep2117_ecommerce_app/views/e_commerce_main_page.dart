@@ -110,12 +110,19 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                         borderRadius: BorderRadius.circular(16),
                       ),
                       child: Column(
-                        children: [
-                          
-                        ],
+                        children: [],
                       ),
                     ),
                   ),
+                  Positioned(
+                    right: 0,
+                    top: 0,
+                    bottom: 0,
+                    child: Image.network(
+                      "https://png.pngtree.com/png-vector/20241213/ourmid/pngtree-vibrant-and-joyful-shopping-image-ideal-for-sales-campaigns-png-image_14736911.png",
+                      width: 160,
+                    ),
+                  )
                 ],
               ),
             ),
