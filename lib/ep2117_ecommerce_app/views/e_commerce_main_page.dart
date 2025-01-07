@@ -68,11 +68,13 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
               child: Placeholder(),
             ),
             Container(
-              height: 200, margin: EdgeInsets.symmetric(horizontal: 16),
+              height: 200,
+              margin: EdgeInsets.symmetric(horizontal: 16),
               child: Placeholder(),
             ),
             Container(
-              height: 52, margin: EdgeInsets.only(left: 16),
+              height: 52,
+              margin: EdgeInsets.only(left: 16),
               child: Placeholder(),
             ),
             Padding(
@@ -92,9 +94,9 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
             ),
             Expanded(
                 child: Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 16),
-                  child: Row(
-                                children: [
+              padding: EdgeInsets.symmetric(horizontal: 16),
+              child: Row(
+                children: [
                   Expanded(
                       child: Container(
                     child: Placeholder(),
@@ -103,9 +105,9 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                       child: Container(
                     child: Placeholder(),
                   ))
-                                ],
-                              ),
-                )),
+                ],
+              ),
+            )),
             Container(
               height: 100,
               margin: EdgeInsets.symmetric(horizontal: 16),
