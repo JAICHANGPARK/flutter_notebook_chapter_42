@@ -152,7 +152,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
               ),
             ),
             Container(
-                height: 52,
+                height: 42,
                 margin: EdgeInsets.only(left: 16),
                 child: ListView(
                   scrollDirection: Axis.horizontal,
@@ -163,6 +163,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                         shape: StadiumBorder(),
                         color: Colors.black,
                       ),
+                      padding: EdgeInsets.symmetric(horizontal: 24),
                       child: Center(
                         child: Text(
                           "All",
@@ -198,6 +199,10 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                 children: [
                   Text(
                     "Recent Viewed",
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 18,
+                    ),
                   ),
                   TextButton(
                     onPressed: () {},
