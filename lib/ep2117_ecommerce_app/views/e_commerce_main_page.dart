@@ -118,7 +118,19 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                             ],
                           ),
                           Text("Exclusive 50%"),
-                          Text("Exclusive 50%"),
+                          Text("Luxury Sale"),
+                          Container(
+                            decoration: ShapeDecoration(
+                              shape: StadiumBorder(),
+                              color: Colors.black,
+                            ),
+                            child: Text(
+                              "Shop Now",
+                              style: TextStyle(
+                                color: Colors.white,
+                              ),
+                            ),
+                          )
                         ],
                       ),
                     ),
