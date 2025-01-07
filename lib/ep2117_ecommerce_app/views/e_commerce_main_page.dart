@@ -155,8 +155,10 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                 height: 52,
                 margin: EdgeInsets.only(left: 16),
                 child: ListView(
+                  scrollDirection: Axis.horizontal,
                   children: [
                     Container(
+                      margin: EdgeInsets.only(16),
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(),
                         color: Colors.white,
