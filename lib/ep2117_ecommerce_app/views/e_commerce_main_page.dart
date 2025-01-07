@@ -65,7 +65,11 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
             Container(
               height: 62,
               margin: EdgeInsets.symmetric(horizontal: 16),
-              child: Placeholder(),
+              child: Row(
+                children: [
+
+                ],
+              ),
             ),
             Container(
               height: 200,
