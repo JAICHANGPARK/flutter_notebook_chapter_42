@@ -152,10 +152,24 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
               ),
             ),
             Container(
-              height: 52,
-              margin: EdgeInsets.only(left: 16),
-              child: Placeholder(),
-            ),
+                height: 52,
+                margin: EdgeInsets.only(left: 16),
+                child: ListView(
+                  children: [
+                    Container(
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(),
+                        color: Colors.white,
+                      ),
+                      child: Text(
+                        "All",
+                        style: TextStyle(
+                          color: Colors.white,
+                        ),
+                      ),
+                    )
+                  ],
+                )),
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 16),
               child: Row(
