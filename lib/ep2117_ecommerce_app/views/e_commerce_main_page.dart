@@ -109,7 +109,9 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                         color: Colors.indigoAccent,
                         borderRadius: BorderRadius.circular(16),
                       ),
+                      padding: EdgeInsets.all(16),
                       child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Row(
                             children: [
