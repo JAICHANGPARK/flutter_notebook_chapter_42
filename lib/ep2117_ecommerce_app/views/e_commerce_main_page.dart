@@ -146,6 +146,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                     child: Image.network(
                       width: 160,
                       "https://cdn.pixabay.com/photo/2015/12/02/20/45/shopping-1073449_1280.png",
+                      fit: BoxFit.fitHeight,
                     ),
                   )
                 ],
