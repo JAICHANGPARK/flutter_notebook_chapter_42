@@ -294,7 +294,11 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                           ),
                           Row(
                             children: [
-                              Text("\$2445")
+                              Text("\$2445"),
+                              Text("\$3445"),
+                              CircleAvatar(
+                                backgroundColor: Colors.black,
+                              )
                             ],
                           )
                         ],
