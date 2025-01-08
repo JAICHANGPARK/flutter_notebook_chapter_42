@@ -348,8 +348,8 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                 alignment: Alignment.topRight,
                                 child: CircleAvatar(
                                   backgroundColor: Colors.grey[200]!,
-                                  child: Icon(Icons.favorite),
                                   foregroundColor: Colors.red,
+                                  child: Icon(Icons.favorite),
                                 ),
                               ),
                             ),
