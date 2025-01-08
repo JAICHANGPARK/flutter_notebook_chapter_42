@@ -271,6 +271,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                         children: [
                           Expanded(
                             child: Container(
+                              padding: EdgeInsets.all(8),
                               decoration: BoxDecoration(
                                 color: Colors.white,
                                 borderRadius: BorderRadius.circular(16),
