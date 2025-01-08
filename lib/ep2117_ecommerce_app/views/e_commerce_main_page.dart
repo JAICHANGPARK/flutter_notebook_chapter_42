@@ -264,7 +264,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                         color: Colors.grey[200]!,
                         borderRadius: BorderRadius.circular(12),
                       ),
-                      padding: EdgeInsets.all(8),
+                      padding: EdgeInsets.all(12),
                       child: Column(
                         spacing: 16,
                         children: [
@@ -293,9 +293,11 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                             ],
                           ),
                           Row(
+                            spacing: 6,
                             children: [
                               Text("\$2445"),
                               Text("\$3445"),
+                              Spacer(),
                               CircleAvatar(
                                 radius: 18,
                                 backgroundColor: Colors.black,
