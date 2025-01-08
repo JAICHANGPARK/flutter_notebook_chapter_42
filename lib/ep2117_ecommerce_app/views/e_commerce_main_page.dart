@@ -192,6 +192,42 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                           ),
                         ),
                       ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.only(right: 16),
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(
+                          side: BorderSide(
+                            color: Colors.grey[200]!,
+                          ),
+                        ),
+                      ),
+                      child: Center(
+                        child: Text(
+                          "Womenswear",
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.only(right: 16),
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(
+                          side: BorderSide(
+                            color: Colors.grey[200]!,
+                          ),
+                        ),
+                      ),
+                      child: Center(
+                        child: Text(
+                          "Unisex",
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
                     )
                   ],
                 )),
