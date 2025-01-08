@@ -437,10 +437,13 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                     ],
                   ),
                   child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       CircleAvatar(
                         backgroundColor: Colors.black,
                         foregroundColor: Colors.white,
+                        child: Icon(Icons.home_filled),
                       )
                     ],
                   ),
