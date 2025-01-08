@@ -361,6 +361,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                   backgroundColor: Colors.grey[200]!,
                                   foregroundColor: Colors.red,
                                   child: Icon(Icons.favorite),
+
                                 ),
                               ),
                             ),
@@ -398,6 +399,8 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                               CircleAvatar(
                                 radius: 18,
                                 backgroundColor: Colors.black,
+                                foregroundColor: Colors.white,
+                                child: Icon(Icons.arrow_forward),
                               )
                             ],
                           )
