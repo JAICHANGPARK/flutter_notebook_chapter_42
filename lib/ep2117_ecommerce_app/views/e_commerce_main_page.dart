@@ -154,7 +154,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
               ),
             ),
             Container(
-                height: 42,
+                height: 36,
                 margin: EdgeInsets.only(left: 16),
                 child: ListView(
                   scrollDirection: Axis.horizontal,
