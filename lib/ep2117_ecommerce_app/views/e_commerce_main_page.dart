@@ -429,8 +429,10 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                 margin: EdgeInsets.symmetric(horizontal: 16),
                 child: Center(
                   child: Container(
+                    padding: EdgeInsets.symmetric(horizontal: 8, vertical: 8),
                     decoration: BoxDecoration(
                       color: Colors.white,
+                      borderRadius: BorderRadius.circular(32),
                       boxShadow: [
                         BoxShadow(
                           color: Colors.black.withValues(alpha: .2),
