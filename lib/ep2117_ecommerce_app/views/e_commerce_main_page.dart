@@ -444,11 +444,17 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                     child: Row(
                       mainAxisSize: MainAxisSize.min,
                       mainAxisAlignment: MainAxisAlignment.center,
+                      spacing: 12,
                       children: [
                         CircleAvatar(
                           backgroundColor: Colors.black,
                           foregroundColor: Colors.white,
                           child: Icon(Icons.home_filled),
+                        ),
+                        CircleAvatar(
+                          backgroundColor: Colors.white,
+                          foregroundColor: Colors.black,
+                          child: Icon(Icons.store),
                         )
                       ],
                     ),
