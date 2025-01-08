@@ -272,6 +272,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                             child: Container(
                               decoration: BoxDecoration(
                                 color: Colors.white,
+                                borderRadius: BorderRadius.circular(16),
                                 image: DecorationImage(
                                   image: NetworkImage(
                                     "",
