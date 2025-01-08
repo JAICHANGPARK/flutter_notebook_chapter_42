@@ -257,6 +257,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                 child: Padding(
               padding: EdgeInsets.symmetric(horizontal: 16),
               child: Row(
+                spacing: 16,
                 children: [
                   Expanded(
                     child: Container(
