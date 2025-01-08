@@ -195,6 +195,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                       ),
                     ),
                     Container(
+                      padding: EdgeInsets.symmetric(horizontal: 24),
                       margin: EdgeInsets.only(right: 16),
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(
