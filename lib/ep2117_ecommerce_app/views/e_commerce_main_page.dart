@@ -435,8 +435,8 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                       borderRadius: BorderRadius.circular(32),
                       boxShadow: [
                         BoxShadow(
-                          color: Colors.black.withValues(alpha: .2),
-                          blurRadius: 8,
+                          color: Colors.black.withValues(alpha: .1),
+                          blurRadius: 16,
                           spreadRadius: 8,
                         )
                       ],
@@ -455,6 +455,16 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                           backgroundColor: Colors.white,
                           foregroundColor: Colors.black,
                           child: Icon(Icons.store),
+                        ),
+                        CircleAvatar(
+                          backgroundColor: Colors.white,
+                          foregroundColor: Colors.black,
+                          child: Icon(Icons.favorite_border),
+                        ),
+                        CircleAvatar(
+                          backgroundColor: Colors.white,
+                          foregroundColor: Colors.black,
+                          child: Icon(Icons.person_2_outlined),
                         )
                       ],
                     ),
