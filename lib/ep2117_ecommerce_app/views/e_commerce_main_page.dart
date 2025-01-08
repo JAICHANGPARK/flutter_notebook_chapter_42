@@ -113,7 +113,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                       padding: EdgeInsets.all(16),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
-                        spacing: 16,
+                        spacing: 12,
                         children: [
                           Row(
                             children: [
@@ -121,8 +121,22 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                               Text("Opulent Savings"),
                             ],
                           ),
-                          Text("Exclusive 50%"),
-                          Text("Luxury Sale"),
+                          Text(
+                            "Exclusive 50%",
+                            style: TextStyle(
+                              fontSize: 18,
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          Text(
+                            "Luxury Sale",
+                            style: TextStyle(
+                              fontSize: 18,
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
                           Container(
                             decoration: ShapeDecoration(
                               shape: StadiumBorder(),
@@ -361,7 +375,6 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                   backgroundColor: Colors.grey[200]!,
                                   foregroundColor: Colors.red,
                                   child: Icon(Icons.favorite),
-
                                 ),
                               ),
                             ),
