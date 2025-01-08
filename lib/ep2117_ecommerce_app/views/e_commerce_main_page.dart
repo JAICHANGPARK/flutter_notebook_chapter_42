@@ -264,10 +264,23 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                         color: Colors.grey[200]!,
                         borderRadius: BorderRadius.circular(12),
                       ),
-                      padding: ,
-                      child: Column(children: [
-
-                      ],),
+                      padding: EdgeInsets.all(8),
+                      child: Column(
+                        children: [
+                          Expanded(
+                            child: Container(
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                                image: DecorationImage(
+                                  image: NetworkImage(
+                                    "",
+                                  ),
+                                ),
+                              ),
+                            ),
+                          )
+                        ],
+                      ),
                     ),
                   ),
                   Expanded(
