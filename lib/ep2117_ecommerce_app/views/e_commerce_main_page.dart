@@ -425,10 +425,26 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
               ),
             )),
             Container(
-              height: 100,
-              margin: EdgeInsets.symmetric(horizontal: 16),
-              child: Placeholder(),
-            )
+                height: 100,
+                margin: EdgeInsets.symmetric(horizontal: 16),
+                child: Container(
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.black.withValues(alpha: .2),
+                      )
+                    ],
+                  ),
+                  child: Row(
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: Colors.black,
+                        foregroundColor: Colors.white,
+                      )
+                    ],
+                  ),
+                ))
           ],
         ),
       ),
