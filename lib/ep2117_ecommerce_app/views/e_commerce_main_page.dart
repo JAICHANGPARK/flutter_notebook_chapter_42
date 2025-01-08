@@ -297,6 +297,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                               Text("\$2445"),
                               Text("\$3445"),
                               CircleAvatar(
+                                radius: 18,
                                 backgroundColor: Colors.black,
                               )
                             ],
