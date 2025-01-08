@@ -304,10 +304,12 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                           Row(
                             spacing: 6,
                             children: [
-                              Text("\$2445",
+                              Text(
+                                "\$2445",
                                 style: TextStyle(
                                   fontWeight: FontWeight.bold,
-                                ),),
+                                ),
+                              ),
                               Text("\$3445"),
                               Spacer(),
                               CircleAvatar(
@@ -341,6 +343,12 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                   ),
                                 ),
                               ),
+                              child: Align(
+                                alignment: Alignment.topRight,
+                                child: CircleAvatar(
+                                  backgroundColor: Colors.grey[200]!,
+                                ),
+                              ),
                             ),
                           ),
                           Row(
@@ -365,10 +373,12 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                           Row(
                             spacing: 6,
                             children: [
-                              Text("\$2445",
+                              Text(
+                                "\$2445",
                                 style: TextStyle(
                                   fontWeight: FontWeight.bold,
-                                ),),
+                                ),
+                              ),
                               Text("\$3445"),
                               Spacer(),
                               CircleAvatar(
