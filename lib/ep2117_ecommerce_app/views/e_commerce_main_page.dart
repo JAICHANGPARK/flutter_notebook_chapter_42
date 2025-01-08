@@ -280,6 +280,14 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                   ),
                                 ),
                               ),
+                              child: Align(
+                                alignment: Alignment.topRight,
+                                child: CircleAvatar(
+                                  backgroundColor: Colors.grey[200]!,
+                                  foregroundColor: Colors.red,
+                                  child: Icon(Icons.favorite),
+                                ),
+                              ),
                             ),
                           ),
                           Row(
