@@ -266,6 +266,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                       ),
                       padding: EdgeInsets.all(8),
                       child: Column(
+                        spacing: 16,
                         children: [
                           Expanded(
                             child: Container(
