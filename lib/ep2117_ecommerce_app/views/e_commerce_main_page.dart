@@ -179,15 +179,16 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                       margin: EdgeInsets.only(right: 16),
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(
-                            side: BorderSide(
-                          color: Colors.grey[200]!,
-                        )),
+                          side: BorderSide(
+                            color: Colors.grey[200]!,
+                          ),
+                        ),
                       ),
                       child: Center(
                         child: Text(
                           "Menswear",
                           style: TextStyle(
-                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
                           ),
                         ),
                       ),
