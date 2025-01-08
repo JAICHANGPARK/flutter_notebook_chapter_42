@@ -343,6 +343,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                   ),
                                 ),
                               ),
+                              padding: EdgeInsets.all(8),
                               child: Align(
                                 alignment: Alignment.topRight,
                                 child: CircleAvatar(
