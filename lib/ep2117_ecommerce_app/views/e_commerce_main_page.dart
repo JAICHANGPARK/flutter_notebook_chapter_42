@@ -283,11 +283,18 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                           Row(
                             spacing: 4,
                             children: [
-                              Text("Dream Owens"),
+                              Text(
+                                "Dream Owens",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 16,
+                                ),
+                              ),
                               Spacer(),
                               Icon(
                                 Icons.star,
                                 color: Colors.orange,
+                                size: 16,
                               ),
                               Text("3.5"),
                             ],
@@ -295,7 +302,10 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                           Row(
                             spacing: 6,
                             children: [
-                              Text("\$2445"),
+                              Text("\$2445",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                ),),
                               Text("\$3445"),
                               Spacer(),
                               CircleAvatar(
