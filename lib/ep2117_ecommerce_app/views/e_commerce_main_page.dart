@@ -278,6 +278,18 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                 ),
                               ),
                             ),
+                          ),
+                          Row(
+                            spacing: 4,
+                            children: [
+                              Text("Dream Owens"),
+                              Spacer(),
+                              Icon(
+                                Icons.star,
+                                color: Colors.orange,
+                              ),
+                              Text("3.5"),
+                            ],
                           )
                         ],
                       ),
