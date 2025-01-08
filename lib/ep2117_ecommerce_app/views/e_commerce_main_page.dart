@@ -259,9 +259,17 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
               child: Row(
                 children: [
                   Expanded(
-                      child: Container(
-                    child: Placeholder(),
-                  )),
+                    child: Container(
+                      decoration: BoxDecoration(
+                        color: Colors.grey[200]!,
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                      padding: ,
+                      child: Column(children: [
+
+                      ],),
+                    ),
+                  ),
                   Expanded(
                       child: Container(
                     child: Placeholder(),
