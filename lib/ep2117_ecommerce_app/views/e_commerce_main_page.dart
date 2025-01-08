@@ -291,6 +291,11 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                               ),
                               Text("3.5"),
                             ],
+                          ),
+                          Row(
+                            children: [
+                              Text("\$2445")
+                            ],
                           )
                         ],
                       ),
