@@ -72,7 +72,7 @@ class _ECommerceShopWidgetState extends State<ECommerceShopWidget> {
           ),
           Container(
               height: 36,
-              margin: EdgeInsets.only(left: 16),
+
               child: ListView(
                 scrollDirection: Axis.horizontal,
                 children: [
