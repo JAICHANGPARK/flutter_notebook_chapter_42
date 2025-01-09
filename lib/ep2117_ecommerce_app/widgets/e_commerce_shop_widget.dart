@@ -157,6 +157,7 @@ class _ECommerceShopWidgetState extends State<ECommerceShopWidget> {
                 crossAxisCount: 2,
                 crossAxisSpacing: 16,
                 mainAxisSpacing: 16,
+                childAspectRatio: 0.7,
               ),
               itemBuilder: (context, index) {
                 return Container(
