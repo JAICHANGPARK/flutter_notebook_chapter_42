@@ -55,7 +55,13 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                       shape: BoxShape.circle,
                     ),
                     child: IconButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) => ECommerceCartPage(),
+                          ),
+                        );
+                      },
                       icon: Icon(Icons.shopping_bag_outlined),
                     ),
                   )
