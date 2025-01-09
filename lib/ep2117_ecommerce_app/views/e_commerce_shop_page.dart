@@ -11,6 +11,8 @@ class ECommerceShopPage extends StatefulWidget {
 class _ECommerceShopPageState extends State<ECommerceShopPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      backgroundColor: Colors.white,
+    );
   }
 }
