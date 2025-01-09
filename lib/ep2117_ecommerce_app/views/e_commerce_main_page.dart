@@ -278,8 +278,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                       ],
                     ),
                   ),
-                  Expanded(
-                      child: Padding(
+                  Padding(
                     padding: EdgeInsets.symmetric(horizontal: 16),
                     child: Row(
                       spacing: 16,
@@ -434,62 +433,61 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                         ),
                       ],
                     ),
-                  )),
-
+                  ),
                 ],
               ),
             ),
           ),
           Positioned(
-            bottom: 24,
+              bottom: 24,
               left: 0,
               right: 0,
-              child:    Container(
-              height: 100,
-              margin: EdgeInsets.symmetric(horizontal: 16),
-              child: Center(
-                child: Container(
-                  padding: EdgeInsets.symmetric(horizontal: 8, vertical: 8),
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.circular(32),
-                    boxShadow: [
-                      BoxShadow(
-                        color: Colors.black.withValues(alpha: .1),
-                        blurRadius: 16,
-                        spreadRadius: 8,
-                      )
-                    ],
-                  ),
-                  child: Row(
-                    mainAxisSize: MainAxisSize.min,
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    spacing: 12,
-                    children: [
-                      CircleAvatar(
-                        backgroundColor: Colors.black,
-                        foregroundColor: Colors.white,
-                        child: Icon(Icons.home_filled),
+              child: Container(
+                  height: 100,
+                  margin: EdgeInsets.symmetric(horizontal: 16),
+                  child: Center(
+                    child: Container(
+                      padding: EdgeInsets.symmetric(horizontal: 8, vertical: 8),
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(32),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.black.withValues(alpha: .1),
+                            blurRadius: 16,
+                            spreadRadius: 8,
+                          )
+                        ],
                       ),
-                      CircleAvatar(
-                        backgroundColor: Colors.white,
-                        foregroundColor: Colors.black,
-                        child: Icon(Icons.store),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        spacing: 12,
+                        children: [
+                          CircleAvatar(
+                            backgroundColor: Colors.black,
+                            foregroundColor: Colors.white,
+                            child: Icon(Icons.home_filled),
+                          ),
+                          CircleAvatar(
+                            backgroundColor: Colors.white,
+                            foregroundColor: Colors.black,
+                            child: Icon(Icons.store),
+                          ),
+                          CircleAvatar(
+                            backgroundColor: Colors.white,
+                            foregroundColor: Colors.black,
+                            child: Icon(Icons.favorite_border),
+                          ),
+                          CircleAvatar(
+                            backgroundColor: Colors.white,
+                            foregroundColor: Colors.black,
+                            child: Icon(Icons.person_2_outlined),
+                          )
+                        ],
                       ),
-                      CircleAvatar(
-                        backgroundColor: Colors.white,
-                        foregroundColor: Colors.black,
-                        child: Icon(Icons.favorite_border),
-                      ),
-                      CircleAvatar(
-                        backgroundColor: Colors.white,
-                        foregroundColor: Colors.black,
-                        child: Icon(Icons.person_2_outlined),
-                      )
-                    ],
-                  ),
-                ),
-              )))
+                    ),
+                  )))
         ],
       ),
     );
