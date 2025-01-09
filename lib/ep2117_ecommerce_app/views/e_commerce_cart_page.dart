@@ -11,6 +11,6 @@ class ECommerceCartPage extends StatefulWidget {
 class _ECommerceCartPageState extends State<ECommerceCartPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold();
   }
 }
