@@ -441,7 +441,9 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
             ),
           ),
           Positioned(
-              
+            bottom: 24,
+              left: 0,
+              right: 0,
               child:    Container(
               height: 100,
               margin: EdgeInsets.symmetric(horizontal: 16),
