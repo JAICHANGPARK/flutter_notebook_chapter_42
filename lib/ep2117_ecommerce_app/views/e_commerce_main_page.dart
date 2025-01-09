@@ -278,160 +278,163 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                       ],
                     ),
                   ),
-                  Padding(
-                    padding: EdgeInsets.symmetric(horizontal: 16),
-                    child: Row(
-                      spacing: 16,
-                      children: [
-                        Expanded(
-                          child: Container(
-                            decoration: BoxDecoration(
-                              color: Colors.grey[200]!,
-                              borderRadius: BorderRadius.circular(12),
-                            ),
-                            padding: EdgeInsets.all(12),
-                            child: Column(
-                              spacing: 16,
-                              children: [
-                                Expanded(
-                                  child: Container(
-                                    padding: EdgeInsets.all(8),
-                                    decoration: BoxDecoration(
-                                      color: Colors.white,
-                                      borderRadius: BorderRadius.circular(16),
-                                      image: DecorationImage(
-                                        image: NetworkImage(
-                                          "",
+                  Container(
+                    height: 280,
+                    child: Padding(
+                      padding: EdgeInsets.symmetric(horizontal: 16),
+                      child: Row(
+                        spacing: 16,
+                        children: [
+                          Expanded(
+                            child: Container(
+                              decoration: BoxDecoration(
+                                color: Colors.grey[200]!,
+                                borderRadius: BorderRadius.circular(12),
+                              ),
+                              padding: EdgeInsets.all(12),
+                              child: Column(
+                                spacing: 16,
+                                children: [
+                                  Expanded(
+                                    child: Container(
+                                      padding: EdgeInsets.all(8),
+                                      decoration: BoxDecoration(
+                                        color: Colors.white,
+                                        borderRadius: BorderRadius.circular(16),
+                                        image: DecorationImage(
+                                          image: NetworkImage(
+                                            "",
+                                          ),
+                                        ),
+                                      ),
+                                      child: Align(
+                                        alignment: Alignment.topRight,
+                                        child: CircleAvatar(
+                                          backgroundColor: Colors.grey[200]!,
+                                          foregroundColor: Colors.red,
+                                          child: Icon(Icons.favorite),
                                         ),
                                       ),
                                     ),
-                                    child: Align(
-                                      alignment: Alignment.topRight,
-                                      child: CircleAvatar(
-                                        backgroundColor: Colors.grey[200]!,
-                                        foregroundColor: Colors.red,
-                                        child: Icon(Icons.favorite),
-                                      ),
-                                    ),
                                   ),
-                                ),
-                                Row(
-                                  spacing: 4,
-                                  children: [
-                                    Text(
-                                      "Dream Owens",
-                                      style: TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        fontSize: 16,
+                                  Row(
+                                    spacing: 4,
+                                    children: [
+                                      Text(
+                                        "Dream Owens",
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 16,
+                                        ),
                                       ),
-                                    ),
-                                    Spacer(),
-                                    Icon(
-                                      Icons.star,
-                                      color: Colors.orange,
-                                      size: 16,
-                                    ),
-                                    Text("3.5"),
-                                  ],
-                                ),
-                                Row(
-                                  spacing: 6,
-                                  children: [
-                                    Text(
-                                      "\$2445",
-                                      style: TextStyle(
-                                        fontWeight: FontWeight.bold,
+                                      Spacer(),
+                                      Icon(
+                                        Icons.star,
+                                        color: Colors.orange,
+                                        size: 16,
                                       ),
-                                    ),
-                                    Text("\$3445"),
-                                    Spacer(),
-                                    CircleAvatar(
-                                      radius: 18,
-                                      backgroundColor: Colors.black,
-                                      foregroundColor: Colors.white,
-                                      child: Icon(Icons.arrow_forward),
-                                    )
-                                  ],
-                                )
-                              ],
+                                      Text("3.5"),
+                                    ],
+                                  ),
+                                  Row(
+                                    spacing: 6,
+                                    children: [
+                                      Text(
+                                        "\$2445",
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      ),
+                                      Text("\$3445"),
+                                      Spacer(),
+                                      CircleAvatar(
+                                        radius: 18,
+                                        backgroundColor: Colors.black,
+                                        foregroundColor: Colors.white,
+                                        child: Icon(Icons.arrow_forward),
+                                      )
+                                    ],
+                                  )
+                                ],
+                              ),
                             ),
                           ),
-                        ),
-                        Expanded(
-                          child: Container(
-                            decoration: BoxDecoration(
-                              color: Colors.grey[200]!,
-                              borderRadius: BorderRadius.circular(12),
-                            ),
-                            padding: EdgeInsets.all(12),
-                            child: Column(
-                              spacing: 16,
-                              children: [
-                                Expanded(
-                                  child: Container(
-                                    decoration: BoxDecoration(
-                                      color: Colors.white,
-                                      borderRadius: BorderRadius.circular(16),
-                                      image: DecorationImage(
-                                        image: NetworkImage(
-                                          "",
+                          Expanded(
+                            child: Container(
+                              decoration: BoxDecoration(
+                                color: Colors.grey[200]!,
+                                borderRadius: BorderRadius.circular(12),
+                              ),
+                              padding: EdgeInsets.all(12),
+                              child: Column(
+                                spacing: 16,
+                                children: [
+                                  Expanded(
+                                    child: Container(
+                                      decoration: BoxDecoration(
+                                        color: Colors.white,
+                                        borderRadius: BorderRadius.circular(16),
+                                        image: DecorationImage(
+                                          image: NetworkImage(
+                                            "",
+                                          ),
+                                        ),
+                                      ),
+                                      padding: EdgeInsets.all(8),
+                                      child: Align(
+                                        alignment: Alignment.topRight,
+                                        child: CircleAvatar(
+                                          backgroundColor: Colors.grey[200]!,
+                                          foregroundColor: Colors.red,
+                                          child: Icon(Icons.favorite),
                                         ),
                                       ),
                                     ),
-                                    padding: EdgeInsets.all(8),
-                                    child: Align(
-                                      alignment: Alignment.topRight,
-                                      child: CircleAvatar(
-                                        backgroundColor: Colors.grey[200]!,
-                                        foregroundColor: Colors.red,
-                                        child: Icon(Icons.favorite),
-                                      ),
-                                    ),
                                   ),
-                                ),
-                                Row(
-                                  spacing: 4,
-                                  children: [
-                                    Text(
-                                      "Dream Owens",
-                                      style: TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        fontSize: 16,
+                                  Row(
+                                    spacing: 4,
+                                    children: [
+                                      Text(
+                                        "Dream Owens",
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 16,
+                                        ),
                                       ),
-                                    ),
-                                    Spacer(),
-                                    Icon(
-                                      Icons.star,
-                                      color: Colors.orange,
-                                      size: 16,
-                                    ),
-                                    Text("3.5"),
-                                  ],
-                                ),
-                                Row(
-                                  spacing: 6,
-                                  children: [
-                                    Text(
-                                      "\$2445",
-                                      style: TextStyle(
-                                        fontWeight: FontWeight.bold,
+                                      Spacer(),
+                                      Icon(
+                                        Icons.star,
+                                        color: Colors.orange,
+                                        size: 16,
                                       ),
-                                    ),
-                                    Text("\$3445"),
-                                    Spacer(),
-                                    CircleAvatar(
-                                      radius: 18,
-                                      backgroundColor: Colors.black,
-                                      foregroundColor: Colors.white,
-                                      child: Icon(Icons.arrow_forward),
-                                    )
-                                  ],
-                                )
-                              ],
+                                      Text("3.5"),
+                                    ],
+                                  ),
+                                  Row(
+                                    spacing: 6,
+                                    children: [
+                                      Text(
+                                        "\$2445",
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      ),
+                                      Text("\$3445"),
+                                      Spacer(),
+                                      CircleAvatar(
+                                        radius: 18,
+                                        backgroundColor: Colors.black,
+                                        foregroundColor: Colors.white,
+                                        child: Icon(Icons.arrow_forward),
+                                      )
+                                    ],
+                                  )
+                                ],
+                              ),
                             ),
                           ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                   ),
                 ],
