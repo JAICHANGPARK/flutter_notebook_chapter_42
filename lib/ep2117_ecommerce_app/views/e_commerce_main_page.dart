@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_42/ep2117_ecommerce_app/widgets/e_commerce_home_widget.dart';
 
 import 'e_commerce_cart_page.dart';
 
@@ -23,7 +24,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
               child: IndexedStack(
                 index: pageNumber,
                 children: [
-
+                  ECommerceHomeWidget(),
                 ],
               ),
             ),
