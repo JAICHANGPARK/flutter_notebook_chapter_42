@@ -153,7 +153,11 @@ class _ECommerceShopWidgetState extends State<ECommerceShopWidget> {
               )),
           Expanded(
             child: GridView.builder(
-              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
+              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                crossAxisCount: 2,
+                crossAxisSpacing: 16,
+                mainAxisSpacing: 16,
+              ),
               itemBuilder: (context, index) {
                 return Container(
                   decoration: BoxDecoration(
