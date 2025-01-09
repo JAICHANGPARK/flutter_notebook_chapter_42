@@ -57,15 +57,29 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       spacing: 12,
                       children: [
-                        CircleAvatar(
-                          backgroundColor: Colors.black,
-                          foregroundColor: Colors.white,
-                          child: Icon(Icons.home_filled),
+                        InkWell(
+                          onTap: () {
+                            setState(() {
+                              pageNumber = 0;
+                            });
+                          },
+                          child: CircleAvatar(
+                            backgroundColor: Colors.black,
+                            foregroundColor: Colors.white,
+                            child: Icon(Icons.home_filled),
+                          ),
                         ),
-                        CircleAvatar(
-                          backgroundColor: Colors.white,
-                          foregroundColor: Colors.black,
-                          child: Icon(Icons.store),
+                        InkWell(
+                          onTap: () {
+                            setState(() {
+                              pageNumber = 1;
+                            });
+                          },
+                          child: CircleAvatar(
+                            backgroundColor: Colors.white,
+                            foregroundColor: Colors.black,
+                            child: Icon(Icons.store),
+                          ),
                         ),
                         CircleAvatar(
                           backgroundColor: Colors.white,
