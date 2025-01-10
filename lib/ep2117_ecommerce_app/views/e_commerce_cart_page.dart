@@ -77,6 +77,7 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                             color: Colors.grey[100],
                           ),
                           child: Row(
+                            spacing: 12,
                             children: [
                               Container(
                                 height: 100,
