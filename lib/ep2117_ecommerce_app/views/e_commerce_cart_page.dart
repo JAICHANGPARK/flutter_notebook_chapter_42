@@ -55,6 +55,17 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                   ),
                 ],
               ),
+            ),
+            Expanded(
+              child: Stack(
+                children: [
+                  Positioned(
+                    child: ListView.builder(itemBuilder: (context, index) {
+                      
+                    }),
+                  ),
+                ],
+              ),
             )
           ],
         ),
