@@ -78,27 +78,44 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                           ),
                           child: Row(
                             children: [
-                              Container(
-                                height: 100,
-                                width: 160,
-                                decoration: BoxDecoration(
-                                  color: Colors.blue,
-                                ),
-                              ),
-                              Expanded(
-                                child: Column(
-                                  children: [
-                                    Row(
-                                      children: [
-                                        Text("Flutter Shirts"),
-                                        Icon(Icons.delete_outline),
-                                      ],
-                                    ),
-                                  ],
-                                ),
-                              )
+                            Container(
+                            height: 100,
+                            width: 160,
+                            decoration: BoxDecoration(
+                              color: Colors.blue,
+                            ),
+                          ),
+                          Expanded(
+                            child: Column(
+                                children: [
+                            Row(
+                            children: [
+                            Text("Flutter Shirts"),
+                            Icon(Icons.delete_outline),
                             ],
                           ),
+                          Row(
+                            children: [
+                              Icon(Icons.star),
+                              Text("3.5"),
+                            ],
+                          ),
+                          Row(
+                              children: [
+                              Text("\$2445"),
+                          Container(
+                              decoration: BoxDecoration(
+                                  color: while (colors) {
+                              ,
+                              }
+                          ),
+                        )],
+                        )
+                        ],
+                        ),
+                        )
+                        ],
+                        ),
                         );
                       },
                     ),
