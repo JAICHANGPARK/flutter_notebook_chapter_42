@@ -31,8 +31,14 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                     icon: Icon(Icons.arrow_back),
                   ),
                 ),
-                Expanded(child: Text(""))
-                ,
+                Expanded(
+                    child: Center(
+                        child: Text(
+                  "Cart",
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                  ),
+                ))),
                 Container(
                   decoration: BoxDecoration(
                     border: Border.all(
@@ -45,7 +51,6 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                     icon: Icon(Icons.shopping_bag_outlined),
                   ),
                 ),
-
               ],
             )
           ],
