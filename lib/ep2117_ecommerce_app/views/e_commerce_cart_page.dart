@@ -94,7 +94,10 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                                     radius: 18,
                                     backgroundColor: Colors.grey[200]!,
                                     foregroundColor: Colors.red,
-                                    child: Icon(Icons.favorite,size: 18,),
+                                    child: Icon(
+                                      Icons.favorite,
+                                      size: 18,
+                                    ),
                                   ),
                                 ),
                               ),
@@ -124,9 +127,9 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                                       children: [
                                         Text("\$2445"),
                                         Container(
-
                                           decoration: BoxDecoration(
-                                            color: Colors.white, borderRadius: BorderRadius.circular(12),
+                                            color: Colors.white,
+                                            borderRadius: BorderRadius.circular(12),
                                           ),
                                           padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                                           child: Row(
