@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class ECommerceCartPage extends StatefulWidget {
   const ECommerceCartPage({super.key});
 
@@ -11,6 +10,19 @@ class ECommerceCartPage extends StatefulWidget {
 class _ECommerceCartPageState extends State<ECommerceCartPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      backgroundColor: Colors.white,
+      body: SafeArea(
+        child: Column(
+          children: [
+            Row(
+              children: [
+
+              ],
+            )
+          ],
+        ),
+      ),
+    );
   }
 }
