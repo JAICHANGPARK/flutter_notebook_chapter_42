@@ -69,6 +69,7 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                       itemCount: 10,
                       itemBuilder: (context, index) {
                         return Container(
+                          padding: EdgeInsets.all(16),
                           margin: EdgeInsets.only(
                             bottom: 12,
                           ),
@@ -78,10 +79,22 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                           child: Row(
                             children: [
                               Container(
-                                height: 80,
+                                height: 100,
                                 width: 160,
                                 decoration: BoxDecoration(
                                   color: Colors.blue,
+                                ),
+                              ),
+                              Expanded(
+                                child: Column(
+                                  children: [
+                                    Row(
+                                      children: [
+                                        Text("Flutter Shirts"),
+                                        Icon(Icons.delete_outline),
+                                      ],
+                                    ),
+                                  ],
                                 ),
                               )
                             ],
