@@ -88,8 +88,11 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                               ),
                               Expanded(
                                 child: Column(
+                                  spacing: 12,
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                   children: [
                                     Row(
+                                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                       children: [
                                         Text("Flutter Shirts"),
                                         Icon(Icons.delete_outline),
@@ -97,11 +100,15 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                                     ),
                                     Row(
                                       children: [
-                                        Icon(Icons.star),
+                                        Icon(
+                                          Icons.star,
+                                          size: 16,
+                                        ),
                                         Text("3.5"),
                                       ],
                                     ),
                                     Row(
+                                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                       children: [
                                         Text("\$2445"),
                                         Container(
@@ -109,6 +116,7 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                                             color: Colors.white,
                                           ),
                                           child: Row(
+                                            spacing: 12,
                                             children: [
                                               CircleAvatar(
                                                 radius: 10,
