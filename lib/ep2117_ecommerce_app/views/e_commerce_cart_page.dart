@@ -66,14 +66,24 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                     left: 16,
                     right: 16,
                     child: ListView.builder(
+                      itemCount: 10,
                       itemBuilder: (context, index) {
                         return Container(
+                          margin: EdgeInsets.only(
+                            bottom: 12,
+                          ),
                           decoration: BoxDecoration(
                             color: Colors.grey[100],
                           ),
                           child: Row(
                             children: [
-
+                              Container(
+                                height: 80,
+                                width: 160,
+                                decoration: BoxDecoration(
+                                  color: Colors.blue,
+                                ),
+                              )
                             ],
                           ),
                         );
