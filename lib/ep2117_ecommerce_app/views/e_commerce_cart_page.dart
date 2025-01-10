@@ -105,9 +105,7 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                               Text("\$2445"),
                           Container(
                               decoration: BoxDecoration(
-                                  color: while (colors) {
-                              ,
-                              }
+                                  color: Colors.white
                           ),
                         )],
                         )
