@@ -126,8 +126,8 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                             ],
                           ),
                           Container(
-                            decoration: BoxDecoration(
-                              color: Colors.black,
+                            decoration: ShapeDecoration(
+                              shape: StadiumBorder(),
                             ),
                             child: Center(
                               child: Text(
