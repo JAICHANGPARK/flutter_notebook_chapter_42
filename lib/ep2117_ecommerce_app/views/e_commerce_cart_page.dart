@@ -121,7 +121,9 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text("Order Amount"),
-                              Text("\$2445.00"),
+                              Text("\$2445.00",style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                              ),),
                             ],
                           ),
                           Divider(),
@@ -129,7 +131,9 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text("Order Amount"),
-                              Text("\$2445.00"),
+                              Text("\$2445.00",style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                              ),),
                             ],
                           ),
                           Divider(),
@@ -137,7 +141,9 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text("Order Amount"),
-                              Text("\$2445.00"),
+                              Text("\$2445.00",style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                              ),),
                             ],
                           ),
                           Gap(12),
