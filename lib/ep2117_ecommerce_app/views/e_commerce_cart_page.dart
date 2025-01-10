@@ -41,7 +41,7 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                     ),
-                  ))),
+                  ),),),
                   Container(
                     decoration: BoxDecoration(
                       border: Border.all(
