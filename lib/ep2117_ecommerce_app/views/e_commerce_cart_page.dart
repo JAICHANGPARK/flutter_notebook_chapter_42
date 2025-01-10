@@ -75,6 +75,7 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                           ),
                           decoration: BoxDecoration(
                             color: Colors.grey[100],
+                            borderRadius: BorderRadius.circular(12),
                           ),
                           child: Row(
                             spacing: 12,
