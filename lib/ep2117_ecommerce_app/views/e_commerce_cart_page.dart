@@ -82,7 +82,8 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                         spacing: 14,
                         children: [
                           Container(
-                            decoration: BoxDecoration(
+                            decoration: ShapeDecoration(
+                              shape: StadiumBorder(),
                               color: Colors.white,
                             ),
                             child: Row(
@@ -90,11 +91,13 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                                 Expanded(
                                   child: TextField(
                                     decoration: InputDecoration(
-                                        border: InputBorder.none,
-                                        hintText: "Promo Code",
-                                        hintStyle: TextStyle(
-                                          fontWeight: FontWeight.bold,
-                                        )),
+                                      border: InputBorder.none,
+                                      hintText: "Promo Code",
+                                      hintStyle: TextStyle(
+                                        fontWeight: FontWeight.bold,
+
+                                      ),
+                                    ),
                                   ),
                                 ),
                                 Container(
