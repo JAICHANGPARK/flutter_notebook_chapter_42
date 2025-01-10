@@ -86,6 +86,14 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                                   color: Colors.blue,
                                   borderRadius: BorderRadius.circular(12),
                                 ),
+                                child: Align(
+                                  alignment: Alignment.topRight,
+                                  child: CircleAvatar(
+                                    backgroundColor: Colors.grey[200]!,
+                                    foregroundColor: Colors.red,
+                                    child: Icon(Icons.favorite),
+                                  ),
+                                ),
                               ),
                               Expanded(
                                 child: Column(
