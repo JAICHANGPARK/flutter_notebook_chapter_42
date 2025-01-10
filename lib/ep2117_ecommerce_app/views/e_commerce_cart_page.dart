@@ -133,7 +133,7 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                                           ),
                                           padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                                           child: Row(
-                                            spacing: 12,
+                                            spacing: 8,
                                             children: [
                                               CircleAvatar(
                                                 radius: 10,
