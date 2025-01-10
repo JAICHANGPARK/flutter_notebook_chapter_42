@@ -35,13 +35,15 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                     ),
                   ),
                   Expanded(
-                      child: Center(
-                          child: Text(
-                    "Cart",
-                    style: TextStyle(
-                      fontWeight: FontWeight.bold,
+                    child: Center(
+                      child: Text(
+                        "Cart",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
                     ),
-                  ),),),
+                  ),
                   Container(
                     decoration: BoxDecoration(
                       border: Border.all(
@@ -68,6 +70,11 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                         return Container(
                           decoration: BoxDecoration(
                             color: Colors.grey[100],
+                          ),
+                          child: Row(
+                            children: [
+
+                            ],
                           ),
                         );
                       },
