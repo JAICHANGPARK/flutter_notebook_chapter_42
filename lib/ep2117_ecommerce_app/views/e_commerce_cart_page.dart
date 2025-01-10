@@ -130,9 +130,12 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                               color: Colors.black,
                             ),
                             child: Center(
-                              child: Text("Checkout",style: TextStyle(
-                                color: Colors.white,
-                              ),),
+                              child: Text(
+                                "Checkout",
+                                style: TextStyle(
+                                  color: Colors.white,
+                                ),
+                              ),
                             ),
                           )
                         ],
