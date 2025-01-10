@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class ECommerceCartPage extends StatefulWidget {
   const ECommerceCartPage({super.key});
@@ -78,7 +79,7 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                       ),
                       padding: EdgeInsets.all(20),
                       child: Column(
-                        spacing: 12,
+                        spacing: 14,
                         children: [
                           Container(
                             decoration: BoxDecoration(
@@ -106,25 +107,27 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                             ),
                           ),
                           Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text("Order Amount"),
                               Text("\$2445.00"),
                             ],
                           ),
                           Divider(),
-                          Row(
+                          Row( mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text("Order Amount"),
                               Text("\$2445.00"),
                             ],
                           ),
                           Divider(),
-                          Row(
+                          Row( mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text("Order Amount"),
                               Text("\$2445.00"),
                             ],
                           ),
+                          Gap(12),
                           Container(
                             decoration: ShapeDecoration(
                               shape: StadiumBorder(),
