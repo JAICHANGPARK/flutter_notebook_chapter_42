@@ -15,43 +15,46 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
       body: SafeArea(
         child: Column(
           children: [
-            Row(
-              children: [
-                Container(
-                  decoration: BoxDecoration(
-                    border: Border.all(
-                      color: Colors.grey[200]!,
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Row(
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                      border: Border.all(
+                        color: Colors.grey[200]!,
+                      ),
+                      shape: BoxShape.circle,
                     ),
-                    shape: BoxShape.circle,
-                  ),
-                  child: IconButton(
-                    onPressed: () {
-                      Navigator.of(context).pop();
-                    },
-                    icon: Icon(Icons.arrow_back),
-                  ),
-                ),
-                Expanded(
-                    child: Center(
-                        child: Text(
-                  "Cart",
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                  ),
-                ))),
-                Container(
-                  decoration: BoxDecoration(
-                    border: Border.all(
-                      color: Colors.grey[200]!,
+                    child: IconButton(
+                      onPressed: () {
+                        Navigator.of(context).pop();
+                      },
+                      icon: Icon(Icons.arrow_back),
                     ),
-                    shape: BoxShape.circle,
                   ),
-                  child: IconButton(
-                    onPressed: () {},
-                    icon: Icon(Icons.shopping_bag_outlined),
+                  Expanded(
+                      child: Center(
+                          child: Text(
+                    "Cart",
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ))),
+                  Container(
+                    decoration: BoxDecoration(
+                      border: Border.all(
+                        color: Colors.grey[200]!,
+                      ),
+                      shape: BoxShape.circle,
+                    ),
+                    child: IconButton(
+                      onPressed: () {},
+                      icon: Icon(Icons.shopping_bag_outlined),
+                    ),
                   ),
-                ),
-              ],
+                ],
+              ),
             )
           ],
         ),
