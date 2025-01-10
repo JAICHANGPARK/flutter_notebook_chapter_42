@@ -25,8 +25,10 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                     shape: BoxShape.circle,
                   ),
                   child: IconButton(
-                    onPressed: () {},
-                    icon: Icon(Icons.notifications_none),
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                    },
+                    icon: Icon(Icons.arrow_back),
                   ),
                 ),
                 Expanded(child: Text(""))
@@ -40,7 +42,7 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                   ),
                   child: IconButton(
                     onPressed: () {},
-                    icon: Icon(Icons.notifications_none),
+                    icon: Icon(Icons.shopping_bag_outlined),
                   ),
                 ),
 
