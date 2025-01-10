@@ -17,7 +17,32 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
           children: [
             Row(
               children: [
-                CircleAvatar()
+                Container(
+                  decoration: BoxDecoration(
+                    border: Border.all(
+                      color: Colors.grey[200]!,
+                    ),
+                    shape: BoxShape.circle,
+                  ),
+                  child: IconButton(
+                    onPressed: () {},
+                    icon: Icon(Icons.notifications_none),
+                  ),
+                ),
+                Expanded(child: Text(""))
+                ,
+                Container(
+                  decoration: BoxDecoration(
+                    border: Border.all(
+                      color: Colors.grey[200]!,
+                    ),
+                    shape: BoxShape.circle,
+                  ),
+                  child: IconButton(
+                    onPressed: () {},
+                    icon: Icon(Icons.notifications_none),
+                  ),
+                ),
 
               ],
             )
