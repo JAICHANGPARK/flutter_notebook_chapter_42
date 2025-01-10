@@ -88,7 +88,14 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                             child: Row(
                               children: [
                                 Expanded(
-                                  child: TextField(),
+                                  child: TextField(
+                                    decoration: InputDecoration(
+                                        border: InputBorder.none,
+                                        hintText: "Promo Code",
+                                        hintStyle: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                        )),
+                                  ),
                                 ),
                                 Container(
                                   padding: EdgeInsets.symmetric(horizontal: 16, vertical: 3),
@@ -114,14 +121,16 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                             ],
                           ),
                           Divider(),
-                          Row( mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text("Order Amount"),
                               Text("\$2445.00"),
                             ],
                           ),
                           Divider(),
-                          Row( mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text("Order Amount"),
                               Text("\$2445.00"),
@@ -133,7 +142,9 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                               shape: StadiumBorder(),
                               color: Colors.black,
                             ),
-                            padding: EdgeInsets.symmetric(vertical: 12, ),
+                            padding: EdgeInsets.symmetric(
+                              vertical: 12,
+                            ),
                             child: Center(
                               child: Text(
                                 "Checkout",
