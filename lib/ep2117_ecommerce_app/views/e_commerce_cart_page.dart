@@ -73,13 +73,32 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                     left: 0,
                     right: 0,
                     child: Container(
-
                       decoration: BoxDecoration(
                         color: Colors.grey[100],
                       ),
+                      padding: EdgeInsets.all(20),
                       child: Column(
                         children: [
-                          
+                          Container(
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                            ),
+                            child: Row(
+                              children: [
+                                Expanded(
+                                  child: TextField(),
+                                ),
+                                Container(
+                                  decoration: BoxDecoration(
+                                    color: Colors.black,
+                                  ),
+                                  child: Text(
+                                    "Apply",
+                                  ),
+                                )
+                              ],
+                            ),
+                          )
                         ],
                       ),
                     ),
