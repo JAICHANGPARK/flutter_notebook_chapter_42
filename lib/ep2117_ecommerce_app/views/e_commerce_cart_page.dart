@@ -89,11 +89,10 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                                   child: TextField(),
                                 ),
                                 Container(
-
                                   padding: EdgeInsets.symmetric(horizontal: 16, vertical: 3),
                                   decoration: BoxDecoration(
                                     color: Colors.black,
-                                    
+                                    borderRadius: BorderRadius.circular(32),
                                   ),
                                   child: Text(
                                     "Apply",
