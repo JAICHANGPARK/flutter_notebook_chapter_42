@@ -124,9 +124,11 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                                       children: [
                                         Text("\$2445"),
                                         Container(
+                                          borderRadius: BorderRadius.circular(12),
                                           decoration: BoxDecoration(
                                             color: Colors.white,
                                           ),
+                                          padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                                           child: Row(
                                             spacing: 12,
                                             children: [
