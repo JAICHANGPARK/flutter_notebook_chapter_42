@@ -84,7 +84,7 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                                 width: 140,
                                 decoration: BoxDecoration(
                                   color: Colors.blue,
-                                  
+                                  borderRadius: BorderRadius.circular(12),
                                 ),
                               ),
                               Expanded(
