@@ -81,9 +81,10 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                             children: [
                               Container(
                                 height: 100,
-                                width: 160,
+                                width: 140,
                                 decoration: BoxDecoration(
                                   color: Colors.blue,
+                                  
                                 ),
                               ),
                               Expanded(
