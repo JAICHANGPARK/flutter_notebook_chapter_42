@@ -17,6 +17,7 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
           children: [
             Row(
               children: [
+                CircleAvatar()
 
               ],
             )
