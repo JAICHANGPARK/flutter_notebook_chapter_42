@@ -78,6 +78,7 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                       ),
                       padding: EdgeInsets.all(20),
                       child: Column(
+                        spacing: 12,
                         children: [
                           Container(
                             decoration: BoxDecoration(
@@ -100,8 +101,36 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                                       color: Colors.white,
                                     ),
                                   ),
-                                )
+                                ),
                               ],
+                            ),
+                          ),
+                          Row(
+                            children: [
+                              Text("Order Amount"),
+                              Text("\$2445.00"),
+                            ],
+                          ),
+                          Divider(),
+                          Row(
+                            children: [
+                              Text("Order Amount"),
+                              Text("\$2445.00"),
+                            ],
+                          ),
+                          Divider(),
+                          Row(
+                            children: [
+                              Text("Order Amount"),
+                              Text("\$2445.00"),
+                            ],
+                          ),
+                          Container(
+                            decoration: BoxDecoration(
+                              color: Colors.black,
+                            ),
+                            child: Center(
+                              child: Text(""),
                             ),
                           )
                         ],
