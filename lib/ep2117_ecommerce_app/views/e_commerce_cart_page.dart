@@ -130,6 +130,7 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                               shape: StadiumBorder(),
                               color: Colors.black,
                             ),
+                            padding: EdgeInsets.symmetric(vertical: 12, ),
                             child: Center(
                               child: Text(
                                 "Checkout",
