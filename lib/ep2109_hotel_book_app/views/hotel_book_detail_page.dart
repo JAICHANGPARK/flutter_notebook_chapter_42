@@ -103,11 +103,16 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                                       ),
                                     ),
                                     Spacer(),
-                                    IconButton(onPressed: () {}, icon: Icon(Icons.remove_circle_outline)),
+                                    IconButton(
+                                        onPressed: () {},
+                                        icon:
+                                            Icon(Icons.remove_circle_outline)),
                                     Gap(8),
                                     Text("1"),
                                     Gap(8),
-                                    IconButton(onPressed: () {}, icon: Icon(Icons.add_circle_outline)),
+                                    IconButton(
+                                        onPressed: () {},
+                                        icon: Icon(Icons.add_circle_outline)),
                                   ],
                                 ),
                                 Container(
@@ -129,7 +134,8 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                                         left: 0,
                                         right: 0,
                                         child: Row(
-                                          mainAxisAlignment: MainAxisAlignment.center,
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.center,
                                           spacing: 5,
                                           children: List.generate(
                                             5,
@@ -187,7 +193,8 @@ class _HotelBookDetailPageState extends State<HotelBookDetailPage> {
                                     Expanded(
                                       child: Column(
                                         spacing: 4,
-                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
                                         children: [
                                           Text("Dream Walker"),
                                           Text("Owner"),
