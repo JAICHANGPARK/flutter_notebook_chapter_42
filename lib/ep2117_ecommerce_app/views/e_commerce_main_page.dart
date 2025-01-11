@@ -64,8 +64,10 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                             });
                           },
                           child: CircleAvatar(
-                            backgroundColor: pageNumber == 0 ? Colors.black : Colors.white,
-                            foregroundColor: pageNumber == 0 ? Colors.white : Colors.black,
+                            backgroundColor:
+                                pageNumber == 0 ? Colors.black : Colors.white,
+                            foregroundColor:
+                                pageNumber == 0 ? Colors.white : Colors.black,
                             child: Icon(Icons.home_filled),
                           ),
                         ),
@@ -76,8 +78,10 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                             });
                           },
                           child: CircleAvatar(
-                            backgroundColor: pageNumber == 1 ? Colors.black : Colors.white,
-                            foregroundColor: pageNumber == 1 ? Colors.white : Colors.black,
+                            backgroundColor:
+                                pageNumber == 1 ? Colors.black : Colors.white,
+                            foregroundColor:
+                                pageNumber == 1 ? Colors.white : Colors.black,
                             child: Icon(Icons.store),
                           ),
                         ),
