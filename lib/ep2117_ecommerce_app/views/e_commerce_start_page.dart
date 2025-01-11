@@ -17,10 +17,15 @@ class ECommerceStartPage extends StatelessWidget {
               angle: -.1,
               child: GridView.builder(
                 gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: 3, crossAxisSpacing: 12, mainAxisSpacing: 12, childAspectRatio: .6),
+                    crossAxisCount: 3,
+                    crossAxisSpacing: 12,
+                    mainAxisSpacing: 12,
+                    childAspectRatio: .6),
                 itemBuilder: (context, index) {
                   return Container(
-                    decoration: BoxDecoration(color: Colors.orange, borderRadius: BorderRadius.circular(8)),
+                    decoration: BoxDecoration(
+                        color: Colors.orange,
+                        borderRadius: BorderRadius.circular(8)),
                   );
                 },
               ),
