@@ -104,10 +104,12 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                               Expanded(
                                 child: Column(
                                   spacing: 12,
-                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
                                   children: [
                                     Row(
-                                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceBetween,
                                       children: [
                                         Text("Flutter Shirts"),
                                         Icon(Icons.delete_outline),
@@ -123,15 +125,18 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                                       ],
                                     ),
                                     Row(
-                                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceBetween,
                                       children: [
                                         Text("\$2445"),
                                         Container(
                                           decoration: BoxDecoration(
                                             color: Colors.white,
-                                            borderRadius: BorderRadius.circular(12),
+                                            borderRadius:
+                                                BorderRadius.circular(12),
                                           ),
-                                          padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                                          padding: EdgeInsets.symmetric(
+                                              horizontal: 8, vertical: 4),
                                           child: Row(
                                             spacing: 8,
                                             children: [
@@ -194,7 +199,8 @@ class _ECommerceCartPageState extends State<ECommerceCartPage> {
                                   ),
                                 ),
                                 Container(
-                                  padding: EdgeInsets.symmetric(horizontal: 16, vertical: 3),
+                                  padding: EdgeInsets.symmetric(
+                                      horizontal: 16, vertical: 3),
                                   decoration: BoxDecoration(
                                     color: Colors.black,
                                     borderRadius: BorderRadius.circular(32),
