@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class HrSelectScreen extends StatefulWidget {
   const HrSelectScreen({super.key});
 
@@ -11,6 +10,18 @@ class HrSelectScreen extends StatefulWidget {
 class _HrSelectScreenState extends State<HrSelectScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Column(
+        spacing: 16,
+        children: [
+          Text(
+            "Select Your Role",
+          ),
+          Text(
+            "Select the role which suits your need",
+          ),
+        ],
+      ),
+    );
   }
 }
