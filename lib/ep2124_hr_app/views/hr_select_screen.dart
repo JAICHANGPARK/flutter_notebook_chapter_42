@@ -14,10 +14,15 @@ class _HrSelectScreenState extends State<HrSelectScreen> {
       body: SafeArea(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
           spacing: 16,
           children: [
             Text(
               "Select Your Role",
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 18,
+              ),
             ),
             Text(
               "Select the role which suits your need",
