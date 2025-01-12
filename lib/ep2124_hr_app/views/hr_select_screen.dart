@@ -33,9 +33,16 @@ class _HrSelectScreenState extends State<HrSelectScreen> {
                 ),
                 Container(
                   height: 240,
-
                   decoration: BoxDecoration(
                     color: Color(0xff33bf7f),
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                ),
+                Container(
+                  height: 240,
+                  decoration: BoxDecoration(
+                    color: Color(0xff1d8ff8),
+                    borderRadius: BorderRadius.circular(12),
                   ),
                 )
               ],
