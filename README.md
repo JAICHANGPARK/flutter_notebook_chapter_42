@@ -3,7 +3,7 @@
 ## EP2124
 
 - HR & Recruitment Mobile App
-- Mehedi Hasan ✪
+- Oyasim Ahmed
 - https://dribbble.com/shots/25418768-E-commerce-Mobile-App-Design
 
 <img src="https://cdn.dribbble.com/userupload/18262004/file/original-230540b13d25d961d5bf23d87f02d547.png?resize=1504x1128&vertical=center"/>
