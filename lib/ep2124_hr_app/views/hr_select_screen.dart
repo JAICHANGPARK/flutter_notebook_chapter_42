@@ -25,7 +25,7 @@ class _HrSelectScreenState extends State<HrSelectScreen> {
                   "Select Your Role",
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
-                    fontSize: 18,
+                    fontSize: 24,
                   ),
                 ),
                 Text(
