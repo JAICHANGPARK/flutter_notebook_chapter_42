@@ -11,23 +11,26 @@ class _HrSelectScreenState extends State<HrSelectScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: SafeArea(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          spacing: 16,
-          children: [
-            Text(
-              "Select Your Role",
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 18,
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            spacing: 16,
+            children: [
+              Text(
+                "Select Your Role",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 18,
+                ),
               ),
-            ),
-            Text(
-              "Select the role which suits your need",
-            ),
-          ],
+              Text(
+                "Select the role which suits your need",
+              ),
+            ],
+          ),
         ),
       ),
     );
