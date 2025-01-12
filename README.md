@@ -2,7 +2,7 @@
 
 ## EP2124
 
-- E-commerce Mobile App Design
+- HR & Recruitment Mobile App
 - Mehedi Hasan ✪
 - https://dribbble.com/shots/25418768-E-commerce-Mobile-App-Design
 
