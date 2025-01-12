@@ -55,7 +55,12 @@ class _HrSelectScreenState extends State<HrSelectScreen> {
                     borderRadius: BorderRadius.circular(12),
                   ),
                   child: Center(
-                    child: Text("Job provider"),
+                    child: Text("Job provider",
+                      style: TextStyle(
+                        color: Color(0xff1d8ff8),
+                        fontSize: 24,
+                        fontWeight: FontWeight.bold,
+                      ),),
                   ),
                 )
               ],
