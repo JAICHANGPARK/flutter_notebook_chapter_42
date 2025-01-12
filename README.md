@@ -6,7 +6,7 @@
 - Oyasim Ahmed
 - https://dribbble.com/shots/25458558-HR-Recruitment-Mobile-App
 
-<img src="https://cdn.dribbble.com/userupload/18262004/file/original-230540b13d25d961d5bf23d87f02d547.png?resize=1504x1128&vertical=center"/>
+<img src="https://cdn.dribbble.com/userupload/18383730/file/original-88306614b597e1a1434695b2d0ddced7.png?resize=1905x1429&vertical=center"/>
 
 
 ## EP2117-2123
