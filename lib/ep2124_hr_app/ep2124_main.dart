@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  
+  runApp(HrApp());
 }
 
 class HrApp extends StatelessWidget {
@@ -9,6 +9,6 @@ class HrApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return MaterialApp();
   }
 }
