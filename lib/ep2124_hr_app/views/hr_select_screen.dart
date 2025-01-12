@@ -29,6 +29,12 @@ class _HrSelectScreenState extends State<HrSelectScreen> {
               Text(
                 "Select the role which suits your need",
               ),
+              Container(
+                height: 240,
+                decoration: BoxDecoration(
+                  color: Color(0xff33bf7f),
+                ),
+              )
             ],
           ),
         ),
