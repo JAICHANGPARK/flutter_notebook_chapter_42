@@ -31,19 +31,28 @@ class _HrSelectScreenState extends State<HrSelectScreen> {
                 Text(
                   "Select the role which suits your need",
                 ),
-                Container(
-                  height: 200,
-                  decoration: BoxDecoration(
-                    color: Color(0x2233bf7f),
-                    borderRadius: BorderRadius.circular(12),
-                  ),
-                  child: Center(
-                    child: Text(
-                      "Find a Job",
-                      style: TextStyle(
-                        color: Color(0xff33bf7f),
-                        fontSize: 24,
-                        fontWeight: FontWeight.bold,
+                GestureDetector(
+                  onTap: () {
+                    Navigator.of(context).push(MaterialPageRoute(
+                      builder: (context) {
+                        return HrSelectMainScreen();
+                      },
+                    ));
+                  },
+                  child: Container(
+                    height: 200,
+                    decoration: BoxDecoration(
+                      color: Color(0x2233bf7f),
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    child: Center(
+                      child: Text(
+                        "Find a Job",
+                        style: TextStyle(
+                          color: Color(0xff33bf7f),
+                          fontSize: 24,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
                     ),
                   ),
@@ -55,12 +64,14 @@ class _HrSelectScreenState extends State<HrSelectScreen> {
                     borderRadius: BorderRadius.circular(12),
                   ),
                   child: Center(
-                    child: Text("Job provider",
+                    child: Text(
+                      "Job provider",
                       style: TextStyle(
                         color: Color(0xff1d8ff8),
                         fontSize: 24,
                         fontWeight: FontWeight.bold,
-                      ),),
+                      ),
+                    ),
                   ),
                 )
               ],
