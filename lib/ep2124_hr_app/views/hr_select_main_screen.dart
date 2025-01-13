@@ -36,7 +36,7 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
               label: "Summary",
             ),
             BottomNavigationBarItem(
-              icon: Icon(HugeIcons.strokeRoundedProfile),
+              icon: Icon(HugeIcons.strokeRoundedUser),
               label: "Profile",
             ),
           ],
