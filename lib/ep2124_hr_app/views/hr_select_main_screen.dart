@@ -108,7 +108,9 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                     ),
                   ),
                   Container(
-                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                    ),
                   )
                 ],
               ),
