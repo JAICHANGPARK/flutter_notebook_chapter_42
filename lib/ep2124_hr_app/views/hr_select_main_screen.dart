@@ -21,6 +21,18 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
             icon: Icon(HugeIcons.strokeRoundedHome01),
             label: "Home",
           ),
+          BottomNavigationBarItem(
+            icon: Icon(HugeIcons.strokeRoundedBookmark01),
+            label: "Save",
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(HugeIcons.strokeRoundedCheckList),
+            label: "Summary",
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(HugeIcons.strokeRoundedProfile),
+            label: "Profile",
+          ),
         ],
       ),
     );
