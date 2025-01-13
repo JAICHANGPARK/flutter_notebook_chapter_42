@@ -82,13 +82,15 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                             ],
                           ),
                         ),
-
                         VerticalDivider(),
                         Expanded(
                           child: Row(
                             children: [
                               Column(
-                                children: [Text("Job Type"), Text("Full Time")],
+                                children: [
+                                  Text("Job Type"),
+                                  Text("Full Time"),
+                                ],
                               ),
                               IconButton(
                                 onPressed: () {},
@@ -103,9 +105,7 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                     ),
                   ),
                   Container(
-                    decoration: ShapeDecoration(shape: StadiumBorder(
-                      
-                    )),
+                    decoration: ShapeDecoration(shape: StadiumBorder()),
                   )
                 ],
               ),
