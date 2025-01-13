@@ -67,23 +67,45 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                   IntrinsicHeight(
                     child: Row(
                       children: [
-                        Row(
-                          children: [
-
-                          ],
-                        ),
-                        Column(
-                          children: [Text("Job Type"), Text("Full Time")],
-                        ),
-                        IconButton(
-                          onPressed: () {},
-                          icon: Icon(
-                            Icons.keyboard_arrow_down,
+                        Expanded(
+                          child: Row(
+                            children: [
+                              Column(
+                                children: [Text("Job Type"), Text("Full Time")],
+                              ),
+                              IconButton(
+                                onPressed: () {},
+                                icon: Icon(
+                                  Icons.keyboard_arrow_down,
+                                ),
+                              ),
+                            ],
                           ),
                         ),
+
                         VerticalDivider(),
+                        Expanded(
+                          child: Row(
+                            children: [
+                              Column(
+                                children: [Text("Job Type"), Text("Full Time")],
+                              ),
+                              IconButton(
+                                onPressed: () {},
+                                icon: Icon(
+                                  Icons.keyboard_arrow_down,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
                       ],
                     ),
+                  ),
+                  Container(
+                    decoration: ShapeDecoration(shape: StadiumBorder(
+                      
+                    )),
                   )
                 ],
               ),
