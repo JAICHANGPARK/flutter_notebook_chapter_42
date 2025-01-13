@@ -18,7 +18,7 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
       ),
       bottomNavigationBar: BottomNavigationBar(
         selectedItemColor: Color(0xFF33BF7F),
-        
+        type: BottomNavigationBarType.fixed,
         items: [
           BottomNavigationBarItem(
             icon: Icon(HugeIcons.strokeRoundedHome01),
