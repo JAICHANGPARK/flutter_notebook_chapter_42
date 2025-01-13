@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
 
 class HrSelectMainScreen extends StatefulWidget {
@@ -17,6 +18,7 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
         child: Column(
           spacing: 20,
           children: [
+            Gap(12),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20.0),
               child: Row(
