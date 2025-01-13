@@ -64,15 +64,26 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                     ),
                   ),
                   Divider(),
-                  Row(
-                    children: [
-                      Column(
-                        children: [
-                          Text("Job Type"),
-                          Text("Full Time")
-                        ],
-                      )
-                    ],
+                  IntrinsicHeight(
+                    child: Row(
+                      children: [
+                        Row(
+                          children: [
+
+                          ],
+                        ),
+                        Column(
+                          children: [Text("Job Type"), Text("Full Time")],
+                        ),
+                        IconButton(
+                          onPressed: () {},
+                          icon: Icon(
+                            Icons.keyboard_arrow_down,
+                          ),
+                        ),
+                        VerticalDivider(),
+                      ],
+                    ),
                   )
                 ],
               ),
