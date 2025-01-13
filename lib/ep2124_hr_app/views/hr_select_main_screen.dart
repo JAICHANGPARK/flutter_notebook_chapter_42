@@ -14,7 +14,30 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: Column(
-        children: [],
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: Row(
+              children: [
+                CircleAvatar(),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [],
+                  ),
+                ),
+                CircleAvatar(
+                  backgroundColor: Colors.grey[100],
+                  child: Badge(
+                    child: Icon(
+                      HugeIcons.strokeRoundedNotification01,
+                    ),
+                  ),
+                )
+              ],
+            ),
+          )
+        ],
       ),
       bottomNavigationBar: SizedBox(
         height: 80,
