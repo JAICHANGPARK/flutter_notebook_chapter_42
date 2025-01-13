@@ -19,12 +19,18 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
             Padding(
               padding: const EdgeInsets.all(16.0),
               child: Row(
+                spacing: 12,
                 children: [
                   CircleAvatar(),
                   Expanded(
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [],
+                      children: [
+                        Text("Hello") ,
+                        Text(
+                          "Dream Walker",
+                        )
+                      ],
                     ),
                   ),
                   CircleAvatar(
