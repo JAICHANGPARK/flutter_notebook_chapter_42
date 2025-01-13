@@ -29,7 +29,7 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text("Hello") ,
+                        Text("Hello"),
                         Text(
                           "Dream Walker",
                         )
@@ -47,7 +47,36 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                 ],
               ),
             ),
-
+            Container(
+              margin: EdgeInsets.symmetric(horizontal: 16),
+              decoration: BoxDecoration(
+                border: Border.all(color: Colors.grey),
+                color: Colors.grey[100],
+              ),
+              padding: EdgeInsets.all(20),
+              child: Column(
+                children: [
+                  TextField(
+                    decoration: InputDecoration(
+                      icon: Icon(Icons.search),
+                      border: InputBorder.none,
+                      hintText: "Search Job/Company",
+                    ),
+                  ),
+                  Divider(),
+                  Row(
+                    children: [
+                      Column(
+                        children: [
+                          Text("Job Type"),
+                          Text("Full Time")
+                        ],
+                      )
+                    ],
+                  )
+                ],
+              ),
+            )
           ],
         ),
       ),
