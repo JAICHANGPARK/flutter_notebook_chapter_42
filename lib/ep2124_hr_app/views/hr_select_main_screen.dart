@@ -14,7 +14,7 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
     return Scaffold(
       body: Column(
         children: [
-          
+
         ],
       ),
     );
