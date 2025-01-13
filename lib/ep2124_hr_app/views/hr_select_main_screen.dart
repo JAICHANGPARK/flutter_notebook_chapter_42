@@ -15,9 +15,10 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
       backgroundColor: Colors.white,
       body: SafeArea(
         child: Column(
+          spacing: 20,
           children: [
             Padding(
-              padding: const EdgeInsets.all(16.0),
+              padding: const EdgeInsets.symmetric(horizontal: 20.0),
               child: Row(
                 spacing: 12,
                 children: [
@@ -43,7 +44,8 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                   )
                 ],
               ),
-            )
+            ),
+
           ],
         ),
       ),
