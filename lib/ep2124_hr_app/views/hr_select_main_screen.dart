@@ -12,6 +12,7 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Column(
         children: [],
       ),
