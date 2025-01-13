@@ -119,14 +119,27 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
               padding: EdgeInsets.symmetric(horizontal: 16),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [Text("Best Matches"), Text("See All")],
+                children: [
+                  Text("Best Matches"),
+                  Text("See All"),
+                ],
               ),
             ),
             Container(
               height: 300,
               padding: EdgeInsets.only(left: 16),
               child: Placeholder(),
-            )
+            ),
+            Padding(
+              padding: EdgeInsets.symmetric(horizontal: 16),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text("Best Matches"),
+                  Text("See All"),
+                ],
+              ),
+            ),
           ],
         ),
       ),
