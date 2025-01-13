@@ -11,6 +11,12 @@ class HrSelectMainScreen extends StatefulWidget {
 class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Column(
+        children: [
+          
+        ],
+      ),
+    );
   }
 }
