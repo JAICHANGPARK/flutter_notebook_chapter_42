@@ -71,7 +71,10 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                           child: Row(
                             children: [
                               Column(
-                                children: [Text("Job Type"), Text("Full Time")],
+                                children: [
+                                  Text("Job Type"),
+                                  Text("Full Time"),
+                                ],
                               ),
                               IconButton(
                                 onPressed: () {},
