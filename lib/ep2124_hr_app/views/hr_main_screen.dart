@@ -113,11 +113,14 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                       shape: StadiumBorder(),
                       color: Color(0xFF33BF7F),
                     ),
-                    padding: EdgeInsets.symmetric(vertical: 16),
+                    padding: EdgeInsets.symmetric(vertical: 12),
                     child: Center(
                       child: Text(
                         "Find Job",
-                        style: TextStyle(fontSize: 18, color: Colors.white),
+                        style: TextStyle(
+                          fontSize: 18,
+                          color: Colors.white,
+                        ),
                       ),
                     ),
                   )
