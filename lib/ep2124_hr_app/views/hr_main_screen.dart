@@ -111,13 +111,14 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                   Container(
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
-                      color:  Color(0xFF33BF7F),
+                      color: Color(0xFF33BF7F),
                     ),
+                    padding: EdgeInsets.symmetric(vertical: 16),
                     child: Center(
-                      child: Text("Find Job",style: TextStyle(
-                        fontSize: 20,
-                        color: Colors.white
-                      ),),
+                      child: Text(
+                        "Find Job",
+                        style: TextStyle(fontSize: 18, color: Colors.white),
+                      ),
                     ),
                   )
                 ],
