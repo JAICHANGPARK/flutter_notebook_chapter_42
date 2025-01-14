@@ -107,9 +107,11 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                       ],
                     ),
                   ),
+                  Gap(24),
                   Container(
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
+                      color:  Color(0xFF33BF7F),
                     ),
                     child: Center(
                       child: Text("Find Job",style: TextStyle(
