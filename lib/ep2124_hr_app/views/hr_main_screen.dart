@@ -34,7 +34,6 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                         Text(
                           "Dream Walker",
                           style: TextStyle(
-
                             fontWeight: FontWeight.bold,
                           ),
                         )
@@ -167,20 +166,31 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
               ),
             ),
             Container(
-              height: 300,
-              padding: EdgeInsets.only(left: 16),
-              child: Placeholder(),
-            ),
+                height: 300,
+                padding: EdgeInsets.only(left: 16),
+                child: ListView.builder(
+                  scrollDirection: Axis.horizontal,
+                  itemCount: 10,
+                  itemBuilder: (context, index) {
+                    return Container(
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                      ),
+                    );
+                  },
+                )),
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 16),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text("Most Recent",
+                  Text(
+                    "Most Recent",
                     style: TextStyle(
                       fontSize: 20,
                       fontWeight: FontWeight.bold,
-                    ),),
+                    ),
+                  ),
                   Text("See All"),
                 ],
               ),
