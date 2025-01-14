@@ -176,7 +176,10 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                       width: 320,
                       decoration: BoxDecoration(
                         color: Colors.white,
-
+                        borderRadius: BorderRadius.circular(8),
+                        border: Border.all(
+                          color: Colors.grey[200]!,
+                        ),
                       ),
                     );
                   },
