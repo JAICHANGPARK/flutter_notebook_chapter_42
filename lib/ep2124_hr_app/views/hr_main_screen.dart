@@ -173,8 +173,10 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                   itemCount: 10,
                   itemBuilder: (context, index) {
                     return Container(
+                      width: 320,
                       decoration: BoxDecoration(
                         color: Colors.white,
+
                       ),
                     );
                   },
