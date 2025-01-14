@@ -14,6 +14,7 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
+      resizeToAvoidBottomInset: false,
       body: SafeArea(
         child: Column(
           spacing: 20,
@@ -125,7 +126,7 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                       ],
                     ),
                   ),
-                  Gap(24),
+                  Gap(32),
                   Container(
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
