@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'hr_select_main_screen.dart';
+import 'hr_main_screen.dart';
 
 class HrSelectScreen extends StatefulWidget {
   const HrSelectScreen({super.key});
