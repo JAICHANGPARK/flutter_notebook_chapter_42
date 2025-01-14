@@ -51,6 +51,7 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                 ],
               ),
             ),
+            Gap(1),
             Container(
               margin: EdgeInsets.symmetric(horizontal: 16),
               decoration: BoxDecoration(
@@ -174,6 +175,9 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                   itemBuilder: (context, index) {
                     return Container(
                       width: 320,
+                      margin: EdgeInsets.only(
+                        right: 16
+                      ),
                       decoration: BoxDecoration(
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(8),
