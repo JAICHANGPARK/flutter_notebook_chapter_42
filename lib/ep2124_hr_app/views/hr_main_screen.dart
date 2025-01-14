@@ -78,7 +78,7 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                                   Text(
                                     "Full Time",
                                     style: TextStyle(
-                                      fontSize: 18,
+                                      fontSize: 16,
                                     ),
                                   ),
                                 ],
@@ -98,9 +98,16 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                           child: Row(
                             children: [
                               Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-                                  Text("Job Type"),
-                                  Text("Full Time"),
+                                  Gap(8),
+                                  Text("Location"),
+                                  Text(
+                                    "Remote",
+                                    style: TextStyle(
+                                      fontSize: 16,
+                                    ),
+                                  ),
                                 ],
                               ),
                               IconButton(
