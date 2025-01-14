@@ -50,9 +50,11 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
             Container(
               margin: EdgeInsets.symmetric(horizontal: 16),
               decoration: BoxDecoration(
-                border: Border.all(color: Colors.grey),
-                color: Colors.grey[100],
-              ),
+                  border: Border.all(
+                    color: Colors.grey[200]!,
+                  ),
+                  color: Colors.grey[50],
+                  borderRadius: BorderRadius.circular(4)),
               padding: EdgeInsets.all(20),
               child: Column(
                 children: [
@@ -110,6 +112,7 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                                   ),
                                 ],
                               ),
+                              Spacer(),
                               IconButton(
                                 onPressed: () {},
                                 icon: Icon(
