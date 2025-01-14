@@ -111,6 +111,12 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
                     ),
+                    child: Center(
+                      child: Text("Find Job",style: TextStyle(
+                        fontSize: 20,
+                        color: Colors.white
+                      ),),
+                    ),
                   )
                 ],
               ),
@@ -124,6 +130,7 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                     "Best Matches",
                     style: TextStyle(
                       fontSize: 20,
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
                   Text("See All"),
