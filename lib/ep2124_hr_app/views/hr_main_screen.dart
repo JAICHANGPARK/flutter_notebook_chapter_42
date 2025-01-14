@@ -54,7 +54,7 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                     color: Colors.grey[200]!,
                   ),
                   color: Colors.grey[50],
-                  borderRadius: BorderRadius.circular(4)),
+                  borderRadius: BorderRadius.circular(6)),
               padding: EdgeInsets.all(20),
               child: Column(
                 children: [
