@@ -120,7 +120,12 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text("Best Matches"),
+                  Text(
+                    "Best Matches",
+                    style: TextStyle(
+                      fontSize: 20,
+                    ),
+                  ),
                   Text("See All"),
                 ],
               ),
