@@ -33,6 +33,10 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                         Text("Hello"),
                         Text(
                           "Dream Walker",
+                          style: TextStyle(
+
+                            fontWeight: FontWeight.bold,
+                          ),
                         )
                       ],
                     ),
@@ -172,7 +176,11 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text("Most Recent"),
+                  Text("Most Recent",
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                    ),),
                   Text("See All"),
                 ],
               ),
