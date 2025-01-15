@@ -189,10 +189,11 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                         spacing: 8,
                         children: [
                           Row(
+                            spacing: 8,
                             children: [
                               Container(
-                                height: 42,
-                                width: 42,
+                                height: 52,
+                                width: 52,
                                 decoration: BoxDecoration(
                                   shape: BoxShape.circle,
                                   border: Border.all(
