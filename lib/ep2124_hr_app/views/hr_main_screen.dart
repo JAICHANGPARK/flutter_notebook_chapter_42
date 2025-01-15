@@ -168,58 +168,63 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
               ),
             ),
             Container(
-                height: 300,
-                padding: EdgeInsets.only(left: 16),
-                child: ListView.builder(
-                  scrollDirection: Axis.horizontal,
-                  itemCount: 10,
-                  itemBuilder: (context, index) {
-                    return Container(
-                      width: 320,
-                      margin: EdgeInsets.only(right: 16),
-                      padding: EdgeInsets.all(16),
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(8),
-                        border: Border.all(
-                          color: Colors.grey[200]!,
-                        ),
+              height: 300,
+              padding: EdgeInsets.only(left: 16),
+              child: ListView.builder(
+                scrollDirection: Axis.horizontal,
+                itemCount: 10,
+                itemBuilder: (context, index) {
+                  return Container(
+                    width: 320,
+                    margin: EdgeInsets.only(right: 16),
+                    padding: EdgeInsets.all(16),
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(8),
+                      border: Border.all(
+                        color: Colors.grey[200]!,
                       ),
-                      child: Column(
-                        spacing: 8,
-                        children: [
-                          Row(
-                            spacing: 8,
-                            children: [
-                              Container(
-                                height: 52,
-                                width: 52,
-                                decoration: BoxDecoration(
-                                  shape: BoxShape.circle,
-                                  border: Border.all(
-                                    color: Colors.grey[200]!,
-                                  ),
+                    ),
+                    child: Column(
+                      spacing: 8,
+                      children: [
+                        Row(
+                          spacing: 8,
+                          children: [
+                            Container(
+                              height: 52,
+                              width: 52,
+                              decoration: BoxDecoration(
+                                shape: BoxShape.circle,
+                                border: Border.all(
+                                  color: Colors.grey[200]!,
                                 ),
                               ),
-                              Expanded(
-                                  child: Column(
+                            ),
+                            Expanded(
+                              child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 spacing: 8,
-                                children: [Text("Product Designer"), Text("ABCDEF . New York")],
-                              )),
-                              IconButton(
-                                onPressed: () {},
-                                icon: Icon(
-                                  Icons.bookmark_border,
-                                ),
+                                children: [
+                                  Text("Product Designer"),
+                                  Text("ABCDEF . New York"),
+                                ],
                               ),
-                            ],
-                          )
-                        ],
-                      ),
-                    );
-                  },
-                )),
+                            ),
+                            IconButton(
+                              onPressed: () {},
+                              icon: Icon(
+                                Icons.bookmark_border,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                  );
+                },
+              ),
+            ),
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 16),
               child: Row(
