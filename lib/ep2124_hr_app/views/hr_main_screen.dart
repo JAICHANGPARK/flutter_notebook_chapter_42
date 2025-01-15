@@ -190,12 +190,21 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                           Row(
                             children: [
                               Container(
+                                height: 42,
+                                width: 42,
                                 decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
                                   border: Border.all(
                                     color: Colors.grey[200]!,
                                   ),
                                 ),
-                              )
+                              ),
+                              Expanded(child: Column(
+                                spacing: 8,
+                                children: [
+                                Text("Product Designer"),
+                                Text("ABCDEF . New York")
+                              ],))
                             ],
                           )
                         ],
