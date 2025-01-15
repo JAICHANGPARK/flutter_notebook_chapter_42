@@ -254,7 +254,10 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                         ),
                         Divider(),
                         Row(
-                          children: [],
+                          children: [
+                            Text("\$800 ~ \$1200"),
+                            Text("5 hours ago")
+                          ],
                         )
                       ],
                     ),
