@@ -51,7 +51,7 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                 ],
               ),
             ),
-            Gap(1),
+            Gap(0),
             Container(
               margin: EdgeInsets.symmetric(horizontal: 16),
               decoration: BoxDecoration(
@@ -71,7 +71,9 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                       hintText: "Search Job/Company",
                     ),
                   ),
-                  Divider(),
+                  Divider(
+                    height: 32,
+                  ),
                   IntrinsicHeight(
                     child: Row(
                       children: [
@@ -131,7 +133,7 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                       ],
                     ),
                   ),
-                  Gap(32),
+                  Gap(62),
                   Container(
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
@@ -186,6 +188,7 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                       ),
                     ),
                     child: Column(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       spacing: 12,
                       children: [
                         Row(
