@@ -201,13 +201,18 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                                   ),
                                 ),
                               ),
-                              Expanded(child: Column(
+                              Expanded(
+                                  child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 spacing: 8,
-                                children: [
-                                Text("Product Designer"),
-                                Text("ABCDEF . New York")
-                              ],))
+                                children: [Text("Product Designer"), Text("ABCDEF . New York")],
+                              )),
+                              IconButton(
+                                onPressed: () {},
+                                icon: Icon(
+                                  Icons.bookmark_border,
+                                ),
+                              ),
                             ],
                           )
                         ],
