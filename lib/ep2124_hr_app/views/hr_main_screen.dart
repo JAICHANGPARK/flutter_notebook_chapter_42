@@ -184,6 +184,22 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                           color: Colors.grey[200]!,
                         ),
                       ),
+                      child: Column(
+                        spacing: 8,
+                        children: [
+                          Row(
+                            children: [
+                              Container(
+                                decoration: BoxDecoration(
+                                  border: Border.all(
+                                    color: Colors.grey[200]!,
+                                  ),
+                                ),
+                              )
+                            ],
+                          )
+                        ],
+                      ),
                     );
                   },
                 )),
