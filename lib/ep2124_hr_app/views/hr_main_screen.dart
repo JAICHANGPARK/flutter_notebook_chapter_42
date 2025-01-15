@@ -168,7 +168,7 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
               ),
             ),
             Container(
-              height: 300,
+              height: 280,
               padding: EdgeInsets.only(left: 16),
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
