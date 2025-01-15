@@ -223,13 +223,21 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                           "We are looking for a dynamic Product designer",
                         ),
                         Row(
+                          spacing: 12,
                           children: [
                             ChoiceChip(
-                              avatar: Icon(Icons.office),
+                              avatar: Icon(Icons.apartment),
                               label: Text(
                                 "Remote",
                               ),
-                              selected: true,
+                              selected: false,
+                            ),
+                            ChoiceChip(
+                              avatar: Icon(Icons.apartment),
+                              label: Text(
+                                "Remote",
+                              ),
+                              selected: false,
                             ),
                           ],
                         )
