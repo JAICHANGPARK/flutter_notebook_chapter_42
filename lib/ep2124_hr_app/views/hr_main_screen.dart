@@ -186,7 +186,7 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                       ),
                     ),
                     child: Column(
-                      spacing: 8,
+                      spacing: 12,
                       children: [
                         Row(
                           spacing: 8,
@@ -233,12 +233,18 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                               selected: false,
                             ),
                             ChoiceChip(
-                              avatar: Icon(Icons.apartment),
+                              avatar: Icon(Icons.timelapse),
                               label: Text(
-                                "Remote",
+                                "Full Time",
                               ),
                               selected: false,
                             ),
+                          ],
+                        ),
+                        Divider(),
+                        Row(
+                          children: [
+                            
                           ],
                         )
                       ],
