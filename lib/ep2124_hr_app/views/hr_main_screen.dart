@@ -206,8 +206,19 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 spacing: 8,
                                 children: [
-                                  Text("Product Designer"),
-                                  Text("ABCDEF . New York"),
+                                  Text(
+                                    "Product Designer",
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 16,
+                                    ),
+                                  ),
+                                  Text(
+                                    "ABCDEF . New York",
+                                    style: TextStyle(
+                                      fontSize: 12,
+                                    ),
+                                  ),
                                 ],
                               ),
                             ),
@@ -243,9 +254,7 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                         ),
                         Divider(),
                         Row(
-                          children: [
-                            
-                          ],
+                          children: [],
                         )
                       ],
                     ),
