@@ -177,6 +177,7 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                     return Container(
                       width: 320,
                       margin: EdgeInsets.only(right: 16),
+                      padding: EdgeInsets.all(16),
                       decoration: BoxDecoration(
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(8),
@@ -200,6 +201,7 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                                 ),
                               ),
                               Expanded(child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
                                 spacing: 8,
                                 children: [
                                 Text("Product Designer"),
