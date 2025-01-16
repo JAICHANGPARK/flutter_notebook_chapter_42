@@ -82,8 +82,11 @@ class _HrOtpPageState extends State<HrOtpPage> {
               ),
               Expanded(
                   child: GridView.builder(
-                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
-                      itemBuilder: itemBuilder)),
+                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
+                itemBuilder: (context, index) {
+                  return Placeholder();
+                },
+              )),
             ],
           ),
         ),
