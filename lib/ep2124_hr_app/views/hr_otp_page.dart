@@ -47,7 +47,11 @@ class _HrOtpPageState extends State<HrOtpPage> {
               ),
               Text("Please check your phone. We have to sent the code verification to your email."),
 
-              
+              Container(
+                height: 82,
+                color: Colors.blue,
+              )
+
             ],
           ),
         ),
