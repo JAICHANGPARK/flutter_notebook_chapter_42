@@ -12,7 +12,15 @@ class _HrOtpPageState extends State<HrOtpPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Column(),
+        child: Column(
+          spacing: 16,
+         children: [
+          Container(
+            height: 52,
+            color: Colors.red,
+          )
+         ],
+        ),
       ),
     );
   }
