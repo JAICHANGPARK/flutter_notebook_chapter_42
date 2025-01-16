@@ -21,7 +21,7 @@ class _HrOtpPageState extends State<HrOtpPage> {
               Gap(12),
               Container(
                 height: 52,
-                color: Colors.red,
+              
                 child: Stack(
                   children: [
                     Positioned(
