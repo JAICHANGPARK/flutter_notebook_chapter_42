@@ -45,7 +45,9 @@ class _HrOtpPageState extends State<HrOtpPage> {
                   ],
                 ),
               ),
-              Text("")
+              Text("Please check your phone. We have to sent the code verification to your email."),
+
+              
             ],
           ),
         ),
