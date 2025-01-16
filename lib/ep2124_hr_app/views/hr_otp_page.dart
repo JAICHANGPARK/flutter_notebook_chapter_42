@@ -14,7 +14,7 @@ class _HrOtpPageState extends State<HrOtpPage> {
     return Scaffold(
       body: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.all(24.0),
+          padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 16),
           child: Column(
             spacing: 20,
             children: [
@@ -84,6 +84,7 @@ class _HrOtpPageState extends State<HrOtpPage> {
                   child: GridView.builder(
                 shrinkWrap: true,
                 itemCount: 12,
+                physics: NeverScrollableScrollPhysics(),
                 gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 3,
                   childAspectRatio: 1.5
