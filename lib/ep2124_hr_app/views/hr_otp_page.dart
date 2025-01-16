@@ -45,10 +45,11 @@ class _HrOtpPageState extends State<HrOtpPage> {
                   ],
                 ),
               ),
+              Gap(24),
               Text("Please check your phone. We have to sent the code verification to your email."),
-
+              Gap(24),
               Container(
-                height: 82,
+                height: 64,
                 color: Colors.blue,
               )
 
