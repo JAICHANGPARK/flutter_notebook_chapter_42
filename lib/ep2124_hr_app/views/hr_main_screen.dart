@@ -139,18 +139,27 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                             ),
                           ),
                           Gap(62),
-                          Container(
-                            decoration: ShapeDecoration(
-                              shape: StadiumBorder(),
-                              color: Color(0xFF33BF7F),
-                            ),
-                            padding: EdgeInsets.symmetric(vertical: 12),
-                            child: Center(
-                              child: Text(
-                                "Find Job",
-                                style: TextStyle(
-                                  fontSize: 18,
-                                  color: Colors.white,
+                          GestureDetector(
+                            onTap: () {
+                              Navigator.of(context).push(
+                                MaterialPageRoute(
+                                  builder: (context) => HrOtpPage(),
+                                ),
+                              );
+                            },
+                            child: Container(
+                              decoration: ShapeDecoration(
+                                shape: StadiumBorder(),
+                                color: Color(0xFF33BF7F),
+                              ),
+                              padding: EdgeInsets.symmetric(vertical: 12),
+                              child: Center(
+                                child: Text(
+                                  "Find Job",
+                                  style: TextStyle(
+                                    fontSize: 18,
+                                    color: Colors.white,
+                                  ),
                                 ),
                               ),
                             ),
@@ -290,7 +299,6 @@ class _HrSelectMainScreenState extends State<HrSelectMainScreen> {
                 ),
               ),
             ),
-
           ],
         ),
       ),
