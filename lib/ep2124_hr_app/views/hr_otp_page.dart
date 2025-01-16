@@ -25,7 +25,10 @@ class _HrOtpPageState extends State<HrOtpPage> {
                 child: Stack(
                   children: [
                     Positioned(
-                      child: CircleAvatar(),
+                      child: CircleAvatar(
+                        backgroundColor: Colors.grey[100],
+                        child: Icon(Icons.arrow_back_ios_new_sharp),
+                      ),
                     ),
                     Center(
                       child: Text("OTP Verification"),
