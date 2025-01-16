@@ -63,7 +63,7 @@ class _HrOtpPageState extends State<HrOtpPage> {
                   ],
                 ),
               ),
-
+              Gap(42),
               Container(
                 decoration: ShapeDecoration(
                   shape: StadiumBorder(),
@@ -82,9 +82,12 @@ class _HrOtpPageState extends State<HrOtpPage> {
               ),
               Expanded(
                   child: GridView.builder(
-                    shrinkWrap: true,
+                shrinkWrap: true,
                 itemCount: 12,
-                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
+                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount: 3,
+                  childAspectRatio: 1.5
+                ),
                 itemBuilder: (context, index) {
                   return Placeholder();
                 },
