@@ -17,20 +17,23 @@ class _HrOtpPageState extends State<HrOtpPage> {
           padding: const EdgeInsets.all(24.0),
           child: Column(
             spacing: 16,
-           children: [
-             Gap(12),
-            Container(
-              height: 52,
-              color: Colors.red,
-              child: Stack(
-                children: [
-                  Center(
-                    child: Text("data"),
-                  )
-                ],
-              ),
-            )
-           ],
+            children: [
+              Gap(12),
+              Container(
+                height: 52,
+                color: Colors.red,
+                child: Stack(
+                  children: [
+                    Positioned(
+                      child: CircleAvatar(),
+                    ),
+                    Center(
+                      child: Text("OTP Verification"),
+                    )
+                  ],
+                ),
+              )
+            ],
           ),
         ),
       ),
