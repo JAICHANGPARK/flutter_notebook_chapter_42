@@ -25,6 +25,9 @@ class _HrOtpPageState extends State<HrOtpPage> {
                 child: Stack(
                   children: [
                     Positioned(
+                      top: 0,
+                      left: 0,
+                      bottom: 0,
                       child: CircleAvatar(
                         backgroundColor: Colors.grey[100],
                         child: Icon(Icons.arrow_back_ios_new_sharp),
