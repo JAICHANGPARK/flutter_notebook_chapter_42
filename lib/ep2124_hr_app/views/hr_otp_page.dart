@@ -16,9 +16,9 @@ class _HrOtpPageState extends State<HrOtpPage> {
         child: Padding(
           padding: const EdgeInsets.all(24.0),
           child: Column(
-            spacing: 16,
+            spacing: 20,
             children: [
-              Gap(12),
+              Gap(8),
               Container(
                 height: 52,
                 child: Stack(
@@ -44,7 +44,7 @@ class _HrOtpPageState extends State<HrOtpPage> {
                   ],
                 ),
               ),
-              Gap(24),
+              Gap(8),
               Text("Please check your phone. We have to sent the code verification to your email."),
               Gap(24),
               Container(
