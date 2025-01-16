@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class HrOtpPage extends StatefulWidget {
   const HrOtpPage({super.key});
 
@@ -12,7 +11,9 @@ class _HrOtpPageState extends State<HrOtpPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(),
+      body: SafeArea(
+        child: Column(),
+      ),
     );
   }
 }
