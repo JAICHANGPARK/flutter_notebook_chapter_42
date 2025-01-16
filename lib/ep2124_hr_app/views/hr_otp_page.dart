@@ -21,7 +21,6 @@ class _HrOtpPageState extends State<HrOtpPage> {
               Gap(12),
               Container(
                 height: 52,
-              
                 child: Stack(
                   children: [
                     Positioned(
@@ -51,8 +50,17 @@ class _HrOtpPageState extends State<HrOtpPage> {
               Container(
                 height: 64,
                 color: Colors.blue,
-              )
-
+              ),
+              Text.rich(TextSpan(
+                children: [
+                  TextSpan(
+                    text: "Resend code in ",
+                  ),
+                  TextSpan(
+                    text: "01:29",
+                  ),
+                ],
+              ))
             ],
           ),
         ),
