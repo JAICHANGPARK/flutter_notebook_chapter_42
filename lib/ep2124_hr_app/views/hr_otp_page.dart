@@ -65,8 +65,25 @@ class _HrOtpPageState extends State<HrOtpPage> {
               ),
               Spacer(),
               Container(
-                
-              )
+                decoration: ShapeDecoration(
+                  shape: StadiumBorder(),
+                  color: Color(0xFF33BF7F),
+                ),
+                padding: EdgeInsets.symmetric(vertical: 12),
+                child: Center(
+                  child: Text(
+                    "Verify",
+                    style: TextStyle(
+                      fontSize: 18,
+                      color: Colors.white,
+                    ),
+                  ),
+                ),
+              ),
+              Expanded(
+                  child: GridView.builder(
+                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
+                      itemBuilder: itemBuilder)),
             ],
           ),
         ),
