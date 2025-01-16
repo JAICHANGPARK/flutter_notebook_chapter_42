@@ -34,7 +34,12 @@ class _HrOtpPageState extends State<HrOtpPage> {
                       ),
                     ),
                     Center(
-                      child: Text("OTP Verification"),
+                      child: Text(
+                        "OTP Verification",
+                        style: TextStyle(
+                          fontSize: 18,
+                        ),
+                      ),
                     )
                   ],
                 ),
