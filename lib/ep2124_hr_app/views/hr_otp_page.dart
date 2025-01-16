@@ -51,16 +51,22 @@ class _HrOtpPageState extends State<HrOtpPage> {
                 height: 64,
                 color: Colors.blue,
               ),
-              Text.rich(TextSpan(
-                children: [
-                  TextSpan(
-                    text: "Resend code in ",
-                  ),
-                  TextSpan(
-                    text: "01:29",
-                  ),
-                ],
-              ))
+              Text.rich(
+                TextSpan(
+                  children: [
+                    TextSpan(
+                      text: "Resend code in ",
+                    ),
+                    TextSpan(
+                      text: "01:29",
+                    ),
+                  ],
+                ),
+              ),
+              Spacer(),
+              Container(
+                
+              )
             ],
           ),
         ),
