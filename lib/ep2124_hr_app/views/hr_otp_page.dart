@@ -38,12 +38,14 @@ class _HrOtpPageState extends State<HrOtpPage> {
                         "OTP Verification",
                         style: TextStyle(
                           fontSize: 18,
+                          fontWeight: FontWeight.bold,
                         ),
                       ),
                     )
                   ],
                 ),
-              )
+              ),
+              Text("")
             ],
           ),
         ),
