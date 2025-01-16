@@ -11,6 +11,8 @@ class HrOtpPage extends StatefulWidget {
 class _HrOtpPageState extends State<HrOtpPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Column(),
+    );
   }
 }
