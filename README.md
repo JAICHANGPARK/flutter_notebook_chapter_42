@@ -2,7 +2,7 @@
 
 ## EP2130-
 
-- HR & Recruitment Mobile App
+- Delivery app | Mobile app | Delivery Design UI/UX
 - Oyasim Ahmed
 - https://dribbble.com/shots/25458558-HR-Recruitment-Mobile-App
 
