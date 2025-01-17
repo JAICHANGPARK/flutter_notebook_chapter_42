@@ -11,6 +11,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: SafeArea(
         child: Column(
           spacing: 12,
@@ -25,6 +26,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                       children: [
                         Text("Address"),
                         Row(
+                          spacing: 4,
                           children: [
                             Icon(
                               Icons.location_on_outlined,
