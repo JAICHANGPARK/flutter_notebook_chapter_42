@@ -27,7 +27,9 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                           Icon(
                             Icons.location_on_outlined,
                           ),
-                          Text("Seoul, Republic of Korea"),
+                          Text(
+                            "Seoul, Republic of Korea",
+                          ),
                           Icon(
                             Icons.keyboard_arrow_down,
                           )
