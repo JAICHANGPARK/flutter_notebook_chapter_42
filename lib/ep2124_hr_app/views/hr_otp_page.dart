@@ -67,7 +67,8 @@ class _HrOtpPageState extends State<HrOtpPage> {
                       ),
                       child: Center(
                         child: Text(
-                          opt.substring(0, 1),
+                          opt.isNotEmpty ?
+                          opt.substring(0, 1) :"",
                         ),
                       ),
                     ),
