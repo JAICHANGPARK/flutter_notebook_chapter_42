@@ -77,6 +77,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                       decoration: InputDecoration(
                         icon: Icon(Icons.search),
                         hintText: "Search restaurants",
+                        border: InputBorder.none,
                       ),
                     ),
                   ),
