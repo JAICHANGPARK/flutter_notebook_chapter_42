@@ -142,9 +142,13 @@ class _HrOtpPageState extends State<HrOtpPage> {
                     return Center(
                         child: IconButton(
                       onPressed: () {
-                        setState(() {
-                          opt = opt.substring(0, opt.length - 1);
-                        });
+                        if(opt.isNotEmpty){
+                          setState(() {
+
+                            opt = opt.substring(0, opt.length - 1);
+                          });
+                        }
+
                       },
                       icon: Icon(
                         Icons.backspace_outlined,
