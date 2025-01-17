@@ -1,5 +1,14 @@
 # flutter_notebook_chapter_42
 
+## EP2130-
+
+- HR & Recruitment Mobile App
+- Oyasim Ahmed
+- https://dribbble.com/shots/25458558-HR-Recruitment-Mobile-App
+
+<img src="https://cdn.dribbble.com/userupload/18383730/file/original-88306614b597e1a1434695b2d0ddced7.png?resize=1905x1429&vertical=center"/>
+
+
 ## EP2124-2129
 
 - HR & Recruitment Mobile App
