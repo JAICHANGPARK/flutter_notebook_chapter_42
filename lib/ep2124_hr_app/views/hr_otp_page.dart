@@ -67,8 +67,7 @@ class _HrOtpPageState extends State<HrOtpPage> {
                       ),
                       child: Center(
                         child: Text(
-                          opt.isNotEmpty ?
-                          opt.substring(0, 1) :"",
+                          opt.isNotEmpty ? opt[0] : "",
                         ),
                       ),
                     ),
@@ -80,14 +79,8 @@ class _HrOtpPageState extends State<HrOtpPage> {
                         ),
                         borderRadius: BorderRadius.circular(4),
                       ),
-                    ),
-                    Container(
-                      width: 48,
-                      decoration: BoxDecoration(
-                        border: Border.all(
-                          color: Colors.blueGrey[100]!,
-                        ),
-                        borderRadius: BorderRadius.circular(4),
+                      child: Center(
+                        child: Text(opt.length > 1 ? opt[1] : ""),
                       ),
                     ),
                     Container(
@@ -97,7 +90,20 @@ class _HrOtpPageState extends State<HrOtpPage> {
                           color: Colors.blueGrey[100]!,
                         ),
                         borderRadius: BorderRadius.circular(4),
-                      ),
+                      ), child: Center(
+                      child: Text(opt.length > 2 ? opt[2] : ""),
+                    ),
+                    ),
+                    Container(
+                      width: 48,
+                      decoration: BoxDecoration(
+                        border: Border.all(
+                          color: Colors.blueGrey[100]!,
+                        ),
+                        borderRadius: BorderRadius.circular(4),
+                      ), child: Center(
+                      child: Text(opt.length > 3? opt[3] : ""),
+                    ),
                     ),
                   ],
                 ),
@@ -143,13 +149,11 @@ class _HrOtpPageState extends State<HrOtpPage> {
                     return Center(
                         child: IconButton(
                       onPressed: () {
-                        if(opt.isNotEmpty){
+                        if (opt.isNotEmpty) {
                           setState(() {
-
                             opt = opt.substring(0, opt.length - 1);
                           });
                         }
-
                       },
                       icon: Icon(
                         Icons.backspace_outlined,
@@ -158,8 +162,12 @@ class _HrOtpPageState extends State<HrOtpPage> {
                   }
                   return InkWell(
                     onTap: () {
+                      if(opt.length > 4){
+                        return;
+                      }
                       setState(() {
                         opt += item;
+                        print(opt);
                       });
                     },
                     child: Center(
