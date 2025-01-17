@@ -15,42 +15,45 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
         child: Column(
           spacing: 12,
           children: [
-            Row(
-              children: [
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text("Address"),
-                      Row(
-                        children: [
-                          Icon(
-                            Icons.location_on_outlined,
-                          ),
-                          Text(
-                            "Seoul, Republic of Korea",
-                          ),
-                          Icon(
-                            Icons.keyboard_arrow_down,
-                          )
-                        ],
-                      )
-                    ],
-                  ),
-                ),
-                Container(
-                  decoration: BoxDecoration(
-                    border: Border.all(
-                      color: Colors.grey[200]!,
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Row(
+                children: [
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text("Address"),
+                        Row(
+                          children: [
+                            Icon(
+                              Icons.location_on_outlined,
+                            ),
+                            Text(
+                              "Seoul, Republic of Korea",
+                            ),
+                            Icon(
+                              Icons.keyboard_arrow_down,
+                            )
+                          ],
+                        )
+                      ],
                     ),
-                    shape: BoxShape.circle,
                   ),
-                  child: IconButton(
-                    onPressed: () {},
-                    icon: Icon(Icons.notifications_active_outlined),
-                  ),
-                )
-              ],
+                  Container(
+                    decoration: BoxDecoration(
+                      border: Border.all(
+                        color: Colors.grey[200]!,
+                      ),
+                      shape: BoxShape.circle,
+                    ),
+                    child: IconButton(
+                      onPressed: () {},
+                      icon: Icon(Icons.notifications_active_outlined),
+                    ),
+                  )
+                ],
+              ),
             )
           ],
         ),
