@@ -62,6 +62,12 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                   )
                 ],
               ),
+            ),
+            Container(
+              decoration: ShapeDecoration(
+                shape: StadiumBorder(),
+                color: Colors.grey[100],
+              ),
             )
           ],
         ),
