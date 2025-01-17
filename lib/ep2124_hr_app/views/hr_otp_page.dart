@@ -133,7 +133,12 @@ class _HrOtpPageState extends State<HrOtpPage> {
                 itemBuilder: (context, index) {
                   final item = pads[index];
                   return Center(
-                    child: Text(item),
+                    child: Text(
+                      item,
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
                   );
                 },
               )),
