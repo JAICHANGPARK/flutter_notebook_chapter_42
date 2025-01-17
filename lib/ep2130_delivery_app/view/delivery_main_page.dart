@@ -11,6 +11,11 @@ class DeliveryMainPage extends StatefulWidget {
 class _DeliveryMainPageState extends State<DeliveryMainPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Column(
+        spacing: 12,
+        children: [],
+      ),
+    );
   }
 }
