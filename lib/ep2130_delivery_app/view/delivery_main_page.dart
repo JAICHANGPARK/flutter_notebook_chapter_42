@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class DeliveryMainPage extends StatefulWidget {
   const DeliveryMainPage({super.key});
 
@@ -12,9 +11,33 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        spacing: 12,
-        children: [],
+      body: SafeArea(
+        child: Column(
+          spacing: 12,
+          children: [
+            Row(
+              children: [
+                Expanded(
+                  child: Column(
+                    children: [],
+                  ),
+                ),
+                Container(
+                  decoration: BoxDecoration(
+                    border: Border.all(
+                      color: Colors.grey[200]!,
+                    ),
+                    shape: BoxShape.circle,
+                  ),
+                  child: IconButton(
+                    onPressed: () {},
+                    icon: Icon(Icons.notifications_active_outlined),
+                  ),
+                )
+              ],
+            )
+          ],
+        ),
       ),
     );
   }
