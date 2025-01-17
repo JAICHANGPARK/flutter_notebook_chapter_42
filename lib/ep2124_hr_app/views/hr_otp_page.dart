@@ -52,11 +52,16 @@ class _HrOtpPageState extends State<HrOtpPage> {
                 color: Colors.blue,
                 child: Row(
                   spacing: 12,
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Container(
                       width: 54,
                       decoration: BoxDecoration(
                         color: Colors.greenAccent,
+                        border: Border.all(
+                          color: Colors.blueGrey[100],
+                        ),
+                        borderRadius: BorderRadius.circular(4),
                       ),
                     ),
                     Container(
