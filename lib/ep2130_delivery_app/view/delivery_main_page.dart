@@ -72,7 +72,14 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
               padding: EdgeInsets.symmetric(horizontal: 4, vertical: 4),
               child: Row(
                 children: [
-                  Expanded(child: TextField()),
+                  Expanded(
+                    child: TextField(
+                      decoration: InputDecoration(
+                        icon: Icon(Icons.search),
+                        hintText: "Search restaurants",
+                      ),
+                    ),
+                  ),
                   CircleAvatar(
                     backgroundColor: Colors.white,
                     foregroundColor: Colors.black,
