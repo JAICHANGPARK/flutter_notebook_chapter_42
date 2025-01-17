@@ -141,12 +141,19 @@ class _HrOtpPageState extends State<HrOtpPage> {
                       ),
                     ));
                   }
-                  return Center(
-                    child: Text(
-                      item,
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 18,
+                  return InkWell(
+                    onTap: () {
+                      setState(() {
+                        
+                      });
+                    },
+                    child: Center(
+                      child: Text(
+                        item,
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 18,
+                        ),
                       ),
                     ),
                   );
