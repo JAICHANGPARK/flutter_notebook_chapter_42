@@ -90,7 +90,14 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                   ),
                 ],
               ),
-            )
+            ),
+            SizedBox(
+              height: 42,
+              child: Placeholder(),
+            ),
+            Expanded(
+              child: Placeholder(),
+            ),
           ],
         ),
       ),
