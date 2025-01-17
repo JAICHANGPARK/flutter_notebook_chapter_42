@@ -9,7 +9,6 @@ class HrOtpPage extends StatefulWidget {
 }
 
 class _HrOtpPageState extends State<HrOtpPage> {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -55,7 +54,9 @@ class _HrOtpPageState extends State<HrOtpPage> {
                   children: [
                     Container(
                       width: 42,
-                        
+                      decoration: BoxDecoration(
+                        color: Colors.greenAccent,
+                      ),
                     )
                   ],
                 ),
@@ -94,10 +95,7 @@ class _HrOtpPageState extends State<HrOtpPage> {
                 shrinkWrap: true,
                 itemCount: 12,
                 physics: NeverScrollableScrollPhysics(),
-                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                  crossAxisCount: 3,
-                  childAspectRatio: 1.5
-                ),
+                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3, childAspectRatio: 1.5),
                 itemBuilder: (context, index) {
                   return Placeholder();
                 },
