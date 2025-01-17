@@ -9,6 +9,7 @@ class HrOtpPage extends StatefulWidget {
 }
 
 class _HrOtpPageState extends State<HrOtpPage> {
+  List<String> pads = ["1", "2", "3", "4", "5", "6", "7", "8", "9", ".", "0", ""];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -49,7 +50,7 @@ class _HrOtpPageState extends State<HrOtpPage> {
               Gap(24),
               Container(
                 height:    48,
-                color: Colors.blue,
+                // color: Colors.blue,
                 child: Row(
                   spacing: 12,
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -65,23 +66,35 @@ class _HrOtpPageState extends State<HrOtpPage> {
                       ),
                     ),
                     Container(
-                      width: 54,
+                      width: 48,
                       decoration: BoxDecoration(
-                        color: Colors.greenAccent,
+
+                        border: Border.all(
+                          color: Colors.blueGrey[100]!,
+                        ),
+                        borderRadius: BorderRadius.circular(4),
                       ),
                     ),
                     Container(
-                      width: 54,
+                      width: 48,
                       decoration: BoxDecoration(
-                        color: Colors.greenAccent,
+
+                        border: Border.all(
+                          color: Colors.blueGrey[100]!,
+                        ),
+                        borderRadius: BorderRadius.circular(4),
                       ),
                     ),
                     Container(
-                      width: 54,
+                      width: 48,
                       decoration: BoxDecoration(
-                        color: Colors.greenAccent,
+
+                        border: Border.all(
+                          color: Colors.blueGrey[100]!,
+                        ),
+                        borderRadius: BorderRadius.circular(4),
                       ),
-                    )
+                    ),
                   ],
                 ),
               ),
