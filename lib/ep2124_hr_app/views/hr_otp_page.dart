@@ -132,16 +132,14 @@ class _HrOtpPageState extends State<HrOtpPage> {
                 gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3, childAspectRatio: 1.5),
                 itemBuilder: (context, index) {
                   final item = pads[index];
-                  if(index == pads.length-1){
+                  if (index == pads.length - 1) {
                     return Center(
-                      child: Text(
-                        item,
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 18,
-                        ),
+                        child: IconButton(
+                      onPressed: () {},
+                      icon: Icon(
+                        Icons.backspace_outlined,
                       ),
-                    );
+                    ));
                   }
                   return Center(
                     child: Text(
