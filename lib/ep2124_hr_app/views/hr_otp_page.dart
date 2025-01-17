@@ -58,6 +58,24 @@ class _HrOtpPageState extends State<HrOtpPage> {
                       decoration: BoxDecoration(
                         color: Colors.greenAccent,
                       ),
+                    ),
+                    Container(
+                      width: 54,
+                      decoration: BoxDecoration(
+                        color: Colors.greenAccent,
+                      ),
+                    ),
+                    Container(
+                      width: 54,
+                      decoration: BoxDecoration(
+                        color: Colors.greenAccent,
+                      ),
+                    ),
+                    Container(
+                      width: 54,
+                      decoration: BoxDecoration(
+                        color: Colors.greenAccent,
+                      ),
                     )
                   ],
                 ),
