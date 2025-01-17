@@ -9,6 +9,7 @@ class HrOtpPage extends StatefulWidget {
 }
 
 class _HrOtpPageState extends State<HrOtpPage> {
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -50,6 +51,14 @@ class _HrOtpPageState extends State<HrOtpPage> {
               Container(
                 height: 64,
                 color: Colors.blue,
+                child: Row(
+                  children: [
+                    Container(
+                      width: 42,
+                        
+                    )
+                  ],
+                ),
               ),
               Text.rich(
                 TextSpan(
