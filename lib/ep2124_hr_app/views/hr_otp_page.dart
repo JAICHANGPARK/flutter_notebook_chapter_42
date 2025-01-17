@@ -10,6 +10,7 @@ class HrOtpPage extends StatefulWidget {
 
 class _HrOtpPageState extends State<HrOtpPage> {
   List<String> pads = ["1", "2", "3", "4", "5", "6", "7", "8", "9", ".", "0", ""];
+  String opt = "";
 
   @override
   Widget build(BuildContext context) {
@@ -63,6 +64,11 @@ class _HrOtpPageState extends State<HrOtpPage> {
                           color: Colors.blueGrey[100]!,
                         ),
                         borderRadius: BorderRadius.circular(4),
+                      ),
+                      child: Center(
+                        child: Text(
+                          opt.substring(0, 1),
+                        ),
                       ),
                     ),
                     Container(
@@ -135,7 +141,11 @@ class _HrOtpPageState extends State<HrOtpPage> {
                   if (index == pads.length - 1) {
                     return Center(
                         child: IconButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        setState(() {
+                          opt = opt.substring(0, opt.length - 1);
+                        });
+                      },
                       icon: Icon(
                         Icons.backspace_outlined,
                       ),
@@ -144,7 +154,7 @@ class _HrOtpPageState extends State<HrOtpPage> {
                   return InkWell(
                     onTap: () {
                       setState(() {
-                        
+                        opt += item;
                       });
                     },
                     child: Center(
