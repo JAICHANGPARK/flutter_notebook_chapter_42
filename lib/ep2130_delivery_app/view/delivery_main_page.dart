@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class DeliveryMainPage extends StatefulWidget {
   const DeliveryMainPage({super.key});
@@ -72,6 +73,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
               padding: EdgeInsets.symmetric(horizontal: 4, vertical: 4),
               child: Row(
                 children: [
+                  Gap(12),
                   Expanded(
                     child: TextField(
                       decoration: InputDecoration(
