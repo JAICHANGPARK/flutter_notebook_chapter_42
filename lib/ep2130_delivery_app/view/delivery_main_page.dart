@@ -68,10 +68,15 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                 shape: StadiumBorder(),
                 color: Colors.grey[100],
               ),
+              margin: EdgeInsets.symmetric(horizontal: 16),
               child: Row(
                 children: [
                   Expanded(child: TextField()),
-                  CircleAvatar(),
+                  CircleAvatar(
+                    backgroundColor: Colors.white,
+                    foregroundColor: Colors.black,
+                    child: Icon(Icons.tune),
+                  ),
                 ],
               ),
             )
