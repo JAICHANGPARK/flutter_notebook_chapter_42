@@ -4,7 +4,7 @@
 
 - Delivery app | Mobile app | Delivery Design UI/UX
 - Vladislava Povelitsa for Artspire
-- https://dribbble.com/shots/25458558-HR-Recruitment-Mobile-App
+- https://dribbble.com/shots/25487325-Delivery-app-Mobile-app-Delivery-Design-UI-UX
 
 <img src="https://cdn.dribbble.com/userupload/18383730/file/original-88306614b597e1a1434695b2d0ddced7.png?resize=1905x1429&vertical=center"/>
 
