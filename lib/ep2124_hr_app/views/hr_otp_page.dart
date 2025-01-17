@@ -48,18 +48,18 @@ class _HrOtpPageState extends State<HrOtpPage> {
               Text("Please check your phone. We have to sent the code verification to your email."),
               Gap(24),
               Container(
-                height: 54,
+                height:    48,
                 color: Colors.blue,
                 child: Row(
                   spacing: 12,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Container(
-                      width: 54,
+                      width: 48,
                       decoration: BoxDecoration(
-                        color: Colors.greenAccent,
+
                         border: Border.all(
-                          color: Colors.blueGrey[100],
+                          color: Colors.blueGrey[100]!,
                         ),
                         borderRadius: BorderRadius.circular(4),
                       ),
