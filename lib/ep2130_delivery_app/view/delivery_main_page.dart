@@ -69,6 +69,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                 color: Colors.grey[100],
               ),
               margin: EdgeInsets.symmetric(horizontal: 16),
+              padding: EdgeInsets.symmetric(horizontal: 4, vertical: 4),
               child: Row(
                 children: [
                   Expanded(child: TextField()),
