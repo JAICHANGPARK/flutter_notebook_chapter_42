@@ -19,7 +19,21 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
               children: [
                 Expanded(
                   child: Column(
-                    children: [],
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text("Address"),
+                      Row(
+                        children: [
+                          Icon(
+                            Icons.location_on_outlined,
+                          ),
+                          Text("Seoul, Republic of Korea"),
+                          Icon(
+                            Icons.keyboard_arrow_down,
+                          )
+                        ],
+                      )
+                    ],
                   ),
                 ),
                 Container(
