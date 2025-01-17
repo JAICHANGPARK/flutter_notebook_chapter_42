@@ -10,6 +10,7 @@ class HrOtpPage extends StatefulWidget {
 
 class _HrOtpPageState extends State<HrOtpPage> {
   List<String> pads = ["1", "2", "3", "4", "5", "6", "7", "8", "9", ".", "0", ""];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -49,7 +50,7 @@ class _HrOtpPageState extends State<HrOtpPage> {
               Text("Please check your phone. We have to sent the code verification to your email."),
               Gap(24),
               Container(
-                height:    48,
+                height: 48,
                 // color: Colors.blue,
                 child: Row(
                   spacing: 12,
@@ -58,7 +59,6 @@ class _HrOtpPageState extends State<HrOtpPage> {
                     Container(
                       width: 48,
                       decoration: BoxDecoration(
-
                         border: Border.all(
                           color: Colors.blueGrey[100]!,
                         ),
@@ -68,7 +68,6 @@ class _HrOtpPageState extends State<HrOtpPage> {
                     Container(
                       width: 48,
                       decoration: BoxDecoration(
-
                         border: Border.all(
                           color: Colors.blueGrey[100]!,
                         ),
@@ -78,7 +77,6 @@ class _HrOtpPageState extends State<HrOtpPage> {
                     Container(
                       width: 48,
                       decoration: BoxDecoration(
-
                         border: Border.all(
                           color: Colors.blueGrey[100]!,
                         ),
@@ -88,7 +86,6 @@ class _HrOtpPageState extends State<HrOtpPage> {
                     Container(
                       width: 48,
                       decoration: BoxDecoration(
-
                         border: Border.all(
                           color: Colors.blueGrey[100]!,
                         ),
@@ -130,11 +127,14 @@ class _HrOtpPageState extends State<HrOtpPage> {
               Expanded(
                   child: GridView.builder(
                 shrinkWrap: true,
-                itemCount: 12,
+                itemCount: pads.length,
                 physics: NeverScrollableScrollPhysics(),
                 gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3, childAspectRatio: 1.5),
                 itemBuilder: (context, index) {
-                  return Placeholder();
+                  final item = pads[index];
+                  return Center(
+                    child: Text(item),
+                  );
                 },
               )),
             ],
