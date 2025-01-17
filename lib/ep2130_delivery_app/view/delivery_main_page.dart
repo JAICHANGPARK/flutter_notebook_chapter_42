@@ -28,12 +28,18 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                           children: [
                             Icon(
                               Icons.location_on_outlined,
+                              size: 18,
                             ),
                             Text(
                               "Seoul, Republic of Korea",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 15,
+                              ),
                             ),
                             Icon(
                               Icons.keyboard_arrow_down,
+                              size: 18,
                             )
                           ],
                         )
