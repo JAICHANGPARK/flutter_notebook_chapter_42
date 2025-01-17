@@ -16,7 +16,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
           spacing: 12,
           children: [
             Padding(
-              padding: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.only(left: 16, right: 16, top: 24),
               child: Row(
                 children: [
                   Expanded(
