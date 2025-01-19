@@ -121,8 +121,9 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                 ],
               ),
             ),
-            SizedBox(
+            Container(
               height: 42,
+              padding: EdgeInsets.only(left: 16),
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
                 itemCount: tabs.length,
@@ -130,11 +131,9 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                   return Container(
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(
-                        side: BorderSide(
-                          color: Colors.grey[50]!,
-                        )
-                      ),
-
+                          side: BorderSide(
+                        color: Colors.grey[50]!,
+                      )),
                     ),
                     padding: EdgeInsets.symmetric(horizontal: 16),
                     child: Center(
@@ -147,7 +146,21 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
               ),
             ),
             Expanded(
-              child: Placeholder(),
+              child: SingleChildScrollView(
+                child: Column(
+                  children: [
+                    Container(
+                      height: 64,
+                      color: Colors.blue,
+                    ),
+                    Expanded(
+                      child: ListView.builder(
+                        itemBuilder: (context, index) {},
+                      ),
+                    ),
+                  ],
+                ),
+              ),
             ),
           ],
         ),
