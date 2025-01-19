@@ -150,7 +150,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                 child: Column(
                   children: [
                     Container(
-                      height: 64,
+                      height: 100,
                       color: Colors.blue,
                       child: ListView.builder(
                         scrollDirection: Axis.horizontal,
@@ -158,7 +158,9 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                         itemBuilder: (context, index) {
                           return Column(
                             children: [
-                              CircleAvatar(),
+                              CircleAvatar(
+                                child: Text(menus[index].emoji ?? ""),
+                              ),
                               Text(
                                 menus[index].title ?? "",
                               ),
@@ -167,10 +169,9 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                         },
                       ),
                     ),
-                    Expanded(
-                      child: ListView.builder(
-                        itemBuilder: (context, index) {},
-                      ),
+                    ListView.builder(
+                      shrinkWrap: true,
+                      itemBuilder: (context, index) {},
                     ),
                   ],
                 ),
