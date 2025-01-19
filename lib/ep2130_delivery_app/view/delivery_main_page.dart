@@ -129,7 +129,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                 itemCount: tabs.length,
                 itemBuilder: (context, index) {
                   return Container(
-                    margin: EdgeInsets.only(14),
+                    margin: EdgeInsets.only(right: 14),
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(
                           side: BorderSide(
