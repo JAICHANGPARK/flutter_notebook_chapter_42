@@ -123,7 +123,9 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
             ),
             SizedBox(
               height: 42,
-              child: Placeholder(),
+              child: ListView.builder(
+                itemBuilder: (context, index) {},
+              ),
             ),
             Expanded(
               child: Placeholder(),
