@@ -129,10 +129,11 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                 itemCount: tabs.length,
                 itemBuilder: (context, index) {
                   return Container(
+                    margin: EdgeInsets.only(14),
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(
                           side: BorderSide(
-                        color: Colors.grey[50]!,
+                        color: Colors.grey[100]!,
                       )),
                     ),
                     padding: EdgeInsets.symmetric(horizontal: 16),
@@ -177,12 +178,15 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                         },
                       ),
                     ),
-                    ListView.builder(
-                      shrinkWrap: true,
-                      itemCount: 10,
-                      itemBuilder: (context, index) {
-                        return Placeholder();
-                      },
+                    Padding(
+                      padding: const EdgeInsets.all(16.0),
+                      child: ListView.builder(
+                        shrinkWrap: true,
+                        itemCount: 10,
+                        itemBuilder: (context, index) {
+                          return Placeholder();
+                        },
+                      ),
                     ),
                   ],
                 ),
