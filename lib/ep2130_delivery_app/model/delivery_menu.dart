@@ -1,0 +1,4 @@
+
+class DeliveryMenu{
+  String? emoji
+}
