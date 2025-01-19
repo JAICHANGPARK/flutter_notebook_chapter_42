@@ -22,9 +22,9 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
       title: "Pizza",
     ),
     DeliveryMenu(
-      emoji: "",
-      title: "Pizza",
-    )
+      emoji: "🍔",
+      title: "Burgers",
+    ),
   ];
 
   @override
