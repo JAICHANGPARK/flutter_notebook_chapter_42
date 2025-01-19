@@ -124,10 +124,16 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
             SizedBox(
               height: 42,
               child: ListView.builder(
+                scrollDirection: Axis.horizontal,
                 itemCount: tabs.length,
                 itemBuilder: (context, index) {
                   return Container(
-                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                    ),
+                    child: Text(
+                      tabs[index],
+                    ),
                   );
                 },
               ),
