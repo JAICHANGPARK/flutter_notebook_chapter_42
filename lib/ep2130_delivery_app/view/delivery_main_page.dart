@@ -128,7 +128,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                 itemBuilder: (context, index) {
                   return Container(
                     decoration: ShapeDecoration(shape: StadiumBorder()),
-                  )
+                  );
                 },
               ),
             ),
