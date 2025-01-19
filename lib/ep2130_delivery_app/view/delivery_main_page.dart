@@ -161,10 +161,11 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
 
                             padding: const EdgeInsets.only(right: 14),
                             child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
                               spacing: 4,
                               children: [
                                 CircleAvatar(
-                                  radius: 28,
+                                  radius: 30,
                                   backgroundColor: Colors.blue[50],
                                   child: Text(menus[index].emoji ?? ""),
                                 ),
@@ -179,7 +180,9 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                     ),
                     ListView.builder(
                       shrinkWrap: true,
-                      itemBuilder: (context, index) {},
+                      itemBuilder: (context, index) {
+                        return Placeholder();
+                      },
                     ),
                   ],
                 ),
