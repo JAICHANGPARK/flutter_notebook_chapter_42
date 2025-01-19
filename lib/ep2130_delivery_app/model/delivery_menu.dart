@@ -1,4 +1,4 @@
-
-class DeliveryMenu{
-  String? emoji
+class DeliveryMenu {
+  String? emoji;
+  String? title;
 }
