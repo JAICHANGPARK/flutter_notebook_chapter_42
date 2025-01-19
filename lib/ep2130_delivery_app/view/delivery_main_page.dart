@@ -129,10 +129,18 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                 itemBuilder: (context, index) {
                   return Container(
                     decoration: ShapeDecoration(
-                      shape: StadiumBorder(),
+                      shape: StadiumBorder(
+                        side: BorderSide(
+                          color: Colors.grey[50]!,
+                        )
+                      ),
+
                     ),
-                    child: Text(
-                      tabs[index],
+                    padding: EdgeInsets.symmetric(horizontal: 16),
+                    child: Center(
+                      child: Text(
+                        tabs[index],
+                      ),
                     ),
                   );
                 },
