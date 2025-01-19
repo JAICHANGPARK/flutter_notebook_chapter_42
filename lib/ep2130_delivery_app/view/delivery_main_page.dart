@@ -33,7 +33,10 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
       emoji: "🍝",
       title: "Italian",
     ),
-    
+    DeliveryMenu(
+      emoji: "🍙",
+      title: "Asian",
+    )
   ];
 
   @override
