@@ -158,7 +158,6 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                         itemCount: menus.length,
                         itemBuilder: (context, index) {
                           return Padding(
-
                             padding: const EdgeInsets.only(right: 14),
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.center,
@@ -180,6 +179,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                     ),
                     ListView.builder(
                       shrinkWrap: true,
+                      itemCount: 10,
                       itemBuilder: (context, index) {
                         return Placeholder();
                       },
