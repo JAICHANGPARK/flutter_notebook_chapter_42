@@ -155,7 +155,16 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                       child: ListView.builder(
                         scrollDirection: Axis.horizontal,
                         itemCount: menus.length,
-                        itemBuilder: (context, index) {},
+                        itemBuilder: (context, index) {
+                          return Column(
+                            children: [
+                              CircleAvatar(),
+                              Text(
+                                menus[index].title ?? "",
+                              ),
+                            ],
+                          );
+                        },
                       ),
                     ),
                     Expanded(
