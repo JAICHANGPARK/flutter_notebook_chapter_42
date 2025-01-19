@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_42/ep2130_delivery_app/model/delivery_menu.dart';
 import 'package:gap/gap.dart';
 
 class DeliveryMainPage extends StatefulWidget {
@@ -15,7 +16,16 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
     "Free Delivery",
   ];
 
-  
+  List<DeliveryMenu> menus = [
+    DeliveryMenu(
+      emoji: "🍕",
+      title: "Pizza",
+    ),
+    DeliveryMenu(
+      emoji: "",
+      title: "Pizza",
+    )
+  ];
 
   @override
   Widget build(BuildContext context) {
