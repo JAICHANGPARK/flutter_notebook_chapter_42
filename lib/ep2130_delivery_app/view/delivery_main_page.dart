@@ -9,6 +9,12 @@ class DeliveryMainPage extends StatefulWidget {
 }
 
 class _DeliveryMainPageState extends State<DeliveryMainPage> {
+  List<String> tabs = [
+    "Best Match",
+    "Fastest Delivery",
+    "Free Delivery",
+  ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
