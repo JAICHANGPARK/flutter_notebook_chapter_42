@@ -150,21 +150,26 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                 child: Column(
                   children: [
                     Container(
+                      padding: EdgeInsets.only(left: 16),
                       height: 100,
                       color: Colors.blue,
                       child: ListView.builder(
                         scrollDirection: Axis.horizontal,
                         itemCount: menus.length,
                         itemBuilder: (context, index) {
-                          return Column(
-                            children: [
-                              CircleAvatar(
-                                child: Text(menus[index].emoji ?? ""),
-                              ),
-                              Text(
-                                menus[index].title ?? "",
-                              ),
-                            ],
+                          return Padding(
+
+                            padding: const EdgeInsets.only(right: 14),
+                            child: Column(
+                              children: [
+                                CircleAvatar(
+                                  child: Text(menus[index].emoji ?? ""),
+                                ),
+                                Text(
+                                  menus[index].title ?? "",
+                                ),
+                              ],
+                            ),
                           );
                         },
                       ),
