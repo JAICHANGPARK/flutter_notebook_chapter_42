@@ -161,8 +161,11 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
 
                             padding: const EdgeInsets.only(right: 14),
                             child: Column(
+                              spacing: 4,
                               children: [
                                 CircleAvatar(
+                                  radius: 28,
+                                  backgroundColor: Colors.blue[50],
                                   child: Text(menus[index].emoji ?? ""),
                                 ),
                                 Text(
