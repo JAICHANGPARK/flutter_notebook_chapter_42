@@ -131,15 +131,20 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                   return Container(
                     margin: EdgeInsets.only(right: 14),
                     decoration: ShapeDecoration(
+                      color: index == 0? Colors.lightGreenAccent : Colors.white,
                       shape: StadiumBorder(
-                          side: BorderSide(
-                        color: Colors.grey[100]!,
-                      )),
+                        side: BorderSide(
+                          color: Colors.grey[100]!,
+                        ),
+                      ),
                     ),
                     padding: EdgeInsets.symmetric(horizontal: 16),
                     child: Center(
                       child: Text(
                         tabs[index],
+                        style: TextStyle(
+                          fontWeight: 
+                        ),
                       ),
                     ),
                   );
