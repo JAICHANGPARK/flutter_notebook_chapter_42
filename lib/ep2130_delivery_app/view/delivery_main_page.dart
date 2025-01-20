@@ -276,10 +276,11 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                     ),
                                     Spacer(),
                                     Container(
-                                      height: 140,
+                                      height: 100,
                                       width: 140,
                                       decoration: BoxDecoration(
                                         color: Colors.grey,
+                                        
                                       ),
                                     )
                                   ],
