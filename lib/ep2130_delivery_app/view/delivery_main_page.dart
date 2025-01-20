@@ -172,10 +172,12 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                 CircleAvatar(
                                   radius: 30,
                                   backgroundColor: Colors.blue[100],
-                                  child: Text(menus[index].emoji ?? "",
-                                  style: TextStyle(
-                                    fontSize: 16,
-                                  ),),
+                                  child: Text(
+                                    menus[index].emoji ?? "",
+                                    style: TextStyle(
+                                      fontSize: 16,
+                                    ),
+                                  ),
                                 ),
                                 Text(
                                   menus[index].title ?? "",
@@ -192,7 +194,13 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                         shrinkWrap: true,
                         itemCount: 10,
                         itemBuilder: (context, index) {
-                          return Placeholder();
+                          return Container(
+                            decoration: BoxDecoration(
+                                color: Colors.white,
+                                border: Border.all(
+                                  color: Colors.grey[100]!,
+                                )),
+                          );
                         },
                       ),
                     ),
