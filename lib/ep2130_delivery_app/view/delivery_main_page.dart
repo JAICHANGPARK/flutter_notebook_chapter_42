@@ -290,7 +290,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                     shape: StadiumBorder(),
                                     color: Colors.blue[50],
                                   ),
-                                  padding: EdgeInsets.symmetric(horizontal: 4, vertical: 4),
+                                  padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                                   child: Row(
                                     spacing: 8,
                                     children: [
@@ -316,6 +316,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                       ),
                                       Icon(Icons.toll, size: 18,),
                                       Text("No fee"),
+                                      Gap(4),
                                     ],
                                   ),
                                 )
