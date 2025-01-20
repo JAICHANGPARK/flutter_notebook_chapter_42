@@ -204,7 +204,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                             ),
                             padding: EdgeInsets.all(12),
                             child: Column(
-                              spacing: 4,
+                              spacing: 8,
                               children: [
                                 Row(
                                   spacing: 4,
@@ -230,45 +230,63 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                               "Breakfast",
                                             )
                                           ],
-                                        )
+                                        ),
+                                        Row(
+                                          children: [
+                                            Container(
+                                              padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
+                                              decoration: BoxDecoration(
+                                                border: Border.all(
+                                                  color: Colors.grey[100]!,
+                                                ),
+                                              ),
+                                              child: Row(
+                                                spacing: 6,
+                                                children: [
+                                                  Icon(
+                                                    Icons.star,
+                                                    size: 18,
+                                                  ),
+                                                  Text("5.0")
+                                                ],
+                                              ),
+                                            ),
+                                            Container(
+                                              padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
+                                              decoration: BoxDecoration(
+                                                border: Border.all(
+                                                  color: Colors.grey[100]!,
+                                                ),
+                                              ),
+                                              child: Row(
+                                                spacing: 6,
+                                                children: [
+                                                  Icon(
+                                                    Icons.location_on_outlined,
+                                                    size: 18,
+                                                  ),
+                                                  Text("600 m")
+                                                ],
+                                              ),
+                                            ),
+
+                                          ],
+                                        ),
                                       ],
                                     ),
-                                  ],
-                                ),
-                                Row(
-                                  children: [
+                                    Spacer(),
                                     Container(
-                                      padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
+                                      height: 140,
+                                      width: 140,
                                       decoration: BoxDecoration(
-                                        border: Border.all(
-                                          color: Colors.grey[100]!,
-                                        ),
-                                      ),
-                                      child: Row(
-                                        spacing: 6,
-                                        children: [
-                                          Icon(Icons.star,size: 18,),
-                                          Text("5.0")
-                                        ],
-                                      ),
-                                    ),
-                                    Container(
-                                      padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
-                                      decoration: BoxDecoration(
-                                        border: Border.all(
-                                          color: Colors.grey[100]!,
-                                        ),
-                                      ),
-                                      child: Row(
-                                        spacing: 6,
-                                        children: [
-                                          Icon(Icons.location_on_outlined,size: 18,),
-                                          Text("600 m")
-                                        ],
+                                        color: Colors.grey,
                                       ),
                                     )
                                   ],
-                                )
+                                ),
+
+
+
                               ],
                             ),
                           );
