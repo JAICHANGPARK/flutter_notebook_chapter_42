@@ -285,11 +285,12 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                   ],
                                 ),
                                 Container(
-                                  height: 32,
+                                  height: 36,
                                   decoration: ShapeDecoration(
                                     shape: StadiumBorder(),
                                     color: Colors.blue[100],
                                   ),
+                                  padding: EdgeInsets.symmetric(horizontal: 4, vertical: 4),
                                   child: Row(
                                     children: [
                                       Container(
@@ -297,6 +298,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                           shape: StadiumBorder(),
                                           color: Colors.blue,
                                         ),
+                                        padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                                         child: Text(
                                           "Walt",
                                           style: TextStyle(
