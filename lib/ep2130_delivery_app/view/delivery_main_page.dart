@@ -204,13 +204,22 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                             ),
                             padding: EdgeInsets.all(12),
                             child: Column(
+                              spacing: 4,
                               children: [
                                 Row(
+                                  spacing: 4,
                                   children: [
                                     Column(
+                                      spacing: 8,
                                       crossAxisAlignment: CrossAxisAlignment.start,
                                       children: [
-                                        Text("Liberty Grill"),
+                                        Text(
+                                          "Liberty Grill",
+                                          style: TextStyle(
+                                            fontSize: 18,
+                                            
+                                          ),
+                                        ),
                                         Row(
                                           children: [
                                             Icon(
@@ -223,6 +232,17 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                           ],
                                         )
                                       ],
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  children: [
+                                    Container(
+                                      decoration: BoxDecoration(
+                                        border: Border.all(
+                                          color: Colors.grey[100]!,
+                                        ),
+                                      ),
                                     )
                                   ],
                                 )
