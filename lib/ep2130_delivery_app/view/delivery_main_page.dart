@@ -211,7 +211,12 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                       children: [
                                         Text("Liberty Grill"),
                                         Row(
-                                          children: [Icon(Icons.)],
+                                          children: [
+                                            Icon(
+                                              Icons.egg_alt_outlined,
+                                            ),
+                                            
+                                          ],
                                         )
                                       ],
                                     )
