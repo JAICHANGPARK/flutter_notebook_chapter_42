@@ -217,7 +217,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                           "Liberty Grill",
                                           style: TextStyle(
                                             fontSize: 18,
-                                            
+                                            fontWeight: FontWeight.bold,
                                           ),
                                         ),
                                         Row(
@@ -242,6 +242,13 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                         border: Border.all(
                                           color: Colors.grey[100]!,
                                         ),
+                                      ),
+                                      child: Row(
+                                        spacing: 6,
+                                        children: [
+                                          Icon(Icons.star,size: 18,),
+                                          Text("5.0")
+                                        ],
                                       ),
                                     )
                                   ],
