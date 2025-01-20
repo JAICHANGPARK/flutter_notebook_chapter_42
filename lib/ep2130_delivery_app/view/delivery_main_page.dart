@@ -262,8 +262,8 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                       child: Row(
                                         spacing: 6,
                                         children: [
-                                          Icon(Icons.star,size: 18,),
-                                          Text("5.0")
+                                          Icon(Icons.location_on_outlined,size: 18,),
+                                          Text("600 m")
                                         ],
                                       ),
                                     )
