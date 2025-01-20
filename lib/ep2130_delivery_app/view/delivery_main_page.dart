@@ -131,7 +131,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                   return Container(
                     margin: EdgeInsets.only(right: 14),
                     decoration: ShapeDecoration(
-                      color: index == 0? Colors.lightGreenAccent : Colors.white,
+                      color: index == 0 ? Colors.lightGreenAccent : Colors.white,
                       shape: StadiumBorder(
                         side: BorderSide(
                           color: Colors.grey[100]!,
@@ -143,7 +143,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                       child: Text(
                         tabs[index],
                         style: TextStyle(
-                          fontWeight: 
+                          fontWeight: index == 0 ? FontWeight.bold : FontWeight.normal,
                         ),
                       ),
                     ),
