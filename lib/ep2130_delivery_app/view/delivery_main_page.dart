@@ -195,11 +195,30 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                         itemCount: 10,
                         itemBuilder: (context, index) {
                           return Container(
+                            margin: EdgeInsets.only(bottom: 12),
                             decoration: BoxDecoration(
-                                color: Colors.white,
-                                border: Border.all(
-                                  color: Colors.grey[100]!,
-                                )),
+                              color: Colors.white,
+                              border: Border.all(
+                                color: Colors.grey[100]!,
+                              ),
+                            ),
+                            child: Column(
+                              children: [
+                                Row(
+                                  children: [
+                                    Column(
+                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                      children: [
+                                        Text("Liberty Grill"),
+                                        Row(
+                                          children: [Icon(Icons.)],
+                                        )
+                                      ],
+                                    )
+                                  ],
+                                )
+                              ],
+                            ),
                           );
                         },
                       ),
