@@ -288,7 +288,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                   height: 36,
                                   decoration: ShapeDecoration(
                                     shape: StadiumBorder(),
-                                    color: Colors.blue[100],
+                                    color: Colors.blue[50],
                                   ),
                                   padding: EdgeInsets.symmetric(horizontal: 4, vertical: 4),
                                   child: Row(
@@ -307,10 +307,14 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                           ),
                                         ),
                                       ),
-                                      Icon(Icons.access_time),
+                                      Spacer(),
+                                      Icon(Icons.access_time, size: 18,),
                                       Text("40 - 45 min"),
-                                      VerticalDivider(),
-                                      Icon(Icons.toll),
+                                      VerticalDivider(
+                                        indent: 4,
+                                        endIndent: 4,
+                                      ),
+                                      Icon(Icons.toll, size: 18,),
                                       Text("No fee"),
                                     ],
                                   ),
