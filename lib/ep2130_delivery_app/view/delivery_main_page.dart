@@ -171,8 +171,9 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                               children: [
                                 CircleAvatar(
                                   radius: 30,
-                                  backgroundColor: Colors.blue[50],
-                                  child: Text(menus[index].emoji ?? ""),
+                                  backgroundColor: Colors.blue[100],
+                                  child: Text(menus[index].emoji ?? "",
+                                  style: TextStyle(),),
                                 ),
                                 Text(
                                   menus[index].title ?? "",
