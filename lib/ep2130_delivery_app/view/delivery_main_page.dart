@@ -292,6 +292,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                   ),
                                   padding: EdgeInsets.symmetric(horizontal: 4, vertical: 4),
                                   child: Row(
+                                    spacing: 8,
                                     children: [
                                       Container(
                                         decoration: ShapeDecoration(
@@ -305,7 +306,12 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                             color: Colors.white,
                                           ),
                                         ),
-                                      )
+                                      ),
+                                      Icon(Icons.access_time),
+                                      Text("40 - 45 min"),
+                                      VerticalDivider(),
+                                      Icon(Icons.toll),
+                                      Text("No fee"),
                                     ],
                                   ),
                                 )
