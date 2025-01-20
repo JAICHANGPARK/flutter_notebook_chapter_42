@@ -238,6 +238,22 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                 Row(
                                   children: [
                                     Container(
+                                      padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
+                                      decoration: BoxDecoration(
+                                        border: Border.all(
+                                          color: Colors.grey[100]!,
+                                        ),
+                                      ),
+                                      child: Row(
+                                        spacing: 6,
+                                        children: [
+                                          Icon(Icons.star,size: 18,),
+                                          Text("5.0")
+                                        ],
+                                      ),
+                                    ),
+                                    Container(
+                                      padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
                                       decoration: BoxDecoration(
                                         border: Border.all(
                                           color: Colors.grey[100]!,
