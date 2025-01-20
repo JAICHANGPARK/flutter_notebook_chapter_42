@@ -158,7 +158,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                     Container(
                       padding: EdgeInsets.only(left: 16),
                       height: 100,
-                      color: Colors.blue,
+                      // color: Colors.blue,
                       child: ListView.builder(
                         scrollDirection: Axis.horizontal,
                         itemCount: menus.length,
