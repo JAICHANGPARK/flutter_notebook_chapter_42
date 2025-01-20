@@ -202,6 +202,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                 color: Colors.grey[100]!,
                               ),
                             ),
+                            padding: EdgeInsets.all(12),
                             child: Column(
                               children: [
                                 Row(
@@ -214,8 +215,11 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                           children: [
                                             Icon(
                                               Icons.egg_alt_outlined,
+                                              size: 16,
                                             ),
-                                            
+                                            Text(
+                                              "Breakfast",
+                                            )
                                           ],
                                         )
                                       ],
