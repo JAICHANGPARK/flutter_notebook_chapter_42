@@ -284,6 +284,29 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                     )
                                   ],
                                 ),
+                                Container(
+                                  height: 32,
+                                  decoration: ShapeDecoration(
+                                    shape: StadiumBorder(),
+                                    color: Colors.blue[100],
+                                  ),
+                                  child: Row(
+                                    children: [
+                                      Container(
+                                        decoration: ShapeDecoration(
+                                          shape: StadiumBorder(),
+                                          color: Colors.blue,
+                                        ),
+                                        child: Text(
+                                          "Walt",
+                                          style: TextStyle(
+                                            color: Colors.white,
+                                          ),
+                                        ),
+                                      )
+                                    ],
+                                  ),
+                                )
                               ],
                             ),
                           );
