@@ -173,7 +173,9 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                   radius: 30,
                                   backgroundColor: Colors.blue[100],
                                   child: Text(menus[index].emoji ?? "",
-                                  style: TextStyle(),),
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                  ),),
                                 ),
                                 Text(
                                   menus[index].title ?? "",
