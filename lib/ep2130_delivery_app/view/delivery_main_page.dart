@@ -269,7 +269,6 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                                 ],
                                               ),
                                             ),
-
                                           ],
                                         ),
                                       ],
@@ -280,14 +279,11 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                       width: 140,
                                       decoration: BoxDecoration(
                                         color: Colors.grey,
-                                        
+                                        borderRadius: BorderRadius.circular(12),
                                       ),
                                     )
                                   ],
                                 ),
-
-
-
                               ],
                             ),
                           );
