@@ -29,12 +29,22 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                 shape: StadiumBorder(),
                 color: Colors.black,
               ),
+              padding: EdgeInsets.symmetric(
+                horizontal: 12,
+                vertical: 8,
+              ),
               child: Row(
                 spacing: 8,
                 children: [
-                  CircleAvatar(),
-                  CircleAvatar(),
-                  CircleAvatar(),
+                  CircleAvatar(
+                    radius: 24,
+                  ),
+                  CircleAvatar(
+                    radius: 24,
+                  ),
+                  CircleAvatar(
+                    radius: 24,
+                  ),
                 ],
               ),
             ),
