@@ -194,244 +194,250 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                         shrinkWrap: true,
                         itemCount: 10,
                         itemBuilder: (context, index) {
-                          return Container(
-                            margin: EdgeInsets.only(bottom: 12),
-                            decoration: BoxDecoration(
-                              color: Colors.white,
-                              border: Border.all(
-                                color: Colors.grey[100]!,
+                          return GestureDetector(
+                            onTap: (){
+                              
+                            },
+                            child: Container(
+                              margin: EdgeInsets.only(bottom: 12),
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                                border: Border.all(
+                                  color: Colors.grey[100]!,
+                                ),
                               ),
-                            ),
-                            padding: EdgeInsets.all(12),
-                            child: Column(
-                              spacing: 8,
-                              children: [
-                                Row(
-                                  spacing: 4,
-                                  children: [
-                                    Column(
-                                      spacing: 8,
-                                      crossAxisAlignment: CrossAxisAlignment.start,
-                                      children: [
-                                        Text(
-                                          "Liberty Grill",
-                                          style: TextStyle(
-                                            fontSize: 18,
-                                            fontWeight: FontWeight.bold,
-                                          ),
-                                        ),
-                                        Row(
-                                          children: [
-                                            Icon(
-                                              Icons.egg_alt_outlined,
-                                              size: 16,
-                                            ),
-                                            Text(
-                                              "Breakfast",
-                                            )
-                                          ],
-                                        ),
-                                        Row(
-                                          children: [
-                                            Container(
-                                              padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
-                                              decoration: BoxDecoration(
-                                                border: Border.all(
-                                                  color: Colors.grey[100]!,
-                                                ),
-                                              ),
-                                              child: Row(
-                                                spacing: 6,
-                                                children: [
-                                                  Icon(
-                                                    Icons.star,
-                                                    size: 18,
-                                                  ),
-                                                  Text("5.0")
-                                                ],
-                                              ),
-                                            ),
-                                            Container(
-                                              padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
-                                              decoration: BoxDecoration(
-                                                border: Border.all(
-                                                  color: Colors.grey[100]!,
-                                                ),
-                                              ),
-                                              child: Row(
-                                                spacing: 6,
-                                                children: [
-                                                  Icon(
-                                                    Icons.location_on_outlined,
-                                                    size: 18,
-                                                  ),
-                                                  Text("600 m")
-                                                ],
-                                              ),
-                                            ),
-                                          ],
-                                        ),
-                                      ],
-                                    ),
-                                    Spacer(),
-                                    Container(
-                                      height: 100,
-                                      width: 140,
-                                      decoration: BoxDecoration(
-                                        color: Colors.grey,
-                                        borderRadius: BorderRadius.circular(12),
-                                        image: DecorationImage(
-                                          image: NetworkImage(
-                                            "https://cdn.pixabay.com/photo/2021/11/01/15/52/spring-roll-6760871_1280.jpg",
-                                          ),
-                                          fit: BoxFit.cover,
-                                        ),
-                                      ),
-                                      padding: EdgeInsets.all(4),
-                                      child: Stack(
+                              padding: EdgeInsets.all(12),
+                              child: Column(
+                                spacing: 8,
+                                children: [
+                                  Row(
+                                    spacing: 4,
+                                    children: [
+                                      Column(
+                                        spacing: 8,
+                                        crossAxisAlignment: CrossAxisAlignment.start,
                                         children: [
-                                          Container(
-                                            decoration: BoxDecoration(
-                                              color: Colors.lightGreenAccent,
-                                              borderRadius: BorderRadius.circular(4),
+                                          Text(
+                                            "Liberty Grill",
+                                            style: TextStyle(
+                                              fontSize: 18,
+                                              fontWeight: FontWeight.bold,
                                             ),
-                                            padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
-                                            child: Text(
-                                              "Best match",
-                                            ),
+                                          ),
+                                          Row(
+                                            children: [
+                                              Icon(
+                                                Icons.egg_alt_outlined,
+                                                size: 16,
+                                              ),
+                                              Text(
+                                                "Breakfast",
+                                              )
+                                            ],
+                                          ),
+                                          Row(
+                                            children: [
+                                              Container(
+                                                padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
+                                                decoration: BoxDecoration(
+                                                  border: Border.all(
+                                                    color: Colors.grey[100]!,
+                                                  ),
+                                                ),
+                                                child: Row(
+                                                  spacing: 6,
+                                                  children: [
+                                                    Icon(
+                                                      Icons.star,
+                                                      size: 18,
+                                                    ),
+                                                    Text("5.0")
+                                                  ],
+                                                ),
+                                              ),
+                                              Container(
+                                                padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
+                                                decoration: BoxDecoration(
+                                                  border: Border.all(
+                                                    color: Colors.grey[100]!,
+                                                  ),
+                                                ),
+                                                child: Row(
+                                                  spacing: 6,
+                                                  children: [
+                                                    Icon(
+                                                      Icons.location_on_outlined,
+                                                      size: 18,
+                                                    ),
+                                                    Text("600 m")
+                                                  ],
+                                                ),
+                                              ),
+                                            ],
                                           ),
                                         ],
                                       ),
-                                    )
-                                  ],
-                                ),
-                                Container(
-                                  height: 36,
-                                  decoration: ShapeDecoration(
-                                    shape: StadiumBorder(),
-                                    color: Colors.blue[50],
-                                  ),
-                                  padding: EdgeInsets.symmetric(horizontal: 4, vertical: 4),
-                                  child: Row(
-                                    spacing: 8,
-                                    children: [
+                                      Spacer(),
                                       Container(
-                                        decoration: ShapeDecoration(
-                                          shape: StadiumBorder(),
-                                          color: Colors.blue,
-                                        ),
-                                        padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-                                        child: Text(
-                                          "Walt",
-                                          style: TextStyle(
-                                            color: Colors.white,
+                                        height: 100,
+                                        width: 140,
+                                        decoration: BoxDecoration(
+                                          color: Colors.grey,
+                                          borderRadius: BorderRadius.circular(12),
+                                          image: DecorationImage(
+                                            image: NetworkImage(
+                                              "https://cdn.pixabay.com/photo/2021/11/01/15/52/spring-roll-6760871_1280.jpg",
+                                            ),
+                                            fit: BoxFit.cover,
                                           ),
                                         ),
-                                      ),
-                                      Spacer(),
-                                      Icon(
-                                        Icons.access_time,
-                                        size: 18,
-                                      ),
-                                      Text("40 - 45 min"),
-                                      VerticalDivider(
-                                        indent: 4,
-                                        endIndent: 4,
-                                      ),
-                                      Icon(
-                                        Icons.toll,
-                                        size: 18,
-                                      ),
-                                      Text("No fee"),
-                                      Gap(4),
+                                        padding: EdgeInsets.all(4),
+                                        child: Stack(
+                                          children: [
+                                            Container(
+                                              decoration: BoxDecoration(
+                                                color: Colors.lightGreenAccent,
+                                                borderRadius: BorderRadius.circular(4),
+                                              ),
+                                              padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
+                                              child: Text(
+                                                "Best match",
+                                              ),
+                                            ),
+
+                                          ],
+                                        ),
+                                      )
                                     ],
                                   ),
-                                ),
-                                Container(
-                                  height: 36,
-                                  decoration: ShapeDecoration(
-                                    shape: StadiumBorder(),
-                                    color: Colors.blue[50],
-                                  ),
-                                  padding: EdgeInsets.symmetric(horizontal: 4, vertical: 4),
-                                  child: Row(
-                                    spacing: 8,
-                                    children: [
-                                      Container(
-                                        decoration: ShapeDecoration(
-                                          shape: StadiumBorder(),
-                                          color: Colors.blue,
-                                        ),
-                                        padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-                                        child: Text(
-                                          "Walt",
-                                          style: TextStyle(
-                                            color: Colors.white,
+                                  Container(
+                                    height: 36,
+                                    decoration: ShapeDecoration(
+                                      shape: StadiumBorder(),
+                                      color: Colors.blue[50],
+                                    ),
+                                    padding: EdgeInsets.symmetric(horizontal: 4, vertical: 4),
+                                    child: Row(
+                                      spacing: 8,
+                                      children: [
+                                        Container(
+                                          decoration: ShapeDecoration(
+                                            shape: StadiumBorder(),
+                                            color: Colors.blue,
+                                          ),
+                                          padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                                          child: Text(
+                                            "Walt",
+                                            style: TextStyle(
+                                              color: Colors.white,
+                                            ),
                                           ),
                                         ),
-                                      ),
-                                      Spacer(),
-                                      Icon(
-                                        Icons.access_time,
-                                        size: 18,
-                                      ),
-                                      Text("40 - 45 min"),
-                                      VerticalDivider(
-                                        indent: 4,
-                                        endIndent: 4,
-                                      ),
-                                      Icon(
-                                        Icons.toll,
-                                        size: 18,
-                                      ),
-                                      Text("No fee"),
-                                      Gap(4),
-                                    ],
-                                  ),
-                                ),
-                                Container(
-                                  height: 36,
-                                  decoration: ShapeDecoration(
-                                    shape: StadiumBorder(),
-                                    color: Colors.blue[50],
-                                  ),
-                                  padding: EdgeInsets.symmetric(horizontal: 4, vertical: 4),
-                                  child: Row(
-                                    spacing: 8,
-                                    children: [
-                                      Container(
-                                        decoration: ShapeDecoration(
-                                          shape: StadiumBorder(),
-                                          color: Colors.blue,
+                                        Spacer(),
+                                        Icon(
+                                          Icons.access_time,
+                                          size: 18,
                                         ),
-                                        padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-                                        child: Text(
-                                          "Walt",
-                                          style: TextStyle(
-                                            color: Colors.white,
+                                        Text("40 - 45 min"),
+                                        VerticalDivider(
+                                          indent: 4,
+                                          endIndent: 4,
+                                        ),
+                                        Icon(
+                                          Icons.toll,
+                                          size: 18,
+                                        ),
+                                        Text("No fee"),
+                                        Gap(4),
+                                      ],
+                                    ),
+                                  ),
+                                  Container(
+                                    height: 36,
+                                    decoration: ShapeDecoration(
+                                      shape: StadiumBorder(),
+                                      color: Colors.blue[50],
+                                    ),
+                                    padding: EdgeInsets.symmetric(horizontal: 4, vertical: 4),
+                                    child: Row(
+                                      spacing: 8,
+                                      children: [
+                                        Container(
+                                          decoration: ShapeDecoration(
+                                            shape: StadiumBorder(),
+                                            color: Colors.blue,
+                                          ),
+                                          padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                                          child: Text(
+                                            "Walt",
+                                            style: TextStyle(
+                                              color: Colors.white,
+                                            ),
                                           ),
                                         ),
-                                      ),
-                                      Spacer(),
-                                      Icon(
-                                        Icons.access_time,
-                                        size: 18,
-                                      ),
-                                      Text("40 - 45 min"),
-                                      VerticalDivider(
-                                        indent: 4,
-                                        endIndent: 4,
-                                      ),
-                                      Icon(
-                                        Icons.toll,
-                                        size: 18,
-                                      ),
-                                      Text("No fee"),
-                                      Gap(4),
-                                    ],
+                                        Spacer(),
+                                        Icon(
+                                          Icons.access_time,
+                                          size: 18,
+                                        ),
+                                        Text("40 - 45 min"),
+                                        VerticalDivider(
+                                          indent: 4,
+                                          endIndent: 4,
+                                        ),
+                                        Icon(
+                                          Icons.toll,
+                                          size: 18,
+                                        ),
+                                        Text("No fee"),
+                                        Gap(4),
+                                      ],
+                                    ),
                                   ),
-                                )
-                              ],
+                                  Container(
+                                    height: 36,
+                                    decoration: ShapeDecoration(
+                                      shape: StadiumBorder(),
+                                      color: Colors.blue[50],
+                                    ),
+                                    padding: EdgeInsets.symmetric(horizontal: 4, vertical: 4),
+                                    child: Row(
+                                      spacing: 8,
+                                      children: [
+                                        Container(
+                                          decoration: ShapeDecoration(
+                                            shape: StadiumBorder(),
+                                            color: Colors.blue,
+                                          ),
+                                          padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                                          child: Text(
+                                            "Walt",
+                                            style: TextStyle(
+                                              color: Colors.white,
+                                            ),
+                                          ),
+                                        ),
+                                        Spacer(),
+                                        Icon(
+                                          Icons.access_time,
+                                          size: 18,
+                                        ),
+                                        Text("40 - 45 min"),
+                                        VerticalDivider(
+                                          indent: 4,
+                                          endIndent: 4,
+                                        ),
+                                        Icon(
+                                          Icons.toll,
+                                          size: 18,
+                                        ),
+                                        Text("No fee"),
+                                        Gap(4),
+                                      ],
+                                    ),
+                                  )
+                                ],
+                              ),
                             ),
                           );
                         },
