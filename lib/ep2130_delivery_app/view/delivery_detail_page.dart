@@ -11,6 +11,7 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Stack(
         children: [
           Positioned.fill(
