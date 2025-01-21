@@ -14,6 +14,7 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
       body: Stack(
         children: [
           Positioned.fill(
+            top: 32,
             child: SafeArea(
               child: Column(
                 spacing: 16,
