@@ -295,6 +295,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                               color: Colors.lightGreenAccent,
                                               borderRadius: BorderRadius.circular(4),
                                             ),
+                                            padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
                                             child: Text(
                                               "Best match",
                                             ),
