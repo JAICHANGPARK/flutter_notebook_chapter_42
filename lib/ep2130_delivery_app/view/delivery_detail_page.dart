@@ -29,6 +29,14 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                 shape: StadiumBorder(),
                 color: Colors.black,
               ),
+              child: Row(
+                spacing: 8,
+                children: [
+                  CircleAvatar(),
+                  CircleAvatar(),
+                  CircleAvatar(),
+                ],
+              ),
             ),
           ),
         ],
