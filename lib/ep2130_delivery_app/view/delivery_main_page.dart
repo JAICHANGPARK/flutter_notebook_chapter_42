@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_notebook_chapter_42/ep2130_delivery_app/model/delivery_menu.dart';
+import 'package:flutter_notebook_chapter_42/ep2130_delivery_app/view/delivery_detail_page.dart';
 import 'package:gap/gap.dart';
 
 class DeliveryMainPage extends StatefulWidget {
@@ -195,8 +196,12 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                         itemCount: 10,
                         itemBuilder: (context, index) {
                           return GestureDetector(
-                            onTap: (){
-                              
+                            onTap: () {
+                              Navigator.of(context).push(
+                                MaterialPageRoute(
+                                  builder: (context) => DeliveryDetailPage(),
+                                ),
+                              );
                             },
                             child: Container(
                               margin: EdgeInsets.only(bottom: 12),
@@ -304,7 +309,6 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                                 "Best match",
                                               ),
                                             ),
-
                                           ],
                                         ),
                                       )
