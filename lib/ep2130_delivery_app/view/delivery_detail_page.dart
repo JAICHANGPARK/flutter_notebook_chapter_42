@@ -25,7 +25,8 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
             left: 24,
             right: 24,
             child: Container(
-              decoration: BoxDecoration(
+              decoration: ShapeDecoration(
+                shape: StadiumBorder(),
                 color: Colors.black,
               ),
             ),
