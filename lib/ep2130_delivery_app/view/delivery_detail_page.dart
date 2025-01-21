@@ -37,13 +37,13 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                 spacing: 8,
                 children: [
                   CircleAvatar(
-                    radius: 24,
+                    radius: 20,
                   ),
                   CircleAvatar(
-                    radius: 24,
+                    radius: 20,
                   ),
                   CircleAvatar(
-                    radius: 24,
+                    radius: 20,
                   ),
                   Spacer(),
                   Text(
