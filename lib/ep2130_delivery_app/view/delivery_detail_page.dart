@@ -16,33 +16,49 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
           Positioned.fill(
             child: SafeArea(
               child: Column(
+                spacing: 16,
                 children: [
-                  Row(
-                    children: [
-                      Container(
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          shape: BoxShape.circle,
-                        ),
-                        child: IconButton(
-                          onPressed: () {},
-                          icon: Icon(
-                            Icons.keyboard_arrow_left,
+                  Padding(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 16,
+                    ),
+                    child: Row(
+                      children: [
+                        Container(
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            shape: BoxShape.circle,
                           ),
-                        ),
-                      ),
-                      Expanded(
-                        child: Center(
-                          child: Text(
-                            "The Breakfast Loft",
-                            style: TextStyle(
-                              fontSize: 19,
-                              fontWeight: FontWeight.bold,
+                          child: IconButton(
+                            onPressed: () {},
+                            icon: Icon(
+                              Icons.keyboard_arrow_left,
                             ),
                           ),
                         ),
-                      )
-                    ],
+                        Expanded(
+                          child: Center(
+                            child: Text(
+                              "The Breakfast Loft",
+                              style: TextStyle(
+                                fontSize: 19,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ),
+                        ),
+                        Container(
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            shape: BoxShape.circle,
+                          ),
+                          child: IconButton(
+                            onPressed: () {},
+                            icon: Icon(Icons.favorite_border),
+                          ),
+                        ),
+                      ],
+                    ),
                   )
                 ],
               ),
