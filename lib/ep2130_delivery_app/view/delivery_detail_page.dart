@@ -48,6 +48,9 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                   Spacer(),
                   Text(
                     "Order in Uber Eats",
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
                   ),
                   IconButton(
                     onPressed: () {},
