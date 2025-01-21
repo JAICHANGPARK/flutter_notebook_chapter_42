@@ -280,6 +280,26 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                       decoration: BoxDecoration(
                                         color: Colors.grey,
                                         borderRadius: BorderRadius.circular(12),
+                                        image: DecorationImage(
+                                          image: NetworkImage(
+                                            "https://cdn.pixabay.com/photo/2021/11/01/15/52/spring-roll-6760871_1280.jpg",
+                                          ),
+                                          fit: BoxFit.cover,
+                                        ),
+                                      ),
+                                      padding: EdgeInsets.all(4),
+                                      child: Stack(
+                                        children: [
+                                          Container(
+                                            decoration: BoxDecoration(
+                                              color: Colors.lightGreenAccent,
+                                              borderRadius: BorderRadius.circular(4),
+                                            ),
+                                            child: Text(
+                                              "Best match",
+                                            ),
+                                          )
+                                        ],
                                       ),
                                     )
                                   ],
@@ -308,13 +328,19 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                         ),
                                       ),
                                       Spacer(),
-                                      Icon(Icons.access_time, size: 18,),
+                                      Icon(
+                                        Icons.access_time,
+                                        size: 18,
+                                      ),
                                       Text("40 - 45 min"),
                                       VerticalDivider(
                                         indent: 4,
                                         endIndent: 4,
                                       ),
-                                      Icon(Icons.toll, size: 18,),
+                                      Icon(
+                                        Icons.toll,
+                                        size: 18,
+                                      ),
                                       Text("No fee"),
                                       Gap(4),
                                     ],
@@ -344,13 +370,19 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                         ),
                                       ),
                                       Spacer(),
-                                      Icon(Icons.access_time, size: 18,),
+                                      Icon(
+                                        Icons.access_time,
+                                        size: 18,
+                                      ),
                                       Text("40 - 45 min"),
                                       VerticalDivider(
                                         indent: 4,
                                         endIndent: 4,
                                       ),
-                                      Icon(Icons.toll, size: 18,),
+                                      Icon(
+                                        Icons.toll,
+                                        size: 18,
+                                      ),
                                       Text("No fee"),
                                       Gap(4),
                                     ],
@@ -380,13 +412,19 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                         ),
                                       ),
                                       Spacer(),
-                                      Icon(Icons.access_time, size: 18,),
+                                      Icon(
+                                        Icons.access_time,
+                                        size: 18,
+                                      ),
                                       Text("40 - 45 min"),
                                       VerticalDivider(
                                         indent: 4,
                                         endIndent: 4,
                                       ),
-                                      Icon(Icons.toll, size: 18,),
+                                      Icon(
+                                        Icons.toll,
+                                        size: 18,
+                                      ),
                                       Text("No fee"),
                                       Gap(4),
                                     ],
