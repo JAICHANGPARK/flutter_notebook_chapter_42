@@ -45,6 +45,16 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                   CircleAvatar(
                     radius: 24,
                   ),
+                  Spacer(),
+                  Text(
+                    "Order in Uber Eats",
+                  ),
+                  IconButton(
+                    onPressed: () {},
+                    icon: Icon(
+                      Icons.open_in_new,
+                    ),
+                  ),
                 ],
               ),
             ),
