@@ -299,7 +299,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                             child: Text(
                                               "Best match",
                                             ),
-                                          )
+                                          ),
                                         ],
                                       ),
                                     )
