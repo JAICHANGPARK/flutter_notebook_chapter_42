@@ -121,6 +121,7 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                     margin: EdgeInsets.symmetric(horizontal: 16),
                     padding: EdgeInsets.all(12),
                     child: Column(
+                      spacing: 12,
                       children: [
                         Container(
                           height: 62,
@@ -144,7 +145,19 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                               ),
                             )
                           ],
-                        )
+                        ),
+                        Row(
+                          spacing: 6,
+                          children: [
+                            Text("Est time"),
+                            Icon(Icons.access_time),
+                            Text("40 - 45 min"),
+                            VerticalDivider(),
+                            Text("Fees"),
+                            Icon(Icons.toll),
+                            Text("No fees"),
+                          ],
+                        ),
                       ],
                     ),
                   )
