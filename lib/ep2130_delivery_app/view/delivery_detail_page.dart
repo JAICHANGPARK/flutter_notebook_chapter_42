@@ -72,8 +72,33 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                     child: Stack(
                       children: [
                         Positioned(
+                          left: 12,
+                          top: 12,
                           child: Row(
-                            children: [],
+                            children: [
+                              Container(
+                                decoration: BoxDecoration(
+                                  color: Colors.white,
+                                ),
+                                child: Row(
+                                  children: [
+                                    Icon(Icons.checkroom),
+                                    Text("Breakfast"),
+                                  ],
+                                ),
+                              ),
+                              Container(
+                                decoration: BoxDecoration(
+                                  color: Colors.white,
+                                ),
+                                child: Row(
+                                  children: [
+                                    Icon(Icons.checkroom),
+                                    Text("Breakfast"),
+                                  ],
+                                ),
+                              )
+                            ],
                           ),
                         )
                       ],
