@@ -166,7 +166,8 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                             borderRadius: BorderRadius.circular(4),
                           ),
                           child: Row(
-                            children: [Icon(Icons.sell_outlined)],
+                            mainAxisSize: MainAxisSize.min,
+                            children: [Icon(Icons.sell_outlined), Text("Order Over \$50, Save 30%")],
                           ),
                         )
                       ],
