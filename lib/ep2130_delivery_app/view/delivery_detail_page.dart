@@ -160,6 +160,15 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                             Text("No fees"),
                           ],
                         ),
+                        Container(
+                          decoration: BoxDecoration(
+                            color: Colors.blue[50],
+                            borderRadius: BorderRadius.circular(4),
+                          ),
+                          child: Row(
+                            children: [Icon(Icons.sell_outlined)],
+                          ),
+                        )
                       ],
                     ),
                   )
