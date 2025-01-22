@@ -127,6 +127,7 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                           child: Placeholder(),
                         ),
                         Row(
+                          spacing: 8,
                           children: [
                             CircleAvatar(),
                             Text("ABC Eats"),
@@ -138,7 +139,9 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                               decoration: BoxDecoration(
                                 color: Colors.lime,
                               ),
-                              child: Text(""),
+                              child: Text(
+                                "Best Deal",
+                              ),
                             )
                           ],
                         )
