@@ -186,7 +186,7 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                             Icon(Icons.star),
                             Text("5.0"),
                             Text("(368)"),
-                           
+
                           ],
                         ),
                         Row(
@@ -201,7 +201,32 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                             Text("No fees"),
                           ],
                         ),
+                        Divider(),
+                        Row(
+                          spacing: 8,
+                          children: [
+                            CircleAvatar(),
+                            Text("ABC Eats"),
+                            Spacer(),
+                            Icon(Icons.star),
+                            Text("5.0"),
+                            Text("(368)"),
 
+                          ],
+                        ),
+                        Row(
+                          spacing: 6,
+                          children: [
+                            Text("Est time"),
+                            Icon(Icons.access_time),
+                            Text("40 - 45 min"),
+                            VerticalDivider(),
+                            Text("Fees"),
+                            Icon(Icons.toll),
+                            Text("No fees"),
+                          ],
+                        ),
+                        Divider(),
                       ],
                     ),
                   ),
