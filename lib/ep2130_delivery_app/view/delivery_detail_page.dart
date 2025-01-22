@@ -111,6 +111,19 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                       ],
                     ),
                   ),
+                  Container(
+                    decoration: BoxDecoration(
+                      border: Border.all(
+                        color: Colors.grey[200]!,
+                      ),
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    child: Column(
+                      children: [
+                        
+                      ],
+                    ),
+                  )
                 ],
               ),
             ),
