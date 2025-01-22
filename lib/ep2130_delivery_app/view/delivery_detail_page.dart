@@ -118,9 +118,18 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                       ),
                       borderRadius: BorderRadius.circular(12),
                     ),
+                    padding: EdgeInsets.all(12),
                     child: Column(
                       children: [
-                        
+                        Container(
+                          height: 62,
+                          child: Placeholder(),
+                        ),
+                        Row(
+                          children: [
+                            
+                          ],
+                        )
                       ],
                     ),
                   )
