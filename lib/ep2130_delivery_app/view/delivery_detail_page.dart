@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class DeliveryDetailPage extends StatefulWidget {
   const DeliveryDetailPage({super.key});
@@ -127,6 +128,7 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                           height: 62,
                           child: Placeholder(),
                         ),
+                        Gap(4),
                         Row(
                           spacing: 8,
                           children: [
