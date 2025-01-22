@@ -118,6 +118,7 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                       ),
                       borderRadius: BorderRadius.circular(12),
                     ),
+                    margin: EdgeInsets.symmetric(horizontal: 16),
                     padding: EdgeInsets.all(12),
                     child: Column(
                       children: [
@@ -127,7 +128,18 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                         ),
                         Row(
                           children: [
-                            
+                            CircleAvatar(),
+                            Text("ABC Eats"),
+                            Spacer(),
+                            Icon(Icons.star),
+                            Text("5.0"),
+                            Text("(368)"),
+                            Container(
+                              decoration: BoxDecoration(
+                                color: Colors.lime,
+                              ),
+                              child: Text(""),
+                            )
                           ],
                         )
                       ],
