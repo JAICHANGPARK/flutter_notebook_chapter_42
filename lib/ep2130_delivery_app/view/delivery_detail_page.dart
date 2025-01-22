@@ -63,10 +63,13 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                     ),
                   ),
                   Container(
+                    height: 130,
+                    margin: EdgeInsets.symmetric(horizontal: 16),
                     decoration: BoxDecoration(
                       color: Colors.grey[200]!,
                       borderRadius: BorderRadius.circular(12),
                     ),
+
                   )
                 ],
               ),
