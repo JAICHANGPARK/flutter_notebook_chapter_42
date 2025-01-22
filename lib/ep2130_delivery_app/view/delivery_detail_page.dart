@@ -81,6 +81,7 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                                 decoration: BoxDecoration(
                                   color: Colors.white,
                                 ),
+                                padding: EdgeInsets.symmetric(horizontal: 3, vertical: 2),
                                 child: Row(
                                   spacing: 6,
                                   children: [
@@ -93,6 +94,7 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                                 decoration: BoxDecoration(
                                   color: Colors.white,
                                 ),
+                                padding: EdgeInsets.symmetric(horizontal: 3, vertical: 2),
                                 child: Row(
                                   spacing: 6,
                                   children: [
