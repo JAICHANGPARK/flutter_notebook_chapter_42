@@ -165,6 +165,7 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                             color: Colors.blue[50],
                             borderRadius: BorderRadius.circular(4),
                           ),
+                          padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
                           child: Row(
                             mainAxisSize: MainAxisSize.min,
                             children: [Icon(Icons.sell_outlined), Text("Order Over \$50, Save 30%")],
