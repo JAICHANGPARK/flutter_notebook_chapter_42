@@ -186,14 +186,7 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                             Icon(Icons.star),
                             Text("5.0"),
                             Text("(368)"),
-                            Container(
-                              decoration: BoxDecoration(
-                                color: Colors.lime,
-                              ),
-                              child: Text(
-                                "Best Deal",
-                              ),
-                            )
+                           
                           ],
                         ),
                         Row(
@@ -208,7 +201,7 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                             Text("No fees"),
                           ],
                         ),
-                        
+
                       ],
                     ),
                   ),
