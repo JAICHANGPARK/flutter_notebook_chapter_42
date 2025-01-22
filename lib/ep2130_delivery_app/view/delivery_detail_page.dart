@@ -75,12 +75,14 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                           left: 12,
                           top: 12,
                           child: Row(
+                            spacing: 6,
                             children: [
                               Container(
                                 decoration: BoxDecoration(
                                   color: Colors.white,
                                 ),
                                 child: Row(
+                                  spacing: 6,
                                   children: [
                                     Icon(Icons.checkroom),
                                     Text("Breakfast"),
@@ -92,9 +94,10 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                                   color: Colors.white,
                                 ),
                                 child: Row(
+                                  spacing: 6,
                                   children: [
-                                    Icon(Icons.checkroom),
-                                    Text("Breakfast"),
+                                    Icon(Icons.location_on_outlined),
+                                    Text("600 m"),
                                   ],
                                 ),
                               )
