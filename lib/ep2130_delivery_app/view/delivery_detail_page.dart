@@ -69,7 +69,15 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                       color: Colors.grey[200]!,
                       borderRadius: BorderRadius.circular(12),
                     ),
-
+                    child: Stack(
+                      children: [
+                        Positioned(
+                          child: Row(
+                            children: [],
+                          ),
+                        )
+                      ],
+                    ),
                   )
                 ],
               ),
