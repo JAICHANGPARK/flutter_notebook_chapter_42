@@ -170,7 +170,10 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                           child: Row(
                             spacing: 4,
                             mainAxisSize: MainAxisSize.min,
-                            children: [Icon(Icons.sell_outlined), Text("Order Over \$50, Save 30%")],
+                            children: [
+                              Icon(Icons.sell_outlined),
+                              Text("Order Over \$50, Save 30%"),
+                            ],
                           ),
                         )
                       ],
