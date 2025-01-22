@@ -122,6 +122,7 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                     margin: EdgeInsets.symmetric(horizontal: 16),
                     padding: EdgeInsets.all(12),
                     child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       spacing: 12,
                       children: [
                         Container(
@@ -167,6 +168,7 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                           ),
                           padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
                           child: Row(
+                            spacing: 4,
                             mainAxisSize: MainAxisSize.min,
                             children: [Icon(Icons.sell_outlined), Text("Order Over \$50, Save 30%")],
                           ),
