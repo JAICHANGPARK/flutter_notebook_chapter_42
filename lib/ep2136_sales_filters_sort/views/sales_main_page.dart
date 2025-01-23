@@ -18,7 +18,7 @@ class _SalesMainPageState extends State<SalesMainPage> {
       backgroundColor: Colors.grey[100],
       body: SafeArea(
         child: IndexedStack(
-          
+          index: pageNum,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
