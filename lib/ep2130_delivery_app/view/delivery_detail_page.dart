@@ -137,7 +137,7 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                             color: Colors.grey[50]!,
                           ),
                           child: Row(
-                            spacing: 8,
+
                             children: [
                               Expanded(
                                 child: Container(
@@ -223,7 +223,7 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                             color: Colors.blue[50],
                             borderRadius: BorderRadius.circular(4),
                           ),
-                          padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
+                          padding: EdgeInsets.symmetric(horizontal: 6, vertical:3),
                           child: Row(
                             spacing: 4,
                             mainAxisSize: MainAxisSize.min,
