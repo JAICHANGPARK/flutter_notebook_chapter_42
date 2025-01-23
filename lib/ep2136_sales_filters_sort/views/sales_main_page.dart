@@ -116,13 +116,25 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                     color: Colors.grey,
                                   ),
                                 ),
-                                Expanded(child: Column(children: [
-                                  Row(
-                                    children: [
-                                      
-                                    ],
-                                  )
-                                ],))
+                                Expanded(
+                                    child: Column(
+                                  children: [
+                                    Row(
+                                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Text("Time Sync Smart Watch"),
+                                        Text("Confirmed"),
+                                      ],
+                                    ),
+                                    Row(
+                                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Text("Time Sync Smart Watch"),
+                                        Text("Confirmed"),
+                                      ],
+                                    )
+                                  ],
+                                ))
                               ],
                             )
                           ],
