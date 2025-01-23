@@ -403,7 +403,12 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                         fontSize: 18,
                       ),
                     ),
-                  )
+                  ),
+        // List<String> tabs = [
+        // "Best Match",
+        // "Fastest Delivery",
+        // "Free Delivery",
+        // ];
                 ],
               ),
             ),
