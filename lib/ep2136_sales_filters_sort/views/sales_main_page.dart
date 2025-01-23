@@ -25,9 +25,11 @@ class _SalesMainPageState extends State<SalesMainPage> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.list_alt),
+            label: "Home",
           ),
           BottomNavigationBarItem(
-            icon: Icon(HugeIcons.strokeRoundedHome02),
+            icon: Icon(Icons.stacked_bar_chart),
+            label: "Home",
           ),
         ],
       ),
