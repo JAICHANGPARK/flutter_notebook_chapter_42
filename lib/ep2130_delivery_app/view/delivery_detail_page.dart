@@ -171,7 +171,16 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                                 endIndent: 8,
                               ),
                               Expanded(
-                                child: Container(),
+                                child: Container(
+                                  child: Center(
+                                    child: Text(
+                                      "Free Delivery",
+                                      style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
+                                  ),
+                                ),
                               ),
                             ],
                           ),
