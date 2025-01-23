@@ -55,6 +55,7 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                 context: context,
                                 builder: (context) {
                                   return Container(
+                                    margin: EdgeInsets.all(24),
                                     decoration: BoxDecoration(
                                       color: Colors.white,
                                       borderRadius: BorderRadius.circular(24),
