@@ -95,7 +95,13 @@ class _SalesMainPageState extends State<SalesMainPage> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-
+                      Container(
+                        decoration: BoxDecoration(
+                            color: Colors.white,
+                            border: Border.all(
+                              color: Colors.grey[50]!,
+                            )),
+                      )
                     ],
                   ),
                 )
