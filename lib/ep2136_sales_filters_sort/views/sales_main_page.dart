@@ -91,6 +91,14 @@ class _SalesMainPageState extends State<SalesMainPage> {
                     ],
                   ),
                 ),
+                SingleChildScrollView(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+
+                    ],
+                  ),
+                )
               ],
             ),
             Container(),
