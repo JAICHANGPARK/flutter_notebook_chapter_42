@@ -5,6 +5,7 @@
 - Sales SaaS Mobile App UI/UX - Filters and Sort
 - Vladislava Povelitsa for Artspire
 - https://dribbble.com/shots/25517696-Sales-SaaS-Mobile-App-UI-UX-Filters-and-Sort
+- https://dribbble.com/shots/25505449-Sales-SaaS-Mobile-App-UI-UX
 
 <img src="https://cdn.dribbble.com/userupload/18882852/file/original-4caa936393598296c2526596930a5cbe.png?resize=1905x1429&vertical=center"/>
 
