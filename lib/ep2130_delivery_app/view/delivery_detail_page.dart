@@ -192,7 +192,8 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                             CircleAvatar(),
                             Text("ABC Eats"),
                             Spacer(),
-                            Icon(Icons.star),
+                            Icon(Icons.star, size: 16,
+                            color: Colors.lightGreenAccent,),
                             Text("5.0"),
                             Text("(368)"),
                             Container(
