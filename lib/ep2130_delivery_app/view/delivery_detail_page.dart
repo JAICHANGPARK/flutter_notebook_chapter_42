@@ -394,10 +394,14 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                       ],
                     ),
                   ),
-                  Text(
-                    "Popular",
-                    style: TextStyle(
-                      fontWeight: FontWeight.bold,
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 12),
+                    child: Text(
+                      "Popular",
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 18,
+                      ),
                     ),
                   )
                 ],
