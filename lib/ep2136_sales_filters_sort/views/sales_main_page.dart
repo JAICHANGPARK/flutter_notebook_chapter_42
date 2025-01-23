@@ -103,6 +103,14 @@ class _SalesMainPageState extends State<SalesMainPage> {
                           ),
                           borderRadius: BorderRadius.circular(3),
                         ),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text("Today"),
+                            
+
+                          ],
+                        ),
                       )
                     ],
                   ),
