@@ -190,23 +190,30 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                           spacing: 8,
                           children: [
                             CircleAvatar(),
-                            Text("ABC Eats",
-                                style: TextStyle(
-                                fontWeight: FontWeight.bold,
-                            ),),
-                            Spacer(),
-                            Icon(Icons.star, size: 16,
-                            color: Colors.lightGreenAccent,),
-                            Text("5.0",
+                            Text(
+                              "ABC Eats",
                               style: TextStyle(
                                 fontWeight: FontWeight.bold,
-                              ),),
+                              ),
+                            ),
+                            Spacer(),
+                            Icon(
+                              Icons.star,
+                              size: 16,
+                              color: Colors.lightGreenAccent,
+                            ),
+                            Text(
+                              "5.0",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
                             Text("(368)"),
                             Container(
                               decoration: BoxDecoration(
                                 color: Colors.lime,
                               ),
-                              padding: EdgeInsets.symmetric(horizontal: 6,vertical: 2),
+                              padding: EdgeInsets.symmetric(horizontal: 6, vertical: 2),
                               child: Text(
                                 "Best Deal",
                                 style: TextStyle(
