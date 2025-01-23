@@ -119,6 +119,7 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                     color: Colors.grey,
                                   ),
                                 ),
+                                Gap(6),
                                 Expanded(
                                     child: Column(
                                   children: [
@@ -132,8 +133,8 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                     Row(
                                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                       children: [
-                                        Text("Time Sync Smart Watch"),
-                                        Text("Confirmed"),
+                                        Text("2 item 10:45 AM"),
+                                        Text("#TXN_10018"),
                                       ],
                                     )
                                   ],
