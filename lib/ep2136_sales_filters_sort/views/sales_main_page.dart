@@ -52,14 +52,20 @@ class _SalesMainPageState extends State<SalesMainPage> {
                           GestureDetector(
                             onTap: () {
                               showModalBottomSheet(
+                                backgroundColor: Colors.transparent,
                                 context: context,
                                 builder: (context) {
                                   return Container(
-                                    margin: EdgeInsets.all(24),
+                                    margin: EdgeInsets.all(16),
                                     decoration: BoxDecoration(
                                       color: Colors.white,
                                       borderRadius: BorderRadius.circular(24),
 
+                                    ),
+                                    child: Column(
+                                      children: [
+
+                                      ],
                                     ),
                                   );
                                 },
