@@ -186,14 +186,31 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                           children: [
                                             Text("Time Sync Smart Watch"),
-                                            Text("Confirmed"),
+                                            Text(
+                                              "Confirmed",
+                                              style: TextStyle(
+                                                color: Color.fromRGBO(51, 101, 128, 1),
+                                              ),
+                                            ),
                                           ],
                                         ),
                                         Row(
                                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                           children: [
-                                            Text("2 item 10:45 AM"),
-                                            Text("#TXN_10018"),
+                                            Text(
+                                              "2 item 10:45 AM",
+                                              style: TextStyle(
+                                                fontSize: 12,
+                                                color: Colors.grey,
+                                              ),
+                                            ),
+                                            Text(
+                                              "#TXN_10018",
+                                              style: TextStyle(
+                                                fontSize: 12,
+                                                color: Colors.grey,
+                                              ),
+                                            ),
                                           ],
                                         )
                                       ],
@@ -220,14 +237,31 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                           children: [
                                             Text("Time Sync Smart Watch"),
-                                            Text("Confirmed"),
+                                            Text(
+                                              "Shipped",
+                                              style: TextStyle(
+                                                color: Color.fromRGBO(51, 101, 128, 1),
+                                              ),
+                                            ),
                                           ],
                                         ),
                                         Row(
                                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                           children: [
-                                            Text("2 item 10:45 AM"),
-                                            Text("#TXN_10018"),
+                                            Text(
+                                              "2 item 10:45 AM",
+                                              style: TextStyle(
+                                                fontSize: 12,
+                                                color: Colors.grey,
+                                              ),
+                                            ),
+                                            Text(
+                                              "#TXN_10018",
+                                              style: TextStyle(
+                                                fontSize: 12,
+                                                color: Colors.grey,
+                                              ),
+                                            ),
                                           ],
                                         )
                                       ],
