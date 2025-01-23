@@ -134,9 +134,21 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                         Container(
                           height: 62,
                           decoration: BoxDecoration(
-                            
+                            color: Colors.grey[50]!,
                           ),
-                          child: Row(),
+                          child: Row(
+                            children: [
+                              Expanded(
+                                child: Container(),
+                              ),
+                              Expanded(
+                                child: Container(),
+                              ),
+                              Expanded(
+                                child: Container(),
+                              ),
+                            ],
+                          ),
                         ),
                         Gap(4),
                         Row(
