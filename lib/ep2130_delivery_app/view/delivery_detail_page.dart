@@ -137,6 +137,7 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                             color: Colors.grey[50]!,
                           ),
                           child: Row(
+                            spacing: 8,
                             children: [
                               Expanded(
                                 child: Container(
