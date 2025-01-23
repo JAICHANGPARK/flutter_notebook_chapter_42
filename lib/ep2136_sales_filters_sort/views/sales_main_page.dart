@@ -110,6 +110,12 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                               onChanged: (v) {},
                                             ),
                                           ],
+                                        ),
+                                        Container(
+                                          decoration: BoxDecoration(
+                                            color: Color.fromRGBO(46, 55, 66, 1),
+                                          ),
+                                          child: Center(),
                                         )
                                       ],
                                     ),
