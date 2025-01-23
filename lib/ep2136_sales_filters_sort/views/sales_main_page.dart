@@ -61,6 +61,11 @@ class _SalesMainPageState extends State<SalesMainPage> {
                           child: TextField(
                             decoration: InputDecoration(
                               border: InputBorder.none,
+                              contentPadding: EdgeInsets.symmetric(horizontal: 2),
+                              hintText: "Search orders..."
+                            ),
+                            style: TextStyle(
+                              fontSize: 12,
                             ),
                           ),
                         ),
