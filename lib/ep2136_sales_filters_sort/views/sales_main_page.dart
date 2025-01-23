@@ -40,6 +40,7 @@ class _SalesMainPageState extends State<SalesMainPage> {
                   ),
                   Gap(16),
                   Row(
+                    spacing: 12,
                     children: [
                       Container(
                         padding: EdgeInsets.all(4),
