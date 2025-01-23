@@ -49,15 +49,23 @@ class _SalesMainPageState extends State<SalesMainPage> {
                       Row(
                         spacing: 12,
                         children: [
-                          Container(
-                            padding: EdgeInsets.all(4),
-                            decoration: BoxDecoration(
-                              border: Border.all(
-                                color: Colors.grey[100]!,
+                          GestureDetector(
+                            onTap: () {
+                              showModalBottomSheet(
+                                context: context,
+                                builder: (context) {},
+                              );
+                            },
+                            child: Container(
+                              padding: EdgeInsets.all(4),
+                              decoration: BoxDecoration(
+                                border: Border.all(
+                                  color: Colors.grey[100]!,
+                                ),
+                                borderRadius: BorderRadius.circular(2),
                               ),
-                              borderRadius: BorderRadius.circular(2),
+                              child: Icon(Icons.swap_vert),
                             ),
-                            child: Icon(Icons.swap_vert),
                           ),
                           Expanded(
                             child: Container(
