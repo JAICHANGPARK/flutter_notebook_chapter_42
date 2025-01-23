@@ -141,7 +141,7 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                       spacing: 12,
                       children: [
                         Container(
-                          height: 50,
+                          height: 42,
                           decoration: BoxDecoration(
                             color: Colors.grey[50]!,
                           ),
