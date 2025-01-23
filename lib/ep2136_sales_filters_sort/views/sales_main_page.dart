@@ -57,19 +57,55 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                 context: context,
                                 builder: (context) {
                                   return Container(
+                                    height: 240,
                                     margin: EdgeInsets.all(16),
                                     decoration: BoxDecoration(
                                       color: Colors.white,
                                       borderRadius: BorderRadius.circular(24),
                                     ),
                                     child: Column(
+                                      mainAxisSize: MainAxisSize.min,
                                       children: [
                                         Text("Sort"),
                                         Row(
+                                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                           children: [
                                             Text("Newest"),
                                             Radio(
-                                              value: 1,
+                                              value: "1",
+                                              groupValue: groupValue,
+                                              onChanged: (v) {},
+                                            ),
+                                          ],
+                                        ),
+                                        Row(
+                                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                          children: [
+                                            Text("Oldest"),
+                                            Radio(
+                                              value: "2",
+                                              groupValue: groupValue,
+                                              onChanged: (v) {},
+                                            ),
+                                          ],
+                                        ),
+                                        Row(
+                                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                          children: [
+                                            Text("Price: High to low"),
+                                            Radio(
+                                              value: "3",
+                                              groupValue: groupValue,
+                                              onChanged: (v) {},
+                                            ),
+                                          ],
+                                        ),
+                                        Row(
+                                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                          children: [
+                                            Text("Price: Low to high"),
+                                            Radio(
+                                              value: "4",
                                               groupValue: groupValue,
                                               onChanged: (v) {},
                                             ),
