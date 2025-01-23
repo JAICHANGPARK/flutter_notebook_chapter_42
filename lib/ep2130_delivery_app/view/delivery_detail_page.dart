@@ -199,6 +199,7 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                               decoration: BoxDecoration(
                                 color: Colors.lime,
                               ),
+                              padding: EdgeInsets.symmetric(horizontal: 4),
                               child: Text(
                                 "Best Deal",
                               ),
