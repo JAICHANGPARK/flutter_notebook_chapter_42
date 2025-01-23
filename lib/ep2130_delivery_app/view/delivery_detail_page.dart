@@ -194,6 +194,8 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                               "ABC Eats",
                               style: TextStyle(
                                 fontWeight: FontWeight.bold,
+                                fontSize: 18,
+                                decoration: TextDecoration.underline,
                               ),
                             ),
                             Spacer(),
@@ -280,23 +282,67 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                           spacing: 8,
                           children: [
                             CircleAvatar(),
-                            Text("ABC Eats"),
+                            Text(
+                              "ABC Eats",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 18,
+                                decoration: TextDecoration.underline,
+                              ),
+                            ),
                             Spacer(),
-                            Icon(Icons.star),
-                            Text("5.0"),
+                            Icon(
+                              Icons.star,
+                              size: 16,
+                              color: Colors.lightGreenAccent,
+                            ),
+                            Text(
+                              "5.0",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
                             Text("(368)"),
+                            Container(
+                              decoration: BoxDecoration(
+                                color: Colors.lime,
+                              ),
+                              padding: EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                              child: Text(
+                                "Best Deal",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            )
                           ],
                         ),
                         Row(
                           spacing: 6,
                           children: [
                             Text("Est time"),
-                            Icon(Icons.access_time),
-                            Text("40 - 45 min"),
+                            Icon(
+                              Icons.access_time,
+                              size: 16,
+                            ),
+                            Text(
+                              "40 - 45 min",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
                             VerticalDivider(),
                             Text("Fees"),
-                            Icon(Icons.toll),
-                            Text("No fees"),
+                            Icon(
+                              Icons.toll,
+                              size: 16,
+                            ),
+                            Text(
+                              "No fees",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
                           ],
                         ),
                         Divider(),
@@ -304,23 +350,67 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                           spacing: 8,
                           children: [
                             CircleAvatar(),
-                            Text("ABC Eats"),
+                            Text(
+                              "ABC Eats",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 18,
+                                decoration: TextDecoration.underline,
+                              ),
+                            ),
                             Spacer(),
-                            Icon(Icons.star),
-                            Text("5.0"),
+                            Icon(
+                              Icons.star,
+                              size: 16,
+                              color: Colors.lightGreenAccent,
+                            ),
+                            Text(
+                              "5.0",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
                             Text("(368)"),
+                            Container(
+                              decoration: BoxDecoration(
+                                color: Colors.lime,
+                              ),
+                              padding: EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                              child: Text(
+                                "Best Deal",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            )
                           ],
                         ),
                         Row(
                           spacing: 6,
                           children: [
                             Text("Est time"),
-                            Icon(Icons.access_time),
-                            Text("40 - 45 min"),
+                            Icon(
+                              Icons.access_time,
+                              size: 16,
+                            ),
+                            Text(
+                              "40 - 45 min",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
                             VerticalDivider(),
                             Text("Fees"),
-                            Icon(Icons.toll),
-                            Text("No fees"),
+                            Icon(
+                              Icons.toll,
+                              size: 16,
+                            ),
+                            Text(
+                              "No fees",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
                           ],
                         ),
                         Divider(),
