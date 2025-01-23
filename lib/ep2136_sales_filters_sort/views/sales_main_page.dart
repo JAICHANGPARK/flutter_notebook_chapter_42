@@ -20,6 +20,7 @@ class _SalesMainPageState extends State<SalesMainPage> {
         child: IndexedStack(
           index: pageNum,
           children: [
+            Container(),
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -92,8 +93,10 @@ class _SalesMainPageState extends State<SalesMainPage> {
                 ),
               ],
             ),
+            Container(),
+            Container(),
           ],
-          child:
+
         ),
       ),
       bottomNavigationBar: SizedBox(
