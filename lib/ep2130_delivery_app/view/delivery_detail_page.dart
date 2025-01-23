@@ -9,6 +9,13 @@ class DeliveryDetailPage extends StatefulWidget {
 }
 
 class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
+
+  // List<String> tabs = [
+  // "Best Match",
+  // "Fastest Delivery",
+  // "Free Delivery",
+  // ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -404,11 +411,11 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                       ),
                     ),
                   ),
-        // List<String> tabs = [
-        // "Best Match",
-        // "Fastest Delivery",
-        // "Free Delivery",
-        // ];
+
+                  ListView.builder(
+
+                      i
+                      itemBuilder: (context, index) {}),
                 ],
               ),
             ),
