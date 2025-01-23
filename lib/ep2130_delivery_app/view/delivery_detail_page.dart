@@ -422,6 +422,7 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
                           ),
+                          padding: EdgeInsets.symmetric(horizontal: 12, vertical: 2),
                           child: Center(
                             child: Text(
                               tabs[index],
