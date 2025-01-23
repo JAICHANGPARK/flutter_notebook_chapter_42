@@ -303,18 +303,7 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                               ),
                             ),
                             Text("(368)"),
-                            Container(
-                              decoration: BoxDecoration(
-                                color: Colors.lime,
-                              ),
-                              padding: EdgeInsets.symmetric(horizontal: 6, vertical: 2),
-                              child: Text(
-                                "Best Deal",
-                                style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
-                            )
+                           
                           ],
                         ),
                         Row(
@@ -371,18 +360,7 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                               ),
                             ),
                             Text("(368)"),
-                            Container(
-                              decoration: BoxDecoration(
-                                color: Colors.lime,
-                              ),
-                              padding: EdgeInsets.symmetric(horizontal: 6, vertical: 2),
-                              child: Text(
-                                "Best Deal",
-                                style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
-                            )
+
                           ],
                         ),
                         Row(
