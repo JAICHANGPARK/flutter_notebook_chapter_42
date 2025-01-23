@@ -199,9 +199,12 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                               decoration: BoxDecoration(
                                 color: Colors.lime,
                               ),
-                              padding: EdgeInsets.symmetric(horizontal: 4),
+                              padding: EdgeInsets.symmetric(horizontal: 6,vertical: 2),
                               child: Text(
                                 "Best Deal",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                ),
                               ),
                             )
                           ],
@@ -246,7 +249,8 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                             children: [
                               Icon(
                                 Icons.sell_outlined,
-                                color: Colors.blue,),
+                                color: Colors.blue,
+                              ),
                               Text(
                                 "Order Over \$50, Save 30%",
                                 style: TextStyle(
