@@ -209,14 +209,22 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                           spacing: 6,
                           children: [
                             Text("Est time"),
-                            Icon(Icons.access_time,size: 16,),
-                            Text("40 - 45 min",
+                            Icon(
+                              Icons.access_time,
+                              size: 16,
+                            ),
+                            Text(
+                              "40 - 45 min",
                               style: TextStyle(
                                 fontWeight: FontWeight.bold,
-                              ),),
+                              ),
+                            ),
                             VerticalDivider(),
                             Text("Fees"),
-                            Icon(Icons.toll,size: 16,),
+                            Icon(
+                              Icons.toll,
+                              size: 16,
+                            ),
                             Text(
                               "No fees",
                               style: TextStyle(
@@ -235,7 +243,9 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                             spacing: 4,
                             mainAxisSize: MainAxisSize.min,
                             children: [
-                              Icon(Icons.sell_outlined),
+                              Icon(
+                                Icons.sell_outlined,
+                                color: Colors.blue,),
                               Text(
                                 "Order Over \$50, Save 30%",
                                 style: TextStyle(
