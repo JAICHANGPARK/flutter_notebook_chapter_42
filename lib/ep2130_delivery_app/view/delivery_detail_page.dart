@@ -20,6 +20,7 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
             child: SafeArea(
               child: Column(
                 spacing: 16,
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Padding(
                     padding: const EdgeInsets.symmetric(
