@@ -146,7 +146,12 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                         Row(
                                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                           children: [
-                                            Text("2 item 10:45 AM"),
+                                            Text(
+                                              "2 item 10:45 AM",
+                                              style: TextStyle(
+                                                fontSize: 12,
+                                              ),
+                                            ),
                                             Text("#TXN_10018"),
                                           ],
                                         )
