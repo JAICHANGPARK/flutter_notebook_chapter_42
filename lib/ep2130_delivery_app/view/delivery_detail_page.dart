@@ -155,7 +155,16 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                                 ),
                               ),
                               Expanded(
-                                child: Container(),
+                                child: Container(
+                                  child: Center(
+                                    child: Text(
+                                      "Fastest Delivery",
+                                      style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
+                                  ),
+                                ),
                               ),
                               Expanded(
                                 child: Container(),
