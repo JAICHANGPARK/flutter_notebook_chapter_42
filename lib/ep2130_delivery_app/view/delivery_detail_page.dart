@@ -216,7 +216,7 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                               ),),
                             VerticalDivider(),
                             Text("Fees"),
-                            Icon(Icons.toll),
+                            Icon(Icons.toll,size: 16,),
                             Text(
                               "No fees",
                               style: TextStyle(
