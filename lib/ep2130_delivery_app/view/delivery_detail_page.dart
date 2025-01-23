@@ -422,6 +422,14 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
                           ),
+                          child: Center(
+                            child: Text(
+                              tabs[index],
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ),
                         );
                       },
                     ),
