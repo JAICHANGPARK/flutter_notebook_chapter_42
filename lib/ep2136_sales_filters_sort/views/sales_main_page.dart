@@ -31,20 +31,33 @@ class _SalesMainPageState extends State<SalesMainPage> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text("Orders",style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 20,
-                  ),),
+                  Text(
+                    "Orders",
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                    ),
+                  ),
                   Gap(16),
                   Row(
                     children: [
                       Container(
                         padding: EdgeInsets.all(4),
                         decoration: BoxDecoration(
-                          border: Border.all(color: Colors.grey)
+                          border: Border.all(
+                            color: Colors.grey[100]!,
+                          ),
+                          borderRadius: BorderRadius.circular(2),
                         ),
                         child: Icon(Icons.swap_vert),
-                      )
+                      ),
+                      Expanded(
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: Colors.grey[50]!,
+                          ),
+                        ),
+                      ),
                     ],
                   )
                 ],
