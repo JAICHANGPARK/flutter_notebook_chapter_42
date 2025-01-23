@@ -133,7 +133,10 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                       children: [
                         Container(
                           height: 62,
-                          child: Placeholder(),
+                          decoration: BoxDecoration(
+                            
+                          ),
+                          child: Row(),
                         ),
                         Gap(4),
                         Row(
