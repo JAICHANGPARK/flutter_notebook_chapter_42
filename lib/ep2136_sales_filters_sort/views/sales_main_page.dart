@@ -14,7 +14,15 @@ class _SalesMainPageState extends State<SalesMainPage> {
     return Scaffold(
       body: SafeArea(
         child: Column(
-          children: [],
+          children: [
+            Container(
+              height: 240,
+              decoration: BoxDecoration(
+                color: Colors.white,
+              ),
+            ),
+            Text("Orders"),
+          ],
         ),
       ),
       bottomNavigationBar: BottomNavigationBar(
@@ -25,11 +33,15 @@ class _SalesMainPageState extends State<SalesMainPage> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.list_alt),
-            label: "Home",
+            label: "Orders",
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.stacked_bar_chart),
-            label: "Home",
+            label: "Analytics",
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.settings),
+            label: "Settings",
           ),
         ],
       ),
