@@ -13,6 +13,7 @@ class _SalesMainPageState extends State<SalesMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey[100],
       body: SafeArea(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -60,10 +61,9 @@ class _SalesMainPageState extends State<SalesMainPage> {
                           ),
                           child: TextField(
                             decoration: InputDecoration(
-                              border: InputBorder.none,
-                              contentPadding: EdgeInsets.symmetric(horizontal: 2),
-                              hintText: "Search orders..."
-                            ),
+                                border: InputBorder.none,
+                                contentPadding: EdgeInsets.symmetric(horizontal: 2),
+                                hintText: "Search orders..."),
                             style: TextStyle(
                               fontSize: 12,
                             ),
@@ -91,6 +91,9 @@ class _SalesMainPageState extends State<SalesMainPage> {
       bottomNavigationBar: SizedBox(
         height: 80,
         child: BottomNavigationBar(
+          backgroundColor: Colors.white,
+          selectedItemColor: Colors.black,
+          unselectedItemColor: Colors.blueGrey,
           type: BottomNavigationBarType.fixed,
           items: [
             BottomNavigationBarItem(
