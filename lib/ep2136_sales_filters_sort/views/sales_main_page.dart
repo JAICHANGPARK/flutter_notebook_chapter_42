@@ -11,6 +11,7 @@ class SalesMainPage extends StatefulWidget {
 
 class _SalesMainPageState extends State<SalesMainPage> {
   int pageNum = 0;
+  String groupValue = "1";
 
   @override
   Widget build(BuildContext context) {
@@ -60,11 +61,20 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                     decoration: BoxDecoration(
                                       color: Colors.white,
                                       borderRadius: BorderRadius.circular(24),
-
                                     ),
                                     child: Column(
                                       children: [
-
+                                        Text("Sort"),
+                                        Row(
+                                          children: [
+                                            Text("Newest"),
+                                            Radio(
+                                              value: 1,
+                                              groupValue: groupValue,
+                                              onChanged: (v) {},
+                                            ),
+                                          ],
+                                        )
                                       ],
                                     ),
                                   );
