@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:hugeicons/hugeicons.dart';
 
 class SalesMainPage extends StatefulWidget {
   const SalesMainPage({super.key});
@@ -11,6 +11,17 @@ class SalesMainPage extends StatefulWidget {
 class _SalesMainPageState extends State<SalesMainPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Column(
+        children: [],
+      ),
+      bottomNavigationBar: BottomNavigationBar(
+        items: [
+          BottomNavigationBarItem(
+            icon: Icon(HugeIcons.strokeRoundedHome02),
+          ),
+        ],
+      ),
+    );
   }
 }
