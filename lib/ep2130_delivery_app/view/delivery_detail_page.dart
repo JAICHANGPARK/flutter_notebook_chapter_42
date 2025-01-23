@@ -209,15 +209,20 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                           spacing: 6,
                           children: [
                             Text("Est time"),
-                            Icon(Icons.access_time),
-                            Text("40 - 45 min"),
+                            Icon(Icons.access_time,size: 16,),
+                            Text("40 - 45 min",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                              ),),
                             VerticalDivider(),
                             Text("Fees"),
                             Icon(Icons.toll),
-                            Text("No fees",style: TextStyle(
-                              
-                              fontWeight: FontWeight.bold,
-                            ),),
+                            Text(
+                              "No fees",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
                           ],
                         ),
                         Container(
