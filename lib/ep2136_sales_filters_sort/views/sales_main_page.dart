@@ -150,9 +150,16 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                               "2 item 10:45 AM",
                                               style: TextStyle(
                                                 fontSize: 12,
+                                                color: Colors.grey,
                                               ),
                                             ),
-                                            Text("#TXN_10018"),
+                                            Text(
+                                              "#TXN_10018",
+                                              style: TextStyle(
+                                                fontSize: 12,
+                                                color: Colors.grey,
+                                              ),
+                                            ),
                                           ],
                                         )
                                       ],
