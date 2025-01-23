@@ -137,7 +137,6 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                             color: Colors.grey[50]!,
                           ),
                           child: Row(
-
                             children: [
                               Expanded(
                                 child: Container(
@@ -215,7 +214,10 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                             VerticalDivider(),
                             Text("Fees"),
                             Icon(Icons.toll),
-                            Text("No fees"),
+                            Text("No fees",style: TextStyle(
+                              
+                              fontWeight: FontWeight.bold,
+                            ),),
                           ],
                         ),
                         Container(
@@ -223,13 +225,19 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                             color: Colors.blue[50],
                             borderRadius: BorderRadius.circular(4),
                           ),
-                          padding: EdgeInsets.symmetric(horizontal: 6, vertical:3),
+                          padding: EdgeInsets.symmetric(horizontal: 6, vertical: 3),
                           child: Row(
                             spacing: 4,
                             mainAxisSize: MainAxisSize.min,
                             children: [
                               Icon(Icons.sell_outlined),
-                              Text("Order Over \$50, Save 30%"),
+                              Text(
+                                "Order Over \$50, Save 30%",
+                                style: TextStyle(
+                                  color: Colors.blue,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
                             ],
                           ),
                         ),
