@@ -106,7 +106,9 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                           children: [
                                             Text("Price: Low to high"),
                                             Radio(
+
                                               value: "4",
+                                              activeColor: ,
                                               groupValue: groupValue,
                                               onChanged: (v) {},
                                             ),
@@ -116,6 +118,7 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                         Container(
                                           decoration: BoxDecoration(
                                             color: Color.fromRGBO(46, 55, 66, 1),
+                                            borderRadius: BorderRadius.circular(6)
                                           ),
                                           
                                           padding: EdgeInsets.symmetric(vertical: 16),
