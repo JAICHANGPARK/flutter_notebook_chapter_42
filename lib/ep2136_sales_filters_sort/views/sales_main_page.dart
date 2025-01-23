@@ -88,26 +88,29 @@ class _SalesMainPageState extends State<SalesMainPage> {
           ],
         ),
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        type: BottomNavigationBarType.fixed,
-        items: [
-          BottomNavigationBarItem(
-            icon: Icon(HugeIcons.strokeRoundedHome02),
-            label: "Home",
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.list_alt),
-            label: "Orders",
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.stacked_bar_chart),
-            label: "Analytics",
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.settings),
-            label: "Settings",
-          ),
-        ],
+      bottomNavigationBar: SizedBox(
+        height: 80,
+        child: BottomNavigationBar(
+          type: BottomNavigationBarType.fixed,
+          items: [
+            BottomNavigationBarItem(
+              icon: Icon(HugeIcons.strokeRoundedHome02),
+              label: "Home",
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.list_alt),
+              label: "Orders",
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.stacked_bar_chart),
+              label: "Analytics",
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.settings),
+              label: "Settings",
+            ),
+          ],
+        ),
       ),
     );
   }
