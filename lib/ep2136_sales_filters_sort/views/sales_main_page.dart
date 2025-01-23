@@ -57,8 +57,9 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                 context: context,
                                 builder: (context) {
                                   return Container(
-                                    height: 240,
+                                    // height: 240,
                                     margin: EdgeInsets.all(16),
+                                    padding: EdgeInsets.symmetric(horizontal: 16, vertical: 16),
                                     decoration: BoxDecoration(
                                       color: Colors.white,
                                       borderRadius: BorderRadius.circular(24),
@@ -115,7 +116,11 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                           decoration: BoxDecoration(
                                             color: Color.fromRGBO(46, 55, 66, 1),
                                           ),
-                                          child: Center(),
+                                          margin: EdgeInsets.symmetric(horizontal: 16),
+                                          padding: EdgeInsets.symmetric(vertical: 16),
+                                          child: Center(
+                                            child: Text("Apply"),
+                                          ),
                                         )
                                       ],
                                     ),
