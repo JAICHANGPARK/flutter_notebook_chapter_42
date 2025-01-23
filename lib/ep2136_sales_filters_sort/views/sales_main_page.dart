@@ -227,7 +227,8 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                     height: 42,
                                     width: 42,
                                     decoration: BoxDecoration(
-                                      color: Colors.grey,
+                                      color: Colors.grey[300]!,
+                                      borderRadius: BorderRadius.circular(4),
                                     ),
                                   ),
                                   Gap(6),
