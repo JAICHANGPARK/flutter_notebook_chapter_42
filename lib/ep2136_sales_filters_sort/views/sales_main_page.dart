@@ -211,7 +211,247 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                 ),
                               ],
                             ),
-                            
+
+                          ],
+                        ),
+                      ),
+                      Container(
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          border: Border.all(
+                            color: Colors.grey[50]!,
+                          ),
+                          borderRadius: BorderRadius.circular(3),
+                        ),
+                        margin: EdgeInsets.all(12),
+                        padding: EdgeInsets.all(12),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          spacing: 6,
+                          children: [
+                            Text("Today"),
+                            Row(
+                              children: [
+                                Container(
+                                  height: 42,
+                                  width: 42,
+                                  decoration: BoxDecoration(
+                                    color: Colors.grey,
+                                  ),
+                                ),
+                                Gap(6),
+                                Expanded(
+                                  child: Column(
+                                    spacing: 4,
+                                    children: [
+                                      Row(
+                                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                        children: [
+                                          Text("Time Sync Smart Watch"),
+                                          Text("Confirmed"),
+                                        ],
+                                      ),
+                                      Row(
+                                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                        children: [
+                                          Text("2 item 10:45 AM"),
+                                          Text("#TXN_10018"),
+                                        ],
+                                      )
+                                    ],
+                                  ),
+                                ),
+                              ],
+                            ),
+                            Divider(),
+                            Row(
+                              children: [
+                                Container(
+                                  height: 42,
+                                  width: 42,
+                                  decoration: BoxDecoration(
+                                    color: Colors.grey,
+                                  ),
+                                ),
+                                Gap(6),
+                                Expanded(
+                                  child: Column(
+                                    spacing: 4,
+                                    children: [
+                                      Row(
+                                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                        children: [
+                                          Text("Time Sync Smart Watch"),
+                                          Text("Confirmed"),
+                                        ],
+                                      ),
+                                      Row(
+                                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                        children: [
+                                          Text("2 item 10:45 AM"),
+                                          Text("#TXN_10018"),
+                                        ],
+                                      )
+                                    ],
+                                  ),
+                                ),
+                              ],
+                            ),
+                            Divider(),
+                            Row(
+                              children: [
+                                Container(
+                                  height: 42,
+                                  width: 42,
+                                  decoration: BoxDecoration(
+                                    color: Colors.grey,
+                                  ),
+                                ),
+                                Gap(6),
+                                Expanded(
+                                  child: Column(
+                                    spacing: 4,
+                                    children: [
+                                      Row(
+                                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                        children: [
+                                          Text("Time Sync Smart Watch"),
+                                          Text("Confirmed"),
+                                        ],
+                                      ),
+                                      Row(
+                                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                        children: [
+                                          Text("2 item 10:45 AM"),
+                                          Text("#TXN_10018"),
+                                        ],
+                                      )
+                                    ],
+                                  ),
+                                ),
+                              ],
+                            ),
+
+                          ],
+                        ),
+                      ),
+                      Container(
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          border: Border.all(
+                            color: Colors.grey[50]!,
+                          ),
+                          borderRadius: BorderRadius.circular(3),
+                        ),
+                        margin: EdgeInsets.all(12),
+                        padding: EdgeInsets.all(12),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          spacing: 6,
+                          children: [
+                            Text("Today"),
+                            Row(
+                              children: [
+                                Container(
+                                  height: 42,
+                                  width: 42,
+                                  decoration: BoxDecoration(
+                                    color: Colors.grey,
+                                  ),
+                                ),
+                                Gap(6),
+                                Expanded(
+                                  child: Column(
+                                    spacing: 4,
+                                    children: [
+                                      Row(
+                                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                        children: [
+                                          Text("Time Sync Smart Watch"),
+                                          Text("Confirmed"),
+                                        ],
+                                      ),
+                                      Row(
+                                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                        children: [
+                                          Text("2 item 10:45 AM"),
+                                          Text("#TXN_10018"),
+                                        ],
+                                      )
+                                    ],
+                                  ),
+                                ),
+                              ],
+                            ),
+                            Divider(),
+                            Row(
+                              children: [
+                                Container(
+                                  height: 42,
+                                  width: 42,
+                                  decoration: BoxDecoration(
+                                    color: Colors.grey,
+                                  ),
+                                ),
+                                Gap(6),
+                                Expanded(
+                                  child: Column(
+                                    spacing: 4,
+                                    children: [
+                                      Row(
+                                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                        children: [
+                                          Text("Time Sync Smart Watch"),
+                                          Text("Confirmed"),
+                                        ],
+                                      ),
+                                      Row(
+                                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                        children: [
+                                          Text("2 item 10:45 AM"),
+                                          Text("#TXN_10018"),
+                                        ],
+                                      )
+                                    ],
+                                  ),
+                                ),
+                              ],
+                            ),
+                            Divider(),
+                            Row(
+                              children: [
+                                Container(
+                                  height: 42,
+                                  width: 42,
+                                  decoration: BoxDecoration(
+                                    color: Colors.grey,
+                                  ),
+                                ),
+                                Gap(6),
+                                Expanded(
+                                  child: Column(
+                                    spacing: 4,
+                                    children: [
+                                      Row(
+                                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                        children: [
+                                          Text("Time Sync Smart Watch"),
+                                          Text("Confirmed"),
+                                        ],
+                                      ),
+                                      Row(
+                                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                        children: [
+                                          Text("2 item 10:45 AM"),
+                                          Text("#TXN_10018"),
+                                        ],
+                                      )
+                                    ],
+                                  ),
+                                ),
+                              ],
+                            ),
+
                           ],
                         ),
                       )
