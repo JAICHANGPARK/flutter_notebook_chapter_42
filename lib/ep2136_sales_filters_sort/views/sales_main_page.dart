@@ -53,10 +53,15 @@ class _SalesMainPageState extends State<SalesMainPage> {
                       ),
                       Expanded(
                         child: Container(
+                          height: 32,
                           decoration: BoxDecoration(
                             color: Colors.grey[50]!,
                           ),
-                          child: TextField(),
+                          child: TextField(
+                            decoration: InputDecoration(
+                              border: InputBorder.none,
+                            ),
+                          ),
                         ),
                       ),
                       Container(
