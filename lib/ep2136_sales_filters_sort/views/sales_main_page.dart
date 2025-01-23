@@ -39,6 +39,7 @@ class _SalesMainPageState extends State<SalesMainPage> {
                   Row(
                     children: [
                       Container(
+                        padding: EdgeInsets.all(4),
                         decoration: BoxDecoration(
                           border: Border.all(color: Colors.grey)
                         ),
