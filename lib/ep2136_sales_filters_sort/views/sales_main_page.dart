@@ -17,17 +17,33 @@ class _SalesMainPageState extends State<SalesMainPage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
-
+              padding: EdgeInsets.only(
+                left: 12,
+                right: 12,
+                bottom: 12,
+                top: 16,
+              ),
+              width: double.infinity,
               decoration: BoxDecoration(
                 color: Colors.white,
               ),
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text("Orders"),
+                  Row(
+                    children: [
+                      Container(
+                        decoration: BoxDecoration(
+                          border: Border.all(color: Colors.grey)
+                        ),
+                        child: Icon(Icons.swap_vert),
+                      )
+                    ],
+                  )
                 ],
               ),
             ),
-
           ],
         ),
       ),
