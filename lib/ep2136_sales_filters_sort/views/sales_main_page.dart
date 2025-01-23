@@ -56,7 +56,18 @@ class _SalesMainPageState extends State<SalesMainPage> {
                           decoration: BoxDecoration(
                             color: Colors.grey[50]!,
                           ),
+                          child: TextField(),
                         ),
+                      ),
+                      Container(
+                        padding: EdgeInsets.all(4),
+                        decoration: BoxDecoration(
+                          border: Border.all(
+                            color: Colors.grey[100]!,
+                          ),
+                          borderRadius: BorderRadius.circular(2),
+                        ),
+                        child: Icon(Icons.filter_alt_outlined),
                       ),
                     ],
                   )
