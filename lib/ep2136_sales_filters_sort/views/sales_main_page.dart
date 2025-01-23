@@ -17,77 +17,80 @@ class _SalesMainPageState extends State<SalesMainPage> {
     return Scaffold(
       backgroundColor: Colors.grey[100],
       body: SafeArea(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Container(
-              padding: EdgeInsets.only(
-                left: 16,
-                right: 16,
-                bottom: 16,
-                top: 24,
-              ),
-              width: double.infinity,
-              decoration: BoxDecoration(
-                color: Colors.white,
-              ),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    "Orders",
-                    style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      fontSize: 20,
-                    ),
-                  ),
-                  Gap(16),
-                  Row(
-                    spacing: 12,
-                    children: [
-                      Container(
-                        padding: EdgeInsets.all(4),
-                        decoration: BoxDecoration(
-                          border: Border.all(
-                            color: Colors.grey[100]!,
-                          ),
-                          borderRadius: BorderRadius.circular(2),
-                        ),
-                        child: Icon(Icons.swap_vert),
+        child: IndexedStack(
+          
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Container(
+                padding: EdgeInsets.only(
+                  left: 16,
+                  right: 16,
+                  bottom: 16,
+                  top: 24,
+                ),
+                width: double.infinity,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                ),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      "Orders",
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 20,
                       ),
-                      Expanded(
-                        child: Container(
-                          height: 32,
+                    ),
+                    Gap(16),
+                    Row(
+                      spacing: 12,
+                      children: [
+                        Container(
+                          padding: EdgeInsets.all(4),
                           decoration: BoxDecoration(
-                            color: Colors.grey[50]!,
+                            border: Border.all(
+                              color: Colors.grey[100]!,
+                            ),
+                            borderRadius: BorderRadius.circular(2),
                           ),
-                          child: TextField(
-                            decoration: InputDecoration(
-                                border: InputBorder.none,
-                                contentPadding: EdgeInsets.symmetric(horizontal: 2),
-                                hintText: "Search orders..."),
-                            style: TextStyle(
-                              fontSize: 12,
+                          child: Icon(Icons.swap_vert),
+                        ),
+                        Expanded(
+                          child: Container(
+                            height: 32,
+                            decoration: BoxDecoration(
+                              color: Colors.grey[50]!,
+                            ),
+                            child: TextField(
+                              decoration: InputDecoration(
+                                  border: InputBorder.none,
+                                  contentPadding: EdgeInsets.symmetric(horizontal: 2),
+                                  hintText: "Search orders..."),
+                              style: TextStyle(
+                                fontSize: 12,
+                              ),
                             ),
                           ),
                         ),
-                      ),
-                      Container(
-                        padding: EdgeInsets.all(4),
-                        decoration: BoxDecoration(
-                          border: Border.all(
-                            color: Colors.grey[100]!,
+                        Container(
+                          padding: EdgeInsets.all(4),
+                          decoration: BoxDecoration(
+                            border: Border.all(
+                              color: Colors.grey[100]!,
+                            ),
+                            borderRadius: BorderRadius.circular(2),
                           ),
-                          borderRadius: BorderRadius.circular(2),
+                          child: Icon(Icons.filter_alt_outlined),
                         ),
-                        child: Icon(Icons.filter_alt_outlined),
-                      ),
-                    ],
-                  )
-                ],
+                      ],
+                    )
+                  ],
+                ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
       bottomNavigationBar: SizedBox(
