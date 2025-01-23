@@ -107,8 +107,24 @@ class _SalesMainPageState extends State<SalesMainPage> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text("Today"),
-                            
-
+                            Row(
+                              children: [
+                                Container(
+                                  height: 42,
+                                  width: 42,
+                                  decoration: BoxDecoration(
+                                    color: Colors.grey,
+                                  ),
+                                ),
+                                Expanded(child: Column(children: [
+                                  Row(
+                                    children: [
+                                      
+                                    ],
+                                  )
+                                ],))
+                              ],
+                            )
                           ],
                         ),
                       )
