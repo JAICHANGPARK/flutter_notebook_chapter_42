@@ -96,7 +96,6 @@ class _SalesMainPageState extends State<SalesMainPage> {
             Container(),
             Container(),
           ],
-
         ),
       ),
       bottomNavigationBar: SizedBox(
@@ -109,7 +108,7 @@ class _SalesMainPageState extends State<SalesMainPage> {
           currentIndex: pageNum,
           onTap: (idx) {
             setState(() {
-              idx = pageNum;
+              pageNum = idx;
             });
           },
           items: [
