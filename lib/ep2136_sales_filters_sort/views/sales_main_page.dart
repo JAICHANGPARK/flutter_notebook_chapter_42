@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
 
 class SalesMainPage extends StatefulWidget {
@@ -18,10 +19,10 @@ class _SalesMainPageState extends State<SalesMainPage> {
           children: [
             Container(
               padding: EdgeInsets.only(
-                left: 12,
-                right: 12,
-                bottom: 12,
-                top: 16,
+                left: 16,
+                right: 16,
+                bottom: 16,
+                top: 24,
               ),
               width: double.infinity,
               decoration: BoxDecoration(
@@ -30,7 +31,11 @@ class _SalesMainPageState extends State<SalesMainPage> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text("Orders"),
+                  Text("Orders",style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 20,
+                  ),),
+                  Gap(16),
                   Row(
                     children: [
                       Container(
