@@ -139,7 +139,19 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                           child: Row(
                             children: [
                               Expanded(
-                                child: Container(),
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                    color: Colors.black,
+                                  ),
+                                  child: Center(
+                                    child: Text(
+                                      "Best Deal",
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                      ),
+                                    ),
+                                  ),
+                                ),
                               ),
                               Expanded(
                                 child: Container(),
