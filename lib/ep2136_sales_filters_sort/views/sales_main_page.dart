@@ -240,7 +240,7 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                             Text(
                                               "Shipped",
                                               style: TextStyle(
-                                                color: Color.fromRGBO(51, 101, 128, 1),
+                                                color: Colors.orange,
                                               ),
                                             ),
                                           ],
