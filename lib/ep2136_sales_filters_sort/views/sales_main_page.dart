@@ -84,6 +84,7 @@ class _SalesMainPageState extends State<SalesMainPage> {
         ),
       ),
       bottomNavigationBar: BottomNavigationBar(
+        type: BottomNavigationBarType.fixed,
         items: [
           BottomNavigationBarItem(
             icon: Icon(HugeIcons.strokeRoundedHome02),
