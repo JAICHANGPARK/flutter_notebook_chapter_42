@@ -303,7 +303,6 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                               ),
                             ),
                             Text("(368)"),
-                           
                           ],
                         ),
                         Row(
@@ -360,7 +359,6 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                               ),
                             ),
                             Text("(368)"),
-
                           ],
                         ),
                         Row(
@@ -395,6 +393,12 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                       ],
                     ),
                   ),
+                  Text(
+                    "Popular",
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                    ),
+                  )
                 ],
               ),
             ),
