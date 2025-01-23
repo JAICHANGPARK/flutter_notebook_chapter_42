@@ -14,14 +14,20 @@ class _SalesMainPageState extends State<SalesMainPage> {
     return Scaffold(
       body: SafeArea(
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
-              height: 240,
+
               decoration: BoxDecoration(
                 color: Colors.white,
               ),
+              child: Column(
+                children: [
+                  Text("Orders"),
+                ],
+              ),
             ),
-            Text("Orders"),
+
           ],
         ),
       ),
