@@ -73,6 +73,7 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                         image: NetworkImage(
                           "https://cdn.pixabay.com/photo/2017/03/31/10/56/waffles-2190961_1280.jpg",
                         ),
+                        fit: BoxFit.cover,
                       ),
                     ),
                     child: Stack(
