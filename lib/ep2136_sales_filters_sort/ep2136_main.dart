@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
-
+void main() {
+  runApp(SalesApp());
+}
 
 class SalesApp extends StatelessWidget {
   const SalesApp({super.key});
