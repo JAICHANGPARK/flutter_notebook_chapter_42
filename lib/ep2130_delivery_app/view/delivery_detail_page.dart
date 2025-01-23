@@ -166,6 +166,10 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                                   ),
                                 ),
                               ),
+                              VerticalDivider(
+                                indent: 8,
+                                endIndent: 8,
+                              ),
                               Expanded(
                                 child: Container(),
                               ),
