@@ -69,6 +69,11 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                     decoration: BoxDecoration(
                       color: Colors.grey[200]!,
                       borderRadius: BorderRadius.circular(12),
+                      image: DecorationImage(
+                        image: NetworkImage(
+                          "https://cdn.pixabay.com/photo/2017/03/31/10/56/waffles-2190961_1280.jpg",
+                        ),
+                      ),
                     ),
                     child: Stack(
                       children: [
@@ -186,7 +191,6 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                             Icon(Icons.star),
                             Text("5.0"),
                             Text("(368)"),
-
                           ],
                         ),
                         Row(
@@ -211,7 +215,6 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                             Icon(Icons.star),
                             Text("5.0"),
                             Text("(368)"),
-
                           ],
                         ),
                         Row(
@@ -230,7 +233,6 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                       ],
                     ),
                   ),
-
                 ],
               ),
             ),
