@@ -10,6 +10,7 @@ class SalesMainPage extends StatefulWidget {
 }
 
 class _SalesMainPageState extends State<SalesMainPage> {
+  int pageNum  = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
