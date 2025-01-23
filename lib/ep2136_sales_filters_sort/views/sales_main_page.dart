@@ -97,10 +97,12 @@ class _SalesMainPageState extends State<SalesMainPage> {
                     children: [
                       Container(
                         decoration: BoxDecoration(
-                            color: Colors.white,
-                            border: Border.all(
-                              color: Colors.grey[50]!,
-                            )),
+                          color: Colors.white,
+                          border: Border.all(
+                            color: Colors.grey[50]!,
+                          ),
+                          borderRadius: BorderRadius.circular(3),
+                        ),
                       )
                     ],
                   ),
