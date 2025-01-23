@@ -110,7 +110,13 @@ class _SalesMainPageState extends State<SalesMainPage> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             spacing: 6,
                             children: [
-                              Text("Today"),
+                              Text(
+                                "Today",
+                                style: TextStyle(
+                                  fontSize: 16,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
                               Row(
                                 children: [
                                   Container(
@@ -129,7 +135,12 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                           children: [
                                             Text("Time Sync Smart Watch"),
-                                            Text("Confirmed"),
+                                            Text(
+                                              "Confirmed",
+                                              style: TextStyle(
+                                                color: Color.fromRGBO(51, 101, 128, 1),
+                                              ),
+                                            ),
                                           ],
                                         ),
                                         Row(
@@ -212,7 +223,6 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                   ),
                                 ],
                               ),
-                  
                             ],
                           ),
                         ),
@@ -332,7 +342,6 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                   ),
                                 ],
                               ),
-                  
                             ],
                           ),
                         ),
@@ -452,7 +461,6 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                   ),
                                 ],
                               ),
-                  
                             ],
                           ),
                         )
