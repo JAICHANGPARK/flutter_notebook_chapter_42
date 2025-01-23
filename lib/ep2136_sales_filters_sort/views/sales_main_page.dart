@@ -53,7 +53,15 @@ class _SalesMainPageState extends State<SalesMainPage> {
                             onTap: () {
                               showModalBottomSheet(
                                 context: context,
-                                builder: (context) {},
+                                builder: (context) {
+                                  return Container(
+                                    decoration: BoxDecoration(
+                                      color: Colors.white,
+                                      borderRadius: BorderRadius.circular(24),
+
+                                    ),
+                                  );
+                                },
                               );
                             },
                             child: Container(
