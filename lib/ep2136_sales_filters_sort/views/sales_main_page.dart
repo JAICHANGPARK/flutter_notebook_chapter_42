@@ -112,16 +112,23 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                             ),
                                           ],
                                         ),
+                                        Gap(16),
                                         Container(
                                           decoration: BoxDecoration(
                                             color: Color.fromRGBO(46, 55, 66, 1),
                                           ),
-                                          margin: EdgeInsets.symmetric(horizontal: 16),
+                                          
                                           padding: EdgeInsets.symmetric(vertical: 16),
                                           child: Center(
-                                            child: Text("Apply"),
+                                            child: Text(
+                                              "Apply",
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                              ),
+                                            ),
                                           ),
-                                        )
+                                        ),
+                                        Gap(16),
                                       ],
                                     ),
                                   );
