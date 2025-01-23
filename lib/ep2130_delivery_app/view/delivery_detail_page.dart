@@ -132,7 +132,7 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                       spacing: 12,
                       children: [
                         Container(
-                          height: 62,
+                          height: 50,
                           decoration: BoxDecoration(
                             color: Colors.grey[50]!,
                           ),
@@ -141,6 +141,7 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                               Expanded(
                                 child: Container(
                                   decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(4),
                                     color: Colors.black,
                                   ),
                                   child: Center(
