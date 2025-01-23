@@ -10,11 +10,13 @@ class DeliveryDetailPage extends StatefulWidget {
 
 class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
 
-  // List<String> tabs = [
-  // "Best Match",
-  // "Fastest Delivery",
-  // "Free Delivery",
-  // ];
+  List<String> tabs = [
+  "Popular",
+  "Breakfast",
+  "Pasta",
+    "Pizza",
+    "Pizza",
+  ];
 
   @override
   Widget build(BuildContext context) {
