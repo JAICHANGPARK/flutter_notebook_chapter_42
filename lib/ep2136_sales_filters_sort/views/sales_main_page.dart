@@ -10,7 +10,8 @@ class SalesMainPage extends StatefulWidget {
 }
 
 class _SalesMainPageState extends State<SalesMainPage> {
-  int pageNum  = 0;
+  int pageNum = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -96,6 +97,12 @@ class _SalesMainPageState extends State<SalesMainPage> {
           selectedItemColor: Colors.black,
           unselectedItemColor: Colors.blueGrey,
           type: BottomNavigationBarType.fixed,
+          currentIndex: pageNum,
+          onTap: (idx) {
+            setState(() {
+              idx = pageNum;
+            });
+          },
           items: [
             BottomNavigationBarItem(
               icon: Icon(HugeIcons.strokeRoundedHome02),
