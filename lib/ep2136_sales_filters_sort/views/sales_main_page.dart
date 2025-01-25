@@ -73,7 +73,7 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                           children: [
                                             Text("Newest"),
                                             Radio(
-                                              value: "1", activeColor: Color.fromRGBO(46, 55, 66, 1),
+                                              value: "1", activeColor: Color.fromRGBO(46, 55, 66, 1,),
                                               groupValue: groupValue,
                                               onChanged: (v) {},
                                             ),
@@ -84,7 +84,7 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                           children: [
                                             Text("Oldest"),
                                             Radio(
-                                              value: "2", activeColor: Color.fromRGBO(46, 55, 66, 1),
+                                              value: "2", activeColor: Color.fromRGBO(46, 55, 66, 1,),
                                               groupValue: groupValue,
                                               onChanged: (v) {},
                                             ),
