@@ -59,7 +59,7 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                   return Container(
                                     // height: 240,
                                     margin: EdgeInsets.all(16),
-                                    padding: EdgeInsets.symmetric(horizontal: 16, vertical: 16),
+                                    padding: EdgeInsets.symmetric(horizontal: 16, vertical: 16,),
                                     decoration: BoxDecoration(
                                       color: Colors.white,
                                       borderRadius: BorderRadius.circular(24),
