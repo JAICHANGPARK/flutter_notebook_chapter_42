@@ -98,7 +98,7 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                                   color: Colors.white,
                                   borderRadius: BorderRadius.circular(3),
                                 ),
-                                padding: EdgeInsets.symmetric(horizontal: 3, vertical: 2),
+                                padding: EdgeInsets.symmetric(horizontal: 3, vertical: 2,),
                                 child: Row(
                                   spacing: 6,
                                   children: [
