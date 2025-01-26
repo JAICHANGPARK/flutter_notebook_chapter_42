@@ -9,7 +9,6 @@
 
 <img src="https://cdn.dribbble.com/userupload/18882852/file/original-4caa936393598296c2526596930a5cbe.png?resize=1905x1429&vertical=center"/>
 
-
 ## EP2130-2135
 
 - Delivery app | Mobile app | Delivery Design UI/UX
