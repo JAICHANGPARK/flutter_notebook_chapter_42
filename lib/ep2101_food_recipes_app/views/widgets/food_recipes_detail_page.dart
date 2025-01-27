@@ -76,7 +76,7 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                       Icon(
                         Icons.timelapse,
                       ),
-                      Text("15-40 mins"),
+                      Text("15-40 mins",),
                     ],
                   ),
                   Row(
@@ -85,7 +85,7 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                       Icon(
                         Icons.location_on_outlined,
                       ),
-                      Text("1.6 km"),
+                      Text("1.6 km",),
                     ],
                   )
                 ],
