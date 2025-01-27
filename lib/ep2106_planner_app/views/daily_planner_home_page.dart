@@ -98,7 +98,8 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                     ),
                                   ),
                                   Container(
-                                    padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                                    padding: EdgeInsets.symmetric(
+                                        horizontal: 8, vertical: 4),
                                     decoration: BoxDecoration(
                                       border: Border.all(
                                         color: Colors.grey,
@@ -134,7 +135,8 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                         width: 82,
                                         decoration: BoxDecoration(
                                           shape: BoxShape.circle,
-                                          border: Border.all(color: Colors.cyan),
+                                          border:
+                                              Border.all(color: Colors.cyan),
                                         ),
                                         padding: EdgeInsets.all(4),
                                         child: CircleAvatar(
@@ -152,11 +154,13 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                         width: 82,
                                         decoration: BoxDecoration(
                                           shape: BoxShape.circle,
-                                          border: Border.all(color: Colors.grey),
+                                          border:
+                                              Border.all(color: Colors.grey),
                                         ),
                                         padding: EdgeInsets.all(4),
                                         child: CircleAvatar(
-                                          backgroundColor: Colors.orangeAccent[100],
+                                          backgroundColor:
+                                              Colors.orangeAccent[100],
                                         ),
                                       ),
                                       Text("Wake up ea.."),
@@ -190,7 +194,8 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                     ),
                                   ),
                                   Container(
-                                    padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                                    padding: EdgeInsets.symmetric(
+                                        horizontal: 8, vertical: 4),
                                     decoration: BoxDecoration(
                                       border: Border.all(
                                         color: Colors.grey,
@@ -223,7 +228,8 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                     child: Padding(
                                       padding: const EdgeInsets.only(top: 12),
                                       child: Column(
-                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
                                         spacing: 12,
                                         children: [
                                           Text("Coding sprint"),
@@ -234,10 +240,13 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                               4,
                                               (index) => Container(
                                                 decoration: BoxDecoration(
-                                                  color: Colors.orangeAccent[100],
-                                                  borderRadius: BorderRadius.circular(4),
+                                                  color:
+                                                      Colors.orangeAccent[100],
+                                                  borderRadius:
+                                                      BorderRadius.circular(4),
                                                 ),
-                                                padding: EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                                                padding: EdgeInsets.symmetric(
+                                                    horizontal: 6, vertical: 2),
                                                 child: Text(
                                                   "Hard",
                                                   style: TextStyle(
@@ -252,10 +261,14 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                                             children: [
                                               Checkbox(
                                                 visualDensity: VisualDensity(
-                                                  vertical: VisualDensity.minimumDensity,
-                                                  horizontal: VisualDensity.minimumDensity,
+                                                  vertical: VisualDensity
+                                                      .minimumDensity,
+                                                  horizontal: VisualDensity
+                                                      .minimumDensity,
                                                 ),
-                                                materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                                                materialTapTargetSize:
+                                                    MaterialTapTargetSize
+                                                        .shrinkWrap,
                                                 value: false,
                                                 onChanged: (v) {},
                                               ),
@@ -409,7 +422,8 @@ class _DailyPlannerHomePageState extends State<DailyPlannerHomePage> {
                           Icons.calendar_month,
                         ),
                       ),
-                      CircleAvatar(  backgroundColor: Colors.blueAccent,
+                      CircleAvatar(
+                        backgroundColor: Colors.blueAccent,
                         foregroundColor: Colors.white,
                         child: IconButton(
                           onPressed: () {},
