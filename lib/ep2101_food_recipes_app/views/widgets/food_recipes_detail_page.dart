@@ -67,7 +67,7 @@ class _FoodRecipesDetailPageState extends State<FoodRecipesDetailPage> {
                       Icon(
                         Icons.star_border,
                       ),
-                      Text("4.9 (862)"),
+                      Text("4.9 (862)",),
                     ],
                   ),
                   Row(
