@@ -16,29 +16,21 @@ class _AiScannerMainScreenState extends State<AiScannerMainScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Padding(
-              padding: const EdgeInsets.fromLTRB(
-                16,
-                32,
-                24,
-                0,
-              ),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  IconButton(
-                    onPressed: () {},
-                    icon: Icon(Icons.info_outline),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                IconButton(
+                  onPressed: () {},
+                  icon: Icon(Icons.info_outline),
+                ),
+                Badge(
+                  child: Icon(
+                    Icons.notifications_none,
                   ),
-                  Badge(
-                    child: Icon(
-                      Icons.notifications_none,
-                    ),
-                    alignment: Alignment.topLeft,
-                    label: Text("5"),
-                  ),
-                ],
-              ),
+                  alignment: Alignment.topLeft,
+                  label: Text("5"),
+                ),
+              ],
             ),
             Text("Hi Dream,"),
             Text("How can I help\nyou today?"),
