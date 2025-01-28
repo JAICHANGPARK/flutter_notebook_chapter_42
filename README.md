@@ -4,7 +4,7 @@
 
 - AI Scanner App
 - Nixtio
-- https://dribbble.com/shots/25487325-Delivery-app-Mobile-app-Delivery-Design-UI-UX
+- https://dribbble.com/shots/25533043-AI-Scanner-App
 
 <img src="https://cdn.dribbble.com/userupload/18491716/file/original-2afd783e103af5e4f97d8023c4de33dc.png?resize=1905x1429&vertical=center"/>
 
