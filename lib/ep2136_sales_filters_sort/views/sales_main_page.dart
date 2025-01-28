@@ -234,7 +234,30 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                           ),
                                           Text("Date range"),
                                           Row(
+                                            spacing: 8,
                                             children: [
+                                              Expanded(
+                                                child: Container(
+                                                  decoration: BoxDecoration(
+                                                    border: Border.all(
+                                                      color: Colors.grey[200]!,
+                                                    ),
+                                                    borderRadius: BorderRadius.circular(3),
+                                                  ),
+                                                  child: Row(
+                                                    children: [
+                                                      Container(
+                                                        decoration: BoxDecoration(
+                                                          color: Colors.blueGrey[50]!,
+                                                        ),
+                                                        child: Icon(Icons.calendar_today),
+                                                      ),
+                                                      Text("28 - 01 - 2025"),
+                                                      Icon(Icons.keyboard_arrow_down),
+                                                    ],
+                                                  ),
+                                                ),
+                                              ),
                                               Expanded(
                                                 child: Container(
                                                   decoration: BoxDecoration(
@@ -249,11 +272,11 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                                         child: Icon(Icons.calendar_today),
                                                       ),
                                                       Text("28 - 01 - 2025"),
-                                                      Icon(Icons.keyboard_arrow_down)
+                                                      Icon(Icons.keyboard_arrow_down),
                                                     ],
                                                   ),
                                                 ),
-                                              )
+                                              ),
                                             ],
                                           )
                                         ],
