@@ -241,6 +241,7 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                               ],
                                             ),
                                           ),
+                                          Gap(12),
                                           Text("Date range"),
                                           Gap(12),
                                           Row(
