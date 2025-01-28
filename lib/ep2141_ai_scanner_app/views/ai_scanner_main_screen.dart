@@ -17,6 +17,7 @@ class _AiScannerMainScreenState extends State<AiScannerMainScreen> {
         child: Padding(
           padding: const EdgeInsets.all(16),
           child: Column(
+            spacing: 16,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Row(
