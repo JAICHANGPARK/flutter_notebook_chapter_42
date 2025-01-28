@@ -330,7 +330,6 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                                       ),
                                                       Gap(12),
                                                       Text("10"),
-
                                                     ],
                                                   ),
                                                 ),
@@ -357,7 +356,6 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                                       ),
                                                       Gap(12),
                                                       Text("10"),
-
                                                     ],
                                                   ),
                                                 ),
@@ -367,6 +365,13 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                           Gap(32),
                                           Text("Order status"),
                                           Gap(12),
+                                          Container(
+                                            decoration: BoxDecoration(
+                                              border: Border.all(
+                                                color: Colors.grey[200]!,
+                                              ),
+                                            ),
+                                          )
                                         ],
                                       ),
                                     );
