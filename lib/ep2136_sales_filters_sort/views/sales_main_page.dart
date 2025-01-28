@@ -371,6 +371,9 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                                 color: Colors.grey[200]!,
                                               ),
                                             ),
+                                            child: Center(
+                                              child: Text("Clear all"),
+                                            ),
                                           )
                                         ],
                                       ),
