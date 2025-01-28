@@ -247,7 +247,9 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                                           color: Colors.blueGrey[50]!,
                                                         ),
                                                         child: Icon(Icons.calendar_today),
-                                                      )
+                                                      ),
+                                                      Text("28 - 01 - 2025"),
+                                                      Icon(Icons.keyboard_arrow_down)
                                                     ],
                                                   ),
                                                 ),
