@@ -231,6 +231,25 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                                 )
                                               ],
                                             ),
+                                          ),
+                                          Text("Date range"),
+                                          Row(
+                                            children: [
+                                              Expanded(
+                                                child: Container(
+                                                  decoration: BoxDecoration(
+                                                    borderRadius: BorderRadius.circular(3),
+                                                  ),
+                                                  child: Row(
+                                                    children: [
+                                                      Container(
+                                                        child: Icon(Icons.calendar_today),
+                                                      )
+                                                    ],
+                                                  ),
+                                                ),
+                                              )
+                                            ],
                                           )
                                         ],
                                       ),
