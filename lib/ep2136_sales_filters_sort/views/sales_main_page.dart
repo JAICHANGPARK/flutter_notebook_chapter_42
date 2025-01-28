@@ -208,6 +208,7 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                       ),
                                       child: Column(
                                         mainAxisSize: MainAxisSize.min,
+                                        crossAxisAlignment: CrossAxisAlignment.start,
                                         children: [
                                           Container(
                                             height: 42,
@@ -233,6 +234,7 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                             ),
                                           ),
                                           Text("Date range"),
+                                          Gap(12),
                                           Row(
                                             spacing: 8,
                                             children: [
@@ -264,6 +266,9 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                               Expanded(
                                                 child: Container(
                                                   decoration: BoxDecoration(
+                                                    border: Border.all(
+                                                      color: Colors.grey[200]!,
+                                                    ),
                                                     borderRadius: BorderRadius.circular(3),
                                                   ),
                                                   child: Row(
@@ -272,10 +277,71 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                                         decoration: BoxDecoration(
                                                           color: Colors.blueGrey[50]!,
                                                         ),
-                                                        child: Icon(Icons.calendar_today),
+                                                        padding: EdgeInsets.all(8),
+                                                        child: Icon(Icons.calendar_today,size: 14,),
                                                       ),
+                                                      Gap(12),
                                                       Text("28 - 01 - 2025"),
-                                                      Icon(Icons.keyboard_arrow_down),
+                                                      Spacer(),
+                                                      Icon(Icons.keyboard_arrow_down,size: 14,),
+                                                    ],
+                                                  ),
+                                                ),
+                                              ),
+                                            ],
+                                          ),
+                                          Gap(32),
+                                          Text("Price range),
+                                          Gap(12),
+                                          Row(
+                                            spacing: 8,
+                                            children: [
+                                              Expanded(
+                                                child: Container(
+                                                  decoration: BoxDecoration(
+                                                    border: Border.all(
+                                                      color: Colors.grey[200]!,
+                                                    ),
+                                                    borderRadius: BorderRadius.circular(3),
+                                                  ),
+                                                  child: Row(
+                                                    children: [
+                                                      Container(
+                                                        decoration: BoxDecoration(
+                                                          color: Colors.blueGrey[50]!,
+                                                        ),
+                                                        padding: EdgeInsets.all(8),
+                                                        child: Icon(Icons.calendar_today,size: 14,),
+                                                      ),
+                                                      Gap(12),
+                                                      Text("28 - 01 - 2025"),
+                                                      Spacer(),
+                                                      Icon(Icons.keyboard_arrow_down,size: 14,),
+                                                    ],
+                                                  ),
+                                                ),
+                                              ),
+                                              Expanded(
+                                                child: Container(
+                                                  decoration: BoxDecoration(
+                                                    border: Border.all(
+                                                      color: Colors.grey[200]!,
+                                                    ),
+                                                    borderRadius: BorderRadius.circular(3),
+                                                  ),
+                                                  child: Row(
+                                                    children: [
+                                                      Container(
+                                                        decoration: BoxDecoration(
+                                                          color: Colors.blueGrey[50]!,
+                                                        ),
+                                                        padding: EdgeInsets.all(8),
+                                                        child: Icon(Icons.calendar_today,size: 14,),
+                                                      ),
+                                                      Gap(12),
+                                                      Text("28 - 01 - 2025"),
+                                                      Spacer(),
+                                                      Icon(Icons.keyboard_arrow_down,size: 14,),
                                                     ],
                                                   ),
                                                 ),
