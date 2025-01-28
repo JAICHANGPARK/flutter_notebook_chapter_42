@@ -194,6 +194,7 @@ class _SalesMainPageState extends State<SalesMainPage> {
                               onTap: () {
                                 showModalBottomSheet(
                                   context: context,
+                                  backgroundColor: Colors.transparent,
                                   builder: (context) {
                                     return Container(
                                       margin: EdgeInsets.all(12),
