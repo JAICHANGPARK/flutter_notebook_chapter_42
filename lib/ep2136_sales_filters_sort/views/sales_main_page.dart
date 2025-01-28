@@ -192,7 +192,22 @@ class _SalesMainPageState extends State<SalesMainPage> {
                             ),
                             child: GestureDetector(
                               onTap: () {
-                                showModalBottomSheet(context: context, builder: (context) {});
+                                showModalBottomSheet(
+                                  context: context,
+                                  builder: (context) {
+                                    return Container(
+                                      margin: EdgeInsets.all(12),
+                                      padding: EdgeInsets.symmetric(
+                                        horizontal: 16,
+                                        vertical: 16,
+                                      ),
+                                      decoration: BoxDecoration(
+                                        color: Colors.white,
+                                        borderRadius: BorderRadius.circular(24),
+                                      ),
+                                    );
+                                  },
+                                );
                               },
                               child: Icon(Icons.filter_alt_outlined),
                             ),
