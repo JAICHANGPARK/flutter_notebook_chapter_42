@@ -191,8 +191,8 @@ class _SalesMainPageState extends State<SalesMainPage> {
                               borderRadius: BorderRadius.circular(2),
                             ),
                             child: GestureDetector(
-                              onTap: (){
-                                
+                              onTap: () {
+                                showModalBottomSheet(context: context, builder: (context) {});
                               },
                               child: Icon(Icons.filter_alt_outlined),
                             ),
