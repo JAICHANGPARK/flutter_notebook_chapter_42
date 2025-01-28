@@ -37,8 +37,13 @@ class _AiScannerMainScreenState extends State<AiScannerMainScreen> {
                 ],
               ),
               Spacer(),
-              Text("Hi Dream,"),
-              Text("How can I help\nyou today?"),
+              Column(crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text("Hi Dream,"),
+                  Text("How can I help\nyou today?"),
+                ],
+              ),
+
               Container(
                 height: 280,
                 child: Placeholder(),
