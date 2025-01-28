@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class AiScannerMainScreen extends StatefulWidget {
   const AiScannerMainScreen({super.key});
@@ -34,8 +35,25 @@ class _AiScannerMainScreenState extends State<AiScannerMainScreen> {
                   ),
                 ],
               ),
+              Spacer(),
               Text("Hi Dream,"),
               Text("How can I help\nyou today?"),
+              Container(
+                height: 280,
+                child: Placeholder(),
+              ),
+              Container(
+
+                decoration: BoxDecoration(
+                  color: Colors.blue,
+                ),
+                child: Row(
+                  children: [
+                    IconButton(onPressed: (){}, icon: Icon(Icons.search))
+                  ],
+
+                ),
+              ),
             ],
           ),
         ),
