@@ -132,8 +132,8 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                         Gap(16),
                                         Container(
                                           decoration: BoxDecoration(
-                                            color: Color.fromRGBO(46, 55, 66, 1),
-                                            borderRadius: BorderRadius.circular(6),),
+                                            color: Color.fromRGBO(46, 55, 66, 1,),
+                                            borderRadius: BorderRadius.circular(6,),),
                                           padding: EdgeInsets.symmetric(vertical: 16),
                                           child: Center(
                                             child: Text(
@@ -384,12 +384,10 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                           Gap(12),
                                           Container(
                                             decoration: BoxDecoration(
-                                                border: Border.all(
-                                                  color: Colors.grey[200]!,
-                                                ),
-                                                color:
-                                            ),
-                                            padding: EdgeInsets.symmetric(vertical: 8),
+                                              color: Color.fromRGBO(46, 55, 66, 1,),
+                                              borderRadius: BorderRadius.circular(6,),),
+                                            padding: EdgeInsets.symmetric(vertical: 16),
+                                           
                                             child: Center(
                                               child: Text(
                                                 "Apply (1)",
