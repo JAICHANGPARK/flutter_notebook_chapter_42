@@ -6,7 +6,7 @@
 - Nixtio
 - https://dribbble.com/shots/25533043-AI-Scanner-App
 
-<img src="https://cdn.dribbble.com/userupload/18491716/file/original-2afd783e103af5e4f97d8023c4de33dc.png?resize=1905x1429&vertical=center"/>
+<img src="https://cdn.dribbble.com/userupload/19253467/file/original-f61ad4c1ae2a222cdd4da78082ff7a7b.png?resize=1905x1429&vertical=center"/>
 
 
 ## EP2136-2140
