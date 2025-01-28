@@ -205,6 +205,34 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                         color: Colors.white,
                                         borderRadius: BorderRadius.circular(24),
                                       ),
+                                      child: Column(
+                                        mainAxisSize: MainAxisSize.min,
+                                        children: [
+                                          Container(
+                                            height: 42,
+                                            child: Stack(
+                                              children: [
+                                                Positioned(
+                                                  left: 0,
+                                                  child: TextButton(
+                                                    onPressed: () {},
+                                                    child: Text(
+                                                      "Reset",
+                                                    ),
+                                                  ),
+                                                ),
+                                                Positioned(
+                                                  child: Center(
+                                                    child: Text(
+                                                      "Filters",
+                                                    ),
+                                                  ),
+                                                )
+                                              ],
+                                            ),
+                                          )
+                                        ],
+                                      ),
                                     );
                                   },
                                 );
