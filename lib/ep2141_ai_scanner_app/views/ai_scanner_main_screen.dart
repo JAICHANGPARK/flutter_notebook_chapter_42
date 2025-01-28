@@ -38,7 +38,9 @@ class _AiScannerMainScreenState extends State<AiScannerMainScreen> {
                   ),
                 ],
               ),
-            )
+            ),
+            Text("Hi Dream,"),
+            Text("How can I help\nyou today?"),
           ],
         ),
       ),
