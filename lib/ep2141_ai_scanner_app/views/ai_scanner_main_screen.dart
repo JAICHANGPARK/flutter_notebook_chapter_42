@@ -33,6 +33,7 @@ class _AiScannerMainScreenState extends State<AiScannerMainScreen> {
                     child: Icon(
                       Icons.notifications_none,
                     ),
+                    alignment: Alignment.topLeft,
                     label: Text("5"),
                   ),
                 ],
