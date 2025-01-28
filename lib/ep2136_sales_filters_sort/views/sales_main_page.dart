@@ -371,8 +371,14 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                                 color: Colors.grey[200]!,
                                               ),
                                             ),
+                                            padding: EdgeInsets.symmetric(vertical: 8),
                                             child: Center(
-                                              child: Text("Clear all"),
+                                              child: Text(
+                                                "Clear all",
+                                                style: TextStyle(
+                                                  fontSize: 16,
+                                                ),
+                                              ),
                                             ),
                                           )
                                         ],
