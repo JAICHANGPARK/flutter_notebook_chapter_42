@@ -243,6 +243,9 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                                   child: Row(
                                                     children: [
                                                       Container(
+                                                        decoration: BoxDecoration(
+                                                          color: Colors.blueGrey[50]!,
+                                                        ),
                                                         child: Icon(Icons.calendar_today),
                                                       )
                                                     ],
