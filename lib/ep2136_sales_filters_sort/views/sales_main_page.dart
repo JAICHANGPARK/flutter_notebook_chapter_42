@@ -59,7 +59,10 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                   return Container(
                                     // height: 240,
                                     margin: EdgeInsets.all(16),
-                                    padding: EdgeInsets.symmetric(horizontal: 16, vertical: 16,),
+                                    padding: EdgeInsets.symmetric(
+                                      horizontal: 16,
+                                      vertical: 16,
+                                    ),
                                     decoration: BoxDecoration(
                                       color: Colors.white,
                                       borderRadius: BorderRadius.circular(24),
@@ -73,7 +76,13 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                           children: [
                                             Text("Newest"),
                                             Radio(
-                                              value: "1", activeColor: Color.fromRGBO(46, 55, 66, 1,),
+                                              value: "1",
+                                              activeColor: Color.fromRGBO(
+                                                46,
+                                                55,
+                                                66,
+                                                1,
+                                              ),
                                               groupValue: groupValue,
                                               onChanged: (v) {},
                                             ),
@@ -84,7 +93,13 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                           children: [
                                             Text("Oldest"),
                                             Radio(
-                                              value: "2", activeColor: Color.fromRGBO(46, 55, 66, 1,),
+                                              value: "2",
+                                              activeColor: Color.fromRGBO(
+                                                46,
+                                                55,
+                                                66,
+                                                1,
+                                              ),
                                               groupValue: groupValue,
                                               onChanged: (v) {},
                                             ),
@@ -95,7 +110,8 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                           children: [
                                             Text("Price: High to low"),
                                             Radio(
-                                              value: "3", activeColor: Color.fromRGBO(46, 55, 66, 1),
+                                              value: "3",
+                                              activeColor: Color.fromRGBO(46, 55, 66, 1),
                                               groupValue: groupValue,
                                               onChanged: (v) {},
                                             ),
@@ -106,7 +122,6 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                           children: [
                                             Text("Price: Low to high"),
                                             Radio(
-
                                               value: "4",
                                               activeColor: Color.fromRGBO(46, 55, 66, 1),
                                               groupValue: groupValue,
@@ -117,10 +132,8 @@ class _SalesMainPageState extends State<SalesMainPage> {
                                         Gap(16),
                                         Container(
                                           decoration: BoxDecoration(
-                                            color: Color.fromRGBO(46, 55, 66, 1),
-                                            borderRadius: BorderRadius.circular(6)
-                                          ),
-                                          
+                                              color: Color.fromRGBO(46, 55, 66, 1),
+                                              borderRadius: BorderRadius.circular(6)),
                                           padding: EdgeInsets.symmetric(vertical: 16),
                                           child: Center(
                                             child: Text(
@@ -177,7 +190,12 @@ class _SalesMainPageState extends State<SalesMainPage> {
                               ),
                               borderRadius: BorderRadius.circular(2),
                             ),
-                            child: Icon(Icons.filter_alt_outlined),
+                            child: GestureDetector(
+                              onTap: (){
+                                
+                              },
+                              child: Icon(Icons.filter_alt_outlined),
+                            ),
                           ),
                         ],
                       )
