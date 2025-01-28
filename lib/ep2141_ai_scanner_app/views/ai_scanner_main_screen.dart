@@ -43,15 +43,18 @@ class _AiScannerMainScreenState extends State<AiScannerMainScreen> {
                 child: Placeholder(),
               ),
               Container(
-
                 decoration: BoxDecoration(
                   color: Colors.blue,
                 ),
                 child: Row(
                   children: [
-                    IconButton(onPressed: (){}, icon: Icon(Icons.search))
+                    IconButton(onPressed: () {}, icon: Icon(Icons.search)),
+                    Expanded(child: TextField()),
+                    IconButton(
+                      onPressed: () {},
+                      icon: Icon(Icons.mic),
+                    ),
                   ],
-
                 ),
               ),
             ],
