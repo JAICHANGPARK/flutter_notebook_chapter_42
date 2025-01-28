@@ -14,7 +14,30 @@ class _AiScannerMainScreenState extends State<AiScannerMainScreen> {
       backgroundColor: Color.fromRGBO(242, 242, 242, 1),
       body: SafeArea(
         child: Column(
-          children: [],
+          children: [
+            Padding(
+              padding: const EdgeInsets.fromLTRB(
+                16,
+                32,
+                16,
+                0,
+              ),
+              child: Row(
+                children: [
+                  IconButton(
+                    onPressed: () {},
+                    icon: Icon(Icons.info_outline),
+                  ),
+                  Badge(
+                    child: Icon(
+                      Icons.notifications_none,
+                    ),
+                    label: Text("5"),
+                  ),
+                ],
+              ),
+            )
+          ],
         ),
       ),
     );
