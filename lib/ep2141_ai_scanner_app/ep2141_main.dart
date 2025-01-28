@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'views/ai_scanner_main_screen.dart';
+
 void main() {
   runApp(AiScannerApp());
 }
