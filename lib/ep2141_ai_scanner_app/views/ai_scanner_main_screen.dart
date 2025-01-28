@@ -19,7 +19,7 @@ class _AiScannerMainScreenState extends State<AiScannerMainScreen> {
               padding: const EdgeInsets.fromLTRB(
                 16,
                 32,
-                16,
+                24,
                 0,
               ),
               child: Row(
