@@ -52,7 +52,9 @@ class _AiScannerMainScreenState extends State<AiScannerMainScreen> {
                       onPressed: () {},
                       icon: Icon(Icons.search),
                     ),
-                    Expanded(child: TextField()),
+                    Expanded(
+                      child: TextField(),
+                    ),
                     IconButton(
                       onPressed: () {},
                       icon: Icon(Icons.mic),
