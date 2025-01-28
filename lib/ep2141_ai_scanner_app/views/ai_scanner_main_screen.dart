@@ -14,6 +14,7 @@ class _AiScannerMainScreenState extends State<AiScannerMainScreen> {
       backgroundColor: Color.fromRGBO(242, 242, 242, 1),
       body: SafeArea(
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Padding(
               padding: const EdgeInsets.fromLTRB(
