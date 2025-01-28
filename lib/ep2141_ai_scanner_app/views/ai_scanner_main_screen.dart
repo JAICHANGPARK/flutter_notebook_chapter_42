@@ -23,6 +23,7 @@ class _AiScannerMainScreenState extends State<AiScannerMainScreen> {
                 0,
               ),
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   IconButton(
                     onPressed: () {},
