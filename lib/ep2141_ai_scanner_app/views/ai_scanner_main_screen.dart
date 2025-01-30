@@ -61,7 +61,12 @@ class _AiScannerMainScreenState extends State<AiScannerMainScreen> {
               ),
               Container(
                 height: 280,
-                child: Placeholder(),
+                child: Row(
+                  children: [
+                    Expanded(child: Placeholder(),),
+                    Expanded(child: Placeholder(),),
+                  ],
+                ),
               ),
               Container(
                 decoration: BoxDecoration(
