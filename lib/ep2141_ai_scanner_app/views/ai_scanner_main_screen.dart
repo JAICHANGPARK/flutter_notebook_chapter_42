@@ -228,11 +228,17 @@ class _AiScannerMainScreenState extends State<AiScannerMainScreen> {
                     Container(
                       height: 80,
                       child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Container(
-                            decoration: BoxDecoration(color: Colors.black),
+                            decoration: ShapeDecoration(
+                              shape: StadiumBorder(),
+                              color: Colors.black,
+                            ),
                             padding: EdgeInsets.all(4),
+
                             child: Row(
+                              spacing: 4,
                               children: [
                                 CircleAvatar(
                                   radius: 28,
