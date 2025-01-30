@@ -36,7 +36,9 @@ class _AiScannerMainScreenState extends State<AiScannerMainScreen> {
                   ),
                 ],
               ),
-              Spacer(),
+              Container(
+                height: 110,
+              ),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -206,6 +208,7 @@ class _AiScannerMainScreenState extends State<AiScannerMainScreen> {
                       child: TextField(
                         decoration: InputDecoration(
                           hintText: "Search",
+                          border: InputBorder.none,
                         ),
                       ),
                     ),
