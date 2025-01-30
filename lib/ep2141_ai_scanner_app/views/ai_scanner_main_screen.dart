@@ -67,7 +67,8 @@ class _AiScannerMainScreenState extends State<AiScannerMainScreen> {
                     Expanded(child: Column(
                       spacing: 8,
                       children: [
-
+                              Expanded(child: Placeholder()),
+                        Expanded(child: Placeholder()),
                       ],
                     )),
                     Expanded(child: Placeholder(),),
