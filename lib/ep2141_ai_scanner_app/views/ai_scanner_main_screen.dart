@@ -46,14 +46,17 @@ class _AiScannerMainScreenState extends State<AiScannerMainScreen> {
                       fontWeight: FontWeight.bold,
                       color: Color.fromRGBO(115, 120, 119, 1),
                       fontSize: 42,
+                      height: 1.2,
                     ),
                   ),
-                  Text("How can I help\nyou today?",
+                  Text(
+                    "How can I help\nyou today?",
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 42,
-                      height: 1.2
-                    ),),
+                      height: 1.2,
+                    ),
+                  ),
                 ],
               ),
               Container(
