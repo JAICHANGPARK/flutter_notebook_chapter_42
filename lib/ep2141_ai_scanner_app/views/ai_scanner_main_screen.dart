@@ -69,18 +69,34 @@ class _AiScannerMainScreenState extends State<AiScannerMainScreen> {
                         child: Column(
                       spacing: 8,
                       children: [
-                        Expanded(child: Placeholder()),
+                        Expanded(
+                            child: Container(
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(16),
+
+                          ),
+                              width: double.infinity,
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Icon(Icons.document_scanner_outlined),
+                                  Text("Scan"),
+                                  Text("Documents, ID cards...",)
+                                ],
+                              ),
+                        )),
                         Expanded(child: Placeholder()),
                       ],
                     )),
                     Expanded(
                         child: Column(
-                          spacing: 8,
-                          children: [
-                            Expanded(child: Placeholder()),
-                            Expanded(child: Placeholder()),
-                          ],
-                        )),
+                      spacing: 8,
+                      children: [
+                        Expanded(child: Placeholder()),
+                        Expanded(child: Placeholder()),
+                      ],
+                    )),
                   ],
                 ),
               ),
