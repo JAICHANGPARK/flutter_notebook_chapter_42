@@ -44,6 +44,8 @@ class _AiScannerMainScreenState extends State<AiScannerMainScreen> {
                     "Hi Dream,",
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
+                      color: Color.fromRGBO(115, 120, 119, 1),
+                      fontSize: 32,
                     ),
                   ),
                   Text("How can I help\nyou today?"),
