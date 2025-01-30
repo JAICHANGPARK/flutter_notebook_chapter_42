@@ -190,7 +190,7 @@ class _AiScannerMainScreenState extends State<AiScannerMainScreen> {
               ),
               Container(
                 decoration: BoxDecoration(
-                  color: Colors.blue,
+                  // color: Colors.blue,
                   border: Border.all(
                     color: Colors.grey,
                   ),
@@ -203,7 +203,11 @@ class _AiScannerMainScreenState extends State<AiScannerMainScreen> {
                       icon: Icon(Icons.search),
                     ),
                     Expanded(
-                      child: TextField(),
+                      child: TextField(
+                        decoration: InputDecoration(
+                          hintText: "Search",
+                        ),
+                      ),
                     ),
                     IconButton(
                       onPressed: () {},
