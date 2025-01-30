@@ -48,7 +48,12 @@ class _AiScannerMainScreenState extends State<AiScannerMainScreen> {
                       fontSize: 42,
                     ),
                   ),
-                  Text("How can I help\nyou today?"),
+                  Text("How can I help\nyou today?",
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 42,
+                      height: 1.2
+                    ),),
                 ],
               ),
               Container(
