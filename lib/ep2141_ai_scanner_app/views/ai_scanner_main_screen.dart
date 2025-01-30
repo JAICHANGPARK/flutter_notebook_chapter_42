@@ -235,11 +235,11 @@ class _AiScannerMainScreenState extends State<AiScannerMainScreen> {
                             child: Row(
                               children: [
                                 CircleAvatar(
-                                  radius: 32,
+                                  radius: 28,
                                   backgroundColor: Colors.white,
                                 ),
                                 CircleAvatar(
-                                  radius: 32,
+                                  radius: 28,
                                   backgroundColor: Colors.grey,
                                 ),
                               ],
