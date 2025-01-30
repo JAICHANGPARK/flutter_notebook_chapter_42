@@ -238,14 +238,14 @@ class _AiScannerMainScreenState extends State<AiScannerMainScreen> {
                             padding: EdgeInsets.all(4),
 
                             child: Row(
-                              spacing: 4,
+                              spacing: 8,
                               children: [
                                 CircleAvatar(
-                                  radius: 28,
+                                  radius: 26,
                                   backgroundColor: Colors.white,
                                 ),
                                 CircleAvatar(
-                                  radius: 28,
+                                  radius: 26,
                                   backgroundColor: Colors.white.withValues(alpha: .3),
                                 ),
                               ],
