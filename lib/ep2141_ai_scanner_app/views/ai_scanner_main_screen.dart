@@ -96,15 +96,93 @@ class _AiScannerMainScreenState extends State<AiScannerMainScreen> {
                             ],
                           ),
                         )),
-                        Expanded(child: Placeholder()),
+                        Expanded(
+                            child: Container(
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                                borderRadius: BorderRadius.circular(16),
+                              ),
+                              width: double.infinity,
+                              padding: EdgeInsets.all(16),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  Icon(Icons.document_scanner_outlined),
+                                  Gap(12),
+                                  Text(
+                                    "Edit",
+                                    style: TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                  Text(
+                                    "Documents, ID cards...",
+                                  )
+                                ],
+                              ),
+                            )),
                       ],
                     )),
                     Expanded(
                         child: Column(
                       spacing: 8,
                       children: [
-                        Expanded(child: Placeholder()),
-                        Expanded(child: Placeholder()),
+                        Expanded(
+                            child: Container(
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                                borderRadius: BorderRadius.circular(16),
+                              ),
+                              width: double.infinity,
+                              padding: EdgeInsets.all(16),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  Icon(Icons.document_scanner_outlined),
+                                  Gap(12),
+                                  Text(
+                                    "Convert",
+                                    style: TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                  Text(
+                                    "Documents, ID cards...",
+                                  )
+                                ],
+                              ),
+                            )),
+                        Expanded(
+                            child: Container(
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                                borderRadius: BorderRadius.circular(16),
+                              ),
+                              width: double.infinity,
+                              padding: EdgeInsets.all(16),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  Icon(Icons.document_scanner_outlined),
+                                  Gap(12),
+                                  Text(
+                                    "Ask AI",
+                                    style: TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                  Text(
+                                    "Documents, ID cards...",
+                                  )
+                                ],
+                              ),
+                            )),
                       ],
                     )),
                   ],
