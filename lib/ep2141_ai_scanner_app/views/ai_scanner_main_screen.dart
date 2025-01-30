@@ -98,31 +98,31 @@ class _AiScannerMainScreenState extends State<AiScannerMainScreen> {
                         )),
                         Expanded(
                             child: Container(
-                              decoration: BoxDecoration(
-                                color: Colors.white,
-                                borderRadius: BorderRadius.circular(16),
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(16),
+                          ),
+                          width: double.infinity,
+                          padding: EdgeInsets.all(16),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Icon(Icons.document_scanner_outlined),
+                              Gap(12),
+                              Text(
+                                "Edit",
+                                style: TextStyle(
+                                  fontSize: 18,
+                                  fontWeight: FontWeight.bold,
+                                ),
                               ),
-                              width: double.infinity,
-                              padding: EdgeInsets.all(16),
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: [
-                                  Icon(Icons.document_scanner_outlined),
-                                  Gap(12),
-                                  Text(
-                                    "Edit",
-                                    style: TextStyle(
-                                      fontSize: 18,
-                                      fontWeight: FontWeight.bold,
-                                    ),
-                                  ),
-                                  Text(
-                                    "Documents, ID cards...",
-                                  )
-                                ],
-                              ),
-                            )),
+                              Text(
+                                "Documents, ID cards...",
+                              )
+                            ],
+                          ),
+                        )),
                       ],
                     )),
                     Expanded(
@@ -131,58 +131,58 @@ class _AiScannerMainScreenState extends State<AiScannerMainScreen> {
                       children: [
                         Expanded(
                             child: Container(
-                              decoration: BoxDecoration(
-                                color: Colors.white,
-                                borderRadius: BorderRadius.circular(16),
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(16),
+                          ),
+                          width: double.infinity,
+                          padding: EdgeInsets.all(16),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Icon(Icons.document_scanner_outlined),
+                              Gap(12),
+                              Text(
+                                "Convert",
+                                style: TextStyle(
+                                  fontSize: 18,
+                                  fontWeight: FontWeight.bold,
+                                ),
                               ),
-                              width: double.infinity,
-                              padding: EdgeInsets.all(16),
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: [
-                                  Icon(Icons.document_scanner_outlined),
-                                  Gap(12),
-                                  Text(
-                                    "Convert",
-                                    style: TextStyle(
-                                      fontSize: 18,
-                                      fontWeight: FontWeight.bold,
-                                    ),
-                                  ),
-                                  Text(
-                                    "Documents, ID cards...",
-                                  )
-                                ],
-                              ),
-                            )),
+                              Text(
+                                "Documents, ID cards...",
+                              )
+                            ],
+                          ),
+                        )),
                         Expanded(
                             child: Container(
-                              decoration: BoxDecoration(
-                                color: Colors.white,
-                                borderRadius: BorderRadius.circular(16),
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(16),
+                          ),
+                          width: double.infinity,
+                          padding: EdgeInsets.all(16),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Icon(Icons.document_scanner_outlined),
+                              Gap(12),
+                              Text(
+                                "Ask AI",
+                                style: TextStyle(
+                                  fontSize: 18,
+                                  fontWeight: FontWeight.bold,
+                                ),
                               ),
-                              width: double.infinity,
-                              padding: EdgeInsets.all(16),
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: [
-                                  Icon(Icons.document_scanner_outlined),
-                                  Gap(12),
-                                  Text(
-                                    "Ask AI",
-                                    style: TextStyle(
-                                      fontSize: 18,
-                                      fontWeight: FontWeight.bold,
-                                    ),
-                                  ),
-                                  Text(
-                                    "Documents, ID cards...",
-                                  )
-                                ],
-                              ),
-                            )),
+                              Text(
+                                "Documents, ID cards...",
+                              )
+                            ],
+                          ),
+                        )),
                       ],
                     )),
                   ],
@@ -191,6 +191,10 @@ class _AiScannerMainScreenState extends State<AiScannerMainScreen> {
               Container(
                 decoration: BoxDecoration(
                   color: Colors.blue,
+                  border: Border.all(
+                    color: Colors.grey,
+                  ),
+                  borderRadius: BorderRadius.circular(24),
                 ),
                 child: Row(
                   children: [
