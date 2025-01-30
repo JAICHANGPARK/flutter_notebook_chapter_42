@@ -64,14 +64,22 @@ class _AiScannerMainScreenState extends State<AiScannerMainScreen> {
                 child: Row(
                   spacing: 8,
                   children: [
-                    Expanded(child: Column(
+                    Expanded(
+                        child: Column(
                       spacing: 8,
                       children: [
-                              Expanded(child: Placeholder()),
+                        Expanded(child: Placeholder()),
                         Expanded(child: Placeholder()),
                       ],
                     )),
-                    Expanded(child: Placeholder(),),
+                    Expanded(
+                        child: Column(
+                          spacing: 8,
+                          children: [
+                            Expanded(child: Placeholder()),
+                            Expanded(child: Placeholder()),
+                          ],
+                        )),
                   ],
                 ),
               ),
