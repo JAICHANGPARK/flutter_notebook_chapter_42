@@ -246,7 +246,7 @@ class _AiScannerMainScreenState extends State<AiScannerMainScreen> {
                                 ),
                                 CircleAvatar(
                                   radius: 28,
-                                  backgroundColor: Colors.grey,
+                                  backgroundColor: Colors.white.withValues(alpha: .3),
                                 ),
                               ],
                             ),
