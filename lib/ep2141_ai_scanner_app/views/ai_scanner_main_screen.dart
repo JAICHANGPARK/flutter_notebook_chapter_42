@@ -79,6 +79,7 @@ class _AiScannerMainScreenState extends State<AiScannerMainScreen> {
                           padding: EdgeInsets.all(16),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
+                            mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Icon(Icons.document_scanner_outlined),
                               Gap(12),
