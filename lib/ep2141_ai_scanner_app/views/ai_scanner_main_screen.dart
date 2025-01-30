@@ -231,8 +231,22 @@ class _AiScannerMainScreenState extends State<AiScannerMainScreen> {
                         children: [
                           Container(
                             decoration: BoxDecoration(color: Colors.black),
+                            padding: EdgeInsets.all(4),
+                            child: Row(
+                              children: [
+                                CircleAvatar(
+                                  radius: 32,
+                                  backgroundColor: Colors.white,
+                                ),
+                                CircleAvatar(
+                                  radius: 32,
+                                  backgroundColor: Colors.grey,
+                                ),
+                              ],
+                            ),
                           ),
                           CircleAvatar(
+                            radius: 32,
                             backgroundColor: Colors.black,
                             foregroundColor: Colors.white,
                             child: Icon(
