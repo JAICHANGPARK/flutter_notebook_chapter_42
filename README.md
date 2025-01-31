@@ -2,7 +2,7 @@
 
 ## EP2143
 
-- AI Scanner App
+- Order Food Mobile App
 - Nixtio
 - https://dribbble.com/shots/25533043-AI-Scanner-App
 
