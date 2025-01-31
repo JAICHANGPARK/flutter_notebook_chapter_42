@@ -27,20 +27,22 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                     child: IconButton(onPressed: () {}, icon: Icon(Icons.menu)),
                   ),
                   Expanded(
-                      child: Center(
-                    child: Container(
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        spacing: 8,
-                        children: [
-                          Container(
-                            child: Text("Dine In"),
-                          ),
-                          Container(
-                            child: Text("Take Away"),
-                          )
-                        ],
-                      ),
+                      child: Container(
+                    decoration: BoxDecoration(
+                      color: Colors.grey[100]!,
+                    ),
+                    child: Row(
+                      mainAxisSize: MainAxisSize.min,
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      spacing: 8,
+                      children: [
+                        Container(
+                          child: Text("Dine In"),
+                        ),
+                        Container(
+                          child: Text("Take Away"),
+                        )
+                      ],
                     ),
                   )),
                   Container(
@@ -96,11 +98,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
               Expanded(
                 child: GridView.builder(
                   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: 2,
-                    crossAxisSpacing: 16,
-                    mainAxisSpacing: 16,
-                    childAspectRatio: .9
-                  ),
+                      crossAxisCount: 2, crossAxisSpacing: 16, mainAxisSpacing: 16, childAspectRatio: .9),
                   itemBuilder: (context, index) {
                     return Placeholder();
                   },
