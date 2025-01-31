@@ -20,9 +20,10 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
               Row(
                 children: [
                   Container(
-                    child: IconButton(onPressed: (){}, icon: Icon(Icons.menu)),
+                    child: IconButton(onPressed: () {}, icon: Icon(Icons.menu)),
                   ),
-                  Expanded(child: Center(
+                  Expanded(
+                      child: Center(
                     child: Container(
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
@@ -34,14 +35,25 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                           Container(
                             child: Text("Take Away"),
                           )
-
                         ],
                       ),
                     ),
                   )),
                   Container(
-                    child: Badge(child: Icon(Icons.notifications_active_outlined),),
+                    child: Badge(
+                      child: Icon(Icons.notifications_active_outlined),
+                    ),
                   ),
+                ],
+              ),
+              Row(
+                children: [
+                  Expanded(
+                      child: Container(
+                    decoration: BoxDecoration(
+                      color: Colors.grey[200]!,
+                    ),
+                  ))
                 ],
               )
             ],
