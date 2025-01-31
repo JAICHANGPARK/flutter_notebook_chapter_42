@@ -1,7 +1,4 @@
-
-
 import 'package:flutter/material.dart';
-
 
 class FoodOrderHomePage extends StatefulWidget {
   const FoodOrderHomePage({super.key});
