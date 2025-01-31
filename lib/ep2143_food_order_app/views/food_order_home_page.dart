@@ -30,7 +30,8 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                       child: Center(
                     child: Container(
                       height: 42,
-                      decoration: BoxDecoration(
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(),
                         color: Colors.grey[100]!,
                       ),
                       padding: EdgeInsets.symmetric(horizontal: 4, vertical: 4),
