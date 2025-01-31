@@ -6,7 +6,7 @@
 - Fireart UI/UX for Fireart Studio
 - https://dribbble.com/shots/25556762-Order-Food-Mobile-App
 
-<img src="https://cdn.dribbble.com/userupload/19253467/file/original-f61ad4c1ae2a222cdd4da78082ff7a7b.png?resize=1905x1429&vertical=center"/>
+<img src="https://cdn.dribbble.com/userupload/19844772/file/original-7d72cebefdc5a79088d96d96053395b7.jpg?resize=1905x1429&vertical=center"/>
 
 ## EP2141-2142
 
