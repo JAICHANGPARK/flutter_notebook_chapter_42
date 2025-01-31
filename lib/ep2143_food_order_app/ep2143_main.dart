@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'views/food_order_home_page.dart';
+
 void main() {
   runApp(FoodOrderApp());
 }
@@ -10,7 +12,7 @@ class FoodOrderApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-
+      home: FoodOrderHomePage(),
     );
   }
 }
