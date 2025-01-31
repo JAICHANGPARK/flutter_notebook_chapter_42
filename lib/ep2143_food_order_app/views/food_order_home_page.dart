@@ -27,22 +27,25 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                     child: IconButton(onPressed: () {}, icon: Icon(Icons.menu)),
                   ),
                   Expanded(
-                      child: Container(
-                    decoration: BoxDecoration(
-                      color: Colors.grey[100]!,
-                    ),
-                    child: Row(
-                      mainAxisSize: MainAxisSize.min,
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      spacing: 8,
-                      children: [
-                        Container(
-                          child: Text("Dine In"),
-                        ),
-                        Container(
-                          child: Text("Take Away"),
-                        )
-                      ],
+                      child: Center(
+                    child: Container(
+                      decoration: BoxDecoration(
+                        color: Colors.grey[100]!,
+                      ),
+                      padding: EdgeInsets.symmetric(horizontal: 4, vertical: 4),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        spacing: 8,
+                        children: [
+                          Container(
+                            child: Text("Dine In"),
+                          ),
+                          Container(
+                            child: Text("Take Away"),
+                          )
+                        ],
+                      ),
                     ),
                   )),
                   Container(
