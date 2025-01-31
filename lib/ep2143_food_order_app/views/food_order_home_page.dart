@@ -62,28 +62,43 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                     )),
                     Expanded(
                         child: Container(
-                          decoration: BoxDecoration(
-                            color: Colors.grey[200]!,
-                          ),
-                        )),
+                      decoration: BoxDecoration(
+                        color: Colors.grey[200]!,
+                      ),
+                    )),
                     Expanded(
                         child: Container(
-                          decoration: BoxDecoration(
-                            color: Colors.grey[200]!,
-                          ),
-                        )),
+                      decoration: BoxDecoration(
+                        color: Colors.grey[200]!,
+                      ),
+                    )),
                     Expanded(
                         child: Container(
-                          decoration: BoxDecoration(
-                            color: Colors.grey[200]!,
-                          ),
-                        ))
+                      decoration: BoxDecoration(
+                        color: Colors.grey[200]!,
+                      ),
+                    ))
                   ],
                 ),
               ),
               Container(
                 height: 140,
                 child: Placeholder(),
+              ),
+              Text(
+                "Top Rated Food",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 16,
+                ),
+              ),
+              Expanded(
+                child: GridView.builder(
+                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount: 2,
+                  ),
+                  itemBuilder: (context, index) {},
+                ),
               )
             ],
           ),
