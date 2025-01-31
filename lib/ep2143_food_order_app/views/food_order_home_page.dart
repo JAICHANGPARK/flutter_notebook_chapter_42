@@ -29,6 +29,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                   Expanded(
                       child: Center(
                     child: Container(
+                      height: 42,
                       decoration: BoxDecoration(
                         color: Colors.grey[100]!,
                       ),
@@ -39,9 +40,15 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                         spacing: 8,
                         children: [
                           Container(
+                            padding: EdgeInsets.symmetric(
+                              horizontal: 16,
+                            ),
                             child: Text("Dine In"),
                           ),
                           Container(
+                            padding: EdgeInsets.symmetric(
+                              horizontal: 16,
+                            ),
                             child: Text("Take Away"),
                           )
                         ],
