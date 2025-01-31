@@ -1,6 +1,14 @@
 # flutter_notebook_chapter_42
 
-## EP2141
+## EP2143
+
+- AI Scanner App
+- Nixtio
+- https://dribbble.com/shots/25533043-AI-Scanner-App
+
+<img src="https://cdn.dribbble.com/userupload/19253467/file/original-f61ad4c1ae2a222cdd4da78082ff7a7b.png?resize=1905x1429&vertical=center"/>
+
+## EP2141-2142
 
 - AI Scanner App
 - Nixtio
