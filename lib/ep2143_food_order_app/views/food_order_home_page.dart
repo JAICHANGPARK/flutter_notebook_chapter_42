@@ -11,6 +11,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: SafeArea(
         child: Column(
           children: [
@@ -18,7 +19,21 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
               children: [
                 Container(
                   child: IconButton(onPressed: (){}, icon: Icon(Icons.menu)),
-                )
+                ),
+                Expanded(child: Container(
+                  child: Row(
+                    spacing: 8,
+                    children: [
+                      Container(
+                        child: Text("Dine In"),
+                      ),
+                      Container(
+                        child: Text("Take Away"),
+                      )
+                      
+                    ],
+                  ),
+                ))
               ],
             )
           ],
