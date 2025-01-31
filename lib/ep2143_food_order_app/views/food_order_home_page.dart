@@ -47,7 +47,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                 ],
               ),
               Container(
-                height: 80,
+                height: 92,
                 child: Row(
                   spacing: 8,
                   children: [
@@ -77,6 +77,10 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                         ))
                   ],
                 ),
+              ),
+              Container(
+                height: 140,
+                child: Placeholder(),
               )
             ],
           ),
