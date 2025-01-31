@@ -97,8 +97,13 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                 child: GridView.builder(
                   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 2,
+                    crossAxisSpacing: 16,
+                    mainAxisSpacing: 16,
+                    childAspectRatio: .9
                   ),
-                  itemBuilder: (context, index) {},
+                  itemBuilder: (context, index) {
+                    return Placeholder();
+                  },
                 ),
               )
             ],
