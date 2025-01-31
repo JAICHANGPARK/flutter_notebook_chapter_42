@@ -17,9 +17,9 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
         child: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Column(
-            spacing: 16,
+            spacing: 20,
             children: [
-              Gap(24),
+              Gap(16),
               Row(
                 children: [
                   Container(
