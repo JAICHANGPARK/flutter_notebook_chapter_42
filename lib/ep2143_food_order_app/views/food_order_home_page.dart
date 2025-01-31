@@ -20,18 +20,21 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                 Container(
                   child: IconButton(onPressed: (){}, icon: Icon(Icons.menu)),
                 ),
-                Expanded(child: Container(
-                  child: Row(
-                    spacing: 8,
-                    children: [
-                      Container(
-                        child: Text("Dine In"),
-                      ),
-                      Container(
-                        child: Text("Take Away"),
-                      )
-                      
-                    ],
+                Expanded(child: Center(
+                  child: Container(
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      spacing: 8,
+                      children: [
+                        Container(
+                          child: Text("Dine In"),
+                        ),
+                        Container(
+                          child: Text("Take Away"),
+                        )
+
+                      ],
+                    ),
                   ),
                 ))
               ],
