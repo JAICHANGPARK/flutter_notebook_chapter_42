@@ -44,6 +44,9 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                             padding: EdgeInsets.symmetric(
                               horizontal: 16,
                             ),
+                            decoration: ShapeDecoration(
+                              shape: StadiumBorder(),
+                            ),
                             child: Text("Dine In"),
                           ),
                           Container(
