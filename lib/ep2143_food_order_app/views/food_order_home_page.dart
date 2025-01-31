@@ -46,15 +46,37 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                   ),
                 ],
               ),
-              Row(
-                children: [
-                  Expanded(
-                      child: Container(
-                    decoration: BoxDecoration(
-                      color: Colors.grey[200]!,
-                    ),
-                  ))
-                ],
+              Container(
+                height: 80,
+                child: Row(
+                  spacing: 8,
+                  children: [
+                    Expanded(
+                        child: Container(
+                      decoration: BoxDecoration(
+                        color: Colors.grey[200]!,
+                      ),
+                    )),
+                    Expanded(
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: Colors.grey[200]!,
+                          ),
+                        )),
+                    Expanded(
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: Colors.grey[200]!,
+                          ),
+                        )),
+                    Expanded(
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: Colors.grey[200]!,
+                          ),
+                        ))
+                  ],
+                ),
               )
             ],
           ),
