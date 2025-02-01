@@ -187,9 +187,15 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
               ),
               Container(
                 height: 140,
+                decoration: BoxDecoration(
+                  color: Colors.yellow,
+                ),
                 child: Stack(
                   children: [
                     Positioned(
+                      left: 12,
+                      top: 12,
+                      bottom: 12,
                       child: Column(
                         children: [],
                       ),
