@@ -50,12 +50,13 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                               color: Colors.white,
                             ),
                             child: Center(
-                                child: Text(
-                              "Dine In",
-                              style: TextStyle(
-                                fontWeight: FontWeight.bold,
+                              child: Text(
+                                "Dine In",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                ),
                               ),
-                            )),
+                            ),
                           ),
                           Container(
                             padding: EdgeInsets.symmetric(
