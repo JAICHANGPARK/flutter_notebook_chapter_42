@@ -164,11 +164,12 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                       ),
                     ),
                     Expanded(
-                        child: Container(
-                      decoration: BoxDecoration(
-                        color: Colors.grey[200]!,
+                      child: Container(
+                        decoration: BoxDecoration(
+                          color: Colors.grey[200]!,
+                        ),
                       ),
-                    ))
+                    )
                   ],
                 ),
               ),
