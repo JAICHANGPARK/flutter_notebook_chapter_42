@@ -207,7 +207,11 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                           Container(
                             decoration: BoxDecoration(
                               color: Colors.black,
-                              
+                              bor
+                            ),
+                            padding: EdgeInsets.symmetric(
+                              horizontal: 12,
+                              vertical: 4,
                             ),
                             child: Text("Get 20% Off"),
                           )
