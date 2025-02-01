@@ -83,6 +83,18 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                     ),
                   )),
                   Container(
+                    padding: EdgeInsets.all(12),
+                    decoration: BoxDecoration(
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.grey[100]!,
+                          blurRadius: 3,
+                          spreadRadius: 3,
+                        ),
+                      ],
+                      color: Colors.white,
+                      shape: BoxShape.circle,
+                    ),
                     child: Badge(
                       child: Icon(Icons.notifications_active_outlined),
                     ),
