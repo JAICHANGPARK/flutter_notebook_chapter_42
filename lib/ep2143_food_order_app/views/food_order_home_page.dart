@@ -149,6 +149,18 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                         decoration: BoxDecoration(
                           color: Colors.grey[200]!,
                         ),
+                        child: Column(
+                          spacing: 6,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                            ),
+                            Text(
+                              "Promo",
+                            )
+                          ],
+                        ),
                       ),
                     ),
                     Expanded(
