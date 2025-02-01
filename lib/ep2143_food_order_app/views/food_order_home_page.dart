@@ -204,6 +204,13 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                             "Best Deal For Today",
                           ),
                           Text("Grab our mouthwatering burger\ndeal before it's gone!"),
+                          Container(
+                            decoration: BoxDecoration(
+                              color: Colors.black,
+                              
+                            ),
+                            child: Text("Get 20% Off"),
+                          )
                         ],
                       ),
                     )
