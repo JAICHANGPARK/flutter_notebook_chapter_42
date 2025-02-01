@@ -28,8 +28,10 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                       boxShadow: [
                         BoxShadow(
                           color: Colors.grey[50]!,
-                        )
+                        ),
                       ],
+                      color: Colors.white,
+                      shape: BoxShape.circle,
                     ),
                     child: IconButton(
                       onPressed: () {},
