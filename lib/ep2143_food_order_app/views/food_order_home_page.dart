@@ -187,7 +187,15 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
               ),
               Container(
                 height: 140,
-                child: Placeholder(),
+                child: Stack(
+                  children: [
+                    Positioned(
+                      child: Column(
+                        children: [],
+                      ),
+                    )
+                  ],
+                ),
               ),
               Text(
                 "Top Rated Food",
