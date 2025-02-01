@@ -27,7 +27,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                     decoration: BoxDecoration(
                       boxShadow: [
                         BoxShadow(
-                          color: Colors.grey[50]!,
+                          color: Colors.grey[100]!,
                           blurRadius: 3,
                           spreadRadius: 3,
                         ),
