@@ -24,12 +24,13 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
               Row(
                 children: [
                   Container(
-                    decoration: BoxDecoration(boxShadow: [
-                      BoxShadow(
-                        color: Colors.grey[50]!,
-
-                      )
-                    ]),
+                    decoration: BoxDecoration(
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.grey[50]!,
+                        )
+                      ],
+                    ),
                     child: IconButton(
                       onPressed: () {},
                       icon: Icon(Icons.menu),
