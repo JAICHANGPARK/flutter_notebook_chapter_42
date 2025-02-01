@@ -190,7 +190,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                 ),
               ),
               Container(
-                height: 140,
+                height: 150,
                 decoration: BoxDecoration(
                   color: Colors.yellow,
                   borderRadius: BorderRadius.circular(12),
@@ -243,7 +243,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                 "Top Rated Food",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  fontSize: 16,
+                  fontSize: 18,
                 ),
               ),
               Expanded(
