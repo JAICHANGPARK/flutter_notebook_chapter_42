@@ -198,6 +198,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                       top: 12,
                       bottom: 12,
                       child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
                             "Best Deal For Today",
