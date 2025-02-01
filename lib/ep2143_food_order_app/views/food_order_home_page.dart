@@ -211,7 +211,11 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                               fontSize: 20,
                             ),
                           ),
-                          Text("Grab our mouthwatering burger\ndeal before it's gone!"),
+                          Text("Grab our mouthwatering burger\ndeal before it's gone!",
+                            style: TextStyle(
+                              fontSize: 12,
+                            ),
+                          ),
                           Container(
                             decoration: BoxDecoration(
                               color: Colors.black,
