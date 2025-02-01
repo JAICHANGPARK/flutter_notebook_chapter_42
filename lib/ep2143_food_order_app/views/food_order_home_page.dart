@@ -202,6 +202,9 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                         children: [
                           Text(
                             "Best Deal For Today",
+                            style: TextStyle(
+                              fontSize: 20,
+                            ),
                           ),
                           Text("Grab our mouthwatering burger\ndeal before it's gone!"),
                           Container(
