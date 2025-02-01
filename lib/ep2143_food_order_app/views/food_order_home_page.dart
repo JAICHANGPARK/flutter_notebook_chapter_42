@@ -187,7 +187,10 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
               ),
               Container(
                 height: 140,
-                decoration: BoxDecoration(color: Colors.yellow, borderRadius: BorderRadius.circular(12)),
+                decoration: BoxDecoration(
+                  color: Colors.yellow,
+                  borderRadius: BorderRadius.circular(12),
+                ),
                 child: Stack(
                   children: [
                     Positioned(
@@ -199,9 +202,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                           Text(
                             "Best Deal For Today",
                           ),
-                          Text(
-                            "Grab our mouthwatering burger"
-                          )
+                          Text("Grab our mouthwatering burger")
                         ],
                       ),
                     )
