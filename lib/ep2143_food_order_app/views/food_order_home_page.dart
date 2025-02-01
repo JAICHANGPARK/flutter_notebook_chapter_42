@@ -28,6 +28,8 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                       boxShadow: [
                         BoxShadow(
                           color: Colors.grey[50]!,
+                          blurRadius: 3,
+                          spreadRadius: 3,
                         ),
                       ],
                       color: Colors.white,
