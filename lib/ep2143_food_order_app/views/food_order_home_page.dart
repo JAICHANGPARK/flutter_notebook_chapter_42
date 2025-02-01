@@ -109,7 +109,8 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                     Expanded(
                       child: Container(
                         decoration: BoxDecoration(
-                          color: Colors.grey[200]!, borderRadius: BorderRadius.circular(12),
+                          color: Colors.grey[200]!,
+                          borderRadius: BorderRadius.circular(12),
                         ),
                         child: Column(
                           spacing: 6,
@@ -128,7 +129,8 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                     Expanded(
                       child: Container(
                         decoration: BoxDecoration(
-                          color: Colors.grey[200]!, borderRadius: BorderRadius.circular(12),
+                          color: Colors.grey[200]!,
+                          borderRadius: BorderRadius.circular(12),
                         ),
                         child: Column(
                           spacing: 6,
@@ -147,7 +149,8 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                     Expanded(
                       child: Container(
                         decoration: BoxDecoration(
-                          color: Colors.grey[200]!, borderRadius: BorderRadius.circular(12),
+                          color: Colors.grey[200]!,
+                          borderRadius: BorderRadius.circular(12),
                         ),
                         child: Column(
                           spacing: 6,
@@ -215,10 +218,16 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                               borderRadius: BorderRadius.circular(24),
                             ),
                             padding: EdgeInsets.symmetric(
-                              horizontal: 12,
-                              vertical: 4,
+                              horizontal: 16,
+                              vertical: 6,
                             ),
-                            child: Text("Get 20% Off"),
+                            child: Text(
+                              "Get 20% Off",
+                              style: TextStyle(
+                                fontSize: 15,
+                                color: Colors.white,
+                              ),
+                            ),
                           )
                         ],
                       ),
