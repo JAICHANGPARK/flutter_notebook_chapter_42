@@ -49,7 +49,13 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                               shape: StadiumBorder(),
                               color: Colors.white,
                             ),
-                            child: Center(child: Text("Dine In")),
+                            child: Center(
+                                child: Text(
+                              "Dine In",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                              ),
+                            )),
                           ),
                           Container(
                             padding: EdgeInsets.symmetric(
