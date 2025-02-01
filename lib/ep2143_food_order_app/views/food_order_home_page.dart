@@ -203,7 +203,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                           Text(
                             "Best Deal For Today",
                           ),
-                          Text("Grab our mouthwatering burger")
+                          Text("Grab our mouthwatering burger\ndeal before it's gone!"),
                         ],
                       ),
                     )
