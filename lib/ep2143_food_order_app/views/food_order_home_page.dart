@@ -207,7 +207,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                           Container(
                             decoration: BoxDecoration(
                               color: Colors.black,
-                              bor
+                              borderRadius: BorderRadius.circular(24),
                             ),
                             padding: EdgeInsets.symmetric(
                               horizontal: 12,
