@@ -112,6 +112,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                           color: Colors.grey[200]!,
                         ),
                         child: Column(
+                          spacing: 6,
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             CircleAvatar(),
