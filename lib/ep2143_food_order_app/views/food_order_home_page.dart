@@ -128,7 +128,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                     Expanded(
                       child: Container(
                         decoration: BoxDecoration(
-                          color: Colors.grey[200]!,
+                          color: Colors.grey[200]!, borderRadius: BorderRadius.circular(12),
                         ),
                         child: Column(
                           spacing: 6,
