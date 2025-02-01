@@ -24,7 +24,10 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
               Row(
                 children: [
                   Container(
-                    child: IconButton(onPressed: () {}, icon: Icon(Icons.menu)),
+                    child: IconButton(
+                      onPressed: () {},
+                      icon: Icon(Icons.menu),
+                    ),
                   ),
                   Expanded(
                       child: Center(
