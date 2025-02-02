@@ -261,7 +261,9 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                         border: Border.all(
                           color: Colors.grey[200]!,
                         ),
+                        borderRadius: BorderRadius.circular(16),
                       ),
+                      padding: EdgeInsets.all(6),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
