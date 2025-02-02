@@ -290,13 +290,16 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                   borderRadius: BorderRadius.circular(24),
                                   color: Colors.grey[200],
                                 ),
-                                padding: Ed,
+                                padding: EdgeInsets.symmetric(horizontal: 2, vertical: 1),
                                 child: Row(
                                   spacing: 8,
                                   children: [
                                     CircleAvatar(
                                       radius: 12,
                                       backgroundColor: Colors.white,
+                                      child: Icon(
+                                        Icons.remove,
+                                      ),
                                     ),
                                     Text("1"),
                                     CircleAvatar(
