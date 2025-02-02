@@ -280,11 +280,26 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                 style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   fontSize: 20,
+                                  color: Colors.green,
                                 ),
                               ),
                               Container(
                                 decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(24),
+                                  color: Colors.grey[200],
+                                ),
+                                child: Row(
+                                  children: [
+                                    CircleAvatar(
+                                      radius: 12,
+                                      backgroundColor: Colors.white,
+                                    ),
+                                    Text("1"),
+                                    CircleAvatar(
+                                      radius: 12,
+                                      backgroundColor: Colors.white,
+                                    ),
+                                  ],
                                 ),
                               )
                             ],
