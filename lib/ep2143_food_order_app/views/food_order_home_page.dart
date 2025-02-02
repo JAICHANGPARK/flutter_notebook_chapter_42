@@ -271,6 +271,17 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                             child: Container(
                               color: Colors.grey,
                             ),
+                          ),
+                          Text("Mushroom Pizza"),
+                          Row(
+                            children: [
+                              Text(
+                                "\$12.99",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            ],
                           )
                         ],
                       ),
