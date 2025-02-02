@@ -299,12 +299,17 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                       backgroundColor: Colors.white,
                                       child: Icon(
                                         Icons.remove,
+                                        size: 12,
                                       ),
                                     ),
                                     Text("1"),
                                     CircleAvatar(
                                       radius: 12,
                                       backgroundColor: Colors.white,
+                                      child: Icon(
+                                        Icons.add,
+                                        size: 12,
+                                      ),
                                     ),
                                   ],
                                 ),
