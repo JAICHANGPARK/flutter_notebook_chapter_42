@@ -258,9 +258,20 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                   itemBuilder: (context, index) {
                     return Container(
                       decoration: BoxDecoration(
-                          border: Border.all(
-                        color: Colors.grey[200]!,
-                      )),
+                        border: Border.all(
+                          color: Colors.grey[200]!,
+                        ),
+                      ),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Expanded(
+                            child: Container(
+                              color: Colors.grey,
+                            ),
+                          )
+                        ],
+                      ),
                     );
                   },
                 ),
