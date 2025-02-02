@@ -211,7 +211,8 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                               fontSize: 20,
                             ),
                           ),
-                          Text("Grab our mouthwatering burger\ndeal before it's gone!",
+                          Text(
+                            "Grab our mouthwatering burger\ndeal before it's gone!",
                             style: TextStyle(
                               fontSize: 12,
                             ),
@@ -251,7 +252,12 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                       crossAxisCount: 2, crossAxisSpacing: 16, mainAxisSpacing: 16, childAspectRatio: .9),
                   itemBuilder: (context, index) {
-                    return Placeholder();
+                    return Container(
+                      decoration: BoxDecoration(
+                          border: Border.all(
+                        color: Colors.grey[200]!,
+                      )),
+                    );
                   },
                 ),
               )
