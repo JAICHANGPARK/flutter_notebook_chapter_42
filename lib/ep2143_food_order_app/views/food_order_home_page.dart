@@ -288,8 +288,17 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                       child: Row(
                                         spacing: 4,
                                         children: [
-                                          Icon(Icons.star,),
-                                          Text("4.9")
+                                          Icon(
+                                            Icons.star,
+                                            size: 12,
+                                            color: Colors.yellow,
+                                          ),
+                                          Text(
+                                            "4.9",
+                                            style: TextStyle(
+                                              fontSize: 12,
+                                            ),
+                                          )
                                         ],
                                       ),
                                     ),
