@@ -276,10 +276,14 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                               ),
                               child: Stack(
                                 children: [
-                                  Container(
-                                    decoration: ShapeDecoration(
-                                      shape: StadiumBorder(),
-                                      color: Colors.white,
+                                  Positioned(
+                                    left: 8,
+                                    top: 8,
+                                    child: Container(
+                                      decoration: ShapeDecoration(
+                                        shape: StadiumBorder(),
+                                        color: Colors.white,
+                                      ),
                                     ),
                                   )
                                 ],
