@@ -266,6 +266,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                       padding: EdgeInsets.all(6),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
+                        spacing: 8
                         children: [
                           Expanded(
                             child: Container(
