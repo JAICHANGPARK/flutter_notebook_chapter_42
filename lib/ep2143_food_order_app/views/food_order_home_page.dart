@@ -270,7 +270,10 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                         children: [
                           Expanded(
                             child: Container(
-                              color: Colors.grey,
+                              decoration: BoxDecoration(
+                                color: Colors.grey,
+                                borderRadius: BorderRadius.circular(12),
+                              ),
                             ),
                           ),
                           Text("Mushroom Pizza"),
