@@ -284,6 +284,14 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                         shape: StadiumBorder(),
                                         color: Colors.white,
                                       ),
+                                      padding: EdgeInsets.symmetric(horizontal: 4),
+                                      child: Row(
+                                        spacing: 4,
+                                        children: [
+                                          Icon(Icons.star,),
+                                          Text("4.9")
+                                        ],
+                                      ),
                                     ),
                                   )
                                 ],
