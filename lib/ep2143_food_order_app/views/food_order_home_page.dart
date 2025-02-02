@@ -274,6 +274,16 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                 color: Colors.grey,
                                 borderRadius: BorderRadius.circular(12),
                               ),
+                              child: Stack(
+                                children: [
+                                  Container(
+                                    decoration: ShapeDecoration(
+                                      shape: StadiumBorder(),
+                                      color: Colors.white,
+                                    ),
+                                  )
+                                ],
+                              ),
                             ),
                           ),
                           Text("Mushroom Pizza"),
