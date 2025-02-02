@@ -275,6 +275,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                           ),
                           Text("Mushroom Pizza"),
                           Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text(
                                 "\$12.99",
@@ -289,7 +290,9 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                   borderRadius: BorderRadius.circular(24),
                                   color: Colors.grey[200],
                                 ),
+                                padding: Ed,
                                 child: Row(
+                                  spacing: 8,
                                   children: [
                                     CircleAvatar(
                                       radius: 12,
