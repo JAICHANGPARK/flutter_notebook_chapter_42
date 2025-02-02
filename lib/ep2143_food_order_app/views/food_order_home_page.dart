@@ -279,8 +279,14 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                 "\$12.99",
                                 style: TextStyle(
                                   fontWeight: FontWeight.bold,
+                                  fontSize: 20,
                                 ),
                               ),
+                              Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(24),
+                                ),
+                              )
                             ],
                           )
                         ],
