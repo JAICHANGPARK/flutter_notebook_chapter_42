@@ -195,7 +195,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                         Column(
                                           children: List.generate(3, (idx) {
                                             return Container(
-                                              height: 120,
+                                              height: 100,
                                               child: Placeholder(),
                                             );
                                           }),
