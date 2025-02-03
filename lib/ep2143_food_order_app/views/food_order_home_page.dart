@@ -161,6 +161,10 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                               ),
                                             ),
                                           ),
+                                          padding: EdgeInsets.symmetric(
+                                            horizontal: 8,
+                                            vertical: 8,
+                                          ),
                                           child: Row(
                                             spacing: 12,
                                             children: [
@@ -170,7 +174,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                               Container(
                                                 padding: EdgeInsets.symmetric(
                                                   horizontal: 8,
-                                                  vertical: 2,
+                                                  vertical: 4,
                                                 ),
                                                 decoration: ShapeDecoration(
                                                   shape: StadiumBorder(),
