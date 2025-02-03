@@ -151,6 +151,13 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                               ),
                                             ),
                                           ],
+                                        ),
+                                        Container(
+                                          decoration: ShapeDecoration(
+                                              shape: StadiumBorder(
+                                                  side: BorderSide(
+                                            color: Colors.grey[300],
+                                          ))),
                                         )
                                       ],
                                     ),
