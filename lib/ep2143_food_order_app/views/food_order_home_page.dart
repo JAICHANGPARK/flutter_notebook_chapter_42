@@ -124,7 +124,13 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                             ),
                                             Expanded(
                                               child: Center(
-                                                child: Text("Order #123442133"),
+                                                child: Text(
+                                                  "Order #123442133",
+                                                  style: TextStyle(
+                                                    fontSize: 16,
+                                                    fontWeight: FontWeight.bold,
+                                                  ),
+                                                ),
                                               ),
                                             ),
                                             Container(
