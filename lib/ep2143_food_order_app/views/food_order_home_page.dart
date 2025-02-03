@@ -105,6 +105,9 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                       shape: StadiumBorder(),
                                       color: Color.fromRGBO(7, 31, 39, 1),
                                     ),
+                                    padding: EdgeInsets.only(
+                                      left: 16,
+                                    ),
                                     child: Row(
                                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                       children: [
@@ -119,6 +122,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                           icon: Icon(
                                             Icons.arrow_forward,
                                           ),
+                                          color: Colors.white,
                                         )
                                       ],
                                     ),
