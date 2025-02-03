@@ -160,7 +160,17 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                               ),
                                             ),
                                           ),
-
+                                          child: Row(
+                                            children: [
+                                              CircleAvatar(),
+                                              Text("Table 01"),
+                                              Container(
+                                                decoration: ShapeDecoration(
+                                                  shape: StadiumBorder(),
+                                                ),
+                                              )
+                                            ],
+                                          ),
                                         )
                                       ],
                                     ),
