@@ -122,6 +122,11 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                                 icon: Icon(Icons.arrow_back),
                                               ),
                                             ),
+                                            Expanded(
+                                              child: Center(
+                                                child: Text("Order #123442133"),
+                                              ),
+                                            ),
                                             Container(
                                               decoration: BoxDecoration(
                                                 boxShadow: [
