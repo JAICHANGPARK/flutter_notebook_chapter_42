@@ -167,8 +167,10 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                               Container(
                                                 decoration: ShapeDecoration(
                                                   shape: StadiumBorder(),
+                                                  color: Colors.green,
                                                 ),
                                               )
+                                              
                                             ],
                                           ),
                                         )
