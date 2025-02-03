@@ -83,6 +83,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                     ),
                   )),
                   GestureDetector(
+                    onTap: () {},
                     child: Container(
                       padding: EdgeInsets.all(12),
                       decoration: BoxDecoration(
