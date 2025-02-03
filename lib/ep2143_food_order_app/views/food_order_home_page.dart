@@ -83,7 +83,16 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                     ),
                   )),
                   GestureDetector(
-                    onTap: () {},
+                    onTap: () {
+                      showModalBottomSheet(
+                        context: context,
+                        builder: (context) {
+                          return Container(
+                            height: MediaQuery.sizeOf(context).height - 180,
+                          );
+                        },
+                      );
+                    },
                     child: Container(
                       padding: EdgeInsets.all(12),
                       decoration: BoxDecoration(
