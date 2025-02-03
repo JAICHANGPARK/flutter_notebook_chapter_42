@@ -98,14 +98,14 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                               children: [
                                 Positioned(
                                   bottom: 24,
-                                    left: 16,
-                                    right: 16,
-                                    child: Container(
-                                  decoration: ShapeDecoration(
-                                    shape: StadiumBorder(),
+                                  left: 16,
+                                  right: 16,
+                                  child: Container(
+                                    decoration: ShapeDecoration(
+                                      shape: StadiumBorder(),
+                                    ),
                                   ),
-                                      
-                                ))
+                                )
                               ],
                             ),
                           );
