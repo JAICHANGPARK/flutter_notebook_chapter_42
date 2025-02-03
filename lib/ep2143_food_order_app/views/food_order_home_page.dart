@@ -86,6 +86,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                     onTap: () {
                       showModalBottomSheet(
                         context: context,
+                        isScrollControlled: true,
                         builder: (context) {
                           return Container(
                             height: MediaQuery.sizeOf(context).height - 180,
