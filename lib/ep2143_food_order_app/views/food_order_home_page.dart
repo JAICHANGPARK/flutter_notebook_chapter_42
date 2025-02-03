@@ -102,7 +102,46 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                   right: 16,
                                   child: SingleChildScrollView(
                                     child: Column(
-                                      children: [],
+                                      children: [
+                                        Row(
+                                          children: [
+                                            Container(
+                                              decoration: BoxDecoration(
+                                                boxShadow: [
+                                                  BoxShadow(
+                                                    color: Colors.grey[100]!,
+                                                    blurRadius: 3,
+                                                    spreadRadius: 3,
+                                                  ),
+                                                ],
+                                                color: Colors.white,
+                                                shape: BoxShape.circle,
+                                              ),
+                                              child: IconButton(
+                                                onPressed: () {},
+                                                icon: Icon(Icons.arrow_back),
+                                              ),
+                                            ),
+                                            Container(
+                                              decoration: BoxDecoration(
+                                                boxShadow: [
+                                                  BoxShadow(
+                                                    color: Colors.grey[100]!,
+                                                    blurRadius: 3,
+                                                    spreadRadius: 3,
+                                                  ),
+                                                ],
+                                                color: Colors.white,
+                                                shape: BoxShape.circle,
+                                              ),
+                                              child: IconButton(
+                                                onPressed: () {},
+                                                icon: Icon(Icons.more_horiz),
+                                              ),
+                                            ),
+                                          ],
+                                        )
+                                      ],
                                     ),
                                   ),
                                 ),
