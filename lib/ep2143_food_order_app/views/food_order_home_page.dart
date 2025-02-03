@@ -169,8 +169,11 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                                   shape: StadiumBorder(),
                                                   color: Colors.green,
                                                 ),
+                                                child: Text("Change Table",style: TextStyle(
+                                                  color: Colors.white,
+                                                ),),
                                               )
-                                              
+
                                             ],
                                           ),
                                         )
