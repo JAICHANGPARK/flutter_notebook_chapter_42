@@ -135,7 +135,6 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                               ),
                                             ),
                                             Container(
-
                                               decoration: BoxDecoration(
                                                 boxShadow: [
                                                   BoxShadow(
@@ -169,15 +168,21 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                               Text("Table 01"),
                                               Spacer(),
                                               Container(
+                                                padding: EdgeInsets.symmetric(
+                                                  horizontal: 8,
+                                                  vertical: 2,
+                                                ),
                                                 decoration: ShapeDecoration(
                                                   shape: StadiumBorder(),
                                                   color: Colors.green,
                                                 ),
-                                                child: Text("Change Table",style: TextStyle(
-                                                  color: Colors.white,
-                                                ),),
+                                                child: Text(
+                                                  "Change Table",
+                                                  style: TextStyle(
+                                                    color: Colors.white,
+                                                  ),
+                                                ),
                                               )
-
                                             ],
                                           ),
                                         )
