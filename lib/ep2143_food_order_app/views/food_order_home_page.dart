@@ -108,7 +108,10 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                     child: Row(
                                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                       children: [
-                                        Text("Process Order (4 items)"),
+                                        Text("Process Order (4 items)",
+                                        style: TextStyle(
+                                          
+                                        ),),
                                         IconButton(
                                           onPressed: () {},
                                           icon: Icon(
