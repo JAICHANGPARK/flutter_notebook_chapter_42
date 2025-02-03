@@ -189,6 +189,14 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                               )
                                             ],
                                           ),
+                                        ),
+                                        Text("Orders"),
+                                        Column(
+                                          children: List.generate(3, (idx){
+                                            return Container(
+                                              child: Placeholder(),
+                                            );
+                                          }),
                                         )
                                       ],
                                     ),
