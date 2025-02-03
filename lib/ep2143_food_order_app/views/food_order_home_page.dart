@@ -102,6 +102,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                   right: 16,
                                   child: SingleChildScrollView(
                                     child: Column(
+                                      crossAxisAlignment: CrossAxisAlignment.start,
                                       spacing: 16,
                                       children: [
                                         Row(
