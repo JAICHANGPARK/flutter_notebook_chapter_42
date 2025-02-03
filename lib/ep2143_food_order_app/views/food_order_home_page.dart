@@ -206,6 +206,13 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                             color: Colors.grey[200]!,
                                             borderRadius: BorderRadius.circular(12),
                                           ),
+                                          child: Column(
+                                            crossAxisAlignment: CrossAxisAlignment.start,
+                                            children: [
+
+
+                                            ],
+                                          ),
                                         )
                                       ],
                                     ),
