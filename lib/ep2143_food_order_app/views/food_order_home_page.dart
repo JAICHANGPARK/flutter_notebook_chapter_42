@@ -89,6 +89,10 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                         builder: (context) {
                           return Container(
                             height: MediaQuery.sizeOf(context).height - 180,
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(24),
+                            ),
                           );
                         },
                       );
