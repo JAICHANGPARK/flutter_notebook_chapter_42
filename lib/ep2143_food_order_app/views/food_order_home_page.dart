@@ -96,6 +96,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                             ),
                             child: Stack(
                               children: [
+                                Positioned(child: Column()),
                                 Positioned(
                                   bottom: 24,
                                   left: 16,
@@ -107,6 +108,8 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                     ),
                                     padding: EdgeInsets.only(
                                       left: 16,
+                                      top: 4,
+                                      bottom: 4,
                                     ),
                                     child: Row(
                                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
