@@ -104,6 +104,17 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                     decoration: ShapeDecoration(
                                       shape: StadiumBorder(),
                                     ),
+                                    child: Row(
+                                      children: [
+                                        Text("Process Order (4 items)"),
+                                        IconButton(
+                                          onPressed: () {},
+                                          icon: Icon(
+                                            Icons.arrow_forward,
+                                          ),
+                                        )
+                                      ],
+                                    ),
                                   ),
                                 )
                               ],
