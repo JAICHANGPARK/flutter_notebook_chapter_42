@@ -110,7 +110,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                       children: [
                                         Text("Process Order (4 items)",
                                         style: TextStyle(
-                                          
+                                         color: Colors.white
                                         ),),
                                         IconButton(
                                           onPressed: () {},
