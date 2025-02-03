@@ -193,12 +193,19 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                         ),
                                         Text("Orders"),
                                         Column(
-                                          children: List.generate(3, (idx){
+                                          children: List.generate(3, (idx) {
                                             return Container(
-                                              height: 72,
+                                              height: 120,
                                               child: Placeholder(),
                                             );
                                           }),
+                                        ),
+                                        Text("Payment Summary"),
+                                        Container(
+                                          decoration: BoxDecoration(
+                                            color: Colors.grey[200]!,
+                                            borderRadius: BorderRadius.circular(12),
+                                          ),
                                         )
                                       ],
                                     ),
