@@ -102,6 +102,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                   right: 16,
                                   child: SingleChildScrollView(
                                     child: Column(
+                                      spacing: 16,
                                       children: [
                                         Row(
                                           children: [
@@ -134,6 +135,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                               ),
                                             ),
                                             Container(
+
                                               decoration: BoxDecoration(
                                                 boxShadow: [
                                                   BoxShadow(
@@ -161,9 +163,11 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                             ),
                                           ),
                                           child: Row(
+                                            spacing: 12,
                                             children: [
                                               CircleAvatar(),
                                               Text("Table 01"),
+                                              Spacer(),
                                               Container(
                                                 decoration: ShapeDecoration(
                                                   shape: StadiumBorder(),
