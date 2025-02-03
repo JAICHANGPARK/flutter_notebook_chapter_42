@@ -96,7 +96,15 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                             ),
                             child: Stack(
                               children: [
-                                Positioned(child: Column()),
+                                Positioned.fill(
+                                    left: 16,
+                                    top: 16,
+                                    right: 16,
+                                    child: Column(
+                                      children: [
+                                        
+                                      ],
+                                    )),
                                 Positioned(
                                   bottom: 24,
                                   left: 16,
