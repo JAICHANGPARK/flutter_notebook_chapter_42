@@ -87,18 +87,25 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                       showModalBottomSheet(
                         context: context,
                         isScrollControlled: true,
-
                         builder: (context) {
                           return Container(
                             height: MediaQuery.sizeOf(context).height - 180,
                             decoration: BoxDecoration(
                               color: Colors.white,
                               borderRadius: BorderRadius.circular(24),
-
                             ),
                             child: Stack(
                               children: [
-
+                                Positioned(
+                                  bottom: 24,
+                                    left: 16,
+                                    right: 16,
+                                    child: Container(
+                                  decoration: ShapeDecoration(
+                                    shape: StadiumBorder(),
+                                  ),
+                                      
+                                ))
                               ],
                             ),
                           );
