@@ -103,6 +103,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                   child: Container(
                                     decoration: ShapeDecoration(
                                       shape: StadiumBorder(),
+                                      color: Color.fromRGBO(7, 31, 39, 1),
                                     ),
                                     child: Row(
                                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
