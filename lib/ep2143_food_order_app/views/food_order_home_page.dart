@@ -202,7 +202,19 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                           children: List.generate(3, (idx) {
                                             return Container(
                                               height: 100,
-                                              child: Placeholder(),
+                                              decoration: BoxDecoration(
+                                                borderRadius: BorderRadius.circular(12),
+                                              ),
+                                              child: Row(
+                                                children: [
+                                                  Container(
+                                                    decoration: BoxDecoration(
+                                                      borderRadius: BorderRadius.circular(12),
+                                                      color: Colors.grey,
+                                                    ),
+                                                  )
+                                                ],
+                                              ),
                                             );
                                           }),
                                         ),
