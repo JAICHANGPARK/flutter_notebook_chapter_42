@@ -221,6 +221,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                                       color: Colors.grey,
                                                     ),
                                                   ),
+                                                  Gap(12),
                                                   Expanded(
                                                     child: Column(
                                                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -230,6 +231,48 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                                         ),
                                                         Text(
                                                           "Creamyyyyyy, cheeeeesy goodness in every bite",
+                                                        ),
+                                                        Row(
+                                                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                                          children: [
+                                                            Text(
+                                                              "\$12.99",
+                                                              style: TextStyle(
+                                                                fontWeight: FontWeight.bold,
+                                                                fontSize: 20,
+                                                                color: Colors.green,
+                                                              ),
+                                                            ),
+                                                            Container(
+                                                              decoration: BoxDecoration(
+                                                                borderRadius: BorderRadius.circular(24),
+                                                                color: Colors.grey[200],
+                                                              ),
+                                                              padding: EdgeInsets.symmetric(horizontal: 2, vertical: 1),
+                                                              child: Row(
+                                                                spacing: 8,
+                                                                children: [
+                                                                  CircleAvatar(
+                                                                    radius: 12,
+                                                                    backgroundColor: Colors.white,
+                                                                    child: Icon(
+                                                                      Icons.remove,
+                                                                      size: 12,
+                                                                    ),
+                                                                  ),
+                                                                  Text("1"),
+                                                                  CircleAvatar(
+                                                                    radius: 12,
+                                                                    backgroundColor: Colors.white,
+                                                                    child: Icon(
+                                                                      Icons.add,
+                                                                      size: 12,
+                                                                    ),
+                                                                  ),
+                                                                ],
+                                                              ),
+                                                            )
+                                                          ],
                                                         )
                                                       ],
                                                     ),
