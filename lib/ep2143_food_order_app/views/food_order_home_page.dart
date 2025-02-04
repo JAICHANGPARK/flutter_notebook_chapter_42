@@ -200,7 +200,12 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                             );
                                           }),
                                         ),
-                                        Text("Payment Summary",style: TextStyle(),),
+                                        Text(
+                                          "Payment Summary",
+                                          style: TextStyle(
+                                            fontSize: 16,
+                                          ),
+                                        ),
                                         Container(
                                           decoration: BoxDecoration(
                                             color: Colors.grey[200]!,
@@ -208,10 +213,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                           ),
                                           child: Column(
                                             crossAxisAlignment: CrossAxisAlignment.start,
-                                            children: [
-
-
-                                            ],
+                                            children: [],
                                           ),
                                         )
                                       ],
