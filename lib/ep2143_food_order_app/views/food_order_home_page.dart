@@ -233,10 +233,16 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                                             fontWeight: FontWeight.bold,
                                                           ),
                                                         ),
+                                                        Gap(4),
                                                         Text(
                                                           "Creamyyyyyy, cheeeeesy goodness in every bite",
-                                                          style: TextStyle(),
+                                                          style: TextStyle(
+                                                            fontSize: 12,
+                                                            color: Colors.grey,
+                                                          ),
                                                         ),
+
+                                                        Gap(8),
                                                         Row(
                                                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                                           children: [
