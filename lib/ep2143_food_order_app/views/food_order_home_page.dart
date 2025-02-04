@@ -201,8 +201,12 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                         Column(
                                           children: List.generate(3, (idx) {
                                             return Container(
+                                              padding: EdgeInsets.all(8),
                                               height: 100,
                                               decoration: BoxDecoration(
+                                                border: Border.all(
+                                                  color: Colors.grey,
+                                                ),
                                                 borderRadius: BorderRadius.circular(12),
                                               ),
                                               margin: EdgeInsets.only(
