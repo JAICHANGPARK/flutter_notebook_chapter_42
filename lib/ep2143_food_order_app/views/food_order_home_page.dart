@@ -200,7 +200,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                             );
                                           }),
                                         ),
-                                        Text("Payment Summary"),
+                                        Text("Payment Summary",style: TextStyle(),),
                                         Container(
                                           decoration: BoxDecoration(
                                             color: Colors.grey[200]!,
