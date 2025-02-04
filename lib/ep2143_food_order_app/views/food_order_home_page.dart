@@ -205,9 +205,13 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                               decoration: BoxDecoration(
                                                 borderRadius: BorderRadius.circular(12),
                                               ),
+                                              margin: EdgeInsets.only(
+                                                bottom: 8,
+                                              ),
                                               child: Row(
                                                 children: [
                                                   Container(
+                                                    width: 100,
                                                     decoration: BoxDecoration(
                                                       borderRadius: BorderRadius.circular(12),
                                                       color: Colors.grey,
