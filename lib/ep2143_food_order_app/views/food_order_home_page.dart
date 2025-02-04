@@ -220,6 +220,16 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                                       borderRadius: BorderRadius.circular(12),
                                                       color: Colors.grey,
                                                     ),
+                                                  ),
+                                                  Expanded(
+                                                    child: Column(
+                                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                                      children: [
+                                                        Text(
+                                                          "Mac and Cheese",
+                                                        )
+                                                      ],
+                                                    ),
                                                   )
                                                 ],
                                               ),
