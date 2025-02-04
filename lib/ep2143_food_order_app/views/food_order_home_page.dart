@@ -241,7 +241,6 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                                             color: Colors.grey,
                                                           ),
                                                         ),
-
                                                         Gap(8),
                                                         Row(
                                                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -307,7 +306,18 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                           ),
                                           child: Column(
                                             crossAxisAlignment: CrossAxisAlignment.start,
-                                            children: [],
+                                            children: [
+                                              Row(
+                                                children: [
+                                                  Text(
+                                                    "Subtotal",
+                                                  ),
+                                                  Text(
+                                                    "\$22.47",
+                                                  )
+                                                ],
+                                              )
+                                            ],
                                           ),
                                         )
                                       ],
