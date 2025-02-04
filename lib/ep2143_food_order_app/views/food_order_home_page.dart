@@ -202,7 +202,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                           children: List.generate(3, (idx) {
                                             return Container(
                                               padding: EdgeInsets.all(8),
-                                              height: 100,
+                                              // height: 100,
                                               decoration: BoxDecoration(
                                                 border: Border.all(
                                                   color: Colors.grey,
@@ -215,7 +215,8 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                               child: Row(
                                                 children: [
                                                   Container(
-                                                    width: 82,
+                                                    width: 92,
+                                                    height: 92,
                                                     decoration: BoxDecoration(
                                                       borderRadius: BorderRadius.circular(12),
                                                       color: Colors.grey,
