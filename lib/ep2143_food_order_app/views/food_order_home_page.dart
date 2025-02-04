@@ -229,6 +229,9 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                                       children: [
                                                         Text(
                                                           "Mac and Cheese",
+                                                          style: TextStyle(
+                                                            fontWeight: FontWeight.bold,
+                                                          ),
                                                         ),
                                                         Text(
                                                           "Creamyyyyyy, cheeeeesy goodness in every bite",
