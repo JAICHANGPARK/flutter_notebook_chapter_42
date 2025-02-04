@@ -204,6 +204,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                           "Payment Summary",
                                           style: TextStyle(
                                             fontSize: 16,
+                                            fontWeight: FontWeight.bold,
                                           ),
                                         ),
                                         Container(
