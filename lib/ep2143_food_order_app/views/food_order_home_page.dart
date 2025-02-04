@@ -121,7 +121,9 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                                 shape: BoxShape.circle,
                                               ),
                                               child: IconButton(
-                                                onPressed: () {},
+                                                onPressed: () {
+                                                  Navigator.of(context).pop();
+                                                },
                                                 icon: Icon(Icons.arrow_back),
                                               ),
                                             ),
