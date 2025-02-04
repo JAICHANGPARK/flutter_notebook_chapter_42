@@ -335,10 +335,10 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                                 children: [
                                                   Text(
-                                                    "Tax (5%)",
+                                                    "Grade Total",
                                                   ),
                                                   Text(
-                                                    "\$1.12",
+                                                    "\$23.59",
                                                   )
                                                 ],
                                               ),
