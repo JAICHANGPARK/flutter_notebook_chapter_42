@@ -235,6 +235,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                                         ),
                                                         Text(
                                                           "Creamyyyyyy, cheeeeesy goodness in every bite",
+                                                          style: TextStyle(),
                                                         ),
                                                         Row(
                                                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
