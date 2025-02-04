@@ -304,10 +304,12 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                             color: Colors.grey[200]!,
                                             borderRadius: BorderRadius.circular(12),
                                           ),
+                                          padding: EdgeInsets.all(12),
                                           child: Column(
                                             crossAxisAlignment: CrossAxisAlignment.start,
                                             children: [
                                               Row(
+                                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                                 children: [
                                                   Text(
                                                     "Subtotal",
@@ -316,7 +318,30 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                                     "\$22.47",
                                                   )
                                                 ],
-                                              )
+                                              ),
+                                              Row(
+                                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                                children: [
+                                                  Text(
+                                                    "Tax (5%)",
+                                                  ),
+                                                  Text(
+                                                    "\$1.12",
+                                                  )
+                                                ],
+                                              ),
+                                              Divider(),
+                                              Row(
+                                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                                children: [
+                                                  Text(
+                                                    "Tax (5%)",
+                                                  ),
+                                                  Text(
+                                                    "\$1.12",
+                                                  )
+                                                ],
+                                              ),
                                             ],
                                           ),
                                         )
