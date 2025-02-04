@@ -338,6 +338,9 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                                 children: [
                                                   Text(
                                                     "Grade Total",
+                                                    style: TextStyle(
+                                                      fontWeight: FontWeight.bold,
+                                                    ),
                                                   ),
                                                   Text(
                                                     "\$23.59",
