@@ -33,11 +33,13 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                   ),
                   Spacer(),
                   Container(
-                    padding: EdgeInsets.symmetric(horizontal: 12),
+                    padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(32),
                       color: Colors.red,
                       gradient: LinearGradient(
+                        begin: Alignment.bottomCenter,
+                        end: Alignment.topCenter,
                         colors: [
                           Colors.red,
                           Colors.deepOrangeAccent,
