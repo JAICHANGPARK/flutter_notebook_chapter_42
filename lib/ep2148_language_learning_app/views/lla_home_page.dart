@@ -93,11 +93,24 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                       )
                     ],
                   ),
-                  Stepper(
-                    steps: [
-                      Step(title: Text("milestone"), content: )
-                    ],
-                    type: StepperType.horizontal,
+                  SizedBox(
+                    height: 80,
+                    child: Stepper(
+                      currentStep: 0,
+                      steps: [
+                        Step(
+                            title: Text("milestone"),
+                            content: Icon(
+                              Icons.check,
+                            )),
+                        Step(
+                            title: Text("milestone"),
+                            content: Icon(
+                              Icons.check,
+                            ))
+                      ],
+                      type: StepperType.horizontal,
+                    ),
                   ),
                 ],
               ),
