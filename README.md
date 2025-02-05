@@ -4,7 +4,7 @@
 
 - SpeakEase - Language Learning Mobile App
 - Shahid Miah UI UX Designer for Wavespace - UI/UX Design Agency
-- https://dribbble.com/shots/25556762-Order-Food-Mobile-App
+- https://dribbble.com/shots/25576154-SpeakEase-Language-Learning-Mobile-App
 
 <img src="https://cdn.dribbble.com/userupload/19844772/file/original-7d72cebefdc5a79088d96d96053395b7.jpg?resize=1905x1429&vertical=center"/>
 
