@@ -33,12 +33,17 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                   ),
                   Spacer(),
                   Container(
+                    padding: EdgeInsets.symmetric(horizontal: 12),
                     decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(32),
-                        color: Colors.red,
-                        gradient: LinearGradient(
-                          colors: [],
-                        )),
+                      borderRadius: BorderRadius.circular(32),
+                      color: Colors.red,
+                      gradient: LinearGradient(
+                        colors: [
+                          Colors.red,
+                          Colors.deepOrangeAccent,
+                        ],
+                      ),
+                    ),
                     child: Row(
                       children: [
                         Icon(Icons.local_fire_department_outlined),
