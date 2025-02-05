@@ -15,8 +15,21 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
       body: Column(
         children: [
           Container(
-            decoration: BoxDecoration(color: Colors.white),
-          )
+            decoration: BoxDecoration(
+              color: Colors.white,
+            ),
+            child: Row(
+              children: [
+                Text("Welcome Dream 👋"),
+                Container(
+                  decoration: BoxDecoration(
+                    
+                  ),
+                )
+              ],
+            ),
+          ),
+
         ],
       ),
     );
