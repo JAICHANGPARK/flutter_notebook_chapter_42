@@ -75,6 +75,17 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  Row(
+                    children: [
+                      Column(
+                        children: [
+                          Text("SPOKEN"),
+                          Text('Progress Tracker'),
+                        ],
+                      ),
+                      CircleAvatar()
+                    ],
+                  )
 
                 ],
               ),
