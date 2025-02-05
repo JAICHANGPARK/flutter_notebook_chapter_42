@@ -93,27 +93,34 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                       )
                     ],
                   ),
-                  SizedBox(
-                    height: 80,
-                    child: Stepper(
-                      elevation: 0,
-                      currentStep: 0,
-                      
-                      steps: [
-                        Step(
-                            title: Text("milestone"),
-                            content: Icon(
-                              Icons.check,
-                            )),
-                        Step(
-                            title: Text("milestone"),
-                            content: Icon(
-                              Icons.check,
-                            ))
-                      ],
-                      type: StepperType.horizontal,
-                    ),
-                  ),
+                  // SizedBox(
+                  //   height: 80,
+                  //   width: double.infinity,
+                  //   child: Stepper(
+                  //     elevation: 0,
+                  //     currentStep: 0,
+                  //     physics: BouncingScrollPhysics(),
+                  //     controller: ScrollController(),
+                  //     steps: [
+                  //       Step(
+                  //           title: Text("milestone"),
+                  //           content: Icon(
+                  //             Icons.check,
+                  //           )),
+                  //       Step(
+                  //           title: Text("milestone"),
+                  //           content: Icon(
+                  //             Icons.check,
+                  //           )),
+                  //       Step(
+                  //           title: Text("milestone"),
+                  //           content: Icon(
+                  //             Icons.check,
+                  //           ))
+                  //     ],
+                  //     type: StepperType.horizontal,
+                  //   ),
+                  // ),
                 ],
               ),
             )
