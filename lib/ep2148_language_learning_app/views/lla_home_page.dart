@@ -35,7 +35,7 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                   ),
                   Spacer(),
                   Container(
-                    
+
                     padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(32),
@@ -69,6 +69,7 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
               ),
             ),
             Container(
+              margin: EdgeInsets.symmetric(horizontal: 8),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(7),
                 color: Colors.white,
