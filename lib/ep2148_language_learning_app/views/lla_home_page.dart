@@ -15,6 +15,7 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
       backgroundColor: Colors.grey[100]!,
       body: SafeArea(
         child: Column(
+          spacing: 12,
           children: [
             Container(
               decoration: BoxDecoration(
@@ -34,6 +35,7 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                   ),
                   Spacer(),
                   Container(
+                    
                     padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(32),
@@ -83,7 +85,10 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                           Text('Progress Tracker'),
                         ],
                       ),
-                      CircleAvatar()
+                      CircleAvatar(
+                        backgroundColor: Colors.black,
+                        foregroundColor: Colors.white,
+                      )
                     ],
                   )
 
