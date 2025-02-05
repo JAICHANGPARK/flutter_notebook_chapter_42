@@ -35,7 +35,6 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                   ),
                   Spacer(),
                   Container(
-
                     padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(32),
@@ -74,7 +73,6 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(7),
                 color: Colors.white,
-
               ),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -82,8 +80,8 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Column(crossAxisAlignment: CrossAxisAlignment.start,
-
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text("SPOKEN"),
                           Text('Progress Tracker'),
@@ -94,8 +92,13 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                         foregroundColor: Colors.white,
                       )
                     ],
-                  )
-
+                  ),
+                  Stepper(
+                    steps: [
+                      Step(title: Text("milestone"), content: )
+                    ],
+                    type: StepperType.horizontal,
+                  ),
                 ],
               ),
             )
