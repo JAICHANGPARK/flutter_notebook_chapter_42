@@ -6,7 +6,7 @@
 - Shahid Miah UI UX Designer for Wavespace - UI/UX Design Agency
 - https://dribbble.com/shots/25576154-SpeakEase-Language-Learning-Mobile-App
 
-<img src="https://cdn.dribbble.com/userupload/19844772/file/original-7d72cebefdc5a79088d96d96053395b7.jpg?resize=1905x1429&vertical=center"/>
+<img src="https://cdn.dribbble.com/userupload/20776239/file/original-37c514b07a3044013d27de0ad7ddf1b5.jpg?resize=1905x1429&vertical=center"/>
 
 
 ## EP2143-2147
