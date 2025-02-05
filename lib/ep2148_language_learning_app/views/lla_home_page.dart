@@ -70,6 +70,7 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
             ),
             Container(
               margin: EdgeInsets.symmetric(horizontal: 8),
+              padding: EdgeInsets.all(8),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(7),
                 color: Colors.white,
@@ -80,7 +81,7 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                 children: [
                   Row(
                     children: [
-                      Column(
+                      Column(crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text("SPOKEN"),
                           Text('Progress Tracker'),
