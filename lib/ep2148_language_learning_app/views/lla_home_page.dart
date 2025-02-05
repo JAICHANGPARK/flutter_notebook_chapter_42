@@ -96,7 +96,9 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                   SizedBox(
                     height: 80,
                     child: Stepper(
+                      elevation: 0,
                       currentStep: 0,
+                      
                       steps: [
                         Step(
                             title: Text("milestone"),
