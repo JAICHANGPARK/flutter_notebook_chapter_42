@@ -29,12 +29,12 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                     "Welcome Dream 👋",
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
-                      fontSize: 19,
+                      fontSize: 24,
                     ),
                   ),
                   Spacer(),
                   Container(
-                    padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                    padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(32),
                       color: Colors.red,
