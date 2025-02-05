@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class LanguageLearningHomePage extends StatefulWidget {
   const LanguageLearningHomePage({super.key});
@@ -48,8 +49,17 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                     ),
                     child: Row(
                       children: [
-                        Icon(Icons.local_fire_department_outlined),
-                        Text('0'),
+                        Icon(
+                          Icons.local_fire_department_outlined,
+                          color: Colors.white,
+                        ),
+                        Gap(4),
+                        Text(
+                          '0',
+                          style: TextStyle(
+                            color: Colors.white,
+                          ),
+                        ),
                       ],
                     ),
                   )
