@@ -18,18 +18,24 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
             decoration: BoxDecoration(
               color: Colors.white,
             ),
+            height: 100,
             child: Row(
               children: [
                 Text("Welcome Dream 👋"),
                 Container(
                   decoration: BoxDecoration(
-                    
+                    borderRadius: BorderRadius.circular(32),
+                  ),
+                  child: Row(
+                    children: [
+                      Icon(Icons.local_fire_department_outlined),
+                      Text('0'),
+                    ],
                   ),
                 )
               ],
             ),
           ),
-
         ],
       ),
     );
