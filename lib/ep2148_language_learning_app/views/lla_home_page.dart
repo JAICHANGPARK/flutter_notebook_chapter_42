@@ -20,14 +20,25 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                 color: Colors.white,
               ),
               height: 80,
-              padding: EdgeInsets.symmetric(horizontal: 24,vertical: 8),
+              padding: EdgeInsets.symmetric(horizontal: 24, vertical: 8),
               child: Row(
+                crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Text("Welcome Dream 👋"),
+                  Text(
+                    "Welcome Dream 👋",
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 19,
+                    ),
+                  ),
+                  Spacer(),
                   Container(
                     decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(32),
-                    ),
+                        borderRadius: BorderRadius.circular(32),
+                        color: Colors.red,
+                        gradient: LinearGradient(
+                          colors: [],
+                        )),
                     child: Row(
                       children: [
                         Icon(Icons.local_fire_department_outlined),
