@@ -12,31 +12,34 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey[100]!,
-      body: Column(
-        children: [
-          Container(
-            decoration: BoxDecoration(
-              color: Colors.white,
+      body: SafeArea(
+        child: Column(
+          children: [
+            Container(
+              decoration: BoxDecoration(
+                color: Colors.white,
+              ),
+              height: 80,
+              padding: EdgeInsets.symmetric(horizontal: 24,vertical: 8),
+              child: Row(
+                children: [
+                  Text("Welcome Dream 👋"),
+                  Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(32),
+                    ),
+                    child: Row(
+                      children: [
+                        Icon(Icons.local_fire_department_outlined),
+                        Text('0'),
+                      ],
+                    ),
+                  )
+                ],
+              ),
             ),
-            height: 100,
-            child: Row(
-              children: [
-                Text("Welcome Dream 👋"),
-                Container(
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(32),
-                  ),
-                  child: Row(
-                    children: [
-                      Icon(Icons.local_fire_department_outlined),
-                      Text('0'),
-                    ],
-                  ),
-                )
-              ],
-            ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
