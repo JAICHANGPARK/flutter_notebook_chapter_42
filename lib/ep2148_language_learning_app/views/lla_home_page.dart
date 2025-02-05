@@ -66,6 +66,19 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                 ],
               ),
             ),
+            Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(7),
+                color: Colors.white,
+
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+
+                ],
+              ),
+            )
           ],
         ),
       ),
