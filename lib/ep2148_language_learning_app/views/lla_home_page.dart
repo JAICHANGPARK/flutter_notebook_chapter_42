@@ -80,8 +80,10 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Column(crossAxisAlignment: CrossAxisAlignment.start,
+
                         children: [
                           Text("SPOKEN"),
                           Text('Progress Tracker'),
