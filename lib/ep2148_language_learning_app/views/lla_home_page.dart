@@ -271,19 +271,25 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                               subtitle: Text("I have a dream"),
                               leading: Icon(Icons.campaign_outlined),
                             ),
-                            Divider(),
+                            Divider(
+                              height: 8,
+                            ),
                             ListTile(
                               title: Text("Famous Speeches"),
                               subtitle: Text("I have a dream"),
                               leading: Icon(Icons.campaign_outlined),
                             ),
-                            Divider(),
+                            Divider(
+                              height: 8,
+                            ),
                             ListTile(
                               title: Text("Famous Speeches"),
                               subtitle: Text("I have a dream"),
                               leading: Icon(Icons.campaign_outlined),
                             ),
-                            Divider(),
+                            Divider(
+                              height: 8,
+                            ),
                             ListTile(
                               title: Text("Famous Speeches"),
                               subtitle: Text("I have a dream"),
