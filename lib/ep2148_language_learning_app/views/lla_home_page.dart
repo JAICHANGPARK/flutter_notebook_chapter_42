@@ -238,6 +238,7 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
         ),
       ),
       bottomNavigationBar: BottomNavigationBar(
+        type: BottomNavigationBarType.fixed,
         items: [
           BottomNavigationBarItem(
             icon: Icon(
