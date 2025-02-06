@@ -237,34 +237,38 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
           ],
         ),
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        type: BottomNavigationBarType.fixed,
-        items: [
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.home_filled,
+      bottomNavigationBar: SizedBox(
+        height: 80,
+        child: BottomNavigationBar(
+
+          type: BottomNavigationBarType.fixed,
+          items: [
+            BottomNavigationBarItem(
+              icon: Icon(
+                Icons.home_filled,
+              ),
+              label: "Home",
             ),
-            label: "Home",
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.track_changes,
+            BottomNavigationBarItem(
+              icon: Icon(
+                Icons.track_changes,
+              ),
+              label: "Review",
             ),
-            label: "Review",
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.speaker_phone,
+            BottomNavigationBarItem(
+              icon: Icon(
+                Icons.speaker_phone,
+              ),
+              label: "Speaking",
             ),
-            label: "Speaking",
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.settings_outlined,
-            ),
-            label: "Setting",
-          )
-        ],
+            BottomNavigationBarItem(
+              icon: Icon(
+                Icons.settings_outlined,
+              ),
+              label: "Setting",
+            )
+          ],
+        ),
       ),
     );
   }
