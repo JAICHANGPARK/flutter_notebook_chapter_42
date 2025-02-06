@@ -134,7 +134,7 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                           bottom: 0,
                           child: Center(
                             child: Container(
-                              height: 8,
+                              height: 6,
                               color: Colors.grey,
                             ),
                           ),
@@ -142,15 +142,22 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                         Positioned(
                           child: Row(
                             children: [
-                              Expanded(
-                                child: Column(
-                                  children: [
-                                    CircleAvatar(
-                                      backgroundColor: Colors.deepOrangeAccent,
+                              Column(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  CircleAvatar(
+                                    backgroundColor: Colors.deepOrangeAccent,
+                                    radius: 15,
+                                  ),
+                                  Gap(4),
+                                  Text(
+                                    "milestone 1",
+                                    style: TextStyle(
+                                      fontSize: 10,
+                                      color: Colors.grey,
                                     ),
-                                    Text("milestone 1"),
-                                  ],
-                                ),
+                                  ),
+                                ],
                               )
                             ],
                           ),
