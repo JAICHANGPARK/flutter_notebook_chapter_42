@@ -83,8 +83,16 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text("SPOKEN"),
-                          Text('Progress Tracker'),
+                          Text("SPOKEN",style: TextStyle(
+                            fontSize: 12,
+                          ),),
+                          Text(
+                            'Progress Tracker',
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 20,
+                            ),
+                          ),
                         ],
                       ),
                       CircleAvatar(
