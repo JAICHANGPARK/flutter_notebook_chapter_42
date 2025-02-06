@@ -302,6 +302,20 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
               decoration: BoxDecoration(
                 color: Colors.white,
               ),
+              child: Column(
+                children: [
+                  Expanded(
+                    child: Row(),
+                  ),
+                  Row(
+                    children: [
+                      Icon(Icons.add_box_outlined),
+                      Icon(Icons.add_to_drive),
+                      Icon(Icons.add_photo_alternate_outlined),
+                    ],
+                  )
+                ],
+              ),
             )
           ],
         ),
