@@ -265,12 +265,14 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                         ),
 
                         child: Column(
+                          spacing: 8,
                           children: [
                             ListTile(
                               title: Text("Famous Speeches"),
                               subtitle: Text("I have a dream"),
                               leading: Icon(Icons.campaign_outlined),
                             ),
+                            Divider(),
                             ListTile(
                               title: Text("Famous Speeches"),
                               subtitle: Text("I have a dream"),
@@ -288,7 +290,7 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                             ),
                           ],
                         ),
-                        
+
                       ),
                     ],
                   ),
