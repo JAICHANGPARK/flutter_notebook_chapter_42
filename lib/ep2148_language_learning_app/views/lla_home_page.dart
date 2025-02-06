@@ -302,6 +302,7 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
               decoration: BoxDecoration(
                 color: Colors.white,
               ),
+              padding: EdgeInsets.all(12),
               child: Column(
                 children: [
                   Expanded(
