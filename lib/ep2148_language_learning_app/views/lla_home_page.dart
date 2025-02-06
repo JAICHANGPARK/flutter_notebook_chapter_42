@@ -142,10 +142,14 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                         Positioned(
                           child: Row(
                             children: [
-                              Expanded(child: Column(children: [
-                                CircleAvatar(),
-                                Text("")
-                              ],))
+                              Expanded(
+                                child: Column(
+                                  children: [
+                                    CircleAvatar(),
+                                    Text("milestone 1"),
+                                  ],
+                                ),
+                              )
                             ],
                           ),
                         )
