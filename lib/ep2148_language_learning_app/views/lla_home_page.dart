@@ -123,12 +123,20 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                   // ),
                   Gap(12),
                   Container(
-
-                    height: 42,
+                    height: 64,
                     color: Colors.blueGrey,
                     child: Stack(
                       children: [
-
+                        Positioned(
+                          left: 0,
+                          right: 0,
+                          child: Center(
+                            child: Container(
+                              height: 4,
+                              color: Colors.grey,
+                            ),
+                          ),
+                        )
                       ],
                     ),
                   )
