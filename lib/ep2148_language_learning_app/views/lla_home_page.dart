@@ -128,10 +128,10 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                     child: Stack(
                       children: [
                         Positioned(
-                          left: 0,
-                          right: 0,
+                          left: 24,
+                          right: 24,
                           top: 0,
-                          bottom: 12,
+                          bottom: 16,
                           child: Center(
                             child: Container(
                               height: 6,
