@@ -304,13 +304,15 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
               ),
               padding: EdgeInsets.all(12),
               child: Column(
+
                 children: [
                   Expanded(
                     child: Row(),
                   ),
                   Row(
+                    spacing: 8,
                     children: [
-                      Icon(Icons.add_box_outlined),
+                      Icon(Icons.add_box_outlined,size: 16,),
                       Icon(Icons.add_to_drive),
                       Icon(Icons.add_photo_alternate_outlined),
                     ],
