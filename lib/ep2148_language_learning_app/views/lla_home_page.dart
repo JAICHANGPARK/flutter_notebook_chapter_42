@@ -158,6 +158,57 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                                     ),
                                   ),
                                 ],
+                              ),
+                              Column(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  CircleAvatar(
+                                    backgroundColor: Colors.grey,
+                                    radius: 15,
+                                  ),
+                                  Gap(4),
+                                  Text(
+                                    "milestone 2",
+                                    style: TextStyle(
+                                      fontSize: 10,
+                                      color: Colors.grey,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                              Column(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  CircleAvatar(
+                                    backgroundColor: Colors.grey,
+                                    radius: 15,
+                                  ),
+                                  Gap(4),
+                                  Text(
+                                    "milestone 2",
+                                    style: TextStyle(
+                                      fontSize: 10,
+                                      color: Colors.grey,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                              Column(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  CircleAvatar(
+                                    backgroundColor: Colors.grey,
+                                    radius: 15,
+                                  ),
+                                  Gap(4),
+                                  Text(
+                                    "milestone 2",
+                                    style: TextStyle(
+                                      fontSize: 10,
+                                      color: Colors.grey,
+                                    ),
+                                  ),
+                                ],
                               )
                             ],
                           ),
