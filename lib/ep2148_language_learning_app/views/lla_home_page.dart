@@ -141,6 +141,7 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                         ),
                         Positioned(
                           child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
