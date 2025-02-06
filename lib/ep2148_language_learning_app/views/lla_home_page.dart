@@ -83,9 +83,12 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text("SPOKEN",style: TextStyle(
-                            fontSize: 12,
-                          ),),
+                          Text(
+                            "SPOKEN",
+                            style: TextStyle(
+                              fontSize: 12,
+                            ),
+                          ),
                           Text(
                             'Progress Tracker',
                             style: TextStyle(
@@ -240,6 +243,25 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                     ),
                   )
                 ],
+              ),
+            ),
+            Text(
+              "Select your favorite topics",
+              style: TextStyle(
+                fontSize: 12,
+              ),
+            ),
+            Expanded(
+              child: SingleChildScrollView(
+                child: Column(
+                  children: [],
+                ),
+              ),
+            ),
+            Container(
+              height: 180,
+              decoration: BoxDecoration(
+                color: Colors.white,
               ),
             )
           ],
