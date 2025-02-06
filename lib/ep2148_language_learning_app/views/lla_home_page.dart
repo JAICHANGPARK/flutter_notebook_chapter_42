@@ -130,11 +130,23 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                         Positioned(
                           left: 0,
                           right: 0,
+                          top: 0,
+                          bottom: 0,
                           child: Center(
                             child: Container(
-                              height: 4,
+                              height: 8,
                               color: Colors.grey,
                             ),
+                          ),
+                        ),
+                        Positioned(
+                          child: Row(
+                            children: [
+                              Expanded(child: Column(children: [
+                                CircleAvatar(),
+                                Text("")
+                              ],))
+                            ],
                           ),
                         )
                       ],
