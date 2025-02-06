@@ -124,7 +124,6 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                   Gap(12),
                   Container(
                     height: 64,
-                    color: Colors.blueGrey,
                     child: Stack(
                       children: [
                         Positioned(
@@ -186,7 +185,7 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   CircleAvatar(
-                                    backgroundColor:Colors.grey[200],
+                                    backgroundColor: Colors.grey[200],
                                     radius: 15,
                                     foregroundColor: Colors.grey,
                                     child: Icon(
@@ -237,6 +236,34 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
             )
           ],
         ),
+      ),
+      bottomNavigationBar: BottomNavigationBar(
+        items: [
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.home_filled,
+            ),
+            label: "Home",
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.home_filled,
+            ),
+            label: "Home",
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.home_filled,
+            ),
+            label: "Home",
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.home_filled,
+            ),
+            label: "Home",
+          )
+        ],
       ),
     );
   }
