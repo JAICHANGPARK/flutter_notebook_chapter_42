@@ -254,8 +254,18 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
             ),
             Expanded(
               child: SingleChildScrollView(
-                child: Column(
-                  children: [],
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Column(
+                    children: [
+                      Container(
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(4),
+                        ),
+                      )
+                    ],
+                  ),
                 ),
               ),
             ),
