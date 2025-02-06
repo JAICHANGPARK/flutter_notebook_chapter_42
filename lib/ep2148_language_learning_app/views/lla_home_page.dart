@@ -247,21 +247,21 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
           ),
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.home_filled,
+              Icons.,
             ),
             label: "Home",
           ),
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.home_filled,
+              Icons.speaker_phone,
             ),
-            label: "Home",
+            label: "Speaking",
           ),
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.home_filled,
+              Icons.settings_outlined,
             ),
-            label: "Home",
+            label: "Setting",
           )
         ],
       ),
