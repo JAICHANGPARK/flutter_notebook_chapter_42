@@ -188,6 +188,11 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                                   CircleAvatar(
                                     backgroundColor: Colors.grey,
                                     radius: 15,
+                                    foregroundColor: Colors.grey,
+                                    child: Icon(
+                                      Icons.lock_outline,
+                                      size: 12,
+                                    ),
                                   ),
                                   Gap(4),
                                   Text(
@@ -205,6 +210,11 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                                   CircleAvatar(
                                     backgroundColor: Colors.grey,
                                     radius: 15,
+                                    foregroundColor: Colors.grey,
+                                    child: Icon(
+                                      Icons.lock_outline,
+                                      size: 12,
+                                    ),
                                   ),
                                   Gap(4),
                                   Text(
