@@ -263,7 +263,6 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                           color: Colors.white,
                           borderRadius: BorderRadius.circular(4),
                         ),
-
                         child: Column(
                           spacing: 8,
                           children: [
@@ -278,11 +277,13 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                               subtitle: Text("I have a dream"),
                               leading: Icon(Icons.campaign_outlined),
                             ),
+                            Divider(),
                             ListTile(
                               title: Text("Famous Speeches"),
                               subtitle: Text("I have a dream"),
                               leading: Icon(Icons.campaign_outlined),
                             ),
+                            Divider(),
                             ListTile(
                               title: Text("Famous Speeches"),
                               subtitle: Text("I have a dream"),
@@ -290,7 +291,6 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                             ),
                           ],
                         ),
-
                       ),
                     ],
                   ),
@@ -298,7 +298,7 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
               ),
             ),
             Container(
-              height: 180,
+              height: 160,
               decoration: BoxDecoration(
                 color: Colors.white,
               ),
