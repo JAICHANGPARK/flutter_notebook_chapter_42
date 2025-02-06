@@ -134,7 +134,7 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                           child: Center(
                             child: Container(
                               height: 6,
-                              color: Colors.grey,
+                              color: Colors.grey[200],
                             ),
                           ),
                         ),
