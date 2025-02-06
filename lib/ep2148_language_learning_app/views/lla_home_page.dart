@@ -164,7 +164,7 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   CircleAvatar(
-                                    backgroundColor: Colors.grey,
+                                    backgroundColor: Colors.grey[200],
                                     radius: 15,
                                     foregroundColor: Colors.grey,
                                     child: Icon(
@@ -186,7 +186,7 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   CircleAvatar(
-                                    backgroundColor: Colors.grey,
+                                    backgroundColor:Colors.grey[200],
                                     radius: 15,
                                     foregroundColor: Colors.grey,
                                     child: Icon(
@@ -208,7 +208,7 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   CircleAvatar(
-                                    backgroundColor: Colors.grey,
+                                    backgroundColor: Colors.grey[200],
                                     radius: 15,
                                     foregroundColor: Colors.grey,
                                     child: Icon(
