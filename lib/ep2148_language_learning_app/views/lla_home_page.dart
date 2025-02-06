@@ -145,7 +145,9 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                               Expanded(
                                 child: Column(
                                   children: [
-                                    CircleAvatar(),
+                                    CircleAvatar(
+                                      backgroundColor: Colors.deepOrangeAccent,
+                                    ),
                                     Text("milestone 1"),
                                   ],
                                 ),
