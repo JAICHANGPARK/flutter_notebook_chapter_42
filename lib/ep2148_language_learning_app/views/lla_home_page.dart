@@ -240,7 +240,9 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
       bottomNavigationBar: SizedBox(
         height: 80,
         child: BottomNavigationBar(
-
+          backgroundColor: Colors.white,
+          selectedItemColor: Colors.deepOrangeAccent,
+          unselectedItemColor: Colors.grey,
           type: BottomNavigationBarType.fixed,
           items: [
             BottomNavigationBarItem(
