@@ -247,9 +247,9 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
           ),
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.,
+              Icons.track_changes,
             ),
-            label: "Home",
+            label: "Review",
           ),
           BottomNavigationBarItem(
             icon: Icon(
