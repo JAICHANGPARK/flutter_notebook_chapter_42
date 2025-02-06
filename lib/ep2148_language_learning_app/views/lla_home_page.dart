@@ -15,6 +15,7 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
       backgroundColor: Colors.grey[100]!,
       body: SafeArea(
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           spacing: 12,
           children: [
             Container(
