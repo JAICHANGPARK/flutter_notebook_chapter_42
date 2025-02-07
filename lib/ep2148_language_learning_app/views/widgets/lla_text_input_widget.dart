@@ -13,6 +13,7 @@ class _LlaTextInputWidgetState extends State<LlaTextInputWidget> {
   @override
   Widget build(BuildContext context) {
     return Column(
+      spacing: 12,
       children: [
         Expanded(
           child: Row(
