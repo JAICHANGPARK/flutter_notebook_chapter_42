@@ -8,12 +8,22 @@ class LlaTextInputWidget extends StatefulWidget {
 }
 
 class _LlaTextInputWidgetState extends State<LlaTextInputWidget> {
+  TextEditingController textEditingController = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
-    return  Column(
+    return Column(
       children: [
         Expanded(
-          child: Row(),
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Expanded(
+                child: TextField(),
+              ),
+              CircleAvatar(),
+            ],
+          ),
         ),
         Row(
           spacing: 12,
