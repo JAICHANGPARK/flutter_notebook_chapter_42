@@ -281,7 +281,13 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                               height: 8,
                             ),
                             ListTile(
-                              title: Text("Famous Speeches"),
+                              title: Text(
+                                "Famous Speeches",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 18,
+                                ),
+                              ),
                               subtitle: Text("I have a dream"),
                               leading: Icon(Icons.campaign_outlined),
                             ),
@@ -289,7 +295,11 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                               height: 8,
                             ),
                             ListTile(
-                              title: Text("Famous Speeches"),
+                              title: Text("Famous Speeches",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 18,
+                                ),),
                               subtitle: Text("I have a dream"),
                               leading: Icon(Icons.campaign_outlined),
                             ),
@@ -297,7 +307,11 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                               height: 8,
                             ),
                             ListTile(
-                              title: Text("Famous Speeches"),
+                              title: Text("Famous Speeches",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 18,
+                                ),),
                               subtitle: Text("I have a dream"),
                               leading: Icon(Icons.campaign_outlined),
                             ),
