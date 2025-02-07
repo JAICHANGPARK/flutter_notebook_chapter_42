@@ -16,6 +16,7 @@ class _LlaTextInputWidgetState extends State<LlaTextInputWidget> {
       children: [
         Expanded(
           child: Row(
+            spacing: 12,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Expanded(
