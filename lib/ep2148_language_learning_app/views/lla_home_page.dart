@@ -293,6 +293,9 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                               ),
                               subtitle: Text("I have a dream"),
                               leading: Icon(Icons.campaign_outlined),
+                              trailing: Icon(
+                                Icons.chevron_right,
+                              ),
                             ),
                             Divider(
                               height: 8,
