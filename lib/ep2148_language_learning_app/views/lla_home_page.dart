@@ -267,14 +267,15 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                           spacing: 8,
                           children: [
                             ListTile(
-                              title: Text("Famous Speeches",
-                              style:   TextStyle(
+                              title: Text(
+                                "Famous Speeches",
+                                style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   fontSize: 18,
-                                ),),
+                                ),
+                              ),
                               subtitle: Text("I have a dream"),
                               leading: Icon(Icons.campaign_outlined),
-
                             ),
                             Divider(
                               height: 8,
