@@ -23,6 +23,9 @@ class _LlaTextInputWidgetState extends State<LlaTextInputWidget> {
               Expanded(
                 child: TextField(
                   maxLines: 6,
+                  decoration: InputDecoration(
+                    border: InputBorder.none,
+                  ),
                 ),
               ),
               CircleAvatar(),
