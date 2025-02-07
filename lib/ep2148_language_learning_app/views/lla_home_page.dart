@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_notebook_chapter_42/ep2148_language_learning_app/views/widgets/favorite_topic_widget.dart';
 import 'package:gap/gap.dart';
 
+import 'widgets/lla_text_input_widget.dart';
 import 'widgets/stepper_widget.dart';
 
 class LanguageLearningHomePage extends StatefulWidget {
@@ -143,7 +144,7 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                 color: Colors.white,
               ),
               padding: EdgeInsets.all(12),
-              child:
+              child: LlaTextInputWidget(),
             )
           ],
         ),
