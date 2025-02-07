@@ -23,12 +23,16 @@ class _LlaTextInputWidgetState extends State<LlaTextInputWidget> {
               Expanded(
                 child: TextField(
                   maxLines: 6,
-                  decoration: InputDecoration(border: InputBorder.none, hintText: 'Get started to SpeakEasy'),
+                  decoration: InputDecoration(
+                    border: InputBorder.none,
+                    hintText: 'Get started to SpeakEasy',
+                  ),
                 ),
               ),
               CircleAvatar(
                 backgroundColor: Colors.deepOrangeAccent,
-
+                foregroundColor: Colors.white,
+                child: Icon(Icons.send),
               ),
             ],
           ),
