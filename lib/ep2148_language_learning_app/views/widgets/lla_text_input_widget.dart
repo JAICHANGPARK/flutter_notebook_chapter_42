@@ -8,6 +8,29 @@ class LlaTextInputWidget extends StatefulWidget {
 class _LlaTextInputWidgetState extends State<LlaTextInputWidget> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return  Column(
+      children: [
+        Expanded(
+          child: Row(),
+        ),
+        Row(
+          spacing: 12,
+          children: [
+            Icon(
+              Icons.add_box_outlined,
+              size: 16,
+            ),
+            Icon(
+              Icons.add_to_drive,
+              size: 16,
+            ),
+            Icon(
+              Icons.add_photo_alternate_outlined,
+              size: 16,
+            ),
+          ],
+        )
+      ],
+    );
   }
 }
