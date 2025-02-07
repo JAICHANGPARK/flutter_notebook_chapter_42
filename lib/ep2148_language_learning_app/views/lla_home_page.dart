@@ -112,7 +112,7 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                 ],
               ),
             ),
-            Gap(4),
+            Gap(2),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 12,),
               child: Text(
