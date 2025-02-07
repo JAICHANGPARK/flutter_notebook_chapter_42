@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
+import 'widgets/stepper_widget.dart';
+
 class LanguageLearningHomePage extends StatefulWidget {
   const LanguageLearningHomePage({super.key});
 
@@ -105,9 +107,8 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                       )
                     ],
                   ),
-
                   Gap(12),
-
+                  LearningStepperWidget(),
                 ],
               ),
             ),
