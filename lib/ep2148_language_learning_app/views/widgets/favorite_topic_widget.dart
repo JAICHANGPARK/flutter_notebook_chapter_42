@@ -10,7 +10,7 @@ class FavoriteTopicWidget extends StatefulWidget {
 class _FavoriteTopicWidgetState extends State<FavoriteTopicWidget> {
   @override
   Widget build(BuildContext context) {
-    return   Container(
+    return Container(
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.circular(4),
