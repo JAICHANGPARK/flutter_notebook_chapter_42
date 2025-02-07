@@ -267,9 +267,14 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                           spacing: 8,
                           children: [
                             ListTile(
-                              title: Text("Famous Speeches"),
+                              title: Text("Famous Speeches",
+                              style:   TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 18,
+                                ),),
                               subtitle: Text("I have a dream"),
                               leading: Icon(Icons.campaign_outlined),
+
                             ),
                             Divider(
                               height: 8,
@@ -310,7 +315,6 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
               ),
               padding: EdgeInsets.all(12),
               child: Column(
-
                 children: [
                   Expanded(
                     child: Row(),
@@ -318,9 +322,18 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                   Row(
                     spacing: 12,
                     children: [
-                      Icon(Icons.add_box_outlined,size: 16,),
-                      Icon(Icons.add_to_drive,size: 16,),
-                      Icon(Icons.add_photo_alternate_outlined,size: 16,),
+                      Icon(
+                        Icons.add_box_outlined,
+                        size: 16,
+                      ),
+                      Icon(
+                        Icons.add_to_drive,
+                        size: 16,
+                      ),
+                      Icon(
+                        Icons.add_photo_alternate_outlined,
+                        size: 16,
+                      ),
                     ],
                   )
                 ],
