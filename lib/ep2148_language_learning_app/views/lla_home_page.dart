@@ -112,16 +112,20 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                 ],
               ),
             ),
-            Text(
-              "Select your favorite topics",
-              style: TextStyle(
-                fontSize: 12,
+            Gap(4),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 12,),
+              child: Text(
+                "Select your favorite topics",
+                style: TextStyle(
+                  fontSize: 13,
+                ),
               ),
             ),
             Expanded(
               child: SingleChildScrollView(
                 child: Padding(
-                  padding: const EdgeInsets.all(8.0),
+                  padding: const EdgeInsets.symmetric(horizontal: 12),
                   child: Column(
                     children: [
                       Container(
