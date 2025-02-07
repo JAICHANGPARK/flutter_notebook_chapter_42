@@ -38,6 +38,7 @@ class _LearningStepperWidgetState extends State<LearningStepperWidget> {
                     CircleAvatar(
                       backgroundColor: Colors.deepOrangeAccent,
                       radius: 15,
+                      child: Icon(Icons.check),
                     ),
                     Gap(4),
                     Text(
