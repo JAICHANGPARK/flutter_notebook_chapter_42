@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
-
 class LearningStepperWidget extends StatefulWidget {
   const LearningStepperWidget({super.key});
 
@@ -12,7 +11,7 @@ class LearningStepperWidget extends StatefulWidget {
 class _LearningStepperWidgetState extends State<LearningStepperWidget> {
   @override
   Widget build(BuildContext context) {
-    return  Container(
+    return Container(
       height: 64,
       child: Stack(
         children: [
@@ -39,7 +38,10 @@ class _LearningStepperWidgetState extends State<LearningStepperWidget> {
                       backgroundColor: Colors.deepOrangeAccent,
                       foregroundColor: Colors.white,
                       radius: 15,
-                      child: Icon(Icons.check),
+                      child: Icon(
+                        Icons.check,
+                        size: 18,
+                      ),
                     ),
                     Gap(4),
                     Text(
