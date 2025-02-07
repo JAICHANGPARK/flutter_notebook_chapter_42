@@ -20,7 +20,9 @@ class _LlaTextInputWidgetState extends State<LlaTextInputWidget> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Expanded(
-                child: TextField(),
+                child: TextField(
+                  maxLines: 6,
+                ),
               ),
               CircleAvatar(),
             ],
