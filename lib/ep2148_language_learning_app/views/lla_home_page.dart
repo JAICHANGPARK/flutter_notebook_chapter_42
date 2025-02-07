@@ -114,7 +114,9 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
             ),
             Gap(2),
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 12,),
+              padding: const EdgeInsets.symmetric(
+                horizontal: 12,
+              ),
               child: Text(
                 "Select your favorite topics",
                 style: TextStyle(
@@ -128,82 +130,7 @@ class _LanguageLearningHomePageState extends State<LanguageLearningHomePage> {
                   padding: const EdgeInsets.symmetric(horizontal: 12),
                   child: Column(
                     children: [
-                      Container(
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(4),
-                        ),
-                        child: Column(
-                          spacing: 8,
-                          children: [
-                            ListTile(
-                              title: Text(
-                                "Famous Speeches",
-                                style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 18,
-                                ),
-                              ),
-                              subtitle: Text("I have a dream"),
-                              leading: Icon(Icons.campaign_outlined),
-                              trailing: Icon(
-                                Icons.chevron_right,
-                              ),
-                            ),
-                            Divider(
-                              height: 8,
-                            ),
-                            ListTile(
-                              title: Text(
-                                "Famous Speeches",
-                                style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 18,
-                                ),
-                              ),
-                              subtitle: Text("I have a dream"),
-                              leading: Icon(Icons.campaign_outlined),
-                              trailing: Icon(
-                                Icons.chevron_right,
-                              ),
-                            ),
-                            Divider(
-                              height: 8,
-                            ),
-                            ListTile(
-                              title: Text(
-                                "Famous Speeches",
-                                style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 18,
-                                ),
-                              ),
-                              subtitle: Text("I have a dream"),
-                              leading: Icon(Icons.campaign_outlined),
-                              trailing: Icon(
-                                Icons.chevron_right,
-                              ),
-                            ),
-                            Divider(
-                              height: 8,
-                            ),
-                            ListTile(
-                              title: Text(
-                                "Famous Speeches",
-                                style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 18,
-                                ),
-                              ),
-                              subtitle: Text("I have a dream"),
-                              leading: Icon(Icons.campaign_outlined),
-                              trailing: Icon(
-                                Icons.chevron_right,
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
+                      FavoriteTopicWidget(),
                     ],
                   ),
                 ),
